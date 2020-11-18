@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] float secondChanceTimer;
 
     private Rigidbody2D rb2d;
     bool grounded = false;
+    private bool secondChance = true;
     Vector3 startPos;
     
     [SerializeField] float jumpForce;
@@ -20,9 +22,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Jump") && grounded)
+        if (Input.GetButtonDown("Jump") && (secondChance || grounded))
         {
-            Debug.Log("hello");
+            rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
             rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
         }
 
@@ -34,11 +36,18 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void SecondChance()
+    {
+        secondChance = false;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
+            CancelInvoke("SecondChance");
             grounded = true;
+            secondChance = true;
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
@@ -55,6 +64,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             grounded = false;
+            Invoke("SecondChance", secondChanceTimer);
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {

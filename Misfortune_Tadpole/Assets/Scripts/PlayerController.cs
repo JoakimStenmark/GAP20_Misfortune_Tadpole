@@ -29,7 +29,8 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown("r"))
         {
-            transform.position = startPos;
+            rb2d.position = startPos;
+            rb2d.velocity = new Vector3();
         }
     }
 

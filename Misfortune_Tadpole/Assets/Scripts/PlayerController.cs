@@ -7,13 +7,14 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb2d;
     bool grounded = false;
-
+    Vector3 startPos;
     
     [SerializeField] float jumpForce;
     // Start is called before the first frame update
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        startPos = transform.position;
     }
 
     // Update is called once per frame
@@ -23,6 +24,12 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("hello");
             rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+        }
+
+
+        if (Input.GetKeyDown("r"))
+        {
+            transform.position = startPos;
         }
     }
 

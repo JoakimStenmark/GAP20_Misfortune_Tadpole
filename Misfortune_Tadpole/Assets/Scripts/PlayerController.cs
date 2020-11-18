@@ -35,16 +35,49 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        grounded = true;
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            grounded = true;
+        }
+        else if (collision.gameObject.CompareTag("Wall") && grounded)
+        {
+            grounded = true;
+        }
+        else
+        {
+            grounded = false;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        grounded = false;
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            grounded = false;
+        }
+        else if (collision.gameObject.CompareTag("Wall") && grounded)
+        {
+            grounded = true;
+        }
+        else
+        {
+            grounded = false;
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        grounded = true;
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            grounded = true;
+        }
+        else if (collision.gameObject.CompareTag("Wall") && grounded)
+        {
+            grounded = true;
+        }
+        else
+        {
+            grounded = false;
+        }
     }
 }

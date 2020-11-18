@@ -2,19 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class Temp : MonoBehaviour
 {
-    [SerializeField] float secondChanceTimer;
-
     private Rigidbody2D rb2d;
     bool grounded = false;
-    private bool secondChance = true;
+    Vector3 startPos;
     public LayerMask layerMask;
 
     private float neutralRotationTimeCount;
     private float groundedRotationTimeCount;
-    Vector3 startPos;
-    
+
+
     [SerializeField] float jumpForce;
     void Start()
     {
@@ -24,9 +22,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Jump") && (secondChance || grounded))
+        if (Input.GetButtonDown("Jump") && grounded)
         {
-            rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
             rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
         }
 
@@ -46,21 +43,14 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.identity, neutralRotationTimeCount);
             neutralRotationTimeCount += Time.deltaTime * 0.5f;
         }
-    }
 
-    private void SecondChance()
-    {
-        secondChance = false;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            CancelInvoke("SecondChance");
             grounded = true;
-            secondChance = true;
-            RotateBasedOnGroundNormal();
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
@@ -80,9 +70,6 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             grounded = false;
-            Invoke("SecondChance", secondChanceTimer);
-            
-
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
@@ -100,7 +87,6 @@ public class PlayerController : MonoBehaviour
         {
             grounded = true;
             RotateBasedOnGroundNormal();
-
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
@@ -110,6 +96,8 @@ public class PlayerController : MonoBehaviour
         {
             grounded = false;
         }
+
+
     }
 
     void RotateBasedOnGroundNormal()
@@ -119,11 +107,9 @@ public class PlayerController : MonoBehaviour
         if (hit)
         {
             //transform.rotation = new Quaternion(hit.normal.x, hit.normal.y, 0, 0);
-            
-            //transform.rotation = Quaternion.Slerp(transform.rotation, new Quaternion(0, 0, -hit.normal.x, hit.normal.y), groundedRotationTimeCount);
+            transform.rotation = Quaternion.Slerp(transform.rotation, new Quaternion(0, 0, hit.normal.x, hit.normal.y), groundedRotationTimeCount);
 
-            transform.up = Vector3.Slerp(transform.up ,new Vector3(hit.normal.x, hit.normal.y, 0), groundedRotationTimeCount);
-            
+            //transform.up = new Vector3(0, hit.normal.x, hit.normal.y);
             groundedRotationTimeCount += Time.deltaTime;
             Debug.Log("rotate like " + hit.collider.gameObject);
 
@@ -131,7 +117,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             groundedRotationTimeCount = 0;
-            transform.rotation = Quaternion.identity;
+            transform.rotation = Quaternion.identity;               
         }
 
 

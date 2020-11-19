@@ -120,18 +120,15 @@ public class PlayerController : MonoBehaviour
 
     void RotateBasedOnGroundNormal()
     {
-        Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.down), Color.red, 1);
+        //Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.down), Color.red, 1);
         RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.TransformDirection(Vector2.down), 1f, layerMask);
         if (hit)
         {
-            //transform.rotation = new Quaternion(hit.normal.x, hit.normal.y, 0, 0);
-            
+            //transform.rotation = new Quaternion(hit.normal.x, hit.normal.y, 0, 0);            
             //transform.rotation = Quaternion.Slerp(transform.rotation, new Quaternion(0, 0, -hit.normal.x, hit.normal.y), groundedRotationTimeCount);
-
-            transform.up = Vector3.Slerp(transform.up ,new Vector3(hit.normal.x, hit.normal.y, 0), groundedRotationTimeCount);
-            
+            transform.up = Vector3.Slerp(transform.up ,new Vector3(hit.normal.x, hit.normal.y, 0), groundedRotationTimeCount);            
             groundedRotationTimeCount += Time.deltaTime;
-            Debug.Log("rotate like " + hit.collider.gameObject);
+            //Debug.Log("rotate like " + hit.collider.gameObject);
 
         }
         else

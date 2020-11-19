@@ -8,7 +8,7 @@ public class StickToSurface : MonoBehaviour
     Rigidbody2D rb2d;
     public bool stuck;
     float timer;
-    public const float STICK_COOLDOWN = 1f;
+    public const float STICK_COOLDOWN = 0.001f;
     public const float UNSTUCK_FORCE = 150f;
 
 

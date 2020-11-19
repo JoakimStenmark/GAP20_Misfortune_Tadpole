@@ -25,25 +25,23 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-
-
         if (Input.GetKeyDown("r"))
         {
             rb2d.position = startPos;
             rb2d.velocity = new Vector3();
         }
 
-
-    }
-
-
-    private void FixedUpdate()
-    {
         if (Input.GetButtonDown("Jump") && (secondChance || grounded))
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
             rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
         }
+
+    }
+
+    private void FixedUpdate()
+    {
+
         if (grounded)
         {
             neutralRotationTimeCount = 0;

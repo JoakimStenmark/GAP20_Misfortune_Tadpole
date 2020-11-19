@@ -16,7 +16,7 @@ public class BetterJump : MonoBehaviour
 		rb2d = GetComponent<Rigidbody2D>();
 	}
 
-	private void Update()
+	private void FixedUpdate()
 	{
 		if (rb2d.velocity.y < 0)
 		{

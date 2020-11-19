@@ -22,10 +22,7 @@ public class Temp : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Jump") && grounded)
-        {
-            rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
-        }
+
 
 
         if (Input.GetKeyDown("r"))
@@ -45,6 +42,15 @@ public class Temp : MonoBehaviour
         }
 
     }
+
+    private void FixedUpdate()
+    {
+        if (Input.GetButtonDown("Jump") && grounded)
+        {
+            rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+        }
+    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

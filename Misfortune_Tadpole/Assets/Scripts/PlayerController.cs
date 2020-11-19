@@ -24,11 +24,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Jump") && (secondChance || grounded))
-        {
-            rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
-            rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
-        }
+
 
 
         if (Input.GetKeyDown("r"))
@@ -37,6 +33,17 @@ public class PlayerController : MonoBehaviour
             rb2d.velocity = new Vector3();
         }
 
+
+    }
+
+
+    private void FixedUpdate()
+    {
+        if (Input.GetButtonDown("Jump") && (secondChance || grounded))
+        {
+            rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
+            rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+        }
         if (grounded)
         {
             neutralRotationTimeCount = 0;
@@ -46,6 +53,7 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.identity, neutralRotationTimeCount);
             neutralRotationTimeCount += Time.deltaTime * 0.5f;
         }
+
     }
 
     private void SecondChance()

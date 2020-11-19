@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RotatorRotation : MonoBehaviour
 {
+    [Tooltip("Negative value rotates clockwise, Positive value rotates counter clockwise.")]
     public float rotationSpeed;
 
     private void Update()

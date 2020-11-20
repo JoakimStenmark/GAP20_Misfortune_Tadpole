@@ -22,10 +22,9 @@
     <list default="true" id="aaf0e7c8-c426-4d63-b9b7-994cbe1fbe74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlatformIce.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlatformIce.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlatformSprite.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlatformSprite.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StickToSurface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StickToSurface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelBoundary.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelBoundary.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +41,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/BetterJump.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StickToSurface.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainMenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -89,7 +89,7 @@
       <updated>1605687329165</updated>
       <workItem from="1605687339959" duration="7975000" />
       <workItem from="1605777418132" duration="790000" />
-      <workItem from="1605860493424" duration="949000" />
+      <workItem from="1605860493424" duration="3642000" />
     </task>
     <servers />
   </component>

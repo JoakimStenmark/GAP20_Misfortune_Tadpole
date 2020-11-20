@@ -4,32 +4,50 @@ using UnityEngine;
 
 public class Temp : MonoBehaviour
 {
+    [SerializeField] float secondChanceTimer;
+
     private Rigidbody2D rb2d;
     bool grounded = false;
-    Vector3 startPos;
+    private bool secondChance = true;
     public LayerMask layerMask;
 
     private float neutralRotationTimeCount;
     private float groundedRotationTimeCount;
+    Vector3 startPos;
 
+    public int startWaterAmount;
+    private int waterAmount;
+    public int WaterAmount { get => waterAmount; set => waterAmount = value; }
 
     [SerializeField] float jumpForce;
+
+
     void Start()
     {
+        waterAmount = startWaterAmount;
         rb2d = GetComponent<Rigidbody2D>();
         startPos = transform.position;
+        setSizeBasedOnWaterAmount();
     }
 
     void Update()
     {
 
-
-
         if (Input.GetKeyDown("r"))
         {
-            rb2d.position = startPos;
-            rb2d.velocity = new Vector3();
+            ResetToLastCheckpoint();
         }
+
+        if (Input.GetButtonDown("Jump") && (secondChance || grounded))
+        {
+            rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
+            rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+        }
+
+    }
+
+    private void FixedUpdate()
+    {
 
         if (grounded)
         {
@@ -43,20 +61,25 @@ public class Temp : MonoBehaviour
 
     }
 
-    private void FixedUpdate()
+    public void ResetToLastCheckpoint()
     {
-        if (Input.GetButtonDown("Jump") && grounded)
-        {
-            rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
-        }
+        rb2d.position = startPos;
+        rb2d.velocity = new Vector3();
     }
 
+    private void SecondChance()
+    {
+        secondChance = false;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
+            CancelInvoke("SecondChance");
             grounded = true;
+            secondChance = true;
+            RotateBasedOnGroundNormal();
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
@@ -76,7 +99,10 @@ public class Temp : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             grounded = false;
+            Invoke("SecondChance", secondChanceTimer);
+
         }
+
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
             grounded = true;
@@ -93,6 +119,7 @@ public class Temp : MonoBehaviour
         {
             grounded = true;
             RotateBasedOnGroundNormal();
+
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
@@ -102,8 +129,6 @@ public class Temp : MonoBehaviour
         {
             grounded = false;
         }
-
-
     }
 
     void RotateBasedOnGroundNormal()
@@ -112,10 +137,9 @@ public class Temp : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.TransformDirection(Vector2.down), 1f, layerMask);
         if (hit)
         {
-            //transform.rotation = new Quaternion(hit.normal.x, hit.normal.y, 0, 0);
-            transform.rotation = Quaternion.Slerp(transform.rotation, new Quaternion(0, 0, hit.normal.x, hit.normal.y), groundedRotationTimeCount);
-
-            //transform.up = new Vector3(0, hit.normal.x, hit.normal.y);
+            //transform.rotation = new Quaternion(hit.normal.x, hit.normal.y, 0, 0);            
+            //transform.rotation = Quaternion.Slerp(transform.rotation, new Quaternion(0, 0, -hit.normal.x, hit.normal.y), groundedRotationTimeCount);
+            transform.up = Vector3.Slerp(transform.up, new Vector3(hit.normal.x, hit.normal.y, 0), groundedRotationTimeCount);
             groundedRotationTimeCount += Time.deltaTime;
             Debug.Log("rotate like " + hit.collider.gameObject);
 
@@ -123,9 +147,14 @@ public class Temp : MonoBehaviour
         else
         {
             groundedRotationTimeCount = 0;
-            transform.rotation = Quaternion.identity;               
+            transform.rotation = Quaternion.identity;
         }
 
+    }
 
+    void setSizeBasedOnWaterAmount()
+    {
+        float newSize = waterAmount / 50;
+        transform.localScale = new Vector3(newSize, newSize, newSize);
     }
 }

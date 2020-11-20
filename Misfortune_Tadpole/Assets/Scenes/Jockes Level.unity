@@ -307,6 +307,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 55
+  startWaterAmount: 0
   jumpForce: 100
 --- !u!58 &501164058
 CircleCollider2D:
@@ -3205,6 +3206,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelBoundary
       objectReference: {fileID: 0}
+    - target: {fileID: 7957058935985981966, guid: 2880c51b5d44b784ca6405a9f853a78d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7971317418399434138, guid: 2880c51b5d44b784ca6405a9f853a78d, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.size
       value: 6
@@ -3282,13 +3287,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.00000047683716
       objectReference: {fileID: 0}
-    - target: {fileID: 6554555231691213190, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
-      propertyPath: m_LocalScale.x
+    - target: {fileID: 1112746513809437738, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
+      propertyPath: m_Enabled
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6554555231691213190, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 8770478456134372512, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
       propertyPath: m_LocalPosition.x

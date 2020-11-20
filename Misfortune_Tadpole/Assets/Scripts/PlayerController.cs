@@ -10,17 +10,26 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb2d;
     bool grounded = false;
     private bool secondChance = true;
+    [SerializeField] float jumpForce;
+    
     public LayerMask layerMask;
 
     private float neutralRotationTimeCount;
     private float groundedRotationTimeCount;
-    Vector3 startPos;
     
-    [SerializeField] float jumpForce;
+    Vector3 startPos;
+
+    public int startWaterAmount;
+    private int waterAmount;
+    public int WaterAmount { get => waterAmount; set => waterAmount = value; }
+
     void Start()
     {
+        waterAmount = startWaterAmount;
         rb2d = GetComponent<Rigidbody2D>();
         startPos = transform.position;
+        setSizeBasedOnWaterAmount();
+
     }
 
     void Update()
@@ -148,5 +157,11 @@ public class PlayerController : MonoBehaviour
         }
 
 
+    }
+
+    void setSizeBasedOnWaterAmount()
+    {
+        float newSize = waterAmount / 50;
+        transform.localScale = new Vector3(newSize, newSize, newSize);
     }
 }

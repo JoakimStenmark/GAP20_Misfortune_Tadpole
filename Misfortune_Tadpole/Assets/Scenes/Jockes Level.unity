@@ -304,11 +304,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   secondChanceTimer: 0
+  jumpForce: 100
   layerMask:
     serializedVersion: 2
     m_Bits: 55
   startWaterAmount: 0
-  jumpForce: 100
 --- !u!58 &501164058
 CircleCollider2D:
   m_ObjectHideFlags: 0

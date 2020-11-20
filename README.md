@@ -2,8 +2,8 @@
 
 ## Deadlines
  ### 18 november 
- - [ ] Concept Art
- - [ ] Program Structure
+ - Concept Art
+ - Program Structure
 
 ### 4 December 
 - Least viable product

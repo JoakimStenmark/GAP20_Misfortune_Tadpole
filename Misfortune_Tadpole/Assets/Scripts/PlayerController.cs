@@ -27,8 +27,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown("r"))
         {
-            rb2d.position = startPos;
-            rb2d.velocity = new Vector3();
+            ResetToLastCheckpoint();
         }
 
         if (Input.GetButtonDown("Jump") && (secondChance || grounded))
@@ -52,6 +51,12 @@ public class PlayerController : MonoBehaviour
             neutralRotationTimeCount += Time.deltaTime * 0.5f;
         }
 
+    }
+
+    public void ResetToLastCheckpoint()
+    {
+        rb2d.position = startPos;
+        rb2d.velocity = new Vector3();
     }
 
     private void SecondChance()

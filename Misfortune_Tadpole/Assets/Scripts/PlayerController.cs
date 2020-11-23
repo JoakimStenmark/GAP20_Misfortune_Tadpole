@@ -19,9 +19,12 @@ public class PlayerController : MonoBehaviour
     
     Vector3 startPos;
 
-    public int startWaterAmount;
-    private int waterAmount;
-    public int WaterAmount { get => waterAmount; set => waterAmount = value; }
+    public float startWaterAmount;
+    [SerializeField]
+    private float waterAmount;
+    public float WaterAmount { get => waterAmount;}
+    bool damageAble = true;
+    float damageTimeCount = 0;
 
     void Start()
     {
@@ -34,10 +37,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            SceneManager.LoadScene("MainMenu");
-        }
 
         if (Input.GetKeyDown("r"))
         {
@@ -49,6 +48,8 @@ public class PlayerController : MonoBehaviour
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
             rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
         }
+
+        setSizeBasedOnWaterAmount();
 
     }
 
@@ -82,10 +83,10 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
+            
             CancelInvoke("SecondChance");
             grounded = true;
             secondChance = true;
-            RotateBasedOnGroundNormal();
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
@@ -95,8 +96,6 @@ public class PlayerController : MonoBehaviour
         {
             grounded = false;
         }
-
-        RotateBasedOnGroundNormal();
 
     }
 
@@ -124,7 +123,6 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             grounded = true;
-            RotateBasedOnGroundNormal();
 
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
@@ -137,31 +135,31 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void RotateBasedOnGroundNormal()
+
+    private void OnCollisionStay2D(Collision2D collision)
     {
-        //Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.down), Color.red, 1);
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.TransformDirection(Vector2.down), 1f, layerMask);
-        if (hit)
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            //transform.rotation = new Quaternion(hit.normal.x, hit.normal.y, 0, 0);            
-            //transform.rotation = Quaternion.Slerp(transform.rotation, new Quaternion(0, 0, -hit.normal.x, hit.normal.y), groundedRotationTimeCount);
-            transform.up = Vector3.Slerp(transform.up ,new Vector3(hit.normal.x, hit.normal.y, 0), groundedRotationTimeCount);            
-            groundedRotationTimeCount += Time.deltaTime;
-            //Debug.Log("rotate like " + hit.collider.gameObject);
+
+            transform.up = collision.GetContact(0).normal;
 
         }
-        else
-        {
-            groundedRotationTimeCount = 0;
-            transform.rotation = Quaternion.identity;
-        }
-
-
     }
 
     void setSizeBasedOnWaterAmount()
     {
         float newSize = waterAmount / 50;
+        
+        newSize = 0.49f + waterAmount * 0.005f;
         transform.localScale = new Vector3(newSize, newSize, newSize);
+    }
+
+    public void ChangeWaterAmount(int amount)
+    {       
+        if (damageAble)
+        {
+            waterAmount += amount;
+
+        }
     }
 }

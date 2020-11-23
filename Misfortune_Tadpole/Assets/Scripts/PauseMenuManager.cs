@@ -6,14 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenuManager : MonoBehaviour
 {
-	private bool gameIsPaused;
-	private bool mouseIsVisible;
+	public bool gameIsPaused;
 
 	public GameObject PauseMenuUI;
 
 	private void Start()
 	{
-		mouseIsVisible = true;
 		gameIsPaused = false;
 		
 		ToggleMouseVisibility();
@@ -46,15 +44,13 @@ public class PauseMenuManager : MonoBehaviour
 
 	private void ToggleMouseVisibility()
 	{
-		if (mouseIsVisible)
+		if (!gameIsPaused)
 		{
 			Cursor.visible = false;
-			mouseIsVisible = false;
 		}
-		else
+		else if (gameIsPaused)
 		{
 			Cursor.visible = true;
-			mouseIsVisible = true;
 		}
 	}
 

@@ -22,9 +22,9 @@
     <list default="true" id="aaf0e7c8-c426-4d63-b9b7-994cbe1fbe74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PauseMenuManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PauseMenuManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Jockes Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Jockes Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../Project-Iprenmannen/Assets/Scripts/MenuManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJump.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PauseMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -93,7 +92,7 @@
       <workItem from="1605687339959" duration="7975000" />
       <workItem from="1605777418132" duration="790000" />
       <workItem from="1605860493424" duration="6188000" />
-      <workItem from="1606121092519" duration="4169000" />
+      <workItem from="1606121092519" duration="5043000" />
     </task>
     <servers />
   </component>

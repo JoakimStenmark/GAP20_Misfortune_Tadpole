@@ -6,11 +6,11 @@
     <e p="C:\Users\Axel\Documents\GitHub\GAP20_Misfortune_Tadpole\Misfortune_Tadpole" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="PauseMenuManager.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BetterJump.cs" t="Include" />
           <e p="LevelBoundary.cs" t="Include" />
           <e p="MainMenuManager.cs" t="Include" />
+          <e p="PauseMenuManager.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="RotatorRotation.cs" t="Include" />
           <e p="StickToSurface.cs" t="Include" />

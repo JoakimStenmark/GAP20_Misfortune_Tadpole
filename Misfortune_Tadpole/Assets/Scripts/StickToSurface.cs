@@ -9,7 +9,7 @@ public class StickToSurface : MonoBehaviour
     public bool stuck;
     float timer;
     public const float STICK_COOLDOWN = 0.001f;
-    public const float UNSTUCK_FORCE = 150f;
+    public float UNSTUCK_FORCE = 100f;
 
 
     void Start()

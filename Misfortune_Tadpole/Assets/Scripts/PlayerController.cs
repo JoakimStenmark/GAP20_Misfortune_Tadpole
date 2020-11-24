@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     public float WaterAmount { get => waterAmount;}
     bool damageAble = true;
     float damageTimeCount = 0;
+    public float velocity;
 
     void Start()
     {
@@ -50,6 +51,8 @@ public class PlayerController : MonoBehaviour
         }
 
         setSizeBasedOnWaterAmount();
+
+        velocity = rb2d.velocity.magnitude;
 
     }
 
@@ -147,6 +150,7 @@ public class PlayerController : MonoBehaviour
     }
 
     public float maxMass;
+    public float maxDrag;
     void setSizeBasedOnWaterAmount()
     {
         float newSize = waterAmount / 50;
@@ -155,6 +159,7 @@ public class PlayerController : MonoBehaviour
         transform.localScale = new Vector3(newSize, newSize, newSize);
 
         rb2d.mass = Mathf.Lerp(maxMass * 0.5f, maxMass, waterAmount * 0.01f);
+        rb2d.drag = Mathf.Lerp(maxDrag, 0, waterAmount * 0.01f);
     }
 
     public void ChangeWaterAmount(int amount)

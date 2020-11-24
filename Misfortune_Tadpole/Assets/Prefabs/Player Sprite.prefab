@@ -100,7 +100,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 15
+  m_Mass: 10
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -154,11 +154,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   secondChanceTimer: 0
-  jumpForce: 100
+  jumpForce: 50
   layerMask:
     serializedVersion: 2
     m_Bits: 55
   startWaterAmount: 50
+  waterAmount: 0
+  maxMass: 10
 --- !u!114 &8892172925730561568
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -146,12 +146,15 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public float maxMass;
     void setSizeBasedOnWaterAmount()
     {
         float newSize = waterAmount / 50;
         
         newSize = 0.49f + waterAmount * 0.005f;
         transform.localScale = new Vector3(newSize, newSize, newSize);
+
+        rb2d.mass = Mathf.Lerp(maxMass * 0.5f, maxMass, waterAmount * 0.01f);
     }
 
     public void ChangeWaterAmount(int amount)

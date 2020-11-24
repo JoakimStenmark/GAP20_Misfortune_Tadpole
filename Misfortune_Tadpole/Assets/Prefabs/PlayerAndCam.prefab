@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00000029802322, y: -0.00000011920929, z: -10}
+  m_LocalPosition: {x: -0.00000023841858, y: -0.00000011920929, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8770478457559829793}
@@ -143,7 +143,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8770478456134372518}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00000029802322, y: -0.00000011920929, z: -10}
+  m_LocalPosition: {x: -0.00000023841858, y: -0.00000011920929, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8770478456365175831}
@@ -341,14 +341,6 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 1.05
       objectReference: {fileID: 0}
-    - target: {fileID: 8892172925730561570, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
-      propertyPath: startWaterAmount
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892172925730561570, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
-      propertyPath: jumpForce
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 8892172925730561571, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -404,10 +396,6 @@ PrefabInstance:
     - target: {fileID: 8892172925730561576, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8892172925730561582, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
-      propertyPath: m_Mass
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8892172925730561583, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
       propertyPath: m_Radius

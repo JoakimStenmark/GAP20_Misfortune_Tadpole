@@ -8,11 +8,13 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BetterJump.cs" t="Include" />
+          <e p="HeatPlatformScript.cs" t="Include" />
           <e p="LevelBoundary.cs" t="Include" />
           <e p="MainMenuManager.cs" t="Include" />
           <e p="PauseMenuManager.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="RotatorRotation.cs" t="Include" />
+          <e p="SpikeScript.cs" t="Include" />
           <e p="StickToSurface.cs" t="Include" />
           <e p="Temp.cs" t="Include" />
           <e p="Test.cs" t="Include" />

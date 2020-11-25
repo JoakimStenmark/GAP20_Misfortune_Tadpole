@@ -6,13 +6,14 @@ public class SpikeScript : MonoBehaviour
 {
     public PlayerController playerController;
     public int spikeDmg = -10;
+    public float dmgInterval = 1f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             playerController = collision.gameObject.GetComponent<PlayerController>();
-            playerController.ChangeWaterAmount(spikeDmg);
+            playerController.ChangeWaterAmount(spikeDmg, dmgInterval);
         }
     }
 }

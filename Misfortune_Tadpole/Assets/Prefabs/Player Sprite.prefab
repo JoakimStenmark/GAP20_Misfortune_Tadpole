@@ -160,7 +160,9 @@ MonoBehaviour:
     m_Bits: 55
   startWaterAmount: 50
   waterAmount: 0
+  velocity: 0
   maxMass: 10
+  maxDrag: 0.5
 --- !u!114 &8892172925730561568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,3 +190,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stuck: 0
+  UNSTUCK_FORCE: 100

@@ -163,9 +163,18 @@ public class PlayerController : MonoBehaviour
         rb2d.drag = Mathf.Lerp(maxDrag, 0, waterAmount * 0.01f);
     }
 
+
+    public void ChangeWaterAmount(int amount)
+    {
+        waterAmount += amount;
+        waterAmount = Mathf.Clamp(waterAmount, 1f, 100f);
+
+    }
+
     public void ChangeWaterAmount(int amount, float damageInterval)
-    {       
-        if (damageable && amount < 0)
+    {
+
+        if (damageable)
         {
             damageable = false;
             waterAmount += amount;
@@ -176,11 +185,11 @@ public class PlayerController : MonoBehaviour
                 ResetToLastCheckpoint();
             }
         }
-        
-        if (amount > 0)
+        else
         {
-            waterAmount += amount;
+            Debug.Log("Player is Invulnerable");
         }
+           
     }
 
     private void SetDamageable()

@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float waterAmount;
     public float WaterAmount { get => waterAmount;}
-    bool damageAble = true;
+    bool damageable = true;
     float damageTimeCount = 0;
     public float velocity;
 
@@ -73,6 +73,7 @@ public class PlayerController : MonoBehaviour
 
     public void ResetToLastCheckpoint()
     {
+        waterAmount = startWaterAmount;
         rb2d.position = startPos;
         rb2d.velocity = new Vector3();
     }
@@ -107,7 +108,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             grounded = false;
-            Invoke("SecondChance", secondChanceTimer);
+            Invoke(nameof(SecondChance), secondChanceTimer);
             
 
         }
@@ -162,12 +163,28 @@ public class PlayerController : MonoBehaviour
         rb2d.drag = Mathf.Lerp(maxDrag, 0, waterAmount * 0.01f);
     }
 
-    public void ChangeWaterAmount(int amount)
+    public void ChangeWaterAmount(int amount, float damageInterval)
     {       
-        if (damageAble)
+        if (damageable && amount < 0)
+        {
+            damageable = false;
+            waterAmount += amount;
+            Invoke(nameof(SetDamageable), damageInterval);
+
+            if (waterAmount < 1)
+            {
+                ResetToLastCheckpoint();
+            }
+        }
+        
+        if (amount > 0)
         {
             waterAmount += amount;
-
         }
+    }
+
+    private void SetDamageable()
+    {
+        damageable = true;
     }
 }

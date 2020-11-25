@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class HeatPlatformScript : MonoBehaviour
 {
-	public int heatPlatformDmgPerSec;
+	public int heatPlatformDamage;
+	public float damageInterval = 0.2f;
 
 	public PlayerController playerController;
 
@@ -14,7 +15,7 @@ public class HeatPlatformScript : MonoBehaviour
 		if (collision.gameObject.CompareTag("Player"))
 		{
 			playerController = collision.gameObject.GetComponent<PlayerController>();
-			playerController.ChangeWaterAmount(heatPlatformDmgPerSec);
+			playerController.ChangeWaterAmount(heatPlatformDamage, damageInterval);
 		}
 	}
 
@@ -23,7 +24,7 @@ public class HeatPlatformScript : MonoBehaviour
 		if (collision.gameObject.CompareTag("Player"))
 		{
 			playerController = collision.gameObject.GetComponent<PlayerController>();
-			playerController.ChangeWaterAmount(heatPlatformDmgPerSec);
+			playerController.ChangeWaterAmount(heatPlatformDamage, damageInterval);
 		}
 	}
 }

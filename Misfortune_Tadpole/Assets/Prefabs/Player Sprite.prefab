@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8892172925730561570}
   - component: {fileID: 8892172925730561568}
   - component: {fileID: 1902552500100926724}
+  - component: {fileID: 2429322707592058553}
   m_Layer: 8
   m_Name: Player Sprite
   m_TagString: Player
@@ -191,3 +192,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stuck: 0
   UNSTUCK_FORCE: 100
+--- !u!95 &2429322707592058553
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8892172925730561576}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ee21922aae2539e48acdaf24622b0f8b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

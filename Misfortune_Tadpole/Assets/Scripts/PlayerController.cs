@@ -7,6 +7,9 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] float secondChanceTimer;
 
+    private Animator anim;
+    private int damageTakenHash = Animator.StringToHash("tookDamage");
+
     private Rigidbody2D rb2d;
     bool grounded = false;
     private bool secondChance = true;
@@ -29,6 +32,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        anim = GetComponent<Animator>();
         waterAmount = startWaterAmount;
         rb2d = GetComponent<Rigidbody2D>();
         startPos = transform.position;
@@ -53,6 +57,8 @@ public class PlayerController : MonoBehaviour
         setSizeBasedOnWaterAmount();
 
         velocity = rb2d.velocity.magnitude;
+        
+        
 
     }
 
@@ -179,6 +185,7 @@ public class PlayerController : MonoBehaviour
             damageable = false;
             waterAmount += amount;
             Invoke(nameof(SetDamageable), damageInterval);
+            anim.SetTrigger(damageTakenHash);
 
             if (waterAmount < 1)
             {

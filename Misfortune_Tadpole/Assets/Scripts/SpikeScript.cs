@@ -16,4 +16,13 @@ public class SpikeScript : MonoBehaviour
             playerController.ChangeWaterAmount(spikeDmg, dmgInterval);
         }
     }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            playerController = collision.gameObject.GetComponent<PlayerController>();
+            playerController.ChangeWaterAmount(spikeDmg, dmgInterval);
+        }
+    }
 }

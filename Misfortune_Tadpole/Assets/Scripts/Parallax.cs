@@ -5,7 +5,7 @@ using UnityEngine;
 public class Parallax : MonoBehaviour
 {
     private float startPosX, startPosY;
-    private float length;
+    private float lengthX, lengthY;
     public GameObject mainCamera;
     [Range(0.0f, 1.0f)] public float parallax;
 
@@ -15,7 +15,8 @@ public class Parallax : MonoBehaviour
         startPosX = transform.position.x;
         startPosY = transform.position.y;
 
-        length = GetComponent<SpriteRenderer>().bounds.size.x;
+        lengthX = GetComponent<SpriteRenderer>().bounds.size.x;
+        //lengthY = GetComponent<SpriteRenderer>().bounds.size.y;
 
     }
 
@@ -23,17 +24,19 @@ public class Parallax : MonoBehaviour
     {
         float distX = mainCamera.transform.position.x * parallax;
         float distY = mainCamera.transform.position.y * parallax;
-        float temp = mainCamera.transform.position.x * (1 - parallax);
+        float tempX = mainCamera.transform.position.x * (1 - parallax);
+        //float tempY = mainCamera.transform.position.x * (1 - parallax);
+
 
         transform.position = new Vector3(startPosX + distX, startPosY + distY, transform.position.z);
 
-        if (temp > startPosX + length)
+        if (tempX > startPosX + lengthX)
         {
-            startPosX += length;
+            startPosX += lengthX;
         }
-        else if (temp < startPosX - length)
+        else if (tempX < startPosX - lengthX)
         {
-            startPosX -= length;
+            startPosX -= lengthX;
         }
     }
 }

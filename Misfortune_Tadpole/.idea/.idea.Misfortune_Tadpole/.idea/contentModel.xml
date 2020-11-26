@@ -8,9 +8,11 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BetterJump.cs" t="Include" />
+          <e p="HealthBar.cs" t="Include" />
           <e p="HeatPlatformScript.cs" t="Include" />
           <e p="LevelBoundary.cs" t="Include" />
           <e p="MainMenuManager.cs" t="Include" />
+          <e p="Parallax.cs" t="Include" />
           <e p="PauseMenuManager.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="RotatorRotation.cs" t="Include" />

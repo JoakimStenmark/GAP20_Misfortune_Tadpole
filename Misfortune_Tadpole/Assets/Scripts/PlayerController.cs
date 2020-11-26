@@ -30,6 +30,8 @@ public class PlayerController : MonoBehaviour
     float damageTimeCount = 0;
     public float velocity;
 
+    public HealthBar healthBar;
+    
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -37,6 +39,9 @@ public class PlayerController : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         startPos = transform.position;
         setSizeBasedOnWaterAmount();
+
+        healthBar.SetMaxHealth(100);
+        healthBar.SetHealth(waterAmount);
 
     }
 
@@ -46,6 +51,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown("r"))
         {
             ResetToLastCheckpoint();
+            healthBar.SetHealth(waterAmount);
         }
 
         if (Input.GetButtonDown("Jump") && (secondChance || grounded))
@@ -57,8 +63,6 @@ public class PlayerController : MonoBehaviour
         setSizeBasedOnWaterAmount();
 
         velocity = rb2d.velocity.magnitude;
-        
-        
 
     }
 
@@ -174,7 +178,7 @@ public class PlayerController : MonoBehaviour
     {
         waterAmount += amount;
         waterAmount = Mathf.Clamp(waterAmount, 1f, 100f);
-
+        healthBar.SetHealth(waterAmount);
     }
 
     public void ChangeWaterAmount(int amount, float damageInterval)
@@ -196,7 +200,9 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Player is Invulnerable");
         }
-           
+        
+        healthBar.SetHealth(waterAmount);
+        
     }
 
     private void SetDamageable()

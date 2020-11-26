@@ -22,7 +22,7 @@
     <list default="true" id="aaf0e7c8-c426-4d63-b9b7-994cbe1fbe74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlatformHeat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlatformHeat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Axels Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Axels Test.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HeatPlatformScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpikeScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
@@ -97,7 +98,8 @@
       <workItem from="1605860493424" duration="6188000" />
       <workItem from="1606121092519" duration="9433000" />
       <workItem from="1606221294314" duration="3819000" />
-      <workItem from="1606293825766" duration="9488000" />
+      <workItem from="1606293825766" duration="9502000" />
+      <workItem from="1606380106342" duration="1620000" />
     </task>
     <servers />
   </component>

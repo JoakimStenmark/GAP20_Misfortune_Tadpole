@@ -11,8 +11,8 @@ public class PlayerController : MonoBehaviour
     private int damageTakenHash = Animator.StringToHash("tookDamage");
 
     private Rigidbody2D rb2d;
-    bool grounded = false;
-    private bool secondChance = true;
+    private bool grounded = false;
+    private bool secondChance = false;
     [SerializeField] float jumpForce;
     
     public LayerMask layerMask;

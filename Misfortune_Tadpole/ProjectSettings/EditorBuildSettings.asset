@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/TestScene1.unity
     guid: 08a8e5de79e28ae45a56a131fe9ceca0
   - enabled: 1
-    path: Assets/Scenes/Jockes Level.unity
+    path: Assets/Scenes/Jockes Level v1.unity
     guid: 363e52c2eb774de4dadcd48618997d30
   - enabled: 0
     path: Assets/Scenes/Jockes Test.unity

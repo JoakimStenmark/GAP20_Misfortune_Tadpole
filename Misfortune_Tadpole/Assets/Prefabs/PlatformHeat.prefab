@@ -127,7 +127,7 @@ MonoBehaviour:
   m_WorldSpaceUV: 0
   m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
-  m_ColliderOffset: 0.5
+  m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
@@ -147,11 +147,11 @@ EdgeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
+  m_EdgeRadius: 0.5
   m_Points:
-  - {x: 0, y: 0.5}
-  - {x: 5.1445875, y: 0.5}
-  - {x: 5.2109795, y: 0.5}
+  - {x: 0, y: -0.0009999936}
+  - {x: 5.1445875, y: -0.0009999936}
+  - {x: 5.2109795, y: -0.0009999936}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0

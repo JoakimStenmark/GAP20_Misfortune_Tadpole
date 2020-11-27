@@ -23,6 +23,11 @@ public class PauseMenuManager : MonoBehaviour
 		{
 			TogglePauseState();
 		}
+		
+		if (Input.GetKeyDown("r"))
+		{
+			ReloadScene();
+		}
 	}
 
 	public void TogglePauseState()

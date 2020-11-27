@@ -17,12 +17,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Axels Test.unity
     guid: 524bcf0f45e158543ac7a4e31b69a5a5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Jockes Level 1 v2.unity
     guid: d00e3593e2cbd4c4f899ab9e1840a555
+  - enabled: 1
+    path: Assets/Scenes/Axels Test v2.unity
+    guid: 1230ad30fc7e4364eb807f79ffe40303
+  - enabled: 1
+    path: Assets/Scenes/Jockes Level 2.unity
+    guid: 37e7f4570b5720e408e0b31f55a544c8
   - enabled: 1
     path: Assets/Scenes/Oscars Level.unity
     guid: 08c4687539d1bc247b59e1295121e08f

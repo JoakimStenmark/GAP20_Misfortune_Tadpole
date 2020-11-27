@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Axels Test.unity
     guid: 524bcf0f45e158543ac7a4e31b69a5a5
   - enabled: 1
-    path: Assets/Scenes/Jockes Level v2.unity
+    path: Assets/Scenes/Jockes Level 1 v2.unity
     guid: d00e3593e2cbd4c4f899ab9e1840a555
   - enabled: 1
     path: Assets/Scenes/Oscars Level.unity

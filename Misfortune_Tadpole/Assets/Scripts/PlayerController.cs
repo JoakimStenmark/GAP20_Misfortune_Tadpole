@@ -48,12 +48,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown("r"))
-        {
-            ResetToLastCheckpoint();
-            healthBar.SetHealth(waterAmount);
-        }
-
         if (Input.GetButtonDown("Jump") && (secondChance || grounded))
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
@@ -80,14 +74,7 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-
-    public void ResetToLastCheckpoint()
-    {
-        waterAmount = startWaterAmount;
-        rb2d.position = startPos;
-        rb2d.velocity = new Vector3();
-    }
-
+    
     private void SecondChance()
     {
         secondChance = false;
@@ -193,7 +180,7 @@ public class PlayerController : MonoBehaviour
 
             if (waterAmount < 1)
             {
-                ResetToLastCheckpoint();
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }
         else

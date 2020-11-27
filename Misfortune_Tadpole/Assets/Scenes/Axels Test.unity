@@ -1099,14 +1099,6 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 581646963}
-    - target: {fileID: 3115559214320830630, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
-      propertyPath: secondChanceTimer
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 3115559214320830630, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
-      propertyPath: jumpForce
-      value: 65
-      objectReference: {fileID: 0}
     - target: {fileID: 3115559214320830631, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0

@@ -5,11 +5,14 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(CircleCollider2D))]
 public class StickToSurface : MonoBehaviour
 {
+    Vector3 deltaPos;
     Rigidbody2D rb2d;
+    public RotatorRotation rotatorRotation;
     public bool stuck;
     float timer;
     public const float STICK_COOLDOWN = 0.001f;
-    public float UNSTUCK_FORCE = 100f;
+    public float unstuckForceOut = 100f;
+    public float unstuckForceForward = 50f;
 
 
     void Start()
@@ -22,10 +25,13 @@ public class StickToSurface : MonoBehaviour
         timer -= Time.deltaTime;
         timer = (timer < 0) ? 0 : timer;
 
-        if(Input.GetButtonDown("Jump") && stuck)
+        if (Input.GetButtonDown("Jump") && stuck)
         {
             UnStuck();
         }
+
+
+        deltaPos = transform.position;
     }
 
     private void UnStuck()
@@ -41,10 +47,20 @@ public class StickToSurface : MonoBehaviour
 
     private void Eject(GameObject oldParent)
     {
+
         Vector3 flyOffDirection = Vector3.zero;
         flyOffDirection = transform.position - oldParent.transform.position;
         flyOffDirection = flyOffDirection.normalized;
-        rb2d.AddForce(flyOffDirection * UNSTUCK_FORCE, ForceMode2D.Impulse);
+
+        Vector3 extraDirection = Vector3.zero;
+        extraDirection = transform.position - deltaPos;
+        extraDirection = extraDirection.normalized;
+        Debug.Log(extraDirection);
+
+
+        rb2d.AddForce(flyOffDirection * unstuckForceOut, ForceMode2D.Impulse);
+        rb2d.AddForce(extraDirection * unstuckForceForward, ForceMode2D.Impulse);
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -54,6 +70,7 @@ public class StickToSurface : MonoBehaviour
         if (collision.CompareTag("Sticky"))
         {
             GetStuck(collision.transform);
+            rotatorRotation = collision.gameObject.GetComponent<RotatorRotation>();
         }
     }
 

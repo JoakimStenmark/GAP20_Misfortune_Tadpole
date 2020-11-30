@@ -6498,26 +6498,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0.10000038
       objectReference: {fileID: 0}
-    - target: {fileID: 2347253984981380466, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
-      propertyPath: zoomCurve.m_Curve.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2347253984981380466, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
-      propertyPath: zoomRate
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2347253984981380466, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
-      propertyPath: zoomCurve.m_Curve.Array.data[1].time
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2347253984981380466, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
-      propertyPath: zoomCurve.m_Curve.Array.data[1].value
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2347253984981380466, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
-      propertyPath: zoomCurve.m_Curve.Array.data[0].value
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 3115559214320830630, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
       propertyPath: startWaterAmount
       value: 100

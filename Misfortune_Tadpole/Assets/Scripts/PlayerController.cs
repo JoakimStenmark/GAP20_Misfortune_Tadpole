@@ -14,8 +14,6 @@ public class PlayerController : MonoBehaviour
     private bool grounded = false;
     private bool secondChance = false;
     [SerializeField] float jumpForce;
-    
-    public LayerMask layerMask;
 
     private float neutralRotationTimeCount;
     private float groundedRotationTimeCount;

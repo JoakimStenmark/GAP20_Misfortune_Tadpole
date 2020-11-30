@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
+
 [RequireComponent(typeof(Rigidbody2D), typeof(CircleCollider2D))]
 public class StickToSurface : MonoBehaviour
 {
@@ -13,7 +15,7 @@ public class StickToSurface : MonoBehaviour
     public const float STICK_COOLDOWN = 0.001f;
     public float unstuckForceOut = 100f;
     public float unstuckForceForward = 50f;
-
+    public CinemachineBrain cinemachineBrain;
 
     void Start()
     {
@@ -30,6 +32,10 @@ public class StickToSurface : MonoBehaviour
             UnStuck();
         }
 
+        if (!stuck)
+        {
+            cinemachineBrain.m_UpdateMethod = CinemachineBrain.UpdateMethod.FixedUpdate;
+        }
 
         deltaPos = transform.position;
     }
@@ -91,5 +97,6 @@ public class StickToSurface : MonoBehaviour
         stuck = true;
         rb2d.isKinematic = true;
         rb2d.velocity = Vector3.zero;
+        cinemachineBrain.m_UpdateMethod = CinemachineBrain.UpdateMethod.LateUpdate;
     }
 }

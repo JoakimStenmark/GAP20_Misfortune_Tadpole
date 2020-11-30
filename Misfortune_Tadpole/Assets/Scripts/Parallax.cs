@@ -7,7 +7,7 @@ public class Parallax : MonoBehaviour
     private float startPosX, startPosY;
     private float lengthX, lengthY;
     public GameObject mainCamera;
-    [Range(0.0f, 1.0f)] public float parallax;
+    [Range(0.5f, 1.0f)] public float parallax;
 
     private float previousCameraY = 0;
     void Start()

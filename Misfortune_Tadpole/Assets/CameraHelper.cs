@@ -5,12 +5,13 @@ using Cinemachine;
 
 public class CameraHelper : MonoBehaviour
 {
-    public float maxOrthographicSize;
     private CinemachineVirtualCamera cameraToHelp;
+    public float maxOrthographicSize;
     public Rigidbody2D playerRb2d;
     public float playerVelocity;
     public float currentZoom;
     public float zoomRate;
+    public AnimationCurve zoomCurve;
 
     void Start()
     {
@@ -28,6 +29,7 @@ public class CameraHelper : MonoBehaviour
         else
             currentZoom = Mathf.Clamp(currentZoom - Time.deltaTime * zoomRate, 0f, 1f);
 
-        cameraToHelp.m_Lens.OrthographicSize = Mathf.Lerp(5, maxOrthographicSize, currentZoom);
+        cameraToHelp.m_Lens.OrthographicSize = zoomCurve.Evaluate(currentZoom);
+
     }
 }

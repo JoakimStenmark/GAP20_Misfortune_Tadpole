@@ -156,7 +156,7 @@ public class PlayerController : MonoBehaviour
         newSize = 0.49f + waterAmount * 0.005f;
         transform.localScale = new Vector3(newSize, newSize, newSize);
 
-        rb2d.mass = Mathf.Lerp(maxMass * 0.5f, maxMass, waterAmount * 0.01f);
+        rb2d.mass = Mathf.Lerp(maxMass * 0.4f, maxMass, waterAmount * 0.01f);
         rb2d.drag = Mathf.Lerp(maxDrag, 0, waterAmount * 0.01f);
     }
 

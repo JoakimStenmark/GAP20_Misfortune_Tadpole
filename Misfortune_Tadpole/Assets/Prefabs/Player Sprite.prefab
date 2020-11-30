@@ -162,6 +162,7 @@ MonoBehaviour:
   startWaterAmount: 50
   waterAmount: 0
   velocity: 0
+  healthBar: {fileID: 0}
   maxMass: 10
   maxDrag: 0.5
 --- !u!114 &8892172925730561568

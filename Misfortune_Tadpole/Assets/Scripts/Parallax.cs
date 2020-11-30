@@ -9,14 +9,14 @@ public class Parallax : MonoBehaviour
     public GameObject mainCamera;
     [Range(0.0f, 1.0f)] public float parallax;
 
-
+    private float previousCameraY = 0;
     void Start()
     {
         startPosX = transform.position.x;
         startPosY = transform.position.y;
 
         lengthX = GetComponent<SpriteRenderer>().bounds.size.x;
-        //lengthY = GetComponent<SpriteRenderer>().bounds.size.y;
+        lengthY = GetComponent<SpriteRenderer>().bounds.size.y;
 
     }
 
@@ -25,11 +25,33 @@ public class Parallax : MonoBehaviour
         float distX = mainCamera.transform.position.x * parallax;
         float distY = mainCamera.transform.position.y * parallax;
         float tempX = mainCamera.transform.position.x * (1 - parallax);
-        //float tempY = mainCamera.transform.position.x * (1 - parallax);
+        float tempY = mainCamera.transform.position.y * (1 - parallax);
+
+        InfiniteXScrolling(tempX);
+
+        float heightDiff = (mainCamera.transform.position.y - previousCameraY) * Time.deltaTime;
+        previousCameraY = mainCamera.transform.position.y;
 
 
-        transform.position = new Vector3(startPosX + distX, startPosY + distY, transform.position.z);
+        if (distY > startPosY + lengthY * parallax)
+        {
+            transform.position = new Vector3(startPosX + distX,
+                                            transform.position.y + heightDiff * Time.deltaTime,
+                                            transform.position.z);
+        }
+        else if (distY < startPosY - lengthY * parallax)
+        {
+            transform.position = new Vector3(startPosX + distX,
+                                            transform.position.y + heightDiff * Time.deltaTime,
+                                            transform.position.z);
+        }
+        else
+            transform.position = new Vector3(startPosX + distX, startPosY + distY, transform.position.z);
 
+    }
+
+    void InfiniteXScrolling(float tempX)
+    {
         if (tempX > startPosX + lengthX)
         {
             startPosX += lengthX;

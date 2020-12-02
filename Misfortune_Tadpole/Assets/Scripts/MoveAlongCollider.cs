@@ -9,14 +9,16 @@ public class MoveAlongCollider : MonoBehaviour
     public bool drawLinesInEditor;
     public Transform[] pathPoints;
     [SerializeField] int currentPoint = 0;
-    private GameObject player;
+    
     public bool travel = false;
+    private GameObject player;
     Rigidbody2D rb2d;
+    
     public float totalDistance;
     public float timer;
-    public AnimationClip speedOverTime;
+    public AnimationCurve speedOverTime;
 
-    [SerializeField] float timeToFinish = 1f; 
+    float timeToFinish = 1f; 
 
     void Start()
     {
@@ -50,10 +52,10 @@ public class MoveAlongCollider : MonoBehaviour
                     travel = false;
                     rb2d.isKinematic = false;
                     currentPoint = 0;
+                    timer = 0f;
                 }
                 currentPoint = Mathf.Clamp(currentPoint, 0, pathPoints.Length - 1);
             }
-
         }
 
         for (int i = 0; i < pathPoints.Length - 1; i++)
@@ -79,11 +81,10 @@ public class MoveAlongCollider : MonoBehaviour
     {
         timer += Time.deltaTime; 
         Vector2 pointPosition = new Vector2(point.position.x, point.position.y);
-        Vector2 movement = Vector2.MoveTowards(rb2d.position, pointPosition, totalDistance / timeToFinish * Time.deltaTime);     
+        Vector2 movement = Vector2.MoveTowards(rb2d.position, pointPosition, speedOverTime.Evaluate(timer) * Time.deltaTime);     
         rb2d.MovePosition(movement);
         if (pointPosition == rb2d.position)
         {
-  
             return true;
         }
         else
@@ -91,7 +92,5 @@ public class MoveAlongCollider : MonoBehaviour
             return false;
         }
     }
-
-
 
 }

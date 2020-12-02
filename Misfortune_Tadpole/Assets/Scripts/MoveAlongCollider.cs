@@ -1,24 +1,44 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
+
 
 public class MoveAlongCollider : MonoBehaviour
 {
-    
+    public bool drawLinesInEditor;
     public Transform[] pathPoints;
     [SerializeField] int currentPoint = 0;
     private GameObject player;
     public bool travel = false;
     Rigidbody2D rb2d;
+    public float totalDistance;
+    public float timer;
+    public AnimationClip speedOverTime;
 
-    [SerializeField] float speed = 1f; 
+    [SerializeField] float timeToFinish = 1f; 
 
     void Start()
     {
-        pathPoints = GetComponentsInChildren<Transform>();
-        
+        for (int i = 0; i < pathPoints.Length - 1; i++)
+        {
+            totalDistance += Vector3.Distance(pathPoints[i].position, pathPoints[i + 1].position);
+        }
     }
-    private void Update()
+
+
+    void OnDrawGizmos()
+    {
+        if (drawLinesInEditor)
+        {
+            for (int i = 0; i < pathPoints.Length - 1; i++)
+            {
+                Handles.DrawLine(pathPoints[i].position, pathPoints[(i + 1)].position);
+            }
+        }
+    }
+
+    private void FixedUpdate()
     {
         if (travel)
         {
@@ -29,34 +49,21 @@ public class MoveAlongCollider : MonoBehaviour
                 {
                     travel = false;
                     rb2d.isKinematic = false;
+                    currentPoint = 0;
                 }
                 currentPoint = Mathf.Clamp(currentPoint, 0, pathPoints.Length - 1);
             }
 
         }
 
-        for (int i = 0; i < pathPoints.Length; i++)
+        for (int i = 0; i < pathPoints.Length - 1; i++)
         {
-            Debug.DrawLine(pathPoints[i % pathPoints.Length].position, pathPoints[i + 1 % pathPoints.Length].position);
-        }
-    }
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            //collision.gameObject.transform.position += new Vector3(pathPoints[currentPoint].x, pathPoints[currentPoint].y, 0);
-            //other.gameObject.GetComponent<StickToSurface>().moveAlong(pathPoints[currentPoint]);
-            //if (other.gameObject.GetComponent<StickToSurface>().moveAlong(pathPoints[currentPoint]))
-            //{
-            //    currentPoint = Mathf.Clamp(currentPoint++, 0, pathPoints.Length);
-            //}
+            Debug.DrawLine(pathPoints[i].position, pathPoints[i + 1].position);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //currentPoint = 0;
         if (collision.gameObject.CompareTag("Player"))
         {
             player = collision.gameObject;
@@ -68,24 +75,15 @@ public class MoveAlongCollider : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        //currentPoint = 0;
-    }
-
     public bool moveAlong(Transform point)
     {
-        Debug.Log("Moving");
-
+        timer += Time.deltaTime; 
         Vector2 pointPosition = new Vector2(point.position.x, point.position.y);
-        Vector2 movement = Vector2.MoveTowards(rb2d.position, pointPosition, speed * Time.deltaTime);
-        Debug.Log(movement);
-
+        Vector2 movement = Vector2.MoveTowards(rb2d.position, pointPosition, totalDistance / timeToFinish * Time.deltaTime);     
         rb2d.MovePosition(movement);
-        //player.transform.position = new Vector3(movement.x, movement.y, 0f);
         if (pointPosition == rb2d.position)
         {
-            Debug.Log("point reached");
+  
             return true;
         }
         else

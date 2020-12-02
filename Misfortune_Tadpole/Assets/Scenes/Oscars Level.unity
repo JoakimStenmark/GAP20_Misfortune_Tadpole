@@ -7909,6 +7909,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f613d5346248f2642a941c41b6a30194, type: 3}
+--- !u!1 &1192148721 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3115559214320830636, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
+  m_PrefabInstance: {fileID: 2126539604}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1230988620 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7381533935839519829, guid: b7c93e4572701cb4e9720c9f19db34ec, type: 3}
@@ -17700,6 +17705,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2347253984981380466, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1192148721}
     - target: {fileID: 3115559214320830630, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
       propertyPath: healthBar
       value: 

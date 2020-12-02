@@ -7,22 +7,26 @@ public class CameraHelper : MonoBehaviour
 {
     private CinemachineVirtualCamera cameraToHelp;
     public float maxOrthographicSize;
-    public Rigidbody2D playerRb2d;
+    public GameObject player;
     public float playerVelocity;
     public float currentZoom;
     public float zoomRate;
     public AnimationCurve zoomCurve;
+    private PlayerController playerController;
+    private StickToSurface stickToSurface;
 
     void Start()
     {
         cameraToHelp = GetComponent<CinemachineVirtualCamera>();
+        playerController = player.GetComponent<PlayerController>();
+        stickToSurface = player.GetComponent<StickToSurface>();
     }
 
     void FixedUpdate()
-    {   
-        playerVelocity = playerRb2d.velocity.magnitude;
+    {
+        playerVelocity = playerController.rb2d.velocity.magnitude;
 
-        if (playerVelocity > 10)
+        if (playerVelocity > 10 || stickToSurface.stuck)
         {
             currentZoom = Mathf.Clamp(currentZoom + Time.deltaTime * zoomRate, 0f, 1f);
         }

@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     private int damageTakenHash = Animator.StringToHash("tookDamage");
 
-    private Rigidbody2D rb2d;
     private bool grounded = false;
     private bool secondChance = false;
     [SerializeField] float jumpForce;
@@ -20,6 +19,7 @@ public class PlayerController : MonoBehaviour
     
     Vector3 startPos;
 
+    public Rigidbody2D rb2d;
     public float startWaterAmount;
     [SerializeField]
     private float waterAmount;

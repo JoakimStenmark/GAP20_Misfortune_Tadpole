@@ -1,0 +1,6778 @@
+fileFormatVersion: 2
+guid: af241b0664cd22c4d8104d39a13c579b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 707471461258083206
+    second: Idle animation sprite sheet_0
+  - first:
+      213: 3849888409070891065
+    second: Idle animation sprite sheet_1
+  - first:
+      213: -122336042013099370
+    second: Idle animation sprite sheet_2
+  - first:
+      213: -8780904570715927910
+    second: Idle animation sprite sheet_3
+  - first:
+      213: -2073668994052663946
+    second: Idle animation sprite sheet_4
+  - first:
+      213: -5562573775144409085
+    second: Idle animation sprite sheet_5
+  - first:
+      213: -5896207017455919112
+    second: Idle animation sprite sheet_6
+  - first:
+      213: -4593060827145170591
+    second: Idle animation sprite sheet_7
+  - first:
+      213: 7387819378214900300
+    second: Idle animation sprite sheet_8
+  - first:
+      213: -7776137886145854474
+    second: Idle animation sprite sheet_9
+  - first:
+      213: -3949853800601133808
+    second: Idle animation sprite sheet_10
+  - first:
+      213: 4292329456805783150
+    second: Idle animation sprite sheet_11
+  - first:
+      213: -7011598843582837714
+    second: Idle animation sprite sheet_12
+  - first:
+      213: 2219385967970723299
+    second: Idle animation sprite sheet_13
+  - first:
+      213: -8723678829286632525
+    second: Idle animation sprite sheet_14
+  - first:
+      213: -8029191327759822274
+    second: Idle animation sprite sheet_15
+  - first:
+      213: -4284646121363789719
+    second: Idle animation sprite sheet_16
+  - first:
+      213: 7801374729351446868
+    second: Idle animation sprite sheet_17
+  - first:
+      213: -5412450175617223145
+    second: Idle animation sprite sheet_18
+  - first:
+      213: 2250483795511862354
+    second: Idle animation sprite sheet_19
+  - first:
+      213: -5899788908947195740
+    second: Idle animation sprite sheet_20
+  - first:
+      213: 3868271024746655575
+    second: Idle animation sprite sheet_21
+  - first:
+      213: 6890718310725619145
+    second: Idle animation sprite sheet_22
+  - first:
+      213: 6379301837782925007
+    second: Idle animation sprite sheet_23
+  - first:
+      213: 2843325416275236088
+    second: Idle animation sprite sheet_24
+  - first:
+      213: 7960797903699280282
+    second: Idle animation sprite sheet_25
+  - first:
+      213: 5352525692046401968
+    second: Idle animation sprite sheet_26
+  - first:
+      213: 2398625028084276396
+    second: Idle animation sprite sheet_27
+  - first:
+      213: 175740070100867134
+    second: Idle animation sprite sheet_28
+  - first:
+      213: -1745879525956315573
+    second: Idle animation sprite sheet_29
+  - first:
+      213: -8479709787978682038
+    second: Idle animation sprite sheet_0
+  - first:
+      213: -798412029913628350
+    second: Idle animation sprite sheet_1
+  - first:
+      213: -861908915984717137
+    second: Idle animation sprite sheet_2
+  - first:
+      213: 270863814345879165
+    second: Idle animation sprite sheet_3
+  - first:
+      213: -5553000968230165377
+    second: Idle animation sprite sheet_4
+  - first:
+      213: -8426916936909777767
+    second: Idle animation sprite sheet_5
+  - first:
+      213: -6697375590226199700
+    second: Idle animation sprite sheet_6
+  - first:
+      213: -1194636901805324622
+    second: Idle animation sprite sheet_7
+  - first:
+      213: -3142740330194959415
+    second: Idle animation sprite sheet_8
+  - first:
+      213: 2119106401565731672
+    second: Idle animation sprite sheet_9
+  - first:
+      213: -1359173533179744482
+    second: Idle animation sprite sheet_10
+  - first:
+      213: 2036592633922245122
+    second: Idle animation sprite sheet_11
+  - first:
+      213: 2933488883819477513
+    second: Idle animation sprite sheet_12
+  - first:
+      213: -7357601430379327749
+    second: Idle animation sprite sheet_13
+  - first:
+      213: 6762386170403473814
+    second: Idle animation sprite sheet_14
+  - first:
+      213: 3074072632695875092
+    second: Idle animation sprite sheet_15
+  - first:
+      213: 6697209549703633497
+    second: Idle animation sprite sheet_16
+  - first:
+      213: -3359483956435113096
+    second: Idle animation sprite sheet_17
+  - first:
+      213: 7628730227206322853
+    second: Idle animation sprite sheet_18
+  - first:
+      213: 1023492380990782909
+    second: Idle animation sprite sheet_19
+  - first:
+      213: -2953629193223390375
+    second: Idle animation sprite sheet_20
+  - first:
+      213: 6796786004897037466
+    second: Idle animation sprite sheet_21
+  - first:
+      213: -5823693566611747839
+    second: Idle animation sprite sheet_22
+  - first:
+      213: 4720250190779245244
+    second: Idle animation sprite sheet_23
+  - first:
+      213: 4057144898892604882
+    second: Idle animation sprite sheet_24
+  - first:
+      213: 7672438463427388563
+    second: Idle animation sprite sheet_25
+  - first:
+      213: -715130965718637534
+    second: Idle animation sprite sheet_26
+  - first:
+      213: 3265133714422847861
+    second: Idle animation sprite sheet_27
+  - first:
+      213: -3704340459681675437
+    second: Idle animation sprite sheet_28
+  - first:
+      213: 3854450724176050834
+    second: Idle animation sprite sheet_29
+  - first:
+      213: 1155102283636517074
+    second: Idle animation sprite sheet_30
+  - first:
+      213: 917182520521258535
+    second: Idle animation sprite sheet_31
+  - first:
+      213: 2043972609498271544
+    second: Idle animation sprite sheet_32
+  - first:
+      213: 8830938848570869733
+    second: Idle animation sprite sheet_33
+  - first:
+      213: 3571123162019184799
+    second: Idle animation sprite sheet_34
+  - first:
+      213: 379732424083141920
+    second: Idle animation sprite sheet_35
+  - first:
+      213: -8945006525817861909
+    second: Idle animation sprite sheet_36
+  - first:
+      213: 5466879041109950150
+    second: Idle animation sprite sheet_37
+  - first:
+      213: -4878975659800689112
+    second: Idle animation sprite sheet_38
+  - first:
+      213: 1818568098970609156
+    second: Idle animation sprite sheet_39
+  - first:
+      213: 8588907586615371512
+    second: Idle animation sprite sheet_40
+  - first:
+      213: -2340976607294168602
+    second: Idle animation sprite sheet_41
+  - first:
+      213: 1762339613986539894
+    second: Idle animation sprite sheet_42
+  - first:
+      213: -7429345771622794514
+    second: Idle animation sprite sheet_43
+  - first:
+      213: -5620851735487113012
+    second: Idle animation sprite sheet_44
+  - first:
+      213: 8335637221907009856
+    second: Idle animation sprite sheet_45
+  - first:
+      213: 5120438986678754676
+    second: Idle animation sprite sheet_46
+  - first:
+      213: -8509559080601229424
+    second: Idle animation sprite sheet_47
+  - first:
+      213: 1032916336947352039
+    second: Idle animation sprite sheet_48
+  - first:
+      213: -4821501930153969687
+    second: Idle animation sprite sheet_49
+  - first:
+      213: -525496586740663958
+    second: Idle animation sprite sheet_50
+  - first:
+      213: -4139684398188489187
+    second: Idle animation sprite sheet_51
+  - first:
+      213: 372876858720091387
+    second: Idle animation sprite sheet_52
+  - first:
+      213: 1007504225246299758
+    second: Idle animation sprite sheet_53
+  - first:
+      213: 3999514476592979312
+    second: Idle animation sprite sheet_54
+  - first:
+      213: 2279131763150105248
+    second: Idle animation sprite sheet_55
+  - first:
+      213: -214000624938554126
+    second: Idle animation sprite sheet_56
+  - first:
+      213: 6232528403217578721
+    second: Idle animation sprite sheet_57
+  - first:
+      213: 9088162854191647895
+    second: Idle animation sprite sheet_58
+  - first:
+      213: 7351502033502222413
+    second: Idle animation sprite sheet_59
+  - first:
+      213: 7036230969957002493
+    second: Idle animation sprite sheet_60
+  - first:
+      213: -5962358461373401143
+    second: Idle animation sprite sheet_61
+  - first:
+      213: 5591645369525752057
+    second: Idle animation sprite sheet_62
+  - first:
+      213: 1826408575208439931
+    second: Idle animation sprite sheet_63
+  - first:
+      213: -6992881047324046516
+    second: Idle animation sprite sheet_64
+  - first:
+      213: 4987499880501148187
+    second: Idle animation sprite sheet_65
+  - first:
+      213: -3480575685633286595
+    second: Idle animation sprite sheet_66
+  - first:
+      213: -5397029737848107132
+    second: Idle animation sprite sheet_67
+  - first:
+      213: -402485458555003648
+    second: Idle animation sprite sheet_68
+  - first:
+      213: 602397018064200704
+    second: Idle animation sprite sheet_69
+  - first:
+      213: 3328630173767472980
+    second: Idle animation sprite sheet_70
+  - first:
+      213: 5746355919479264360
+    second: Idle animation sprite sheet_71
+  - first:
+      213: 3458613456611929512
+    second: Idle animation sprite sheet_72
+  - first:
+      213: 6519044034425377658
+    second: Idle animation sprite sheet_73
+  - first:
+      213: -7369880234613678113
+    second: Idle animation sprite sheet_74
+  - first:
+      213: 8425059917324396922
+    second: Idle animation sprite sheet_75
+  - first:
+      213: -829915328474137861
+    second: Idle animation sprite sheet_76
+  - first:
+      213: 4059594309775690999
+    second: Idle animation sprite sheet_77
+  - first:
+      213: -3621523519029468021
+    second: Idle animation sprite sheet_78
+  - first:
+      213: 1473759341348276893
+    second: Idle animation sprite sheet_79
+  - first:
+      213: -6492875389946401981
+    second: Idle animation sprite sheet_80
+  - first:
+      213: -7880544555830254788
+    second: Idle animation sprite sheet_81
+  - first:
+      213: -5702672268042878753
+    second: Idle animation sprite sheet_82
+  - first:
+      213: 5369660503373651320
+    second: Idle animation sprite sheet_83
+  - first:
+      213: 8147825105646464581
+    second: Idle animation sprite sheet_84
+  - first:
+      213: -2599330805912784425
+    second: Idle animation sprite sheet_85
+  - first:
+      213: 804548362567318228
+    second: Idle animation sprite sheet_86
+  - first:
+      213: 3918565873118698551
+    second: Idle animation sprite sheet_87
+  - first:
+      213: -1137152179834923484
+    second: Idle animation sprite sheet_88
+  - first:
+      213: 1449858913616252416
+    second: Idle animation sprite sheet_89
+  - first:
+      213: 1864184195405988324
+    second: Idle animation sprite sheet_90
+  - first:
+      213: 5260483978931749498
+    second: Idle animation sprite sheet_91
+  - first:
+      213: 979997674110537888
+    second: Idle animation sprite sheet_92
+  - first:
+      213: -1314216280955482782
+    second: Idle animation sprite sheet_93
+  - first:
+      213: 7214021549392279293
+    second: Idle animation sprite sheet_94
+  - first:
+      213: 3410790593037996256
+    second: Idle animation sprite sheet_95
+  - first:
+      213: 2083971350524542084
+    second: Idle animation sprite sheet_96
+  - first:
+      213: -5663983529376878595
+    second: Idle animation sprite sheet_97
+  - first:
+      213: 6697444171844981223
+    second: Idle animation sprite sheet_98
+  - first:
+      213: 4600315329489038887
+    second: Idle animation sprite sheet_99
+  - first:
+      213: 1295827524329839410
+    second: Idle animation sprite sheet_100
+  - first:
+      213: 32207388841565448
+    second: Idle animation sprite sheet_101
+  - first:
+      213: -4112300811074353562
+    second: Idle animation sprite sheet_102
+  - first:
+      213: -3480961187679171255
+    second: Idle animation sprite sheet_103
+  - first:
+      213: 656391447356263714
+    second: Idle animation sprite sheet_104
+  - first:
+      213: -719537605186833242
+    second: Idle animation sprite sheet_105
+  - first:
+      213: -378430028686521934
+    second: Idle animation sprite sheet_106
+  - first:
+      213: -5402527082737236076
+    second: Idle animation sprite sheet_107
+  - first:
+      213: -640625010559341165
+    second: Idle animation sprite sheet_108
+  - first:
+      213: 8074688524543221075
+    second: Idle animation sprite sheet_109
+  - first:
+      213: 6342978669079026760
+    second: Idle animation sprite sheet_110
+  - first:
+      213: 9028418131980603350
+    second: Idle animation sprite sheet_111
+  - first:
+      213: 4939965148327956153
+    second: Idle animation sprite sheet_112
+  - first:
+      213: 8079114600570702114
+    second: Idle animation sprite sheet_113
+  - first:
+      213: 8778961673745028268
+    second: Idle animation sprite sheet_114
+  - first:
+      213: -6716717243935612617
+    second: Idle animation sprite sheet_115
+  - first:
+      213: -7312403736651030370
+    second: Idle animation sprite sheet_116
+  - first:
+      213: -2801156404265689831
+    second: Idle animation sprite sheet_117
+  - first:
+      213: -3783151677612461733
+    second: Idle animation sprite sheet_118
+  - first:
+      213: 4811691930685974848
+    second: Idle animation sprite sheet_119
+  - first:
+      213: 2433168279691758275
+    second: Idle animation sprite sheet_120
+  - first:
+      213: 2095281180678457950
+    second: Idle animation sprite sheet_121
+  - first:
+      213: -8057105893049742743
+    second: Idle animation sprite sheet_122
+  - first:
+      213: 3111272979722681214
+    second: Idle animation sprite sheet_123
+  - first:
+      213: 8660742725328828593
+    second: Idle animation sprite sheet_124
+  - first:
+      213: -6661188024625615242
+    second: Idle animation sprite sheet_125
+  - first:
+      213: 3315472100730047905
+    second: Idle animation sprite sheet_126
+  - first:
+      213: -7629818236127398213
+    second: Idle animation sprite sheet_127
+  - first:
+      213: 9038311591094559107
+    second: Idle animation sprite sheet_128
+  - first:
+      213: 6395326081116801640
+    second: Idle animation sprite sheet_129
+  - first:
+      213: 3821893247259477542
+    second: Idle animation sprite sheet_130
+  - first:
+      213: 2272013824784622841
+    second: Idle animation sprite sheet_131
+  - first:
+      213: -2616594525872315677
+    second: Idle animation sprite sheet_132
+  - first:
+      213: -1930744169672650454
+    second: Idle animation sprite sheet_133
+  - first:
+      213: 7871561982427140520
+    second: Idle animation sprite sheet_134
+  - first:
+      213: 5069964375380740091
+    second: Idle animation sprite sheet_135
+  - first:
+      213: 6757475516815059914
+    second: Idle animation sprite sheet_136
+  - first:
+      213: 6471011250672336875
+    second: Idle animation sprite sheet_137
+  - first:
+      213: -2279271276428252078
+    second: Idle animation sprite sheet_138
+  - first:
+      213: -4239344783670323680
+    second: Idle animation sprite sheet_139
+  - first:
+      213: 7677071433205315804
+    second: Idle animation sprite sheet_140
+  - first:
+      213: 885128327857254383
+    second: Idle animation sprite sheet_141
+  - first:
+      213: -6167470631373291646
+    second: Idle animation sprite sheet_142
+  - first:
+      213: -8826259014496193139
+    second: Idle animation sprite sheet_143
+  - first:
+      213: 4804825164850077913
+    second: Idle animation sprite sheet_144
+  - first:
+      213: -6070558306242292615
+    second: Idle animation sprite sheet_145
+  - first:
+      213: 1828149300414844225
+    second: Idle animation sprite sheet_146
+  - first:
+      213: 4563329531942201284
+    second: Idle animation sprite sheet_147
+  - first:
+      213: -2212427379947866527
+    second: Idle animation sprite sheet_148
+  - first:
+      213: 5875089173382167719
+    second: Idle animation sprite sheet_149
+  - first:
+      213: 4481922292495310191
+    second: Idle animation sprite sheet_150
+  - first:
+      213: 1561963404385486277
+    second: Idle animation sprite sheet_151
+  - first:
+      213: -536318939370731749
+    second: Idle animation sprite sheet_152
+  - first:
+      213: 977417347426169958
+    second: Idle animation sprite sheet_153
+  - first:
+      213: -9058789660796350870
+    second: Idle animation sprite sheet_154
+  - first:
+      213: 4974610580064495364
+    second: Idle animation sprite sheet_155
+  - first:
+      213: -4510220453140139270
+    second: Idle animation sprite sheet_156
+  - first:
+      213: 2322739679092116121
+    second: Idle animation sprite sheet_157
+  - first:
+      213: 197403799145729370
+    second: Idle animation sprite sheet_158
+  - first:
+      213: 8940303854332393017
+    second: Idle animation sprite sheet_159
+  - first:
+      213: -1360658885179219043
+    second: Idle animation sprite sheet_160
+  - first:
+      213: 1687511621277910001
+    second: Idle animation sprite sheet_161
+  - first:
+      213: 5770996747836793911
+    second: Idle animation sprite sheet_162
+  - first:
+      213: -3468776298153142407
+    second: Idle animation sprite sheet_163
+  - first:
+      213: -345781188334321829
+    second: Idle animation sprite sheet_164
+  - first:
+      213: 9107422492835650527
+    second: Idle animation sprite sheet_165
+  - first:
+      213: -1526643951139263677
+    second: Idle animation sprite sheet_166
+  - first:
+      213: -7688025477288558002
+    second: Idle animation sprite sheet_167
+  - first:
+      213: 3997840615746817349
+    second: Idle animation sprite sheet_168
+  - first:
+      213: -5974693682046611739
+    second: Idle animation sprite sheet_169
+  - first:
+      213: 4066455422986338047
+    second: Idle animation sprite sheet_170
+  - first:
+      213: -7171167500008488495
+    second: Idle animation sprite sheet_171
+  - first:
+      213: -192861027125258512
+    second: Idle animation sprite sheet_172
+  - first:
+      213: -3087649581841325313
+    second: Idle animation sprite sheet_173
+  - first:
+      213: -141706648523688220
+    second: Idle animation sprite sheet_174
+  - first:
+      213: -8426196870744707859
+    second: Idle animation sprite sheet_175
+  - first:
+      213: 5295869262336768729
+    second: Idle animation sprite sheet_176
+  - first:
+      213: 1422858371879314313
+    second: Idle animation sprite sheet_177
+  - first:
+      213: 3216599681699951469
+    second: Idle animation sprite sheet_178
+  - first:
+      213: 2038839155166215203
+    second: Idle animation sprite sheet_179
+  - first:
+      213: -2702935439462599632
+    second: Idle animation sprite sheet_180
+  - first:
+      213: 1075812848259280138
+    second: Idle animation sprite sheet_181
+  - first:
+      213: -1557930061451473632
+    second: Idle animation sprite sheet_182
+  - first:
+      213: -7483860455178605996
+    second: Idle animation sprite sheet_183
+  - first:
+      213: -4147052063571363878
+    second: Idle animation sprite sheet_184
+  - first:
+      213: 8848866062084866844
+    second: Idle animation sprite sheet_185
+  - first:
+      213: -5299328748299550924
+    second: Idle animation sprite sheet_186
+  - first:
+      213: 312585349340332153
+    second: Idle animation sprite sheet_187
+  - first:
+      213: -8494827139918229875
+    second: Idle animation sprite sheet_188
+  - first:
+      213: 5042140167192746293
+    second: Idle animation sprite sheet_189
+  - first:
+      213: 5329235241575360058
+    second: Idle animation sprite sheet_190
+  - first:
+      213: -4843753196913551954
+    second: Idle animation sprite sheet_191
+  - first:
+      213: 2491155273567327512
+    second: Idle animation sprite sheet_192
+  - first:
+      213: -9032629997196525753
+    second: Idle animation sprite sheet_193
+  - first:
+      213: -7773393395059110211
+    second: Idle animation sprite sheet_194
+  - first:
+      213: 6742476481125396911
+    second: Idle animation sprite sheet_195
+  - first:
+      213: -4479465727297122451
+    second: Idle animation sprite sheet_196
+  - first:
+      213: 181126286489045605
+    second: Idle animation sprite sheet_197
+  - first:
+      213: 7069886695192841314
+    second: Idle animation sprite sheet_198
+  - first:
+      213: -1030283299069648274
+    second: Idle animation sprite sheet_199
+  - first:
+      213: -8119407234595195258
+    second: Idle animation sprite sheet_200
+  - first:
+      213: -1916432597719568108
+    second: Idle animation sprite sheet_201
+  - first:
+      213: -7861442985787019394
+    second: Idle animation sprite sheet_202
+  - first:
+      213: 5890466251023138937
+    second: Idle animation sprite sheet_203
+  - first:
+      213: 5004704069108341948
+    second: Idle animation sprite sheet_204
+  - first:
+      213: -6198117923070647438
+    second: Idle animation sprite sheet_205
+  - first:
+      213: -498088438871642333
+    second: Idle animation sprite sheet_206
+  - first:
+      213: 7020108224093086525
+    second: Idle animation sprite sheet_207
+  - first:
+      213: -4388413010264609402
+    second: Idle animation sprite sheet_208
+  - first:
+      213: -1967619467186133275
+    second: Idle animation sprite sheet_209
+  - first:
+      213: 2963485857089681627
+    second: Idle animation sprite sheet_210
+  - first:
+      213: 2524346432169213401
+    second: Idle animation sprite sheet_211
+  - first:
+      213: -2270186803745676197
+    second: Idle animation sprite sheet_212
+  - first:
+      213: -6802403559101273839
+    second: Idle animation sprite sheet_213
+  - first:
+      213: -3688900748853325682
+    second: Idle animation sprite sheet_214
+  - first:
+      213: -8516376216995155967
+    second: Idle animation sprite sheet_215
+  - first:
+      213: -1363570279913725607
+    second: Idle animation sprite sheet_216
+  - first:
+      213: -8370219436007080311
+    second: Idle animation sprite sheet_217
+  - first:
+      213: -742092212853937560
+    second: Idle animation sprite sheet_218
+  - first:
+      213: 2659152350176465930
+    second: Idle animation sprite sheet_219
+  - first:
+      213: 8144708696991303080
+    second: Idle animation sprite sheet_220
+  - first:
+      213: -8360589317755994881
+    second: Idle animation sprite sheet_221
+  - first:
+      213: 6068352468981952455
+    second: Idle animation sprite sheet_222
+  - first:
+      213: -1622577083641778497
+    second: Idle animation sprite sheet_223
+  - first:
+      213: 8228638676702693148
+    second: Idle animation sprite sheet_224
+  - first:
+      213: -2600384784475375130
+    second: Idle animation sprite sheet_225
+  - first:
+      213: -5194861820763207087
+    second: Idle animation sprite sheet_226
+  - first:
+      213: 2160309359297862953
+    second: Idle animation sprite sheet_227
+  - first:
+      213: 4297440014608962418
+    second: Idle animation sprite sheet_228
+  - first:
+      213: -3723098337329396275
+    second: Idle animation sprite sheet_229
+  - first:
+      213: -8706364265559531331
+    second: Idle animation sprite sheet_230
+  - first:
+      213: 6683040647202446339
+    second: Idle animation sprite sheet_231
+  - first:
+      213: 7940004682315623103
+    second: Idle animation sprite sheet_232
+  - first:
+      213: -4722977230768313600
+    second: Idle animation sprite sheet_233
+  - first:
+      213: -4579036970561589142
+    second: Idle animation sprite sheet_234
+  - first:
+      213: -5809613796345265118
+    second: Idle animation sprite sheet_235
+  - first:
+      213: -1813900778138674740
+    second: Idle animation sprite sheet_236
+  - first:
+      213: -6167211506907730320
+    second: Idle animation sprite sheet_237
+  - first:
+      213: 3022691119450298610
+    second: Idle animation sprite sheet_238
+  - first:
+      213: -6933525744043987663
+    second: Idle animation sprite sheet_239
+  - first:
+      213: 7297796123806557862
+    second: Idle animation sprite sheet_240
+  - first:
+      213: -7494540963967193386
+    second: Idle animation sprite sheet_241
+  - first:
+      213: 2227743929713836876
+    second: Idle animation sprite sheet_242
+  - first:
+      213: 7644981912303739777
+    second: Idle animation sprite sheet_243
+  - first:
+      213: -6928915481268058858
+    second: Idle animation sprite sheet_244
+  - first:
+      213: 8170547382117208284
+    second: Idle animation sprite sheet_245
+  - first:
+      213: -6456992125402896339
+    second: Idle animation sprite sheet_246
+  - first:
+      213: -6295936568518360411
+    second: Idle animation sprite sheet_247
+  - first:
+      213: 1120623590943942391
+    second: Idle animation sprite sheet_248
+  - first:
+      213: 5170952289890470667
+    second: Idle animation sprite sheet_249
+  - first:
+      213: 3466813583569595796
+    second: Idle animation sprite sheet_250
+  - first:
+      213: -4329643476973897342
+    second: Idle animation sprite sheet_251
+  - first:
+      213: 8868077763441888883
+    second: Idle animation sprite sheet_252
+  - first:
+      213: -3870607776353569991
+    second: Idle animation sprite sheet_253
+  - first:
+      213: -8574568927099561873
+    second: Idle animation sprite sheet_254
+  - first:
+      213: 5633914125579963525
+    second: Idle animation sprite sheet_255
+  - first:
+      213: -304216604427182003
+    second: Idle animation sprite sheet_256
+  - first:
+      213: 4758171617124213127
+    second: Idle animation sprite sheet_257
+  - first:
+      213: 7751894298784688808
+    second: Idle animation sprite sheet_258
+  - first:
+      213: 263970844576133937
+    second: Idle animation sprite sheet_259
+  - first:
+      213: -7670307351007180354
+    second: Idle animation sprite sheet_260
+  - first:
+      213: -4094800534473162321
+    second: Idle animation sprite sheet_261
+  - first:
+      213: 1077212076472597793
+    second: Idle animation sprite sheet_262
+  - first:
+      213: 6262013388611428786
+    second: Idle animation sprite sheet_263
+  - first:
+      213: -7872910493102401225
+    second: Idle animation sprite sheet_264
+  - first:
+      213: -4889446309683844960
+    second: Idle animation sprite sheet_265
+  - first:
+      213: -8223210551811372272
+    second: Idle animation sprite sheet_266
+  - first:
+      213: -8190127134151916089
+    second: Idle animation sprite sheet_267
+  - first:
+      213: -832552701949226887
+    second: Idle animation sprite sheet_268
+  - first:
+      213: -7335446793995159623
+    second: Idle animation sprite sheet_269
+  - first:
+      213: -8008839581026715678
+    second: Idle animation sprite sheet_270
+  - first:
+      213: -2035647229316126660
+    second: Idle animation sprite sheet_271
+  - first:
+      213: -328478639822745571
+    second: Idle animation sprite sheet_272
+  - first:
+      213: -1489513957302494870
+    second: Idle animation sprite sheet_273
+  - first:
+      213: 5764096290168093343
+    second: Idle animation sprite sheet_274
+  - first:
+      213: -7389471867133574014
+    second: Idle animation sprite sheet_275
+  - first:
+      213: 8996027776557295981
+    second: Idle animation sprite sheet_276
+  - first:
+      213: -4263211619438429329
+    second: Idle animation sprite sheet_277
+  - first:
+      213: -5323966067543968312
+    second: Idle animation sprite sheet_278
+  - first:
+      213: -995826205953659114
+    second: Idle animation sprite sheet_279
+  - first:
+      213: -1872098290911595831
+    second: Idle animation sprite sheet_280
+  - first:
+      213: -2947547890559934121
+    second: Idle animation sprite sheet_281
+  - first:
+      213: 1285118393072964396
+    second: Idle animation sprite sheet_282
+  - first:
+      213: 4502619897694539255
+    second: Idle animation sprite sheet_283
+  - first:
+      213: 2518399737163599970
+    second: Idle animation sprite sheet_284
+  - first:
+      213: 5328063572682753481
+    second: Idle animation sprite sheet_285
+  - first:
+      213: -3811820487872677
+    second: Idle animation sprite sheet_286
+  - first:
+      213: -3481539483437652230
+    second: Idle animation sprite sheet_287
+  - first:
+      213: 9137327949957885289
+    second: Idle animation sprite sheet_288
+  - first:
+      213: -8213222801544509524
+    second: Idle animation sprite sheet_289
+  - first:
+      213: -2284065860187837963
+    second: Idle animation sprite sheet_290
+  - first:
+      213: 7079068216204600620
+    second: Idle animation sprite sheet_291
+  - first:
+      213: 3260582034541244570
+    second: Idle animation sprite sheet_292
+  - first:
+      213: 1857344608907578002
+    second: Idle animation sprite sheet_293
+  - first:
+      213: 8995195708008541478
+    second: Idle animation sprite sheet_294
+  - first:
+      213: 1858177564883769063
+    second: Idle animation sprite sheet_295
+  - first:
+      213: -7082633976549005758
+    second: Idle animation sprite sheet_296
+  - first:
+      213: -3999448677283093478
+    second: Idle animation sprite sheet_297
+  - first:
+      213: 2990078511226360644
+    second: Idle animation sprite sheet_298
+  - first:
+      213: -867127906509947696
+    second: Idle animation sprite sheet_299
+  - first:
+      213: 7211679104336776015
+    second: Idle animation sprite sheet_300
+  - first:
+      213: 2814019925689761932
+    second: Idle animation sprite sheet_301
+  - first:
+      213: -1502152082675824438
+    second: Idle animation sprite sheet_302
+  - first:
+      213: -6457159577149528391
+    second: Idle animation sprite sheet_303
+  - first:
+      213: 6247722744923731621
+    second: Idle animation sprite sheet_304
+  - first:
+      213: -6938352350731039610
+    second: Idle animation sprite sheet_305
+  - first:
+      213: -2130342947021749192
+    second: Idle animation sprite sheet_306
+  - first:
+      213: 596366617666817107
+    second: Idle animation sprite sheet_307
+  - first:
+      213: -4638437385819323185
+    second: Idle animation sprite sheet_308
+  - first:
+      213: -2951471494565311989
+    second: Idle animation sprite sheet_309
+  - first:
+      213: 7813111782322105132
+    second: Idle animation sprite sheet_310
+  - first:
+      213: 8096543717667960045
+    second: Idle animation sprite sheet_311
+  - first:
+      213: -2784933685495530220
+    second: Idle animation sprite sheet_312
+  - first:
+      213: -3865736729064690859
+    second: Idle animation sprite sheet_313
+  - first:
+      213: 4810462248375582216
+    second: Idle animation sprite sheet_314
+  - first:
+      213: 7180185450775674767
+    second: Idle animation sprite sheet_315
+  - first:
+      213: 6464061844230844291
+    second: Idle animation sprite sheet_316
+  - first:
+      213: -6850329237155693949
+    second: Idle animation sprite sheet_317
+  - first:
+      213: 1978265176797821900
+    second: Idle animation sprite sheet_318
+  - first:
+      213: -7028209421449396721
+    second: Idle animation sprite sheet_319
+  - first:
+      213: -8934972492268878739
+    second: Idle animation sprite sheet_320
+  - first:
+      213: -3951443728903026467
+    second: Idle animation sprite sheet_321
+  - first:
+      213: -6894973710537996007
+    second: Idle animation sprite sheet_322
+  - first:
+      213: 361637626844198075
+    second: Idle animation sprite sheet_323
+  - first:
+      213: 6470585523574407211
+    second: Idle animation sprite sheet_324
+  - first:
+      213: -4766842018109759401
+    second: Idle animation sprite sheet_325
+  - first:
+      213: -2390523827554670089
+    second: Idle animation sprite sheet_326
+  - first:
+      213: -5881235012752575295
+    second: Idle animation sprite sheet_327
+  - first:
+      213: -8688016636335691837
+    second: Idle animation sprite sheet_328
+  - first:
+      213: -3721040052298788786
+    second: Idle animation sprite sheet_329
+  - first:
+      213: -7013594519505412524
+    second: Idle animation sprite sheet_330
+  - first:
+      213: -3096288153233102623
+    second: Idle animation sprite sheet_331
+  - first:
+      213: -6466191466591830007
+    second: Idle animation sprite sheet_332
+  - first:
+      213: 8866286325582803374
+    second: Idle animation sprite sheet_333
+  - first:
+      213: 8737655466583446664
+    second: Idle animation sprite sheet_334
+  - first:
+      213: -6309572476412713551
+    second: Idle animation sprite sheet_335
+  - first:
+      213: -7817245721860957023
+    second: Idle animation sprite sheet_336
+  - first:
+      213: -7828331388966546170
+    second: Idle animation sprite sheet_337
+  - first:
+      213: 5497412749539790641
+    second: Idle animation sprite sheet_338
+  - first:
+      213: -8692572156853718473
+    second: Idle animation sprite sheet_339
+  - first:
+      213: 691382634193329821
+    second: Idle animation sprite sheet_340
+  - first:
+      213: 6150545690426630736
+    second: Idle animation sprite sheet_341
+  - first:
+      213: 4047567625643494626
+    second: Idle animation sprite sheet_342
+  - first:
+      213: 2376198714338571910
+    second: Idle animation sprite sheet_343
+  - first:
+      213: -6935345873175928366
+    second: Idle animation sprite sheet_344
+  - first:
+      213: 1710948039341703453
+    second: Idle animation sprite sheet_345
+  - first:
+      213: -2427035372747359427
+    second: Idle animation sprite sheet_346
+  - first:
+      213: -3833387497582735046
+    second: Idle animation sprite sheet_347
+  - first:
+      213: 4517895233827129457
+    second: Idle animation sprite sheet_348
+  - first:
+      213: 2353260037498704025
+    second: Idle animation sprite sheet_349
+  - first:
+      213: -3458419393198586403
+    second: Idle animation sprite sheet_350
+  - first:
+      213: 6583490526024728328
+    second: Idle animation sprite sheet_351
+  - first:
+      213: -2515399274601669719
+    second: Idle animation sprite sheet_352
+  - first:
+      213: -6564418297970427214
+    second: Idle animation sprite sheet_353
+  - first:
+      213: -2287865729893626231
+    second: Idle animation sprite sheet_354
+  - first:
+      213: -2489945672351859601
+    second: Idle animation sprite sheet_355
+  - first:
+      213: 8292087704852717525
+    second: Idle animation sprite sheet_356
+  - first:
+      213: 4457926056421784640
+    second: Idle animation sprite sheet_357
+  - first:
+      213: -5245752439097005846
+    second: Idle animation sprite sheet_358
+  - first:
+      213: 3917459327980437773
+    second: Idle animation sprite sheet_359
+  - first:
+      213: 7373696352189228762
+    second: Idle animation sprite sheet_360
+  - first:
+      213: 6120567636941859460
+    second: Idle animation sprite sheet_361
+  - first:
+      213: -1463678080598960753
+    second: Idle animation sprite sheet_362
+  - first:
+      213: 8440936644969561756
+    second: Idle animation sprite sheet_363
+  - first:
+      213: 547561356282953069
+    second: Idle animation sprite sheet_364
+  - first:
+      213: -6467772721010255486
+    second: Idle animation sprite sheet_365
+  - first:
+      213: -1800934568977949055
+    second: Idle animation sprite sheet_366
+  - first:
+      213: -442136213732290293
+    second: Idle animation sprite sheet_367
+  - first:
+      213: 6425171417799555503
+    second: Idle animation sprite sheet_368
+  - first:
+      213: 7534445542257399943
+    second: Idle animation sprite sheet_369
+  - first:
+      213: -2909742113028579171
+    second: Idle animation sprite sheet_370
+  - first:
+      213: 7121442151585338816
+    second: Idle animation sprite sheet_371
+  - first:
+      213: 5472301569261077627
+    second: Idle animation sprite sheet_372
+  - first:
+      213: -8380183754951390412
+    second: Idle animation sprite sheet_373
+  - first:
+      213: -755619232233515625
+    second: Idle animation sprite sheet_374
+  - first:
+      213: 3955895517928290060
+    second: Idle animation sprite sheet_375
+  - first:
+      213: 7444723281583182198
+    second: Idle animation sprite sheet_376
+  - first:
+      213: -3325846561333710878
+    second: Idle animation sprite sheet_377
+  - first:
+      213: -4645690233051202978
+    second: Idle animation sprite sheet_378
+  - first:
+      213: 7926407336889858905
+    second: Idle animation sprite sheet_379
+  - first:
+      213: 1099698186831514520
+    second: Idle animation sprite sheet_380
+  - first:
+      213: 7265131058531439876
+    second: Idle animation sprite sheet_381
+  - first:
+      213: 3825788882361254982
+    second: Idle animation sprite sheet_382
+  - first:
+      213: -3081785862213921140
+    second: Idle animation sprite sheet_383
+  - first:
+      213: -231150019235979834
+    second: Idle animation sprite sheet_384
+  - first:
+      213: -3853110141273948171
+    second: Idle animation sprite sheet_385
+  - first:
+      213: 5932488194099806070
+    second: Idle animation sprite sheet_386
+  - first:
+      213: -8874730400670121533
+    second: Idle animation sprite sheet_387
+  - first:
+      213: -612790908332841566
+    second: Idle animation sprite sheet_388
+  - first:
+      213: -125367982752369986
+    second: Idle animation sprite sheet_389
+  - first:
+      213: -6714294928424677060
+    second: Idle animation sprite sheet_390
+  - first:
+      213: 5109514573757468988
+    second: Idle animation sprite sheet_391
+  - first:
+      213: -9137162278248015799
+    second: Idle animation sprite sheet_392
+  - first:
+      213: 4841497852387145981
+    second: Idle animation sprite sheet_393
+  - first:
+      213: 7721192549092012073
+    second: Idle animation sprite sheet_394
+  - first:
+      213: -961651424633899842
+    second: Idle animation sprite sheet_395
+  - first:
+      213: -2557034505334727838
+    second: Idle animation sprite sheet_396
+  - first:
+      213: 2938162457551267166
+    second: Idle animation sprite sheet_397
+  - first:
+      213: 3771993167587338490
+    second: Idle animation sprite sheet_398
+  - first:
+      213: -2295456166131302636
+    second: Idle animation sprite sheet_399
+  - first:
+      213: -5040340997281565728
+    second: Idle animation sprite sheet_400
+  - first:
+      213: 933914054600781493
+    second: Idle animation sprite sheet_401
+  - first:
+      213: -1902754401691637197
+    second: Idle animation sprite sheet_402
+  - first:
+      213: 291168791084724968
+    second: Idle animation sprite sheet_403
+  - first:
+      213: -8026437673528620655
+    second: Idle animation sprite sheet_404
+  - first:
+      213: -7796568549835087965
+    second: Idle animation sprite sheet_405
+  - first:
+      213: -4796372579169767817
+    second: Idle animation sprite sheet_406
+  - first:
+      213: 1440642789558847711
+    second: Idle animation sprite sheet_407
+  - first:
+      213: -3139003435900203121
+    second: Idle animation sprite sheet_408
+  - first:
+      213: -5368543473653815585
+    second: Idle animation sprite sheet_409
+  - first:
+      213: 5180197277188417262
+    second: Idle animation sprite sheet_410
+  - first:
+      213: -6044336690404610182
+    second: Idle animation sprite sheet_411
+  - first:
+      213: 4235580133552860694
+    second: Idle animation sprite sheet_412
+  - first:
+      213: 7605139640969731874
+    second: Idle animation sprite sheet_413
+  - first:
+      213: 2059528181483709942
+    second: Idle animation sprite sheet_414
+  - first:
+      213: 6192632592920952879
+    second: Idle animation sprite sheet_415
+  - first:
+      213: -8173553894589658223
+    second: Idle animation sprite sheet_416
+  - first:
+      213: -3449638431150243173
+    second: Idle animation sprite sheet_417
+  - first:
+      213: 8510805015910083695
+    second: Idle animation sprite sheet_418
+  - first:
+      213: -1559134420522265194
+    second: Idle animation sprite sheet_419
+  - first:
+      213: 270441078612684713
+    second: Idle animation sprite sheet_420
+  - first:
+      213: -7253207903648508313
+    second: Idle animation sprite sheet_421
+  - first:
+      213: -7339240867757807442
+    second: Idle animation sprite sheet_422
+  - first:
+      213: -6990268189469527193
+    second: Idle animation sprite sheet_423
+  - first:
+      213: -4024586922953344820
+    second: Idle animation sprite sheet_424
+  - first:
+      213: 2352616283161985364
+    second: Idle animation sprite sheet_425
+  - first:
+      213: 384076398842836714
+    second: Idle animation sprite sheet_426
+  - first:
+      213: 7801760144127286002
+    second: Idle animation sprite sheet_427
+  - first:
+      213: 9072970741481548426
+    second: Idle animation sprite sheet_428
+  - first:
+      213: -4676786991732442340
+    second: Idle animation sprite sheet_429
+  - first:
+      213: -8178103621285475583
+    second: Idle animation sprite sheet_430
+  - first:
+      213: 7685950609871417425
+    second: Idle animation sprite sheet_431
+  - first:
+      213: 2673243112877781924
+    second: Idle animation sprite sheet_432
+  - first:
+      213: -1076636020432266208
+    second: Idle animation sprite sheet_433
+  - first:
+      213: 1641322225171121179
+    second: Idle animation sprite sheet_434
+  - first:
+      213: -6158691010111572758
+    second: Idle animation sprite sheet_435
+  - first:
+      213: -3142630747800626563
+    second: Idle animation sprite sheet_436
+  - first:
+      213: -6505011536326300164
+    second: Idle animation sprite sheet_437
+  - first:
+      213: 1700336848515574923
+    second: Idle animation sprite sheet_438
+  - first:
+      213: 4943657732115515606
+    second: Idle animation sprite sheet_439
+  - first:
+      213: -3903112668079882792
+    second: Idle animation sprite sheet_440
+  - first:
+      213: 3885179239484777091
+    second: Idle animation sprite sheet_441
+  - first:
+      213: 1768613854370844021
+    second: Idle animation sprite sheet_442
+  - first:
+      213: -6496256216056253895
+    second: Idle animation sprite sheet_443
+  - first:
+      213: -549519997804206012
+    second: Idle animation sprite sheet_444
+  - first:
+      213: 3595832631106780205
+    second: Idle animation sprite sheet_445
+  - first:
+      213: 8440486493423549727
+    second: Idle animation sprite sheet_446
+  - first:
+      213: 4372977794128968168
+    second: Idle animation sprite sheet_447
+  - first:
+      213: 614414724265213721
+    second: Idle animation sprite sheet_448
+  - first:
+      213: 5373066580239162557
+    second: Idle animation sprite sheet_449
+  - first:
+      213: 9022773730592858560
+    second: Idle animation sprite sheet_450
+  - first:
+      213: -4741969212831270551
+    second: Idle animation sprite sheet_451
+  - first:
+      213: 1828137550351721978
+    second: Idle animation sprite sheet_452
+  - first:
+      213: 5667945812320364364
+    second: Idle animation sprite sheet_453
+  - first:
+      213: -1971320956536906885
+    second: Idle animation sprite sheet_454
+  - first:
+      213: -7804728371851585476
+    second: Idle animation sprite sheet_455
+  - first:
+      213: -6474749708850912694
+    second: Idle animation sprite sheet_456
+  - first:
+      213: -9031467150289892781
+    second: Idle animation sprite sheet_457
+  - first:
+      213: 8702400798978109327
+    second: Idle animation sprite sheet_458
+  - first:
+      213: 5303223396830237806
+    second: Idle animation sprite sheet_459
+  - first:
+      213: 7851617927186013390
+    second: Idle animation sprite sheet_460
+  - first:
+      213: -888819618710143977
+    second: Idle animation sprite sheet_461
+  - first:
+      213: -3562701087688313004
+    second: Idle animation sprite sheet_462
+  - first:
+      213: -6329113287315566110
+    second: Idle animation sprite sheet_463
+  - first:
+      213: -5201134162592992875
+    second: Idle animation sprite sheet_464
+  - first:
+      213: -795508568621385465
+    second: Idle animation sprite sheet_465
+  - first:
+      213: -1136668890453084363
+    second: Idle animation sprite sheet_466
+  - first:
+      213: -1797930734072919513
+    second: Idle animation sprite sheet_467
+  - first:
+      213: -5191370510057441763
+    second: Idle animation sprite sheet_468
+  - first:
+      213: 2583839448376402813
+    second: Idle animation sprite sheet_469
+  - first:
+      213: -6763616088838789824
+    second: Idle animation sprite sheet_470
+  - first:
+      213: -1579832307222145502
+    second: Idle animation sprite sheet_471
+  - first:
+      213: 8995714736357156688
+    second: Idle animation sprite sheet_472
+  - first:
+      213: -5903794644214661522
+    second: Idle animation sprite sheet_473
+  - first:
+      213: 4773229670446044881
+    second: Idle animation sprite sheet_474
+  - first:
+      213: -3080623001098120559
+    second: Idle animation sprite sheet_475
+  - first:
+      213: -538660958819974333
+    second: Idle animation sprite sheet_476
+  - first:
+      213: 5313732813474143740
+    second: Idle animation sprite sheet_477
+  - first:
+      213: 1860748444577379447
+    second: Idle animation sprite sheet_478
+  - first:
+      213: 5382777570434454135
+    second: Idle animation sprite sheet_479
+  - first:
+      213: 5907486869304902817
+    second: Idle animation sprite sheet_480
+  - first:
+      213: -8023278541003440572
+    second: Idle animation sprite sheet_481
+  - first:
+      213: -4678234432281819242
+    second: Idle animation sprite sheet_482
+  - first:
+      213: 138424569898028223
+    second: Idle animation sprite sheet_483
+  - first:
+      213: -5134125122136153302
+    second: Idle animation sprite sheet_484
+  - first:
+      213: 5222212986680158141
+    second: Idle animation sprite sheet_485
+  - first:
+      213: -9089697660810209637
+    second: Idle animation sprite sheet_486
+  - first:
+      213: -4842176691384911866
+    second: Idle animation sprite sheet_487
+  - first:
+      213: -9088518372085702967
+    second: Idle animation sprite sheet_488
+  - first:
+      213: -7727705818527572843
+    second: Idle animation sprite sheet_489
+  - first:
+      213: 7222701385288508462
+    second: Idle animation sprite sheet_490
+  - first:
+      213: 8882374500283941253
+    second: Idle animation sprite sheet_491
+  - first:
+      213: 8997363822259192441
+    second: Idle animation sprite sheet_492
+  - first:
+      213: -150165480987834064
+    second: Idle animation sprite sheet_493
+  - first:
+      213: 5077359303830007869
+    second: Idle animation sprite sheet_494
+  - first:
+      213: 6052741212519095734
+    second: Idle animation sprite sheet_495
+  - first:
+      213: 7707284638773534175
+    second: Idle animation sprite sheet_496
+  - first:
+      213: 5318437317090556529
+    second: Idle animation sprite sheet_497
+  - first:
+      213: 5189779170272335374
+    second: Idle animation sprite sheet_498
+  - first:
+      213: -7622137185224183241
+    second: Idle animation sprite sheet_499
+  - first:
+      213: 7223298898198311117
+    second: Idle animation sprite sheet_500
+  - first:
+      213: -8592570261495302104
+    second: Idle animation sprite sheet_501
+  - first:
+      213: -5231011517465849004
+    second: Idle animation sprite sheet_502
+  - first:
+      213: 6373470904045633458
+    second: Idle animation sprite sheet_503
+  - first:
+      213: 4038384352716236548
+    second: Idle animation sprite sheet_504
+  - first:
+      213: 1663697498764457949
+    second: Idle animation sprite sheet_505
+  - first:
+      213: 8367045188907527132
+    second: Idle animation sprite sheet_506
+  - first:
+      213: -2568841812865296714
+    second: Idle animation sprite sheet_507
+  - first:
+      213: -7086193733901803174
+    second: Idle animation sprite sheet_508
+  - first:
+      213: 32621994382361467
+    second: Idle animation sprite sheet_509
+  - first:
+      213: -5442133316424030260
+    second: Idle animation sprite sheet_510
+  - first:
+      213: 6271214725226016651
+    second: Idle animation sprite sheet_511
+  - first:
+      213: 1621073501540234863
+    second: Idle animation sprite sheet_512
+  - first:
+      213: 7716776030870131687
+    second: Idle animation sprite sheet_513
+  - first:
+      213: 923020165560901802
+    second: Idle animation sprite sheet_514
+  - first:
+      213: 3054283894068093333
+    second: Idle animation sprite sheet_515
+  - first:
+      213: 3638392933628085229
+    second: Idle animation sprite sheet_516
+  - first:
+      213: -838246638006013688
+    second: Idle animation sprite sheet_517
+  - first:
+      213: 8250057974121536398
+    second: Idle animation sprite sheet_518
+  - first:
+      213: 2108664153380729788
+    second: Idle animation sprite sheet_519
+  - first:
+      213: -7054274285271390251
+    second: Idle animation sprite sheet_520
+  - first:
+      213: 2871562191385260177
+    second: Idle animation sprite sheet_521
+  - first:
+      213: 5010005727250807579
+    second: Idle animation sprite sheet_522
+  - first:
+      213: -1564859735841076454
+    second: Idle animation sprite sheet_523
+  - first:
+      213: 9139277099792701241
+    second: Idle animation sprite sheet_524
+  - first:
+      213: 5813841497179349079
+    second: Idle animation sprite sheet_525
+  - first:
+      213: -5743188450419858078
+    second: Idle animation sprite sheet_526
+  - first:
+      213: 5225703654157252319
+    second: Idle animation sprite sheet_527
+  - first:
+      213: -6077666940366132092
+    second: Idle animation sprite sheet_528
+  - first:
+      213: 1179521546852691318
+    second: Idle animation sprite sheet_529
+  - first:
+      213: 5895039732989713616
+    second: Idle animation sprite sheet_530
+  - first:
+      213: -6339493679173826050
+    second: Idle animation sprite sheet_531
+  - first:
+      213: 7359795843164326262
+    second: Idle animation sprite sheet_532
+  - first:
+      213: 7169296059206490676
+    second: Idle animation sprite sheet_533
+  - first:
+      213: -2921835872631018474
+    second: Idle animation sprite sheet_534
+  - first:
+      213: 4249044491711202219
+    second: Idle animation sprite sheet_535
+  - first:
+      213: -5987017660598213737
+    second: Idle animation sprite sheet_536
+  - first:
+      213: 1199249155101852387
+    second: Idle animation sprite sheet_537
+  - first:
+      213: 1805034123835620512
+    second: Idle animation sprite sheet_538
+  - first:
+      213: -4330827618525278579
+    second: Idle animation sprite sheet_539
+  - first:
+      213: 7035583924574190262
+    second: Idle animation sprite sheet_540
+  - first:
+      213: -8453523550077740266
+    second: Idle animation sprite sheet_541
+  - first:
+      213: 1846053886378230388
+    second: Idle animation sprite sheet_542
+  - first:
+      213: -8033931722772229734
+    second: Idle animation sprite sheet_543
+  - first:
+      213: 8586214078560210394
+    second: Idle animation sprite sheet_544
+  - first:
+      213: 6108297543019961143
+    second: Idle animation sprite sheet_545
+  - first:
+      213: 6417061611911313031
+    second: Idle animation sprite sheet_546
+  - first:
+      213: 8803014189978417001
+    second: Idle animation sprite sheet_547
+  - first:
+      213: -1828077523496282658
+    second: Idle animation sprite sheet_548
+  - first:
+      213: -2720733003675916446
+    second: Idle animation sprite sheet_549
+  - first:
+      213: 323305965535471399
+    second: Idle animation sprite sheet_550
+  - first:
+      213: 286270774199880621
+    second: Idle animation sprite sheet_551
+  - first:
+      213: 9096623291408549964
+    second: Idle animation sprite sheet_552
+  - first:
+      213: -5425640698495732721
+    second: Idle animation sprite sheet_553
+  - first:
+      213: 1493123268976268755
+    second: Idle animation sprite sheet_554
+  - first:
+      213: -2789952358812249605
+    second: Idle animation sprite sheet_555
+  - first:
+      213: 5000280701907394159
+    second: Idle animation sprite sheet_556
+  - first:
+      213: 309787219062945622
+    second: Idle animation sprite sheet_557
+  - first:
+      213: -2414531836517476791
+    second: Idle animation sprite sheet_558
+  - first:
+      213: 891419416880740381
+    second: Idle animation sprite sheet_559
+  - first:
+      213: 3499833852395530355
+    second: Idle animation sprite sheet_560
+  - first:
+      213: 5936160817580537521
+    second: Idle animation sprite sheet_561
+  - first:
+      213: 3323829570027524961
+    second: Idle animation sprite sheet_562
+  - first:
+      213: 3166195437216590931
+    second: Idle animation sprite sheet_563
+  - first:
+      213: 5303469422763496683
+    second: Idle animation sprite sheet_564
+  - first:
+      213: 661062693790379557
+    second: Idle animation sprite sheet_565
+  - first:
+      213: -3457865123325958887
+    second: Idle animation sprite sheet_566
+  - first:
+      213: -1807026840979035404
+    second: Idle animation sprite sheet_567
+  - first:
+      213: -613097607231695383
+    second: Idle animation sprite sheet_568
+  - first:
+      213: -4565980906910040817
+    second: Idle animation sprite sheet_569
+  - first:
+      213: 8308064109895571214
+    second: Idle animation sprite sheet_570
+  - first:
+      213: 7262478446239023204
+    second: Idle animation sprite sheet_571
+  - first:
+      213: -4017533120088891405
+    second: Idle animation sprite sheet_572
+  - first:
+      213: 5963684840977918560
+    second: Idle animation sprite sheet_573
+  - first:
+      213: -108252478347811286
+    second: Idle animation sprite sheet_574
+  - first:
+      213: 5063172634609586834
+    second: Idle animation sprite sheet_575
+  - first:
+      213: 7261986694333226213
+    second: Idle animation sprite sheet_576
+  - first:
+      213: 3482388303807054146
+    second: Idle animation sprite sheet_577
+  - first:
+      213: 3922076723007419387
+    second: Idle animation sprite sheet_578
+  - first:
+      213: 5412468023783230051
+    second: Idle animation sprite sheet_579
+  - first:
+      213: -6203717380088726392
+    second: Idle animation sprite sheet_580
+  - first:
+      213: -861014118293749331
+    second: Idle animation sprite sheet_581
+  - first:
+      213: -1182983063487994439
+    second: Idle animation sprite sheet_582
+  - first:
+      213: -3178652941603866280
+    second: Idle animation sprite sheet_583
+  - first:
+      213: -533115460368336020
+    second: Idle animation sprite sheet_584
+  - first:
+      213: 4198799304822629672
+    second: Idle animation sprite sheet_585
+  - first:
+      213: 3101286565028072566
+    second: Idle animation sprite sheet_586
+  - first:
+      213: 3818506848188697090
+    second: Idle animation sprite sheet_587
+  - first:
+      213: -7946794408053308892
+    second: Idle animation sprite sheet_588
+  - first:
+      213: 3075151456085137907
+    second: Idle animation sprite sheet_589
+  - first:
+      213: -3103195589686353484
+    second: Idle animation sprite sheet_590
+  - first:
+      213: 5058750720353095634
+    second: Idle animation sprite sheet_591
+  - first:
+      213: -1455824931783197463
+    second: Idle animation sprite sheet_592
+  - first:
+      213: -5982360785206668409
+    second: Idle animation sprite sheet_593
+  - first:
+      213: -3239681317524764670
+    second: Idle animation sprite sheet_594
+  - first:
+      213: 8367053527402878025
+    second: Idle animation sprite sheet_595
+  - first:
+      213: 7174246469293126421
+    second: Idle animation sprite sheet_596
+  - first:
+      213: -7671963763485186233
+    second: Idle animation sprite sheet_597
+  - first:
+      213: -8632765226363925152
+    second: Idle animation sprite sheet_598
+  - first:
+      213: -3811014474336957211
+    second: Idle animation sprite sheet_599
+  - first:
+      213: 6049760428352930048
+    second: Idle animation sprite sheet_600
+  - first:
+      213: 1446978047048535958
+    second: Idle animation sprite sheet_601
+  - first:
+      213: 8889229793366617374
+    second: Idle animation sprite sheet_602
+  - first:
+      213: 4306344233895669935
+    second: Idle animation sprite sheet_603
+  - first:
+      213: 3612624537371898069
+    second: Idle animation sprite sheet_604
+  - first:
+      213: -1018017318966054428
+    second: Idle animation sprite sheet_605
+  - first:
+      213: 3584417204245010016
+    second: Idle animation sprite sheet_606
+  - first:
+      213: -3763204297818747045
+    second: Idle animation sprite sheet_607
+  - first:
+      213: 8258685220857183955
+    second: Idle animation sprite sheet_608
+  - first:
+      213: -7437168057917451886
+    second: Idle animation sprite sheet_609
+  - first:
+      213: -2761968114538584202
+    second: Idle animation sprite sheet_610
+  - first:
+      213: 3232238629610303854
+    second: Idle animation sprite sheet_611
+  - first:
+      213: 1710749049020184808
+    second: Idle animation sprite sheet_612
+  - first:
+      213: 1320713255096400482
+    second: Idle animation sprite sheet_613
+  - first:
+      213: -6615266111811640188
+    second: Idle animation sprite sheet_614
+  - first:
+      213: -1826969955995048967
+    second: Idle animation sprite sheet_615
+  - first:
+      213: 6534713933468048398
+    second: Idle animation sprite sheet_616
+  - first:
+      213: -4435771182758480678
+    second: Idle animation sprite sheet_617
+  - first:
+      213: 2585906225975170793
+    second: Idle animation sprite sheet_618
+  - first:
+      213: 4765310257867409138
+    second: Idle animation sprite sheet_619
+  - first:
+      213: 6190565385287269675
+    second: Idle animation sprite sheet_620
+  - first:
+      213: 347550964237570330
+    second: Idle animation sprite sheet_621
+  - first:
+      213: 5671660723918489252
+    second: Idle animation sprite sheet_622
+  - first:
+      213: 7183071267167852916
+    second: Idle animation sprite sheet_623
+  - first:
+      213: 1957689066661307524
+    second: Idle animation sprite sheet_624
+  - first:
+      213: 2509606690868926496
+    second: Idle animation sprite sheet_625
+  - first:
+      213: 784295657258522565
+    second: Idle animation sprite sheet_626
+  - first:
+      213: 7583436562969470073
+    second: Idle animation sprite sheet_627
+  - first:
+      213: 1510871816052444296
+    second: Idle animation sprite sheet_628
+  - first:
+      213: 5237327996381136797
+    second: Idle animation sprite sheet_629
+  - first:
+      213: -4955065234950652457
+    second: Idle animation sprite sheet_630
+  - first:
+      213: -8489459730679626188
+    second: Idle animation sprite sheet_631
+  - first:
+      213: 8081646206149369896
+    second: Idle animation sprite sheet_632
+  - first:
+      213: 2162752506750111272
+    second: Idle animation sprite sheet_633
+  - first:
+      213: 6821477147328061407
+    second: Idle animation sprite sheet_634
+  - first:
+      213: 5206825401754181031
+    second: Idle animation sprite sheet_635
+  - first:
+      213: 3214809785090718991
+    second: Idle animation sprite sheet_636
+  - first:
+      213: 6042559788306007574
+    second: Idle animation sprite sheet_637
+  - first:
+      213: -5491092303280979920
+    second: Idle animation sprite sheet_638
+  - first:
+      213: 7395864253273881769
+    second: Idle animation sprite sheet_639
+  - first:
+      213: -291522220843542506
+    second: Idle animation sprite sheet_640
+  - first:
+      213: -8150052830735824441
+    second: Idle animation sprite sheet_641
+  - first:
+      213: 2450783578788774705
+    second: Idle animation sprite sheet_642
+  - first:
+      213: -264553104783820795
+    second: Idle animation sprite sheet_643
+  - first:
+      213: -3350931700767926249
+    second: Idle animation sprite sheet_644
+  - first:
+      213: 6878949594884215628
+    second: Idle animation sprite sheet_645
+  - first:
+      213: -5935993978279095246
+    second: Idle animation sprite sheet_646
+  - first:
+      213: -1090593497825717404
+    second: Idle animation sprite sheet_647
+  - first:
+      213: -661110901657070263
+    second: Idle animation sprite sheet_648
+  - first:
+      213: -7040805931043424315
+    second: Idle animation sprite sheet_649
+  - first:
+      213: -5493375860891500260
+    second: Idle animation sprite sheet_650
+  - first:
+      213: -2881202280109054822
+    second: Idle animation sprite sheet_651
+  - first:
+      213: -1967848362220044052
+    second: Idle animation sprite sheet_652
+  - first:
+      213: 6870661819807977172
+    second: Idle animation sprite sheet_653
+  - first:
+      213: -970366225593913837
+    second: Idle animation sprite sheet_654
+  - first:
+      213: 3726697885811693135
+    second: Idle animation sprite sheet_655
+  - first:
+      213: 8985811035041556846
+    second: Idle animation sprite sheet_656
+  - first:
+      213: 5801820254661798069
+    second: Idle animation sprite sheet_657
+  - first:
+      213: -4320322507091678939
+    second: Idle animation sprite sheet_658
+  - first:
+      213: 2994963834615212977
+    second: Idle animation sprite sheet_659
+  - first:
+      213: 3581115081927770055
+    second: Idle animation sprite sheet_660
+  - first:
+      213: -3552032717069123517
+    second: Idle animation sprite sheet_661
+  - first:
+      213: -4976833470070285509
+    second: Idle animation sprite sheet_662
+  - first:
+      213: -1004508698661117520
+    second: Idle animation sprite sheet_663
+  - first:
+      213: -1810154904278683623
+    second: Idle animation sprite sheet_664
+  - first:
+      213: 7359766291742399899
+    second: Idle animation sprite sheet_665
+  - first:
+      213: -230419617110050829
+    second: Idle animation sprite sheet_666
+  - first:
+      213: -6664874083130476504
+    second: Idle animation sprite sheet_667
+  - first:
+      213: 1846842229070736627
+    second: Idle animation sprite sheet_668
+  - first:
+      213: -7262027008331657971
+    second: Idle animation sprite sheet_669
+  - first:
+      213: 1845213512977938908
+    second: Idle animation sprite sheet_670
+  - first:
+      213: -5914056731676026475
+    second: Idle animation sprite sheet_671
+  - first:
+      213: 1232348406119402211
+    second: Idle animation sprite sheet_672
+  - first:
+      213: -4262745955820189760
+    second: Idle animation sprite sheet_673
+  - first:
+      213: -5360439541285223694
+    second: Idle animation sprite sheet_674
+  - first:
+      213: 2784789082954290096
+    second: Idle animation sprite sheet_675
+  - first:
+      213: 8974010717447513433
+    second: Idle animation sprite sheet_676
+  - first:
+      213: -3076113485510814442
+    second: Idle animation sprite sheet_677
+  - first:
+      213: 2836289465163792133
+    second: Idle animation sprite sheet_678
+  - first:
+      213: 2808509769828975751
+    second: Idle animation sprite sheet_679
+  - first:
+      213: 8960853873045947496
+    second: Idle animation sprite sheet_680
+  - first:
+      213: -5496363314104309136
+    second: Idle animation sprite sheet_681
+  - first:
+      213: 1423191164826781515
+    second: Idle animation sprite sheet_682
+  - first:
+      213: 7181200346005164601
+    second: Idle animation sprite sheet_683
+  - first:
+      213: 162624857911822026
+    second: Idle animation sprite sheet_684
+  - first:
+      213: 5097910781259316658
+    second: Idle animation sprite sheet_685
+  - first:
+      213: 1763062004306212750
+    second: Idle animation sprite sheet_686
+  - first:
+      213: -7033832407645342761
+    second: Idle animation sprite sheet_687
+  - first:
+      213: 8383242299085102911
+    second: Idle animation sprite sheet_688
+  - first:
+      213: 1949979342726340148
+    second: Idle animation sprite sheet_689
+  - first:
+      213: -7407104570638003378
+    second: Idle animation sprite sheet_690
+  - first:
+      213: -3045601166016494448
+    second: Idle animation sprite sheet_691
+  - first:
+      213: -8222240588912921697
+    second: Idle animation sprite sheet_692
+  - first:
+      213: 6459175560905619047
+    second: Idle animation sprite sheet_693
+  - first:
+      213: -5743385291634748513
+    second: Idle animation sprite sheet_694
+  - first:
+      213: 7289981940746559216
+    second: Idle animation sprite sheet_695
+  - first:
+      213: 6565549003165951359
+    second: Idle animation sprite sheet_696
+  - first:
+      213: 3223669417215983198
+    second: Idle animation sprite sheet_697
+  - first:
+      213: -5979233944257828588
+    second: Idle animation sprite sheet_698
+  - first:
+      213: -4641326189756047373
+    second: Idle animation sprite sheet_699
+  - first:
+      213: 2208514099464896921
+    second: Idle animation sprite sheet_700
+  - first:
+      213: -5385839487941198526
+    second: Idle animation sprite sheet_701
+  - first:
+      213: -7134832999319543291
+    second: Idle animation sprite sheet_702
+  - first:
+      213: 7927537034773995013
+    second: Idle animation sprite sheet_703
+  - first:
+      213: -2178383880403235473
+    second: Idle animation sprite sheet_704
+  - first:
+      213: 6292129869902721352
+    second: Idle animation sprite sheet_705
+  - first:
+      213: 1867116062671327359
+    second: Idle animation sprite sheet_706
+  - first:
+      213: -9023633772305717643
+    second: Idle animation sprite sheet_707
+  - first:
+      213: 4970749607781375318
+    second: Idle animation sprite sheet_708
+  - first:
+      213: 8698768230118434580
+    second: Idle animation sprite sheet_709
+  - first:
+      213: -6275252401508413453
+    second: Idle animation sprite sheet_710
+  - first:
+      213: -2560753861390977206
+    second: Idle animation sprite sheet_711
+  - first:
+      213: 466064965045123728
+    second: Idle animation sprite sheet_712
+  - first:
+      213: -8632179766873834376
+    second: Idle animation sprite sheet_713
+  - first:
+      213: 422953879380548832
+    second: Idle animation sprite sheet_714
+  - first:
+      213: -3504170007117678911
+    second: Idle animation sprite sheet_715
+  - first:
+      213: 5876978579111030742
+    second: Idle animation sprite sheet_716
+  - first:
+      213: -988721152742316456
+    second: Idle animation sprite sheet_717
+  - first:
+      213: -889993525254386368
+    second: Idle animation sprite sheet_718
+  - first:
+      213: -2808484670702336989
+    second: Idle animation sprite sheet_719
+  - first:
+      213: 4075245272825885904
+    second: Idle animation sprite sheet_720
+  - first:
+      213: -6947676357311353567
+    second: Idle animation sprite sheet_721
+  - first:
+      213: 130701934625853172
+    second: Idle animation sprite sheet_722
+  - first:
+      213: 5706030137524987628
+    second: Idle animation sprite sheet_723
+  - first:
+      213: -615487806318602165
+    second: Idle animation sprite sheet_724
+  - first:
+      213: -3127434356433643493
+    second: Idle animation sprite sheet_725
+  - first:
+      213: -7177823004359397719
+    second: Idle animation sprite sheet_726
+  - first:
+      213: -8794581504919066336
+    second: Idle animation sprite sheet_727
+  - first:
+      213: 2276850713113306065
+    second: Idle animation sprite sheet_728
+  - first:
+      213: 8983823136201920914
+    second: Idle animation sprite sheet_729
+  - first:
+      213: -8007863113688770409
+    second: Idle animation sprite sheet_730
+  - first:
+      213: 5606066249097188829
+    second: Idle animation sprite sheet_731
+  - first:
+      213: -8628828476452049462
+    second: Idle animation sprite sheet_732
+  - first:
+      213: 4554944342344201482
+    second: Idle animation sprite sheet_733
+  - first:
+      213: 3841599614666683621
+    second: Idle animation sprite sheet_734
+  - first:
+      213: 6999132781031548619
+    second: Idle animation sprite sheet_735
+  - first:
+      213: -1672358600422539143
+    second: Idle animation sprite sheet_736
+  - first:
+      213: 8166084270994049787
+    second: Idle animation sprite sheet_737
+  - first:
+      213: -5234016744792786227
+    second: Idle animation sprite sheet_738
+  - first:
+      213: 4356778388673666624
+    second: Idle animation sprite sheet_739
+  - first:
+      213: 6822519218570249647
+    second: Idle animation sprite sheet_740
+  - first:
+      213: -8190780826740383627
+    second: Idle animation sprite sheet_741
+  - first:
+      213: 5190272726735033254
+    second: Idle animation sprite sheet_742
+  - first:
+      213: -499186655387590638
+    second: Idle animation sprite sheet_743
+  - first:
+      213: -5037088570942793166
+    second: Idle animation sprite sheet_744
+  - first:
+      213: 6675883530870160053
+    second: Idle animation sprite sheet_745
+  - first:
+      213: 930436973566153278
+    second: Idle animation sprite sheet_746
+  - first:
+      213: 7354101539907089769
+    second: Idle animation sprite sheet_747
+  - first:
+      213: 3046701021806569429
+    second: Idle animation sprite sheet_748
+  - first:
+      213: 1131086685413256039
+    second: Idle animation sprite sheet_749
+  - first:
+      213: 8910295579172539155
+    second: Idle animation sprite sheet_750
+  - first:
+      213: -8453538991154996247
+    second: Idle animation sprite sheet_751
+  - first:
+      213: -4001322837100037973
+    second: Idle animation sprite sheet_752
+  - first:
+      213: -8567840680897533732
+    second: Idle animation sprite sheet_753
+  - first:
+      213: 8735236353362899788
+    second: Idle animation sprite sheet_754
+  - first:
+      213: -3779224238815948843
+    second: Idle animation sprite sheet_755
+  - first:
+      213: -3214724001696119510
+    second: Idle animation sprite sheet_756
+  - first:
+      213: 2421687254475477942
+    second: Idle animation sprite sheet_757
+  - first:
+      213: 252405639146092397
+    second: Idle animation sprite sheet_758
+  - first:
+      213: 5224779449554167535
+    second: Idle animation sprite sheet_759
+  - first:
+      213: -7956368970891860908
+    second: Idle animation sprite sheet_760
+  - first:
+      213: -2626040624809367601
+    second: Idle animation sprite sheet_761
+  - first:
+      213: 8583543539519659583
+    second: Idle animation sprite sheet_762
+  - first:
+      213: -8000874765252154903
+    second: Idle animation sprite sheet_763
+  - first:
+      213: -4692522166782824368
+    second: Idle animation sprite sheet_764
+  - first:
+      213: 8136821602183128615
+    second: Idle animation sprite sheet_765
+  - first:
+      213: 3055409600334325761
+    second: Idle animation sprite sheet_766
+  - first:
+      213: -1521027096673526931
+    second: Idle animation sprite sheet_767
+  - first:
+      213: 7098082253288118406
+    second: Idle animation sprite sheet_768
+  - first:
+      213: -4503460620883050312
+    second: Idle animation sprite sheet_769
+  - first:
+      213: 5915938608197712260
+    second: Idle animation sprite sheet_770
+  - first:
+      213: -6320113751829274075
+    second: Idle animation sprite sheet_771
+  - first:
+      213: -5232052081301355385
+    second: Idle animation sprite sheet_772
+  - first:
+      213: 1024687892100845179
+    second: Idle animation sprite sheet_773
+  - first:
+      213: -604660855461686559
+    second: Idle animation sprite sheet_774
+  - first:
+      213: 154784119039831900
+    second: Idle animation sprite sheet_775
+  - first:
+      213: -8587010006099937968
+    second: Idle animation sprite sheet_776
+  - first:
+      213: 1799094923229652659
+    second: Idle animation sprite sheet_777
+  - first:
+      213: -3738604099417058529
+    second: Idle animation sprite sheet_778
+  - first:
+      213: 2093230933465755978
+    second: Idle animation sprite sheet_779
+  - first:
+      213: 2025770078014788650
+    second: Idle animation sprite sheet_780
+  - first:
+      213: -6654378187801713389
+    second: Idle animation sprite sheet_781
+  - first:
+      213: -1531180870498824631
+    second: Idle animation sprite sheet_782
+  - first:
+      213: -2084194131933850570
+    second: Idle animation sprite sheet_783
+  - first:
+      213: 4891519402782825224
+    second: Idle animation sprite sheet_784
+  - first:
+      213: -3481025639621441289
+    second: Idle animation sprite sheet_785
+  - first:
+      213: 3270537153461706910
+    second: Idle animation sprite sheet_786
+  - first:
+      213: 4376109177186807496
+    second: Idle animation sprite sheet_787
+  - first:
+      213: 423185816937089508
+    second: Idle animation sprite sheet_788
+  - first:
+      213: 2235528969591088045
+    second: Idle animation sprite sheet_789
+  - first:
+      213: 7982424527554048563
+    second: Idle animation sprite sheet_790
+  - first:
+      213: 6556259921026745144
+    second: Idle animation sprite sheet_791
+  - first:
+      213: 8022079518348390115
+    second: Idle animation sprite sheet_792
+  - first:
+      213: 1953547732902366833
+    second: Idle animation sprite sheet_793
+  - first:
+      213: -5138168150794303408
+    second: Idle animation sprite sheet_794
+  - first:
+      213: -6895349283462900349
+    second: Idle animation sprite sheet_795
+  - first:
+      213: -4414025650979896888
+    second: Idle animation sprite sheet_796
+  - first:
+      213: -159540882073545550
+    second: Idle animation sprite sheet_797
+  - first:
+      213: 509917134481698813
+    second: Idle animation sprite sheet_798
+  - first:
+      213: -4169766943040467976
+    second: Idle animation sprite sheet_799
+  - first:
+      213: 2339472431831078118
+    second: Idle animation sprite sheet_800
+  - first:
+      213: -8276942300931039255
+    second: Idle animation sprite sheet_801
+  - first:
+      213: -156010409550686147
+    second: Idle animation sprite sheet_802
+  - first:
+      213: -1636030404966040058
+    second: Idle animation sprite sheet_803
+  - first:
+      213: 538430317155613626
+    second: Idle animation sprite sheet_804
+  - first:
+      213: 9187702704527423468
+    second: Idle animation sprite sheet_805
+  - first:
+      213: 6243627277543429388
+    second: Idle animation sprite sheet_806
+  - first:
+      213: -1336445039992872282
+    second: Idle animation sprite sheet_807
+  - first:
+      213: 2008274463934686636
+    second: Idle animation sprite sheet_808
+  - first:
+      213: 1618062820289488741
+    second: Idle animation sprite sheet_809
+  - first:
+      213: 454263112120689174
+    second: Idle animation sprite sheet_810
+  - first:
+      213: 4166133190330972387
+    second: Idle animation sprite sheet_811
+  - first:
+      213: -2809008808911283581
+    second: Idle animation sprite sheet_812
+  - first:
+      213: 3150330983119436070
+    second: Idle animation sprite sheet_813
+  - first:
+      213: -775103509730314071
+    second: Idle animation sprite sheet_814
+  - first:
+      213: 3072314861362128464
+    second: Idle animation sprite sheet_815
+  - first:
+      213: -6175472207266056818
+    second: Idle animation sprite sheet_816
+  - first:
+      213: -3303357795421904079
+    second: Idle animation sprite sheet_817
+  - first:
+      213: -5583996104396958248
+    second: Idle animation sprite sheet_818
+  - first:
+      213: 3022321865795127593
+    second: Idle animation sprite sheet_819
+  - first:
+      213: -7389662100406410288
+    second: Idle animation sprite sheet_820
+  - first:
+      213: 6178787247289893
+    second: Idle animation sprite sheet_821
+  - first:
+      213: 8942720790408904948
+    second: Idle animation sprite sheet_822
+  - first:
+      213: 1295133555355297373
+    second: Idle animation sprite sheet_823
+  - first:
+      213: -1558376989230238992
+    second: Idle animation sprite sheet_824
+  - first:
+      213: -2952484848872716602
+    second: Idle animation sprite sheet_825
+  - first:
+      213: -6520192948553312707
+    second: Idle animation sprite sheet_826
+  - first:
+      213: -1536749185793986414
+    second: Idle animation sprite sheet_827
+  - first:
+      213: -8433294930493401172
+    second: Idle animation sprite sheet_828
+  - first:
+      213: -9192108787623577106
+    second: Idle animation sprite sheet_829
+  - first:
+      213: 85705790075008491
+    second: Idle animation sprite sheet_830
+  - first:
+      213: -7372245433710734884
+    second: Idle animation sprite sheet_831
+  - first:
+      213: -3949358626453832194
+    second: Idle animation sprite sheet_832
+  - first:
+      213: -915991626249270296
+    second: Idle animation sprite sheet_833
+  - first:
+      213: -2955955855353345860
+    second: Idle animation sprite sheet_834
+  - first:
+      213: -6939521060837225012
+    second: Idle animation sprite sheet_835
+  - first:
+      213: 4365595432364409747
+    second: Idle animation sprite sheet_836
+  - first:
+      213: -435864535240413901
+    second: Idle animation sprite sheet_837
+  - first:
+      213: -1152563701057186391
+    second: Idle animation sprite sheet_838
+  - first:
+      213: -4608509740818097998
+    second: Idle animation sprite sheet_839
+  - first:
+      213: -2019925877302364978
+    second: Idle animation sprite sheet_840
+  - first:
+      213: 2903675136440861028
+    second: Idle animation sprite sheet_841
+  - first:
+      213: -2419147433650248295
+    second: Idle animation sprite sheet_842
+  - first:
+      213: 2659797816924691045
+    second: Idle animation sprite sheet_843
+  - first:
+      213: 1055027924452486460
+    second: Idle animation sprite sheet_844
+  - first:
+      213: -966046036741394363
+    second: Idle animation sprite sheet_845
+  - first:
+      213: -91284986250281231
+    second: Idle animation sprite sheet_846
+  - first:
+      213: -3422642030246449933
+    second: Idle animation sprite sheet_847
+  - first:
+      213: -3481689504949153907
+    second: Idle animation sprite sheet_848
+  - first:
+      213: -2185861983441480108
+    second: Idle animation sprite sheet_849
+  - first:
+      213: 490173120564099429
+    second: Idle animation sprite sheet_850
+  - first:
+      213: 4075636802105337574
+    second: Idle animation sprite sheet_851
+  - first:
+      213: -4012995993942339276
+    second: Idle animation sprite sheet_852
+  - first:
+      213: 7535283308228946101
+    second: Idle animation sprite sheet_853
+  - first:
+      213: 3028933889187962964
+    second: Idle animation sprite sheet_854
+  - first:
+      213: -3764316622551165529
+    second: Idle animation sprite sheet_855
+  - first:
+      213: 8062118747255203150
+    second: Idle animation sprite sheet_856
+  - first:
+      213: -2735425619097661583
+    second: Idle animation sprite sheet_857
+  - first:
+      213: -7083590741830558430
+    second: Idle animation sprite sheet_858
+  - first:
+      213: -4314541238920834814
+    second: Idle animation sprite sheet_859
+  - first:
+      213: 8717412394267747816
+    second: Idle animation sprite sheet_860
+  - first:
+      213: -2025115751977903162
+    second: Idle animation sprite sheet_861
+  - first:
+      213: 7005443458455081271
+    second: Idle animation sprite sheet_862
+  - first:
+      213: 5305058480302229127
+    second: Idle animation sprite sheet_863
+  - first:
+      213: 3021223985919229170
+    second: Idle animation sprite sheet_864
+  - first:
+      213: -7906445583458760085
+    second: Idle animation sprite sheet_865
+  - first:
+      213: -2746432391727306756
+    second: Idle animation sprite sheet_866
+  - first:
+      213: 1321033544731354488
+    second: Idle animation sprite sheet_867
+  - first:
+      213: 5653055486431789
+    second: Idle animation sprite sheet_868
+  - first:
+      213: -7254594842198894330
+    second: Idle animation sprite sheet_869
+  - first:
+      213: -2736720662840246101
+    second: Idle animation sprite sheet_870
+  - first:
+      213: -4699335108734210166
+    second: Idle animation sprite sheet_871
+  - first:
+      213: -7568880708278557449
+    second: Idle animation sprite sheet_872
+  - first:
+      213: -7055203793968507771
+    second: Idle animation sprite sheet_873
+  - first:
+      213: -3128726273339429791
+    second: Idle animation sprite sheet_874
+  - first:
+      213: 6081484226311702670
+    second: Idle animation sprite sheet_875
+  - first:
+      213: -4615800669646362401
+    second: Idle animation sprite sheet_876
+  - first:
+      213: -9021207889065043766
+    second: Idle animation sprite sheet_877
+  - first:
+      213: 6128755972110195560
+    second: Idle animation sprite sheet_878
+  - first:
+      213: -6828090311498207101
+    second: Idle animation sprite sheet_879
+  - first:
+      213: -6656518884830783170
+    second: Idle animation sprite sheet_880
+  - first:
+      213: 352999076589674479
+    second: Idle animation sprite sheet_881
+  - first:
+      213: -9220893957502765722
+    second: Idle animation sprite sheet_882
+  - first:
+      213: -7297290531485744857
+    second: Idle animation sprite sheet_883
+  - first:
+      213: 6036406068322591865
+    second: Idle animation sprite sheet_884
+  - first:
+      213: 2125262050759178513
+    second: Idle animation sprite sheet_885
+  - first:
+      213: -8558383302825530038
+    second: Idle animation sprite sheet_886
+  - first:
+      213: -5473040756947537819
+    second: Idle animation sprite sheet_887
+  - first:
+      213: 4543141703521641848
+    second: Idle animation sprite sheet_888
+  - first:
+      213: 7902390295789426074
+    second: Idle animation sprite sheet_889
+  - first:
+      213: 5977115721881048916
+    second: Idle animation sprite sheet_890
+  - first:
+      213: 6908364041453223682
+    second: Idle animation sprite sheet_891
+  - first:
+      213: -6551927404212087418
+    second: Idle animation sprite sheet_892
+  - first:
+      213: -8524490528375331985
+    second: Idle animation sprite sheet_893
+  - first:
+      213: 2367596938293125603
+    second: Idle animation sprite sheet_894
+  - first:
+      213: -1022673973606739361
+    second: Idle animation sprite sheet_895
+  - first:
+      213: -8445370071457654079
+    second: Idle animation sprite sheet_896
+  - first:
+      213: 2416196223399954389
+    second: Idle animation sprite sheet_897
+  - first:
+      213: -7695893269186636347
+    second: Idle animation sprite sheet_898
+  - first:
+      213: -31952197189348960
+    second: Idle animation sprite sheet_899
+  - first:
+      213: -1746588166137469707
+    second: Idle animation sprite sheet_900
+  - first:
+      213: 7702138876182396854
+    second: Idle animation sprite sheet_901
+  - first:
+      213: 8366599722732068756
+    second: Idle animation sprite sheet_902
+  - first:
+      213: -1004059288571722682
+    second: Idle animation sprite sheet_903
+  - first:
+      213: -2153394433173237460
+    second: Idle animation sprite sheet_904
+  - first:
+      213: 1084702234211825204
+    second: Idle animation sprite sheet_905
+  - first:
+      213: 6020987090915649138
+    second: Idle animation sprite sheet_906
+  - first:
+      213: -2368995393772125461
+    second: Idle animation sprite sheet_907
+  - first:
+      213: -2532484597190061703
+    second: Idle animation sprite sheet_908
+  - first:
+      213: -6416492294607870474
+    second: Idle animation sprite sheet_909
+  - first:
+      213: 5894270569995361880
+    second: Idle animation sprite sheet_910
+  - first:
+      213: -8378606756685215708
+    second: Idle animation sprite sheet_911
+  - first:
+      213: 7861730360740681260
+    second: Idle animation sprite sheet_912
+  - first:
+      213: 6627045774671208677
+    second: Idle animation sprite sheet_913
+  - first:
+      213: 108007659109548348
+    second: Idle animation sprite sheet_914
+  - first:
+      213: 315030859720702210
+    second: Idle animation sprite sheet_915
+  - first:
+      213: -6290479922230523689
+    second: Idle animation sprite sheet_916
+  - first:
+      213: 6416785813742781119
+    second: Idle animation sprite sheet_917
+  - first:
+      213: -5006049322902613769
+    second: Idle animation sprite sheet_918
+  - first:
+      213: 5628937139126491108
+    second: Idle animation sprite sheet_919
+  - first:
+      213: -5106507661482808512
+    second: Idle animation sprite sheet_920
+  - first:
+      213: 1444806091741770447
+    second: Idle animation sprite sheet_921
+  - first:
+      213: -3283346206351863260
+    second: Idle animation sprite sheet_922
+  - first:
+      213: 3186821108980719727
+    second: Idle animation sprite sheet_923
+  - first:
+      213: 1744100647292861325
+    second: Idle animation sprite sheet_924
+  - first:
+      213: 3635777936854830155
+    second: Idle animation sprite sheet_925
+  - first:
+      213: -5256319213082838634
+    second: Idle animation sprite sheet_926
+  - first:
+      213: -4120023730509180915
+    second: Idle animation sprite sheet_927
+  - first:
+      213: 5494665639752104302
+    second: Idle animation sprite sheet_928
+  - first:
+      213: -5287806642890014585
+    second: Idle animation sprite sheet_929
+  - first:
+      213: 3859648417434373778
+    second: Idle animation sprite sheet_930
+  - first:
+      213: -7384298198451979934
+    second: Idle animation sprite sheet_931
+  - first:
+      213: -7460416875353289517
+    second: Idle animation sprite sheet_932
+  - first:
+      213: 4685345549281620092
+    second: Idle animation sprite sheet_933
+  - first:
+      213: -7242577165497459945
+    second: Idle animation sprite sheet_934
+  - first:
+      213: 30974588111156194
+    second: Idle animation sprite sheet_935
+  - first:
+      213: -4173984066734531729
+    second: Idle animation sprite sheet_936
+  - first:
+      213: -7765551959034645023
+    second: Idle animation sprite sheet_937
+  - first:
+      213: -5329005450494460105
+    second: Idle animation sprite sheet_938
+  - first:
+      213: -7116414086119694087
+    second: Idle animation sprite sheet_939
+  - first:
+      213: -389000659715819667
+    second: Idle animation sprite sheet_940
+  - first:
+      213: 3810331964413907309
+    second: Idle animation sprite sheet_941
+  - first:
+      213: 1911330302168764913
+    second: Idle animation sprite sheet_942
+  - first:
+      213: 1277579566348784861
+    second: Idle animation sprite sheet_943
+  - first:
+      213: 7175159494310539512
+    second: Idle animation sprite sheet_944
+  - first:
+      213: 4371407960461513055
+    second: Idle animation sprite sheet_945
+  - first:
+      213: -4711861301548547281
+    second: Idle animation sprite sheet_946
+  - first:
+      213: -2173581263315029615
+    second: Idle animation sprite sheet_947
+  - first:
+      213: -4080493164280020554
+    second: Idle animation sprite sheet_948
+  - first:
+      213: 4910259974944119228
+    second: Idle animation sprite sheet_949
+  - first:
+      213: 6571947781434643302
+    second: Idle animation sprite sheet_950
+  - first:
+      213: 5158330842497080162
+    second: Idle animation sprite sheet_951
+  - first:
+      213: -2342881059516947061
+    second: Idle animation sprite sheet_952
+  - first:
+      213: -516013908882577245
+    second: Idle animation sprite sheet_953
+  - first:
+      213: 5858650760373382214
+    second: Idle animation sprite sheet_954
+  - first:
+      213: 407282941057105551
+    second: Idle animation sprite sheet_955
+  - first:
+      213: 6796958675214583958
+    second: Idle animation sprite sheet_956
+  - first:
+      213: -7790323288692781145
+    second: Idle animation sprite sheet_957
+  - first:
+      213: -7879244610213816972
+    second: Idle animation sprite sheet_958
+  - first:
+      213: 7909452700991122234
+    second: Idle animation sprite sheet_959
+  - first:
+      213: -6879624515981128195
+    second: Idle animation sprite sheet_960
+  - first:
+      213: 5519354741687571714
+    second: Idle animation sprite sheet_961
+  - first:
+      213: 3617330828097000375
+    second: Idle animation sprite sheet_962
+  - first:
+      213: 6445867109394735967
+    second: Idle animation sprite sheet_963
+  - first:
+      213: -6652127654599473781
+    second: Idle animation sprite sheet_964
+  - first:
+      213: 4232552358993806569
+    second: Idle animation sprite sheet_965
+  - first:
+      213: 5666984965307792648
+    second: Idle animation sprite sheet_966
+  - first:
+      213: -7973283868837806550
+    second: Idle animation sprite sheet_967
+  - first:
+      213: 9178072076147500382
+    second: Idle animation sprite sheet_968
+  - first:
+      213: 7206048109788155966
+    second: Idle animation sprite sheet_969
+  - first:
+      213: -4813874815782304082
+    second: Idle animation sprite sheet_970
+  - first:
+      213: 7362226225481427890
+    second: Idle animation sprite sheet_971
+  - first:
+      213: -7527773806617507117
+    second: Idle animation sprite sheet_972
+  - first:
+      213: -7599540915325725589
+    second: Idle animation sprite sheet_973
+  - first:
+      213: 2344041063386166699
+    second: Idle animation sprite sheet_974
+  - first:
+      213: 4361941802156778945
+    second: Idle animation sprite sheet_975
+  - first:
+      213: -1711826283194820289
+    second: Idle animation sprite sheet_976
+  - first:
+      213: 2508440043417210886
+    second: Idle animation sprite sheet_977
+  - first:
+      213: -5540206999922717864
+    second: Idle animation sprite sheet_978
+  - first:
+      213: 991150010545180354
+    second: Idle animation sprite sheet_979
+  - first:
+      213: 6837356937092525716
+    second: Idle animation sprite sheet_980
+  - first:
+      213: -2650108487709774079
+    second: Idle animation sprite sheet_981
+  - first:
+      213: 8189647801514988151
+    second: Idle animation sprite sheet_982
+  - first:
+      213: 6481027752343937288
+    second: Idle animation sprite sheet_983
+  - first:
+      213: -7212198110196144007
+    second: Idle animation sprite sheet_984
+  - first:
+      213: 1396349024238056266
+    second: Idle animation sprite sheet_985
+  - first:
+      213: -7930599939374810347
+    second: Idle animation sprite sheet_986
+  - first:
+      213: 5810972658348762013
+    second: Idle animation sprite sheet_987
+  - first:
+      213: 3553817125043583624
+    second: Idle animation sprite sheet_988
+  - first:
+      213: 2026359087594701379
+    second: Idle animation sprite sheet_989
+  - first:
+      213: -5672919853760265349
+    second: Idle animation sprite sheet_990
+  - first:
+      213: -4393967588041934936
+    second: Idle animation sprite sheet_991
+  - first:
+      213: 1298917103872360306
+    second: Idle animation sprite sheet_992
+  - first:
+      213: 7924617466644798446
+    second: Idle animation sprite sheet_993
+  - first:
+      213: -2501154777709057724
+    second: Idle animation sprite sheet_994
+  - first:
+      213: -2689465897972920465
+    second: Idle animation sprite sheet_995
+  - first:
+      213: -762604308879778207
+    second: Idle animation sprite sheet_996
+  - first:
+      213: -7090642136759440121
+    second: Idle animation sprite sheet_997
+  - first:
+      213: 7025320930723208418
+    second: Idle animation sprite sheet_998
+  - first:
+      213: 459103292612347191
+    second: Idle animation sprite sheet_999
+  - first:
+      213: -3995784196543155912
+    second: Idle animation sprite sheet_1000
+  - first:
+      213: 4698312860295996327
+    second: Idle animation sprite sheet_1001
+  - first:
+      213: -8975806598168378705
+    second: Idle animation sprite sheet_1002
+  - first:
+      213: -3871502395418488015
+    second: Idle animation sprite sheet_1003
+  - first:
+      213: -6445102188945922216
+    second: Idle animation sprite sheet_1004
+  - first:
+      213: -4777318092032587457
+    second: Idle animation sprite sheet_1005
+  - first:
+      213: -5604098466586648257
+    second: Idle animation sprite sheet_1006
+  - first:
+      213: -3900188639153072253
+    second: Idle animation sprite sheet_1007
+  - first:
+      213: 9075888217559963832
+    second: Idle animation sprite sheet_1008
+  - first:
+      213: -7554370255488730565
+    second: Idle animation sprite sheet_1009
+  - first:
+      213: -8200873401461497879
+    second: Idle animation sprite sheet_1010
+  - first:
+      213: -1945484416641342554
+    second: Idle animation sprite sheet_1011
+  - first:
+      213: 9033657479980950690
+    second: Idle animation sprite sheet_1012
+  - first:
+      213: 1249899979008312330
+    second: Idle animation sprite sheet_1013
+  - first:
+      213: 3057764486197468673
+    second: Idle animation sprite sheet_1014
+  - first:
+      213: 8480208533242091224
+    second: Idle animation sprite sheet_1015
+  - first:
+      213: -5474785072244312716
+    second: Idle animation sprite sheet_1016
+  - first:
+      213: 928140213592783673
+    second: Idle animation sprite sheet_1017
+  - first:
+      213: -1662850149762170183
+    second: Idle animation sprite sheet_1018
+  - first:
+      213: 4962378581622661889
+    second: Idle animation sprite sheet_1019
+  - first:
+      213: 4306603702196625249
+    second: Idle animation sprite sheet_1020
+  - first:
+      213: -4785122319155638379
+    second: Idle animation sprite sheet_1021
+  - first:
+      213: 6887411143194971465
+    second: Idle animation sprite sheet_1022
+  - first:
+      213: 6599643501509751359
+    second: Idle animation sprite sheet_1023
+  - first:
+      213: -8823428684179136364
+    second: Idle animation sprite sheet_1024
+  - first:
+      213: -1787922508373110347
+    second: Idle animation sprite sheet_1025
+  - first:
+      213: 8369210509835800340
+    second: Idle animation sprite sheet_1026
+  - first:
+      213: 3354829219523970152
+    second: Idle animation sprite sheet_1027
+  - first:
+      213: -7144902703725353120
+    second: Idle animation sprite sheet_1028
+  - first:
+      213: 3122052833809478475
+    second: Idle animation sprite sheet_1029
+  - first:
+      213: 199347042686326743
+    second: Idle animation sprite sheet_1030
+  - first:
+      213: -4736419811076099315
+    second: Idle animation sprite sheet_1031
+  - first:
+      213: 2220398458731288697
+    second: Idle animation sprite sheet_1032
+  - first:
+      213: -4833520290931309005
+    second: Idle animation sprite sheet_1033
+  - first:
+      213: -3122223111397195362
+    second: Idle animation sprite sheet_1034
+  - first:
+      213: 7925103054073093053
+    second: Idle animation sprite sheet_1035
+  - first:
+      213: 5785127114071692065
+    second: Idle animation sprite sheet_1036
+  - first:
+      213: 4431381677352764572
+    second: Idle animation sprite sheet_1037
+  - first:
+      213: -5423213745398029058
+    second: Idle animation sprite sheet_1038
+  - first:
+      213: -4537106216798034946
+    second: Idle animation sprite sheet_1039
+  - first:
+      213: 4465895662636231799
+    second: Idle animation sprite sheet_1040
+  - first:
+      213: -1127014149284758468
+    second: Idle animation sprite sheet_1041
+  - first:
+      213: 5408952789075884358
+    second: Idle animation sprite sheet_1042
+  - first:
+      213: 992702616320953569
+    second: Idle animation sprite sheet_1043
+  - first:
+      213: 368185483420891830
+    second: Idle animation sprite sheet_1044
+  - first:
+      213: 5958840955949810036
+    second: Idle animation sprite sheet_1045
+  - first:
+      213: -3162307029302339070
+    second: Idle animation sprite sheet_1046
+  - first:
+      213: -1552463682209880049
+    second: Idle animation sprite sheet_1047
+  - first:
+      213: -5706752300047621175
+    second: Idle animation sprite sheet_1048
+  - first:
+      213: -3212781575641170794
+    second: Idle animation sprite sheet_1049
+  - first:
+      213: 2555922463369299290
+    second: Idle animation sprite sheet_1050
+  - first:
+      213: -593658849995259890
+    second: Idle animation sprite sheet_1051
+  - first:
+      213: -4666968988118234414
+    second: Idle animation sprite sheet_1052
+  - first:
+      213: -1917158290630174713
+    second: Idle animation sprite sheet_1053
+  - first:
+      213: 7440951517894009182
+    second: Idle animation sprite sheet_1054
+  - first:
+      213: -1417015293473394416
+    second: Idle animation sprite sheet_1055
+  - first:
+      213: -7418490234297453612
+    second: Idle animation sprite sheet_1056
+  - first:
+      213: 3359782248995704993
+    second: Idle animation sprite sheet_1057
+  - first:
+      213: -1237836220070070269
+    second: Idle animation sprite sheet_1058
+  - first:
+      213: -6306430829532403255
+    second: Idle animation sprite sheet_1059
+  - first:
+      213: -8021734893230244839
+    second: Idle animation sprite sheet_1060
+  - first:
+      213: 2113298191720274536
+    second: Idle animation sprite sheet_1061
+  - first:
+      213: -3229266931314245862
+    second: Idle animation sprite sheet_1062
+  - first:
+      213: -4100079087616928330
+    second: Idle animation sprite sheet_1063
+  - first:
+      213: -7678601831143465723
+    second: Idle animation sprite sheet_1064
+  - first:
+      213: -568795501712869170
+    second: Idle animation sprite sheet_1065
+  - first:
+      213: -8592546413357430975
+    second: Idle animation sprite sheet_1066
+  - first:
+      213: 4609997943703844719
+    second: Idle animation sprite sheet_1067
+  - first:
+      213: 8044250623411601781
+    second: Idle animation sprite sheet_1068
+  - first:
+      213: -2826713137732364060
+    second: Idle animation sprite sheet_1069
+  - first:
+      213: -2965718080957135922
+    second: Idle animation sprite sheet_1070
+  - first:
+      213: 2360514766948223946
+    second: Idle animation sprite sheet_1071
+  - first:
+      213: -7377787316190026369
+    second: Idle animation sprite sheet_1072
+  - first:
+      213: 7902650472393435596
+    second: Idle animation sprite sheet_1073
+  - first:
+      213: 7010155415317563893
+    second: Idle animation sprite sheet_1074
+  - first:
+      213: 6311315575834813568
+    second: Idle animation sprite sheet_1075
+  - first:
+      213: -5821282380084147439
+    second: Idle animation sprite sheet_1076
+  - first:
+      213: -4930630811270503282
+    second: Idle animation sprite sheet_1077
+  - first:
+      213: 4055940281970210824
+    second: Idle animation sprite sheet_1078
+  - first:
+      213: 1138117321407412734
+    second: Idle animation sprite sheet_1079
+  - first:
+      213: -2272583593322973885
+    second: Idle animation sprite sheet_1080
+  - first:
+      213: -7674903447953731805
+    second: Idle animation sprite sheet_1081
+  - first:
+      213: -2910780920763974354
+    second: Idle animation sprite sheet_1082
+  - first:
+      213: -1490703633682452833
+    second: Idle animation sprite sheet_1083
+  - first:
+      213: 6810344864900675118
+    second: Idle animation sprite sheet_1084
+  - first:
+      213: -6737602768577057400
+    second: Idle animation sprite sheet_1085
+  - first:
+      213: 8596956090170861268
+    second: Idle animation sprite sheet_1086
+  - first:
+      213: 2267366319748242244
+    second: Idle animation sprite sheet_1087
+  - first:
+      213: 5726836320432697462
+    second: Idle animation sprite sheet_1088
+  - first:
+      213: -4898994450821520314
+    second: Idle animation sprite sheet_1089
+  - first:
+      213: -2584624503406178691
+    second: Idle animation sprite sheet_1090
+  - first:
+      213: 4640716513259383939
+    second: Idle animation sprite sheet_1091
+  - first:
+      213: 4483638700061897969
+    second: Idle animation sprite sheet_1092
+  - first:
+      213: 6976305507284423409
+    second: Idle animation sprite sheet_1093
+  - first:
+      213: 4097155066387925433
+    second: Idle animation sprite sheet_1094
+  - first:
+      213: 6830899464307600843
+    second: Idle animation sprite sheet_1095
+  - first:
+      213: 5213419465682266378
+    second: Idle animation sprite sheet_1096
+  - first:
+      213: -9134043503650079529
+    second: Idle animation sprite sheet_1097
+  - first:
+      213: 3910469379311861644
+    second: Idle animation sprite sheet_1098
+  - first:
+      213: 3004163225061039032
+    second: Idle animation sprite sheet_1099
+  - first:
+      213: 8685092746787869615
+    second: Idle animation sprite sheet_1100
+  - first:
+      213: -7942690668544780923
+    second: Idle animation sprite sheet_1101
+  - first:
+      213: -370361852453141931
+    second: Idle animation sprite sheet_1102
+  - first:
+      213: -7999539896930429651
+    second: Idle animation sprite sheet_1103
+  - first:
+      213: -8286396466032546791
+    second: Idle animation sprite sheet_1104
+  - first:
+      213: 1875859161464987470
+    second: Idle animation sprite sheet_1105
+  - first:
+      213: 8020090480030715830
+    second: Idle animation sprite sheet_1106
+  - first:
+      213: -1828056515611461597
+    second: Idle animation sprite sheet_1107
+  - first:
+      213: -8095187326052592128
+    second: Idle animation sprite sheet_1108
+  - first:
+      213: 6566342434315353417
+    second: Idle animation sprite sheet_1109
+  - first:
+      213: 889303401154353320
+    second: Idle animation sprite sheet_1110
+  - first:
+      213: 8192246967034419297
+    second: Idle animation sprite sheet_1111
+  - first:
+      213: -7772054846512735583
+    second: Idle animation sprite sheet_1112
+  - first:
+      213: -1502743535818527004
+    second: Idle animation sprite sheet_1113
+  - first:
+      213: -1389231976016454267
+    second: Idle animation sprite sheet_1114
+  - first:
+      213: -4482282627359300156
+    second: Idle animation sprite sheet_1115
+  - first:
+      213: 2942796885720439324
+    second: Idle animation sprite sheet_1116
+  - first:
+      213: -2376420857956613383
+    second: Idle animation sprite sheet_1117
+  - first:
+      213: 3899145423107413193
+    second: Idle animation sprite sheet_1118
+  - first:
+      213: 6195574150568780777
+    second: Idle animation sprite sheet_1119
+  - first:
+      213: 8199149604823965446
+    second: Idle animation sprite sheet_1120
+  - first:
+      213: 6077461677576192196
+    second: Idle animation sprite sheet_1121
+  - first:
+      213: -3240652893505032289
+    second: Idle animation sprite sheet_1122
+  - first:
+      213: -5623847839510435842
+    second: Idle animation sprite sheet_1123
+  - first:
+      213: -2172796341095812637
+    second: Idle animation sprite sheet_1124
+  - first:
+      213: -1668537997755125154
+    second: Idle animation sprite sheet_1125
+  - first:
+      213: 6173221667328326972
+    second: Idle animation sprite sheet_1126
+  - first:
+      213: -2344706143084537532
+    second: Idle animation sprite sheet_1127
+  - first:
+      213: 5455163261599411377
+    second: Idle animation sprite sheet_1128
+  - first:
+      213: 5901025477411957452
+    second: Idle animation sprite sheet_1129
+  - first:
+      213: -8018516753158419219
+    second: Idle animation sprite sheet_1130
+  - first:
+      213: -1715938086814213882
+    second: Idle animation sprite sheet_1131
+  - first:
+      213: -9058253871235829572
+    second: Idle animation sprite sheet_1132
+  - first:
+      213: -428195191849052627
+    second: Idle animation sprite sheet_1133
+  - first:
+      213: -2605456363816212983
+    second: Idle animation sprite sheet_1134
+  - first:
+      213: 167856519489934125
+    second: Idle animation sprite sheet_1135
+  - first:
+      213: 6107170887107125862
+    second: Idle animation sprite sheet_1136
+  - first:
+      213: 7722397144878514696
+    second: Idle animation sprite sheet_1137
+  - first:
+      213: 130839824912271814
+    second: Idle animation sprite sheet_1138
+  - first:
+      213: -1831326383932504363
+    second: Idle animation sprite sheet_1139
+  - first:
+      213: -4362193084178097228
+    second: Idle animation sprite sheet_1140
+  - first:
+      213: 7381569205972795713
+    second: Idle animation sprite sheet_1141
+  - first:
+      213: -8803279699311071086
+    second: Idle animation sprite sheet_1142
+  - first:
+      213: 3564335557161392269
+    second: Idle animation sprite sheet_1143
+  - first:
+      213: 7743690964477353661
+    second: Idle animation sprite sheet_1144
+  - first:
+      213: 2176329593892161180
+    second: Idle animation sprite sheet_1145
+  - first:
+      213: -3425543860174216804
+    second: Idle animation sprite sheet_1146
+  - first:
+      213: 2177737734471351622
+    second: Idle animation sprite sheet_1147
+  - first:
+      213: 2770220786199521909
+    second: Idle animation sprite sheet_1148
+  - first:
+      213: -8333692006698440909
+    second: Idle animation sprite sheet_1149
+  - first:
+      213: -2557630265017183499
+    second: Idle animation sprite sheet_1150
+  - first:
+      213: 6222973732649463242
+    second: Idle animation sprite sheet_1151
+  - first:
+      213: -5513882956915286464
+    second: Idle animation sprite sheet_1152
+  - first:
+      213: -9054419991877354500
+    second: Idle animation sprite sheet_1153
+  - first:
+      213: -1108148805909082652
+    second: Idle animation sprite sheet_1154
+  - first:
+      213: 8142263085966501623
+    second: Idle animation sprite sheet_1155
+  - first:
+      213: -8851373041463755022
+    second: Idle animation sprite sheet_1156
+  - first:
+      213: 2680283486862052014
+    second: Idle animation sprite sheet_1157
+  - first:
+      213: -1389832349639096544
+    second: Idle animation sprite sheet_1158
+  - first:
+      213: -477564696382452763
+    second: Idle animation sprite sheet_1159
+  - first:
+      213: 1603950106292013228
+    second: Idle animation sprite sheet_1160
+  - first:
+      213: 7021944198493105629
+    second: Idle animation sprite sheet_1161
+  - first:
+      213: 8193974488717325711
+    second: Idle animation sprite sheet_1162
+  - first:
+      213: -2644270440824857937
+    second: Idle animation sprite sheet_1163
+  - first:
+      213: 7764396706519340508
+    second: Idle animation sprite sheet_1164
+  - first:
+      213: -4493040139434640620
+    second: Idle animation sprite sheet_1165
+  - first:
+      213: -4301837400317297103
+    second: Idle animation sprite sheet_1166
+  - first:
+      213: 6688855290195213234
+    second: Idle animation sprite sheet_1167
+  - first:
+      213: 1264029465845944004
+    second: Idle animation sprite sheet_1168
+  - first:
+      213: 339740354376447166
+    second: Idle animation sprite sheet_1169
+  - first:
+      213: 813193302161627758
+    second: Idle animation sprite sheet_1170
+  - first:
+      213: 3046355157714820879
+    second: Idle animation sprite sheet_1171
+  - first:
+      213: -2664190001231877050
+    second: Idle animation sprite sheet_1172
+  - first:
+      213: 1948280052260295325
+    second: Idle animation sprite sheet_1173
+  - first:
+      213: 2451545128981322573
+    second: Idle animation sprite sheet_1174
+  - first:
+      213: -8260671865826551812
+    second: Idle animation sprite sheet_1175
+  - first:
+      213: -7824232168131774152
+    second: Idle animation sprite sheet_1176
+  - first:
+      213: 1998660352191430306
+    second: Idle animation sprite sheet_1177
+  - first:
+      213: -1554832483680841862
+    second: Idle animation sprite sheet_1178
+  - first:
+      213: 8384532913655073760
+    second: Idle animation sprite sheet_1179
+  - first:
+      213: -386640439490707983
+    second: Idle animation sprite sheet_1180
+  - first:
+      213: 5897555860935524718
+    second: Idle animation sprite sheet_1181
+  - first:
+      213: -4262670499508481624
+    second: Idle animation sprite sheet_1182
+  - first:
+      213: 5943464963448020020
+    second: Idle animation sprite sheet_1183
+  - first:
+      213: -5276897166137240456
+    second: Idle animation sprite sheet_1184
+  - first:
+      213: 1053431930749324570
+    second: Idle animation sprite sheet_1185
+  - first:
+      213: -6137768830107667843
+    second: Idle animation sprite sheet_1186
+  - first:
+      213: 8000317312834624840
+    second: Idle animation sprite sheet_1187
+  - first:
+      213: 7931450225819589994
+    second: Idle animation sprite sheet_1188
+  - first:
+      213: -3331089233871658489
+    second: Idle animation sprite sheet_1189
+  - first:
+      213: -4262971996561946047
+    second: Idle animation sprite sheet_1190
+  - first:
+      213: 3028328950393423877
+    second: Idle animation sprite sheet_1191
+  - first:
+      213: -3663495231802468653
+    second: Idle animation sprite sheet_1192
+  - first:
+      213: 8029758179893759655
+    second: Idle animation sprite sheet_1193
+  - first:
+      213: -7080187804838472101
+    second: Idle animation sprite sheet_1194
+  - first:
+      213: 8489816992052116332
+    second: Idle animation sprite sheet_1195
+  - first:
+      213: 4785483522200858366
+    second: Idle animation sprite sheet_1196
+  - first:
+      213: -9158042656655565925
+    second: Idle animation sprite sheet_1197
+  - first:
+      213: 8523056008933549751
+    second: Idle animation sprite sheet_1198
+  - first:
+      213: -8350962252103841488
+    second: Idle animation sprite sheet_1199
+  - first:
+      213: -1370158357543201240
+    second: Idle animation sprite sheet_1200
+  - first:
+      213: 8630766414775039161
+    second: Idle animation sprite sheet_1201
+  - first:
+      213: 357347643066416080
+    second: Idle animation sprite sheet_1202
+  - first:
+      213: -4846235585368197116
+    second: Idle animation sprite sheet_1203
+  - first:
+      213: -9072142751425713856
+    second: Idle animation sprite sheet_1204
+  - first:
+      213: 3094549327790724905
+    second: Idle animation sprite sheet_1205
+  - first:
+      213: 3673938918688783001
+    second: Idle animation sprite sheet_1206
+  - first:
+      213: -8910445658168031261
+    second: Idle animation sprite sheet_1207
+  - first:
+      213: -7266119576900407444
+    second: Idle animation sprite sheet_1208
+  - first:
+      213: -7215084250134486488
+    second: Idle animation sprite sheet_1209
+  - first:
+      213: -2779557166266901853
+    second: Idle animation sprite sheet_1210
+  - first:
+      213: 5535464450460589315
+    second: Idle animation sprite sheet_1211
+  - first:
+      213: -6983259882531720346
+    second: Idle animation sprite sheet_1212
+  - first:
+      213: 286176787252691432
+    second: Idle animation sprite sheet_1213
+  - first:
+      213: 5426729446217527668
+    second: Idle animation sprite sheet_1214
+  - first:
+      213: 104198561454731704
+    second: Idle animation sprite sheet_1215
+  - first:
+      213: 7233528134208864318
+    second: Idle animation sprite sheet_1216
+  - first:
+      213: 4492793560658707569
+    second: Idle animation sprite sheet_1217
+  - first:
+      213: 177102957115612086
+    second: Idle animation sprite sheet_1218
+  - first:
+      213: -1971447247347887669
+    second: Idle animation sprite sheet_1219
+  - first:
+      213: 2819329402800248346
+    second: Idle animation sprite sheet_1220
+  - first:
+      213: -3160338536004728021
+    second: Idle animation sprite sheet_1221
+  - first:
+      213: 2894837526081599258
+    second: Idle animation sprite sheet_1222
+  - first:
+      213: 26200960965589370
+    second: Idle animation sprite sheet_1223
+  - first:
+      213: -6443314254147189504
+    second: Idle animation sprite sheet_1224
+  - first:
+      213: -3521915004518080376
+    second: Idle animation sprite sheet_1225
+  - first:
+      213: -2759298995155467725
+    second: Idle animation sprite sheet_1226
+  - first:
+      213: 1151507150110153672
+    second: Idle animation sprite sheet_1227
+  - first:
+      213: -5014561002063172289
+    second: Idle animation sprite sheet_1228
+  - first:
+      213: 3450071203932069694
+    second: Idle animation sprite sheet_1229
+  - first:
+      213: 498504014910461767
+    second: Idle animation sprite sheet_1230
+  - first:
+      213: -2651108130838938825
+    second: Idle animation sprite sheet_1231
+  - first:
+      213: 5381249162317689178
+    second: Idle animation sprite sheet_1232
+  - first:
+      213: -557730550334392136
+    second: Idle animation sprite sheet_1233
+  - first:
+      213: 4725743881458524852
+    second: Idle animation sprite sheet_1234
+  - first:
+      213: 291792104121235722
+    second: Idle animation sprite sheet_1235
+  - first:
+      213: -6449188355816848262
+    second: Idle animation sprite sheet_1236
+  - first:
+      213: -6974693346077337248
+    second: Idle animation sprite sheet_1237
+  - first:
+      213: -3565872080787584224
+    second: Idle animation sprite sheet_1238
+  - first:
+      213: 3446848782752337477
+    second: Idle animation sprite sheet_1239
+  - first:
+      213: -3720409880564288308
+    second: Idle animation sprite sheet_1240
+  - first:
+      213: -7664760111373209476
+    second: Idle animation sprite sheet_1241
+  - first:
+      213: -7175377538397547172
+    second: Idle animation sprite sheet_1242
+  - first:
+      213: -5421789885865289119
+    second: Idle animation sprite sheet_1243
+  - first:
+      213: -438555531473784468
+    second: Idle animation sprite sheet_1244
+  - first:
+      213: -3372882525744402359
+    second: Idle animation sprite sheet_1245
+  - first:
+      213: 1462874556304442268
+    second: Idle animation sprite sheet_1246
+  - first:
+      213: 3453832715319975355
+    second: Idle animation sprite sheet_1247
+  - first:
+      213: 6373700449826190181
+    second: Idle animation sprite sheet_1248
+  - first:
+      213: -2393385044339054878
+    second: Idle animation sprite sheet_1249
+  - first:
+      213: -7418772586502396189
+    second: Idle animation sprite sheet_1250
+  - first:
+      213: -7886037591942953662
+    second: Idle animation sprite sheet_1251
+  - first:
+      213: -2297143739684659378
+    second: Idle animation sprite sheet_1252
+  - first:
+      213: 6555715564584115845
+    second: Idle animation sprite sheet_1253
+  - first:
+      213: 1516399761105833619
+    second: Idle animation sprite sheet_1254
+  - first:
+      213: 3859586499645896433
+    second: Idle animation sprite sheet_1255
+  - first:
+      213: -7706645442000709664
+    second: Idle animation sprite sheet_1256
+  - first:
+      213: -1709229748253384783
+    second: Idle animation sprite sheet_1257
+  - first:
+      213: -2655210957590500908
+    second: Idle animation sprite sheet_1258
+  - first:
+      213: -2059316039242885681
+    second: Idle animation sprite sheet_1259
+  - first:
+      213: -8991879459126142557
+    second: Idle animation sprite sheet_1260
+  - first:
+      213: -4029131854842860729
+    second: Idle animation sprite sheet_1261
+  - first:
+      213: 5636068359354587497
+    second: Idle animation sprite sheet_1262
+  - first:
+      213: -4173430525638151789
+    second: Idle animation sprite sheet_1263
+  - first:
+      213: -6982244459108108611
+    second: Idle animation sprite sheet_1264
+  - first:
+      213: 2536292794862043575
+    second: Idle animation sprite sheet_1265
+  - first:
+      213: 7584374355643930200
+    second: Idle animation sprite sheet_1266
+  - first:
+      213: 1651792464243055929
+    second: Idle animation sprite sheet_1267
+  - first:
+      213: -4932249557622925707
+    second: Idle animation sprite sheet_1268
+  - first:
+      213: -4769906796262549891
+    second: Idle animation sprite sheet_1269
+  - first:
+      213: 3007878415611413203
+    second: Idle animation sprite sheet_1270
+  - first:
+      213: -6714581697086214709
+    second: Idle animation sprite sheet_1271
+  - first:
+      213: 5726570506819858586
+    second: Idle animation sprite sheet_1272
+  - first:
+      213: 8860945645447018108
+    second: Idle animation sprite sheet_1273
+  - first:
+      213: -5093694398088336949
+    second: Idle animation sprite sheet_1274
+  - first:
+      213: 1920598085363067502
+    second: Idle animation sprite sheet_1275
+  - first:
+      213: -2168493222042086202
+    second: Idle animation sprite sheet_1276
+  - first:
+      213: 3045080593982467560
+    second: Idle animation sprite sheet_1277
+  - first:
+      213: -7587483407594793890
+    second: Idle animation sprite sheet_1278
+  - first:
+      213: -1595011982058490816
+    second: Idle animation sprite sheet_1279
+  - first:
+      213: -3439501090764526647
+    second: Idle animation sprite sheet_1280
+  - first:
+      213: 4715195034242811749
+    second: Idle animation sprite sheet_1281
+  - first:
+      213: 4136756417494203920
+    second: Idle animation sprite sheet_1282
+  - first:
+      213: -3395703850535637401
+    second: Idle animation sprite sheet_1283
+  - first:
+      213: 1838812127924679939
+    second: Idle animation sprite sheet_1284
+  - first:
+      213: 6018632465547168945
+    second: Idle animation sprite sheet_1285
+  - first:
+      213: -5023057148745261512
+    second: Idle animation sprite sheet_1286
+  - first:
+      213: -2561988839104095992
+    second: Idle animation sprite sheet_1287
+  - first:
+      213: 133240917150358863
+    second: Idle animation sprite sheet_1288
+  - first:
+      213: 3258138419805003023
+    second: Idle animation sprite sheet_1289
+  - first:
+      213: -4423202552149951941
+    second: Idle animation sprite sheet_1290
+  - first:
+      213: -7218531496157764376
+    second: Idle animation sprite sheet_1291
+  - first:
+      213: -4013679241624234055
+    second: Idle animation sprite sheet_1292
+  - first:
+      213: -4913866456516269842
+    second: Idle animation sprite sheet_1293
+  - first:
+      213: -5094802422220398372
+    second: Idle animation sprite sheet_1294
+  - first:
+      213: 4055510121798018910
+    second: Idle animation sprite sheet_1295
+  - first:
+      213: -8806665080841850103
+    second: Idle animation sprite sheet_1296
+  - first:
+      213: -498583705053932351
+    second: Idle animation sprite sheet_1297
+  - first:
+      213: 8735411180056343835
+    second: Idle animation sprite sheet_1298
+  - first:
+      213: 4426746891574794557
+    second: Idle animation sprite sheet_1299
+  - first:
+      213: 1629218646432162117
+    second: Idle animation sprite sheet_1300
+  - first:
+      213: 8893629506944663637
+    second: Idle animation sprite sheet_1301
+  - first:
+      213: 7750569912805730233
+    second: Idle animation sprite sheet_1302
+  - first:
+      213: 4899781346991288594
+    second: Idle animation sprite sheet_1303
+  - first:
+      213: -8350539582726108986
+    second: Idle animation sprite sheet_1304
+  - first:
+      213: -2517133883457584257
+    second: Idle animation sprite sheet_1305
+  - first:
+      213: 3898523891172164762
+    second: Idle animation sprite sheet_1306
+  - first:
+      213: 8355575164109690672
+    second: Idle animation sprite sheet_1307
+  - first:
+      213: -6021242031872552126
+    second: Idle animation sprite sheet_1308
+  - first:
+      213: -3999876949350293125
+    second: Idle animation sprite sheet_1309
+  - first:
+      213: -6967604481373029171
+    second: Idle animation sprite sheet_1310
+  - first:
+      213: -1784097205951934992
+    second: Idle animation sprite sheet_1311
+  - first:
+      213: 4176703358219757247
+    second: Idle animation sprite sheet_1312
+  - first:
+      213: 913201584612292772
+    second: Idle animation sprite sheet_1313
+  - first:
+      213: 5652519104674900537
+    second: Idle animation sprite sheet_1314
+  - first:
+      213: -1580037359584504823
+    second: Idle animation sprite sheet_1315
+  - first:
+      213: 6184443018922854591
+    second: Idle animation sprite sheet_1316
+  - first:
+      213: -5263893530824286789
+    second: Idle animation sprite sheet_1317
+  - first:
+      213: -1567585391412549530
+    second: Idle animation sprite sheet_1318
+  - first:
+      213: -2227971754250574900
+    second: Idle animation sprite sheet_1319
+  - first:
+      213: -5582771688264166710
+    second: Idle animation sprite sheet_1320
+  - first:
+      213: -319280143900127201
+    second: Idle animation sprite sheet_1321
+  - first:
+      213: -8773730775420594931
+    second: Idle animation sprite sheet_1322
+  - first:
+      213: 8095905234920261711
+    second: Idle animation sprite sheet_1323
+  - first:
+      213: 3046142256971012138
+    second: Idle animation sprite sheet_1324
+  - first:
+      213: -3367821875919590293
+    second: Idle animation sprite sheet_1325
+  - first:
+      213: 8161568607681299340
+    second: Idle animation sprite sheet_1326
+  - first:
+      213: -8034322922003280766
+    second: Idle animation sprite sheet_1327
+  - first:
+      213: -8310646566906868691
+    second: Idle animation sprite sheet_1328
+  - first:
+      213: 3501377805156623974
+    second: Idle animation sprite sheet_1329
+  - first:
+      213: 7157044817555798511
+    second: Idle animation sprite sheet_1330
+  - first:
+      213: -5715070852834032493
+    second: Idle animation sprite sheet_1331
+  - first:
+      213: 6426616753312062374
+    second: Idle animation sprite sheet_1332
+  - first:
+      213: -324021704103956385
+    second: Idle animation sprite sheet_1333
+  - first:
+      213: 271410268621867432
+    second: Idle animation sprite sheet_1334
+  - first:
+      213: 5833133195633446871
+    second: Idle animation sprite sheet_1335
+  - first:
+      213: 7614622634726980176
+    second: Idle animation sprite sheet_1336
+  - first:
+      213: -6554765363064439778
+    second: Idle animation sprite sheet_1337
+  - first:
+      213: -5028221500813308230
+    second: Idle animation sprite sheet_1338
+  - first:
+      213: -992663788235913999
+    second: Idle animation sprite sheet_1339
+  - first:
+      213: -2760528032611496845
+    second: Idle animation sprite sheet_1340
+  - first:
+      213: 4184765871376118075
+    second: Idle animation sprite sheet_1341
+  - first:
+      213: -8874043685358556053
+    second: Idle animation sprite sheet_1342
+  - first:
+      213: -2225040209349021986
+    second: Idle animation sprite sheet_1343
+  - first:
+      213: 5320507279940527383
+    second: Idle animation sprite sheet_1344
+  - first:
+      213: -6590316245805686290
+    second: Idle animation sprite sheet_1345
+  - first:
+      213: 8572832593540013235
+    second: Idle animation sprite sheet_1346
+  - first:
+      213: -3369493194864100980
+    second: Idle animation sprite sheet_1347
+  - first:
+      213: 3134169760622703410
+    second: Idle animation sprite sheet_1348
+  - first:
+      213: 4680221884245652776
+    second: Idle animation sprite sheet_1349
+  - first:
+      213: -4583629342969830813
+    second: Idle animation sprite sheet_1350
+  - first:
+      213: 826026731677197493
+    second: Idle animation sprite sheet_1351
+  - first:
+      213: -5903115918182461084
+    second: Idle animation sprite sheet_1352
+  - first:
+      213: -7168194013048005915
+    second: Idle animation sprite sheet_1353
+  - first:
+      213: 5691234108942240988
+    second: Idle animation sprite sheet_1354
+  - first:
+      213: -35749905129267006
+    second: Idle animation sprite sheet_1355
+  - first:
+      213: 1738147725035224835
+    second: Idle animation sprite sheet_1356
+  - first:
+      213: -7848931754311646955
+    second: Idle animation sprite sheet_1357
+  - first:
+      213: 3496282438617627198
+    second: Idle animation sprite sheet_1358
+  - first:
+      213: -8763425771941538838
+    second: Idle animation sprite sheet_1359
+  - first:
+      213: -1413112046653473324
+    second: Idle animation sprite sheet_1360
+  - first:
+      213: -5209934850496179031
+    second: Idle animation sprite sheet_1361
+  - first:
+      213: -1708737658100453071
+    second: Idle animation sprite sheet_1362
+  - first:
+      213: 3772242569488493498
+    second: Idle animation sprite sheet_1363
+  - first:
+      213: -9036325504804672909
+    second: Idle animation sprite sheet_1364
+  - first:
+      213: -7073845244398973370
+    second: Idle animation sprite sheet_1365
+  - first:
+      213: -7897919479623228610
+    second: Idle animation sprite sheet_1366
+  - first:
+      213: -2860661010687189322
+    second: Idle animation sprite sheet_1367
+  - first:
+      213: 3430941608470322054
+    second: Idle animation sprite sheet_1368
+  - first:
+      213: -941255647710732425
+    second: Idle animation sprite sheet_1369
+  - first:
+      213: -4612851651727615821
+    second: Idle animation sprite sheet_1370
+  - first:
+      213: -6987039875768227648
+    second: Idle animation sprite sheet_1371
+  - first:
+      213: 4756790589895894955
+    second: Idle animation sprite sheet_1372
+  - first:
+      213: 1225513780936783550
+    second: Idle animation sprite sheet_1373
+  - first:
+      213: -5431914956043514081
+    second: Idle animation sprite sheet_1374
+  - first:
+      213: -4624471142426930932
+    second: Idle animation sprite sheet_1375
+  - first:
+      213: -2853875183218884463
+    second: Idle animation sprite sheet_1376
+  - first:
+      213: -7912158371637415389
+    second: Idle animation sprite sheet_1377
+  - first:
+      213: 7588680703516886506
+    second: Idle animation sprite sheet_1378
+  - first:
+      213: -4073493474274144434
+    second: Idle animation sprite sheet_1379
+  - first:
+      213: 1773646830852284511
+    second: Idle animation sprite sheet_1380
+  - first:
+      213: -8902468060096278676
+    second: Idle animation sprite sheet_1381
+  - first:
+      213: -2568788943561493778
+    second: Idle animation sprite sheet_1382
+  - first:
+      213: 8005622287374134237
+    second: Idle animation sprite sheet_1383
+  - first:
+      213: 904978194680640892
+    second: Idle animation sprite sheet_1384
+  - first:
+      213: -626726240668767609
+    second: Idle animation sprite sheet_1385
+  - first:
+      213: 2268520384409929268
+    second: Idle animation sprite sheet_1386
+  - first:
+      213: 2061711858745615513
+    second: Idle animation sprite sheet_1387
+  - first:
+      213: 7785393871622867897
+    second: Idle animation sprite sheet_1388
+  - first:
+      213: -1727520855331870613
+    second: Idle animation sprite sheet_1389
+  - first:
+      213: -7308341508910763331
+    second: Idle animation sprite sheet_1390
+  - first:
+      213: 5669274661713842591
+    second: Idle animation sprite sheet_1391
+  - first:
+      213: 7829238230446017118
+    second: Idle animation sprite sheet_1392
+  - first:
+      213: 144215604186039954
+    second: Idle animation sprite sheet_1393
+  - first:
+      213: 1549790731718824856
+    second: Idle animation sprite sheet_1394
+  - first:
+      213: -9166875318500215827
+    second: Idle animation sprite sheet_1395
+  - first:
+      213: 4614447806631068187
+    second: Idle animation sprite sheet_1396
+  - first:
+      213: -1320196168618848620
+    second: Idle animation sprite sheet_1397
+  - first:
+      213: 1960482088523572329
+    second: Idle animation sprite sheet_1398
+  - first:
+      213: -5516789214586091017
+    second: Idle animation sprite sheet_1399
+  - first:
+      213: 4441385312903647458
+    second: Idle animation sprite sheet_1400
+  - first:
+      213: 8073802002836333276
+    second: Idle animation sprite sheet_1401
+  - first:
+      213: 8187194480439675895
+    second: Idle animation sprite sheet_1402
+  - first:
+      213: -790864514838855024
+    second: Idle animation sprite sheet_1403
+  - first:
+      213: -4562910868217149171
+    second: Idle animation sprite sheet_1404
+  - first:
+      213: 403582936100302745
+    second: Idle animation sprite sheet_1405
+  - first:
+      213: -8819700429126970002
+    second: Idle animation sprite sheet_1406
+  - first:
+      213: -2614450247709303554
+    second: Idle animation sprite sheet_1407
+  - first:
+      213: -4642631107190190827
+    second: Idle animation sprite sheet_1408
+  - first:
+      213: 8105990323130111384
+    second: Idle animation sprite sheet_1409
+  - first:
+      213: 611733401311245620
+    second: Idle animation sprite sheet_1410
+  - first:
+      213: -2692601839365121038
+    second: Idle animation sprite sheet_1411
+  - first:
+      213: 6670615081258548334
+    second: Idle animation sprite sheet_1412
+  - first:
+      213: -4308996599357029080
+    second: Idle animation sprite sheet_1413
+  - first:
+      213: -3370577748018015364
+    second: Idle animation sprite sheet_1414
+  - first:
+      213: -8591495125702242963
+    second: Idle animation sprite sheet_1415
+  - first:
+      213: -7421009592595473733
+    second: Idle animation sprite sheet_1416
+  - first:
+      213: 2635901134398226543
+    second: Idle animation sprite sheet_1417
+  - first:
+      213: 3869754839460806157
+    second: Idle animation sprite sheet_1418
+  - first:
+      213: 6226459131713978924
+    second: Idle animation sprite sheet_1419
+  - first:
+      213: -2412702770093939908
+    second: Idle animation sprite sheet_1420
+  - first:
+      213: 8680206696952297152
+    second: Idle animation sprite sheet_1421
+  - first:
+      213: -2880002461245351212
+    second: Idle animation sprite sheet_1422
+  - first:
+      213: 1428781450671328225
+    second: Idle animation sprite sheet_1423
+  - first:
+      213: -3799014201200460014
+    second: Idle animation sprite sheet_1424
+  - first:
+      213: 2082795772219161656
+    second: Idle animation sprite sheet_1425
+  - first:
+      213: -6679731631870418381
+    second: Idle animation sprite sheet_1426
+  - first:
+      213: -6813266576941923743
+    second: Idle animation sprite sheet_1427
+  - first:
+      213: -5095673801369649684
+    second: Idle animation sprite sheet_1428
+  - first:
+      213: -7216720779402217991
+    second: Idle animation sprite sheet_1429
+  - first:
+      213: 7541286369453046000
+    second: Idle animation sprite sheet_1430
+  - first:
+      213: -7302049000011599238
+    second: Idle animation sprite sheet_1431
+  - first:
+      213: 4469401491355495582
+    second: Idle animation sprite sheet_1432
+  - first:
+      213: -2575330513929355774
+    second: Idle animation sprite sheet_1433
+  - first:
+      213: -7989223661070238934
+    second: Idle animation sprite sheet_1434
+  - first:
+      213: 6967965790741818128
+    second: Idle animation sprite sheet_1435
+  - first:
+      213: -2368312832377682088
+    second: Idle animation sprite sheet_1436
+  - first:
+      213: -7906595512370823026
+    second: Idle animation sprite sheet_1437
+  - first:
+      213: 3662974675107026970
+    second: Idle animation sprite sheet_1438
+  - first:
+      213: -2273760583900377815
+    second: Idle animation sprite sheet_1439
+  - first:
+      213: -4851939596643708433
+    second: Idle animation sprite sheet_1440
+  - first:
+      213: -4109436443281163905
+    second: Idle animation sprite sheet_1441
+  - first:
+      213: 685272468775544661
+    second: Idle animation sprite sheet_1442
+  - first:
+      213: 629278901620667214
+    second: Idle animation sprite sheet_1443
+  - first:
+      213: -2147377777020383128
+    second: Idle animation sprite sheet_1444
+  - first:
+      213: 8488248342245033698
+    second: Idle animation sprite sheet_1445
+  - first:
+      213: 7535886599782299312
+    second: Idle animation sprite sheet_1446
+  - first:
+      213: -2331022758356630803
+    second: Idle animation sprite sheet_1447
+  - first:
+      213: -7396019460415291839
+    second: Idle animation sprite sheet_1448
+  - first:
+      213: -2632854276210750623
+    second: Idle animation sprite sheet_1449
+  - first:
+      213: -8094817021855815993
+    second: Idle animation sprite sheet_1450
+  - first:
+      213: -5857642361303084484
+    second: Idle animation sprite sheet_1451
+  - first:
+      213: -5120321819370536902
+    second: Idle animation sprite sheet_1452
+  - first:
+      213: 3920750329001775908
+    second: Idle animation sprite sheet_1453
+  - first:
+      213: -7179757520371090215
+    second: Idle animation sprite sheet_1454
+  - first:
+      213: -2216402660307518078
+    second: Idle animation sprite sheet_1455
+  - first:
+      213: 4239019733170331489
+    second: Idle animation sprite sheet_1456
+  - first:
+      213: 6986487616710901430
+    second: Idle animation sprite sheet_1457
+  - first:
+      213: -6234770125378546372
+    second: Idle animation sprite sheet_1458
+  - first:
+      213: -7174386455463194021
+    second: Idle animation sprite sheet_1459
+  - first:
+      213: -5224559976559515339
+    second: Idle animation sprite sheet_1460
+  - first:
+      213: -809218407937857621
+    second: Idle animation sprite sheet_1461
+  - first:
+      213: 8662091739058082337
+    second: Idle animation sprite sheet_1462
+  - first:
+      213: 4088583803838356462
+    second: Idle animation sprite sheet_1463
+  - first:
+      213: -5725648052809955208
+    second: Idle animation sprite sheet_1464
+  - first:
+      213: 6933516098284596988
+    second: Idle animation sprite sheet_1465
+  - first:
+      213: -1526542454540585030
+    second: Idle animation sprite sheet_1466
+  - first:
+      213: -1341988526564723460
+    second: Idle animation sprite sheet_1467
+  - first:
+      213: 3074102921062646687
+    second: Idle animation sprite sheet_1468
+  - first:
+      213: 7511422257102498862
+    second: Idle animation sprite sheet_1469
+  - first:
+      213: 8709242845900625983
+    second: Idle animation sprite sheet_1470
+  - first:
+      213: 8319240173280489421
+    second: Idle animation sprite sheet_1471
+  - first:
+      213: 3985545294631345685
+    second: Idle animation sprite sheet_1472
+  - first:
+      213: -5571154800629508027
+    second: Idle animation sprite sheet_1473
+  - first:
+      213: 9182157452301655472
+    second: Idle animation sprite sheet_1474
+  - first:
+      213: -3033856739860484226
+    second: Idle animation sprite sheet_1475
+  - first:
+      213: -4054469306863969711
+    second: Idle animation sprite sheet_1476
+  - first:
+      213: 8047550567788106277
+    second: Idle animation sprite sheet_1477
+  - first:
+      213: 3012748877780993173
+    second: Idle animation sprite sheet_1478
+  - first:
+      213: 8844571433868533113
+    second: Idle animation sprite sheet_1479
+  - first:
+      213: -1450239845015767241
+    second: Idle animation sprite sheet_1480
+  - first:
+      213: 1220813816222594436
+    second: Idle animation sprite sheet_1481
+  - first:
+      213: 8352883962963954315
+    second: Idle animation sprite sheet_1482
+  - first:
+      213: -8685791446773058421
+    second: Idle animation sprite sheet_1483
+  - first:
+      213: -4947374791117196416
+    second: Idle animation sprite sheet_1484
+  - first:
+      213: -4792478664195187888
+    second: Idle animation sprite sheet_1485
+  - first:
+      213: -1476004926200017541
+    second: Idle animation sprite sheet_1486
+  - first:
+      213: -6586322310296035074
+    second: Idle animation sprite sheet_1487
+  - first:
+      213: -6151362302357524881
+    second: Idle animation sprite sheet_1488
+  - first:
+      213: -7555964931285897150
+    second: Idle animation sprite sheet_1489
+  - first:
+      213: 6472295288552089037
+    second: Idle animation sprite sheet_1490
+  - first:
+      213: -7002591499075567847
+    second: Idle animation sprite sheet_1491
+  - first:
+      213: -6064933264396523005
+    second: Idle animation sprite sheet_1492
+  - first:
+      213: -8936864990302672241
+    second: Idle animation sprite sheet_1493
+  - first:
+      213: -5539114407488542599
+    second: Idle animation sprite sheet_1494
+  - first:
+      213: 2024658951125623939
+    second: Idle animation sprite sheet_1495
+  - first:
+      213: 5113335406581873180
+    second: Idle animation sprite sheet_1496
+  - first:
+      213: -8219231220479021927
+    second: Idle animation sprite sheet_1497
+  - first:
+      213: -8462962689841364447
+    second: Idle animation sprite sheet_1498
+  - first:
+      213: -1051823901359896520
+    second: Idle animation sprite sheet_1499
+  - first:
+      213: 1195937719946914746
+    second: Idle animation sprite sheet_1500
+  - first:
+      213: 6421321884600015991
+    second: Idle animation sprite sheet_1501
+  - first:
+      213: 1153122512450855904
+    second: Idle animation sprite sheet_1502
+  - first:
+      213: 5353297586111773622
+    second: Idle animation sprite sheet_1503
+  - first:
+      213: -7986303439340539796
+    second: Idle animation sprite sheet_1504
+  - first:
+      213: -5117868391269944369
+    second: Idle animation sprite sheet_1505
+  - first:
+      213: 6235373380255449764
+    second: Idle animation sprite sheet_1506
+  - first:
+      213: -1257246180925749633
+    second: Idle animation sprite sheet_1507
+  - first:
+      213: 5276488403194034565
+    second: Idle animation sprite sheet_1508
+  - first:
+      213: 8875626214526539427
+    second: Idle animation sprite sheet_1509
+  - first:
+      213: 2062883795148866276
+    second: Idle animation sprite sheet_1510
+  - first:
+      213: -3027010372663644156
+    second: Idle animation sprite sheet_1511
+  - first:
+      213: 4833696057314109337
+    second: Idle animation sprite sheet_1512
+  - first:
+      213: -4551361152181771649
+    second: Idle animation sprite sheet_1513
+  - first:
+      213: -2582938483205403604
+    second: Idle animation sprite sheet_1514
+  - first:
+      213: 4563040803047293110
+    second: Idle animation sprite sheet_1515
+  - first:
+      213: -4313931882323668676
+    second: Idle animation sprite sheet_1516
+  - first:
+      213: 3664395468956259507
+    second: Idle animation sprite sheet_1517
+  - first:
+      213: -5730294543988343265
+    second: Idle animation sprite sheet_1518
+  - first:
+      213: -5848373135073925808
+    second: Idle animation sprite sheet_1519
+  - first:
+      213: 3992434952642892431
+    second: Idle animation sprite sheet_1520
+  - first:
+      213: -6008624187317004853
+    second: Idle animation sprite sheet_1521
+  - first:
+      213: -6807276013830125285
+    second: Idle animation sprite sheet_1522
+  - first:
+      213: -6123996926336100326
+    second: Idle animation sprite sheet_1523
+  - first:
+      213: 6306973242206491305
+    second: Idle animation sprite sheet_1524
+  - first:
+      213: -8182376185915853539
+    second: Idle animation sprite sheet_1525
+  - first:
+      213: -1263537865916858449
+    second: Idle animation sprite sheet_1526
+  - first:
+      213: -6374426655185427349
+    second: Idle animation sprite sheet_1527
+  - first:
+      213: -1677796662646095493
+    second: Idle animation sprite sheet_1528
+  - first:
+      213: -3558898786434357376
+    second: Idle animation sprite sheet_1529
+  - first:
+      213: 9001615690967479286
+    second: Idle animation sprite sheet_1530
+  - first:
+      213: 4440522592279245053
+    second: Idle animation sprite sheet_1531
+  - first:
+      213: 1381911938734383117
+    second: Idle animation sprite sheet_1532
+  - first:
+      213: -596442962810332119
+    second: Idle animation sprite sheet_1533
+  - first:
+      213: 7863050562432738545
+    second: Idle animation sprite sheet_1534
+  - first:
+      213: -6007941045171983090
+    second: Idle animation sprite sheet_1535
+  - first:
+      213: 2884243200463219564
+    second: Idle animation sprite sheet_1536
+  - first:
+      213: -7207007783862845591
+    second: Idle animation sprite sheet_1537
+  - first:
+      213: -3344201463575717656
+    second: Idle animation sprite sheet_1538
+  - first:
+      213: -984964499692881284
+    second: Idle animation sprite sheet_1539
+  - first:
+      213: 6642256251247462562
+    second: Idle animation sprite sheet_1540
+  - first:
+      213: 3997177286528827483
+    second: Idle animation sprite sheet_1541
+  - first:
+      213: -6001361968152479738
+    second: Idle animation sprite sheet_1542
+  - first:
+      213: -3464503626182913444
+    second: Idle animation sprite sheet_1543
+  - first:
+      213: 8237899839202763617
+    second: Idle animation sprite sheet_1544
+  - first:
+      213: -3617307019290456847
+    second: Idle animation sprite sheet_1545
+  - first:
+      213: 7571541629873290123
+    second: Idle animation sprite sheet_1546
+  - first:
+      213: 8663316764120817859
+    second: Idle animation sprite sheet_1547
+  - first:
+      213: 8768520508459566288
+    second: Idle animation sprite sheet_1548
+  - first:
+      213: 1596520424480536273
+    second: Idle animation sprite sheet_1549
+  - first:
+      213: 6510832320207206894
+    second: Idle animation sprite sheet_1550
+  - first:
+      213: 4748867451706315842
+    second: Idle animation sprite sheet_1551
+  - first:
+      213: -5776836897315646070
+    second: Idle animation sprite sheet_1552
+  - first:
+      213: -7910930127902336525
+    second: Idle animation sprite sheet_1553
+  - first:
+      213: -8260974737450076806
+    second: Idle animation sprite sheet_1554
+  - first:
+      213: -3032689846682423934
+    second: Idle animation sprite sheet_1555
+  - first:
+      213: 5233812623200043155
+    second: Idle animation sprite sheet_1556
+  - first:
+      213: 1839763053196858971
+    second: Idle animation sprite sheet_1557
+  - first:
+      213: 646200261710832286
+    second: Idle animation sprite sheet_1558
+  - first:
+      213: -6457988764461095099
+    second: Idle animation sprite sheet_1559
+  - first:
+      213: -3314996471928550980
+    second: Idle animation sprite sheet_1560
+  - first:
+      213: 4781163285554397394
+    second: Idle animation sprite sheet_1561
+  - first:
+      213: -3067394756833509205
+    second: Idle animation sprite sheet_1562
+  - first:
+      213: -1577434719392269945
+    second: Idle animation sprite sheet_1563
+  - first:
+      213: -405078243131670796
+    second: Idle animation sprite sheet_1564
+  - first:
+      213: 4925762566926531216
+    second: Idle animation sprite sheet_1565
+  - first:
+      213: 1202735978764607953
+    second: Idle animation sprite sheet_1566
+  - first:
+      213: -3291765754325959991
+    second: Idle animation sprite sheet_1567
+  - first:
+      213: 735226587882755653
+    second: Idle animation sprite sheet_1568
+  - first:
+      213: 252298460634113888
+    second: Idle animation sprite sheet_1569
+  - first:
+      213: -7803695420147338909
+    second: Idle animation sprite sheet_1570
+  - first:
+      213: -4692387451627714003
+    second: Idle animation sprite sheet_1571
+  - first:
+      213: -7063208860525290741
+    second: Idle animation sprite sheet_1572
+  - first:
+      213: 3561642245026449470
+    second: Idle animation sprite sheet_1573
+  - first:
+      213: -3216093968089576593
+    second: Idle animation sprite sheet_1574
+  - first:
+      213: 1531378159215640987
+    second: Idle animation sprite sheet_1575
+  - first:
+      213: 5386415236123016644
+    second: Idle animation sprite sheet_1576
+  - first:
+      213: -3061551798983413019
+    second: Idle animation sprite sheet_1577
+  - first:
+      213: 2166722506295444169
+    second: Idle animation sprite sheet_1578
+  - first:
+      213: 1188389467168086734
+    second: Idle animation sprite sheet_1579
+  - first:
+      213: 2786491024266825257
+    second: Idle animation sprite sheet_1580
+  - first:
+      213: -8583345288247402140
+    second: Idle animation sprite sheet_1581
+  - first:
+      213: 6708289649507585354
+    second: Idle animation sprite sheet_1582
+  - first:
+      213: 1915030827268148819
+    second: Idle animation sprite sheet_1583
+  - first:
+      213: 5982353377617943857
+    second: Idle animation sprite sheet_1584
+  - first:
+      213: 5826534729704946892
+    second: Idle animation sprite sheet_1585
+  - first:
+      213: 6301391070619498077
+    second: Idle animation sprite sheet_1586
+  - first:
+      213: -8564449723714639100
+    second: Idle animation sprite sheet_1587
+  - first:
+      213: 4303423384879802083
+    second: Idle animation sprite sheet_1588
+  - first:
+      213: -8225159521204174379
+    second: Idle animation sprite sheet_1589
+  - first:
+      213: -3152443104680247069
+    second: Idle animation sprite sheet_1590
+  - first:
+      213: -4095110712746263436
+    second: Idle animation sprite sheet_1591
+  - first:
+      213: 4470624171010769947
+    second: Idle animation sprite sheet_1592
+  - first:
+      213: 2264852444084789704
+    second: Idle animation sprite sheet_1593
+  - first:
+      213: 4883900464809200222
+    second: Idle animation sprite sheet_1594
+  - first:
+      213: 9171268651296788128
+    second: Idle animation sprite sheet_1595
+  - first:
+      213: 2028171021657675547
+    second: Idle animation sprite sheet_1596
+  - first:
+      213: -7860366438074094208
+    second: Idle animation sprite sheet_1597
+  - first:
+      213: -4247068364693786567
+    second: Idle animation sprite sheet_1598
+  - first:
+      213: 8986639780885161764
+    second: Idle animation sprite sheet_1599
+  - first:
+      213: -3825095953595168202
+    second: Idle animation sprite sheet_1600
+  - first:
+      213: -1775244906519809237
+    second: Idle animation sprite sheet_1601
+  - first:
+      213: -7799038727661576842
+    second: Idle animation sprite sheet_1602
+  - first:
+      213: -943365032478559057
+    second: Idle animation sprite sheet_1603
+  - first:
+      213: 4493054638497045318
+    second: Idle animation sprite sheet_1604
+  - first:
+      213: -4505818203885177747
+    second: Idle animation sprite sheet_1605
+  - first:
+      213: -5778358159027159217
+    second: Idle animation sprite sheet_1606
+  - first:
+      213: 3321335194393513510
+    second: Idle animation sprite sheet_1607
+  - first:
+      213: 7045664000139519448
+    second: Idle animation sprite sheet_1608
+  - first:
+      213: 3599464227950319997
+    second: Idle animation sprite sheet_1609
+  - first:
+      213: 6119265023579983649
+    second: Idle animation sprite sheet_1610
+  - first:
+      213: 8433481517090042138
+    second: Idle animation sprite sheet_1611
+  - first:
+      213: -432286441126640574
+    second: Idle animation sprite sheet_1612
+  - first:
+      213: 5045829221519304086
+    second: Idle animation sprite sheet_1613
+  - first:
+      213: -4364575532038732369
+    second: Idle animation sprite sheet_1614
+  - first:
+      213: 4618276557600694691
+    second: Idle animation sprite sheet_1615
+  - first:
+      213: 3737539088707288553
+    second: Idle animation sprite sheet_1616
+  - first:
+      213: -5498340255243797436
+    second: Idle animation sprite sheet_1617
+  - first:
+      213: -1862208176908586487
+    second: Idle animation sprite sheet_1618
+  - first:
+      213: 8328671853695152181
+    second: Idle animation sprite sheet_1619
+  - first:
+      213: -841586446944653923
+    second: Idle animation sprite sheet_1620
+  - first:
+      213: 6265520597632235265
+    second: Idle animation sprite sheet_1621
+  - first:
+      213: 3538656855667868064
+    second: Idle animation sprite sheet_1622
+  - first:
+      213: 329064309024777842
+    second: Idle animation sprite sheet_1623
+  - first:
+      213: 4642047016042423792
+    second: Idle animation sprite sheet_1624
+  - first:
+      213: 7249933896228119771
+    second: Idle animation sprite sheet_1625
+  - first:
+      213: -3065568868791035999
+    second: Idle animation sprite sheet_1626
+  - first:
+      213: 1344110343883227880
+    second: Idle animation sprite sheet_1627
+  - first:
+      213: 1402700530008840150
+    second: Idle animation sprite sheet_1628
+  - first:
+      213: 6252215320040060945
+    second: Idle animation sprite sheet_1629
+  - first:
+      213: -1903976287688709279
+    second: Idle animation sprite sheet_1630
+  - first:
+      213: -8345988615394663240
+    second: Idle animation sprite sheet_1631
+  - first:
+      213: 7785998595381368533
+    second: Idle animation sprite sheet_1632
+  - first:
+      213: 16028431668334090
+    second: Idle animation sprite sheet_1633
+  - first:
+      213: -7094529226742585517
+    second: Idle animation sprite sheet_1634
+  - first:
+      213: -5379573769699558252
+    second: Idle animation sprite sheet_1635
+  - first:
+      213: 4781137112537513689
+    second: Idle animation sprite sheet_1636
+  - first:
+      213: 2602750530627712999
+    second: Idle animation sprite sheet_1637
+  - first:
+      213: 6480764499017605614
+    second: Idle animation sprite sheet_1638
+  - first:
+      213: -8460934909261551619
+    second: Idle animation sprite sheet_1639
+  - first:
+      213: 8732881011008887372
+    second: Idle animation sprite sheet_1640
+  - first:
+      213: 5531223797028698353
+    second: Idle animation sprite sheet_1641
+  - first:
+      213: -8545541925658328794
+    second: Idle animation sprite sheet_1642
+  - first:
+      213: -5266012122297071226
+    second: Idle animation sprite sheet_1643
+  - first:
+      213: -7533986737233310922
+    second: Idle animation sprite sheet_1644
+  - first:
+      213: 2360249846408388829
+    second: Idle animation sprite sheet_1645
+  - first:
+      213: 650058115391409118
+    second: Idle animation sprite sheet_1646
+  - first:
+      213: 4274616012069585173
+    second: Idle animation sprite sheet_1647
+  - first:
+      213: -3468207243812988996
+    second: Idle animation sprite sheet_1648
+  - first:
+      213: 6735524942150236643
+    second: Idle animation sprite sheet_1649
+  - first:
+      213: -105523849325832562
+    second: Idle animation sprite sheet_1650
+  - first:
+      213: 3341766295423451832
+    second: Idle animation sprite sheet_1651
+  - first:
+      213: -763798845603843755
+    second: Idle animation sprite sheet_1652
+  - first:
+      213: 5985231133834096413
+    second: Idle animation sprite sheet_1653
+  - first:
+      213: 5685397866692997332
+    second: Idle animation sprite sheet_1654
+  - first:
+      213: 3465836375816480955
+    second: Idle animation sprite sheet_1655
+  - first:
+      213: -5295028382085317440
+    second: Idle animation sprite sheet_1656
+  - first:
+      213: -4220416236878643157
+    second: Idle animation sprite sheet_1657
+  - first:
+      213: -933257516596953034
+    second: Idle animation sprite sheet_1658
+  - first:
+      213: 934702871921600153
+    second: Idle animation sprite sheet_1659
+  - first:
+      213: -1353946403860071008
+    second: Idle animation sprite sheet_1660
+  - first:
+      213: -436274684860508453
+    second: Idle animation sprite sheet_1661
+  - first:
+      213: -5870071370569570744
+    second: Idle animation sprite sheet_1662
+  - first:
+      213: -6841844414482262165
+    second: Idle animation sprite sheet_1663
+  - first:
+      213: -1287469700194734123
+    second: Idle animation sprite sheet_1664
+  - first:
+      213: -47109950000979250
+    second: Idle animation sprite sheet_1665
+  - first:
+      213: -4675385988485129545
+    second: Idle animation sprite sheet_1666
+  - first:
+      213: 4193531114636843568
+    second: Idle animation sprite sheet_1667
+  - first:
+      213: 1305069421661294557
+    second: Idle animation sprite sheet_1668
+  - first:
+      213: -6023831991393847784
+    second: Idle animation sprite sheet_1669
+  - first:
+      213: 673455389694029157
+    second: Idle animation sprite sheet_1670
+  - first:
+      213: -1907450978194460153
+    second: Idle animation sprite sheet_1671
+  - first:
+      213: 9137652542436287237
+    second: Idle animation sprite sheet_1672
+  - first:
+      213: 1825566276688997424
+    second: Idle animation sprite sheet_1673
+  - first:
+      213: -5071839968480582311
+    second: Idle animation sprite sheet_1674
+  - first:
+      213: 3386946624037115225
+    second: Idle animation sprite sheet_1675
+  - first:
+      213: -7860197640075774382
+    second: Idle animation sprite sheet_1676
+  - first:
+      213: 1444518618483739345
+    second: Idle animation sprite sheet_1677
+  - first:
+      213: 2201728408233486228
+    second: Idle animation sprite sheet_1678
+  - first:
+      213: 982892513078918390
+    second: Idle animation sprite sheet_1679
+  - first:
+      213: 6972704333096027814
+    second: Idle animation sprite sheet_1680
+  - first:
+      213: 8276513318950922835
+    second: Idle animation sprite sheet_1681
+  - first:
+      213: -3214100255757778756
+    second: Idle animation sprite sheet_1682
+  - first:
+      213: -2122966471889961563
+    second: Idle animation sprite sheet_1683
+  - first:
+      213: 180668422552179935
+    second: Idle animation sprite sheet_1684
+  - first:
+      213: 3066647945219697783
+    second: Idle animation sprite sheet_1685
+  - first:
+      213: -2110970542423623661
+    second: Idle animation sprite sheet_1686
+  - first:
+      213: -8697662190405490926
+    second: Idle animation sprite sheet_1687
+  - first:
+      213: -7511354916021954191
+    second: Idle animation sprite sheet_1688
+  - first:
+      213: -3628251474564809279
+    second: Idle animation sprite sheet_1689
+  - first:
+      213: -1022000171019323349
+    second: Idle animation sprite sheet_1690
+  - first:
+      213: -3668518615620488511
+    second: Idle animation sprite sheet_1691
+  - first:
+      213: -8641105414216831833
+    second: Idle animation sprite sheet_1692
+  - first:
+      213: -2650772708019562384
+    second: Idle animation sprite sheet_1693
+  - first:
+      213: -1698116656547782960
+    second: Idle animation sprite sheet_1694
+  - first:
+      213: 4189971888378394009
+    second: Idle animation sprite sheet_1695
+  - first:
+      213: 6939176293647847481
+    second: Idle animation sprite sheet_1696
+  - first:
+      213: -7372532537206692101
+    second: Idle animation sprite sheet_1697
+  - first:
+      213: 7701247623717137173
+    second: Idle animation sprite sheet_1698
+  - first:
+      213: -654392249030874004
+    second: Idle animation sprite sheet_1699
+  - first:
+      213: 4928613186457764415
+    second: Idle animation sprite sheet_1700
+  - first:
+      213: 5749923189004285518
+    second: Idle animation sprite sheet_1701
+  - first:
+      213: 2895088739938928579
+    second: Idle animation sprite sheet_1702
+  - first:
+      213: 5054870371230970671
+    second: Idle animation sprite sheet_1703
+  - first:
+      213: 2644669139172524450
+    second: Idle animation sprite sheet_1704
+  - first:
+      213: -5750462214997304604
+    second: Idle animation sprite sheet_1705
+  - first:
+      213: -1230773571634702811
+    second: Idle animation sprite sheet_1706
+  - first:
+      213: 5038460233403001791
+    second: Idle animation sprite sheet_1707
+  - first:
+      213: 1206068177775586832
+    second: Idle animation sprite sheet_1708
+  - first:
+      213: -485012694207855365
+    second: Idle animation sprite sheet_1709
+  - first:
+      213: -3874297700171499825
+    second: Idle animation sprite sheet_1710
+  - first:
+      213: 8985802705450729550
+    second: Idle animation sprite sheet_1711
+  - first:
+      213: -7395286146698307347
+    second: Idle animation sprite sheet_1712
+  - first:
+      213: 9040025246880556252
+    second: Idle animation sprite sheet_1713
+  - first:
+      213: 2262992344172961145
+    second: Idle animation sprite sheet_1714
+  - first:
+      213: 6983761500336471488
+    second: Idle animation sprite sheet_1715
+  - first:
+      213: 7657948308900345057
+    second: Idle animation sprite sheet_1716
+  - first:
+      213: 7972897428351687567
+    second: Idle animation sprite sheet_1717
+  - first:
+      213: -2847483757179358873
+    second: Idle animation sprite sheet_1718
+  - first:
+      213: -5827786571952921205
+    second: Idle animation sprite sheet_1719
+  - first:
+      213: -8344042613493177691
+    second: Idle animation sprite sheet_1720
+  - first:
+      213: 7853653146307365809
+    second: Idle animation sprite sheet_1721
+  - first:
+      213: 2349013620667269906
+    second: Idle animation sprite sheet_1722
+  - first:
+      213: 3946073862843539413
+    second: Idle animation sprite sheet_1723
+  - first:
+      213: -7952374108159293637
+    second: Idle animation sprite sheet_1724
+  - first:
+      213: -3077483222735341378
+    second: Idle animation sprite sheet_1725
+  - first:
+      213: -8347543435302489061
+    second: Idle animation sprite sheet_1726
+  - first:
+      213: 3331256375408104664
+    second: Idle animation sprite sheet_1727
+  - first:
+      213: 865449053882933405
+    second: Idle animation sprite sheet_1728
+  - first:
+      213: -6370037527670655018
+    second: Idle animation sprite sheet_1729
+  - first:
+      213: 4062446086150119953
+    second: Idle animation sprite sheet_1730
+  - first:
+      213: 3128091444315920935
+    second: Idle animation sprite sheet_1731
+  - first:
+      213: -3739450362842302454
+    second: Idle animation sprite sheet_1732
+  - first:
+      213: 1179650649483853573
+    second: Idle animation sprite sheet_1733
+  - first:
+      213: -9047285411884698888
+    second: Idle animation sprite sheet_1734
+  - first:
+      213: 5428879796478473871
+    second: Idle animation sprite sheet_1735
+  - first:
+      213: 2460600213874281390
+    second: Idle animation sprite sheet_1736
+  - first:
+      213: -1055835867406286257
+    second: Idle animation sprite sheet_1737
+  - first:
+      213: 6321322754979976532
+    second: Idle animation sprite sheet_1738
+  - first:
+      213: 2157894290535085780
+    second: Idle animation sprite sheet_1739
+  - first:
+      213: -3146699360054575162
+    second: Idle animation sprite sheet_1740
+  - first:
+      213: 6974102656357550765
+    second: Idle animation sprite sheet_1741
+  - first:
+      213: -1843894640409472188
+    second: Idle animation sprite sheet_1742
+  - first:
+      213: -7749180478431637355
+    second: Idle animation sprite sheet_1743
+  - first:
+      213: 3454238656874409339
+    second: Idle animation sprite sheet_1744
+  - first:
+      213: 4295548654082563545
+    second: Idle animation sprite sheet_1745
+  - first:
+      213: 3463791281961249117
+    second: Idle animation sprite sheet_1746
+  - first:
+      213: 1977870172857502532
+    second: Idle animation sprite sheet_1747
+  - first:
+      213: 2914858386479850935
+    second: Idle animation sprite sheet_1748
+  - first:
+      213: -7368473366259228571
+    second: Idle animation sprite sheet_1749
+  - first:
+      213: 2008932510481637354
+    second: Idle animation sprite sheet_1750
+  - first:
+      213: 6439809221762414017
+    second: Idle animation sprite sheet_1751
+  - first:
+      213: 5264204728263797032
+    second: Idle animation sprite sheet_1752
+  - first:
+      213: 4699932488409903246
+    second: Idle animation sprite sheet_1753
+  - first:
+      213: 1191890202994322752
+    second: Idle animation sprite sheet_1754
+  - first:
+      213: 8816963308513740678
+    second: Idle animation sprite sheet_1755
+  - first:
+      213: 16208972107439947
+    second: Idle animation sprite sheet_1756
+  - first:
+      213: 8393197367345358956
+    second: Idle animation sprite sheet_1757
+  - first:
+      213: -2173110212899171129
+    second: Idle animation sprite sheet_1758
+  - first:
+      213: 7054633676330820947
+    second: Idle animation sprite sheet_1759
+  - first:
+      213: 7323697366598775053
+    second: Idle animation sprite sheet_1760
+  - first:
+      213: 8522062012110300360
+    second: Idle animation sprite sheet_1761
+  - first:
+      213: -5358676144982527883
+    second: Idle animation sprite sheet_1762
+  - first:
+      213: -8312107576470329845
+    second: Idle animation sprite sheet_1763
+  - first:
+      213: 5382583592792187007
+    second: Idle animation sprite sheet_1764
+  - first:
+      213: 4208819044695301209
+    second: Idle animation sprite sheet_1765
+  - first:
+      213: 3936516334407199654
+    second: Idle animation sprite sheet_1766
+  - first:
+      213: 4805008744033144840
+    second: Idle animation sprite sheet_1767
+  - first:
+      213: 5656016055049486180
+    second: Idle animation sprite sheet_1768
+  - first:
+      213: -3453657818675762449
+    second: Idle animation sprite sheet_1769
+  - first:
+      213: -1786147252600697621
+    second: Idle animation sprite sheet_1770
+  - first:
+      213: -4154978539197206766
+    second: Idle animation sprite sheet_1771
+  - first:
+      213: 2471497844965407598
+    second: Idle animation sprite sheet_1772
+  - first:
+      213: 7895623664335724644
+    second: Idle animation sprite sheet_1773
+  - first:
+      213: -4180253575946939780
+    second: Idle animation sprite sheet_1774
+  - first:
+      213: 6583911642791059223
+    second: Idle animation sprite sheet_1775
+  - first:
+      213: 4545353351521567356
+    second: Idle animation sprite sheet_1776
+  - first:
+      213: -6833431046615459567
+    second: Idle animation sprite sheet_1777
+  - first:
+      213: -3814580772036290767
+    second: Idle animation sprite sheet_1778
+  - first:
+      213: 151291112282463242
+    second: Idle animation sprite sheet_1779
+  - first:
+      213: -3125985880528884989
+    second: Idle animation sprite sheet_1780
+  - first:
+      213: 7068756718315256121
+    second: Idle animation sprite sheet_1781
+  - first:
+      213: 7476312714268703031
+    second: Idle animation sprite sheet_1782
+  - first:
+      213: -2273723711379438385
+    second: Idle animation sprite sheet_1783
+  - first:
+      213: 9064195297409848771
+    second: Idle animation sprite sheet_1784
+  - first:
+      213: -595158771141340960
+    second: Idle animation sprite sheet_1785
+  - first:
+      213: 584378372845875890
+    second: Idle animation sprite sheet_1786
+  - first:
+      213: -5773994245515430452
+    second: Idle animation sprite sheet_1787
+  - first:
+      213: -6509605367180737738
+    second: Idle animation sprite sheet_1788
+  - first:
+      213: -5827147641723375378
+    second: Idle animation sprite sheet_1789
+  - first:
+      213: 6292442067972115496
+    second: Idle animation sprite sheet_1790
+  - first:
+      213: 8355867944337352325
+    second: Idle animation sprite sheet_1791
+  - first:
+      213: -2253475814055961204
+    second: Idle animation sprite sheet_1792
+  - first:
+      213: -971009892351866238
+    second: Idle animation sprite sheet_1793
+  - first:
+      213: 5976626159311069639
+    second: Idle animation sprite sheet_1794
+  - first:
+      213: 692843740217610284
+    second: Idle animation sprite sheet_1795
+  - first:
+      213: 7892418268186678081
+    second: Idle animation sprite sheet_1796
+  - first:
+      213: 7114310548289640244
+    second: Idle animation sprite sheet_1797
+  - first:
+      213: 4544616106232629440
+    second: Idle animation sprite sheet_1798
+  - first:
+      213: -7824985626556382577
+    second: Idle animation sprite sheet_1799
+  - first:
+      213: -5380890925640240320
+    second: Idle animation sprite sheet_1800
+  - first:
+      213: 8780319504929939646
+    second: Idle animation sprite sheet_1801
+  - first:
+      213: 1471825501739008703
+    second: Idle animation sprite sheet_1802
+  - first:
+      213: 4765697174117911353
+    second: Idle animation sprite sheet_1803
+  - first:
+      213: -7548277141711230221
+    second: Idle animation sprite sheet_1804
+  - first:
+      213: -2739565951377705521
+    second: Idle animation sprite sheet_1805
+  - first:
+      213: -5697706894618323313
+    second: Idle animation sprite sheet_1806
+  - first:
+      213: -999560953342832953
+    second: Idle animation sprite sheet_1807
+  - first:
+      213: 4477696812112401726
+    second: Idle animation sprite sheet_1808
+  - first:
+      213: 82281781228179988
+    second: Idle animation sprite sheet_1809
+  - first:
+      213: 4330325440837338345
+    second: Idle animation sprite sheet_1810
+  - first:
+      213: 4109218430003102670
+    second: Idle animation sprite sheet_1811
+  - first:
+      213: -4330738036809966812
+    second: Idle animation sprite sheet_1812
+  - first:
+      213: -1535640910093714132
+    second: Idle animation sprite sheet_1813
+  - first:
+      213: -6803660877943650501
+    second: Idle animation sprite sheet_1814
+  - first:
+      213: 6732974757221501106
+    second: Idle animation sprite sheet_1815
+  - first:
+      213: -2544744892792709253
+    second: Idle animation sprite sheet_1816
+  - first:
+      213: -6779845393759844532
+    second: Idle animation sprite sheet_1817
+  - first:
+      213: 1730070560095662906
+    second: Idle animation sprite sheet_1818
+  - first:
+      213: 6129067905327768154
+    second: Idle animation sprite sheet_1819
+  - first:
+      213: 5414385754041855037
+    second: Idle animation sprite sheet_1820
+  - first:
+      213: 4967613996817568668
+    second: Idle animation sprite sheet_1821
+  - first:
+      213: -195385855699599920
+    second: Idle animation sprite sheet_1822
+  - first:
+      213: 4632287801699717253
+    second: Idle animation sprite sheet_1823
+  - first:
+      213: -6848941542044591831
+    second: Idle animation sprite sheet_1824
+  - first:
+      213: 658227917462377131
+    second: Idle animation sprite sheet_1825
+  - first:
+      213: 5346911092164500566
+    second: Idle animation sprite sheet_1826
+  - first:
+      213: 475465149179876364
+    second: Idle animation sprite sheet_1827
+  - first:
+      213: -5568151163890010451
+    second: Idle animation sprite sheet_1828
+  - first:
+      213: -7427785663248637143
+    second: Idle animation sprite sheet_1829
+  - first:
+      213: 4957780658051084639
+    second: Idle animation sprite sheet_1830
+  - first:
+      213: -6059764171436497484
+    second: Idle animation sprite sheet_1831
+  - first:
+      213: 2111403364430379706
+    second: Idle animation sprite sheet_1832
+  - first:
+      213: -2920151667384417868
+    second: Idle animation sprite sheet_1833
+  - first:
+      213: 927071294725352799
+    second: Idle animation sprite sheet_1834
+  - first:
+      213: 7623176304839251071
+    second: Idle animation sprite sheet_1835
+  - first:
+      213: 2764863192057441464
+    second: Idle animation sprite sheet_1836
+  - first:
+      213: -7060681768602377775
+    second: Idle animation sprite sheet_1837
+  - first:
+      213: 2470933687399845864
+    second: Idle animation sprite sheet_1838
+  - first:
+      213: 7915190057215937274
+    second: Idle animation sprite sheet_1839
+  - first:
+      213: 3829704006499022239
+    second: Idle animation sprite sheet_1840
+  - first:
+      213: -4800728816873409380
+    second: Idle animation sprite sheet_1841
+  - first:
+      213: 2690646947550490541
+    second: Idle animation sprite sheet_1842
+  - first:
+      213: -7725436645076659241
+    second: Idle animation sprite sheet_1843
+  - first:
+      213: -8722144272853190028
+    second: Idle animation sprite sheet_1844
+  - first:
+      213: -6971795700609177149
+    second: Idle animation sprite sheet_1845
+  - first:
+      213: 4428662006479752643
+    second: Idle animation sprite sheet_1846
+  - first:
+      213: -7128341139979002197
+    second: Idle animation sprite sheet_1847
+  - first:
+      213: 6116977603542052304
+    second: Idle animation sprite sheet_1848
+  - first:
+      213: 6143996869009195760
+    second: Idle animation sprite sheet_1849
+  - first:
+      213: 887425318139100939
+    second: Idle animation sprite sheet_1850
+  - first:
+      213: -5862045050280184371
+    second: Idle animation sprite sheet_1851
+  - first:
+      213: -7994043428219932280
+    second: Idle animation sprite sheet_1852
+  - first:
+      213: 6276778801017817925
+    second: Idle animation sprite sheet_1853
+  - first:
+      213: 2669139996990053527
+    second: Idle animation sprite sheet_1854
+  - first:
+      213: -7180875563317127520
+    second: Idle animation sprite sheet_1855
+  - first:
+      213: 6249960429008375090
+    second: Idle animation sprite sheet_1856
+  - first:
+      213: -5625164203156052713
+    second: Idle animation sprite sheet_1857
+  - first:
+      213: 4056845512607891770
+    second: Idle animation sprite sheet_1858
+  - first:
+      213: -3865839320432065808
+    second: Idle animation sprite sheet_1859
+  - first:
+      213: -332183135432308198
+    second: Idle animation sprite sheet_1860
+  - first:
+      213: 2454073254410284708
+    second: Idle animation sprite sheet_1861
+  - first:
+      213: -2892317918732953109
+    second: Idle animation sprite sheet_1862
+  - first:
+      213: 1794649314287387737
+    second: Idle animation sprite sheet_1863
+  - first:
+      213: -7813004678713672514
+    second: Idle animation sprite sheet_1864
+  - first:
+      213: -5461874961268308885
+    second: Idle animation sprite sheet_1865
+  - first:
+      213: -6671999894535685665
+    second: Idle animation sprite sheet_1866
+  - first:
+      213: -6409528853277312772
+    second: Idle animation sprite sheet_1867
+  - first:
+      213: -4897968903975699645
+    second: Idle animation sprite sheet_1868
+  - first:
+      213: -7413867360570049354
+    second: Idle animation sprite sheet_1869
+  - first:
+      213: -4642462900299168209
+    second: Idle animation sprite sheet_1870
+  - first:
+      213: -4825216972919578416
+    second: Idle animation sprite sheet_1871
+  - first:
+      213: 1435813915485569271
+    second: Idle animation sprite sheet_1872
+  - first:
+      213: 1020008850345172536
+    second: Idle animation sprite sheet_1873
+  - first:
+      213: 4561716481748213455
+    second: Idle animation sprite sheet_1874
+  - first:
+      213: -7459184356478419474
+    second: Idle animation sprite sheet_1875
+  - first:
+      213: -6391061223860935459
+    second: Idle animation sprite sheet_1876
+  - first:
+      213: -4278067505891816237
+    second: Idle animation sprite sheet_1877
+  - first:
+      213: -1824480699630309999
+    second: Idle animation sprite sheet_1878
+  - first:
+      213: -6203095373988299505
+    second: Idle animation sprite sheet_1879
+  - first:
+      213: -7747571809943419498
+    second: Idle animation sprite sheet_1880
+  - first:
+      213: 3425603498035703524
+    second: Idle animation sprite sheet_1881
+  - first:
+      213: 209704649462456903
+    second: Idle animation sprite sheet_1882
+  - first:
+      213: 8491839690918767361
+    second: Idle animation sprite sheet_1883
+  - first:
+      213: 9115315517679900870
+    second: Idle animation sprite sheet_1884
+  - first:
+      213: -6993056367606577506
+    second: Idle animation sprite sheet_1885
+  - first:
+      213: 2369608873802388555
+    second: Idle animation sprite sheet_1886
+  - first:
+      213: 1274623447997151886
+    second: Idle animation sprite sheet_1887
+  - first:
+      213: -7420220916409800744
+    second: Idle animation sprite sheet_1888
+  - first:
+      213: -8479105549329662111
+    second: Idle animation sprite sheet_1889
+  - first:
+      213: 2049782804444998897
+    second: Idle animation sprite sheet_1890
+  - first:
+      213: -7121294989161594084
+    second: Idle animation sprite sheet_1891
+  - first:
+      213: -3115305352744254690
+    second: Idle animation sprite sheet_1892
+  - first:
+      213: -1499463538892681010
+    second: Idle animation sprite sheet_1893
+  - first:
+      213: 6368297772870511530
+    second: Idle animation sprite sheet_1894
+  - first:
+      213: -3516689839042952565
+    second: Idle animation sprite sheet_1895
+  - first:
+      213: 6570246644724139202
+    second: Idle animation sprite sheet_1896
+  - first:
+      213: -3069805598831659267
+    second: Idle animation sprite sheet_1897
+  - first:
+      213: 3000230892819942374
+    second: Idle animation sprite sheet_1898
+  - first:
+      213: 7757613360073914769
+    second: Idle animation sprite sheet_1899
+  - first:
+      213: 2516782598386025343
+    second: Idle animation sprite sheet_1900
+  - first:
+      213: 2148247583005398556
+    second: Idle animation sprite sheet_1901
+  - first:
+      213: -2202819488891018524
+    second: Idle animation sprite sheet_1902
+  - first:
+      213: -9212369102094581465
+    second: Idle animation sprite sheet_1903
+  - first:
+      213: -8129490341393444792
+    second: Idle animation sprite sheet_1904
+  - first:
+      213: 4131069420035307108
+    second: Idle animation sprite sheet_1905
+  - first:
+      213: -7367290490468304289
+    second: Idle animation sprite sheet_1906
+  - first:
+      213: -7238867057614696712
+    second: Idle animation sprite sheet_1907
+  - first:
+      213: 7651851513535978271
+    second: Idle animation sprite sheet_1908
+  - first:
+      213: 8354489386453932992
+    second: Idle animation sprite sheet_1909
+  - first:
+      213: 3021651296001453762
+    second: Idle animation sprite sheet_1910
+  - first:
+      213: -8684542933237240197
+    second: Idle animation sprite sheet_1911
+  - first:
+      213: -9222315948095652007
+    second: Idle animation sprite sheet_1912
+  - first:
+      213: 4643441286654923626
+    second: Idle animation sprite sheet_1913
+  - first:
+      213: -7170265778258104737
+    second: Idle animation sprite sheet_1914
+  - first:
+      213: 5789362623712088459
+    second: Idle animation sprite sheet_1915
+  - first:
+      213: 1859820129057950690
+    second: Idle animation sprite sheet_1916
+  - first:
+      213: 568946903613506875
+    second: Idle animation sprite sheet_1917
+  - first:
+      213: 7198825130517978397
+    second: Idle animation sprite sheet_1918
+  - first:
+      213: 2677384927415602363
+    second: Idle animation sprite sheet_1919
+  - first:
+      213: 5845835952606051059
+    second: Idle animation sprite sheet_1920
+  - first:
+      213: 8880993559407761984
+    second: Idle animation sprite sheet_1921
+  - first:
+      213: 7170904876098687886
+    second: Idle animation sprite sheet_1922
+  - first:
+      213: 736571818457631891
+    second: Idle animation sprite sheet_1923
+  - first:
+      213: -3649934964275680947
+    second: Idle animation sprite sheet_1924
+  - first:
+      213: -7349296521161910667
+    second: Idle animation sprite sheet_1925
+  - first:
+      213: -5334987976403942500
+    second: Idle animation sprite sheet_1926
+  - first:
+      213: 6687234578846732862
+    second: Idle animation sprite sheet_1927
+  - first:
+      213: -7669088859501809055
+    second: Idle animation sprite sheet_1928
+  - first:
+      213: -9203565280337407809
+    second: Idle animation sprite sheet_1929
+  - first:
+      213: -5019780080659213041
+    second: Idle animation sprite sheet_1930
+  - first:
+      213: 832594837048712852
+    second: Idle animation sprite sheet_1931
+  - first:
+      213: -6662214926836839755
+    second: Idle animation sprite sheet_1932
+  - first:
+      213: -3168027967662269174
+    second: Idle animation sprite sheet_1933
+  - first:
+      213: 3341668733537099682
+    second: Idle animation sprite sheet_1934
+  - first:
+      213: 4716891704587367496
+    second: Idle animation sprite sheet_1935
+  - first:
+      213: -8142590061434731261
+    second: Idle animation sprite sheet_1936
+  - first:
+      213: 6117655115369925218
+    second: Idle animation sprite sheet_1937
+  - first:
+      213: 3103881770536369616
+    second: Idle animation sprite sheet_1938
+  - first:
+      213: 4906928334239247539
+    second: Idle animation sprite sheet_1939
+  - first:
+      213: 1361714955152598213
+    second: Idle animation sprite sheet_1940
+  - first:
+      213: 6490498445487991870
+    second: Idle animation sprite sheet_1941
+  - first:
+      213: 4010863672938318609
+    second: Idle animation sprite sheet_1942
+  - first:
+      213: -173543227832782545
+    second: Idle animation sprite sheet_1943
+  - first:
+      213: -2604983150833212541
+    second: Idle animation sprite sheet_1944
+  - first:
+      213: -4605346367876251258
+    second: Idle animation sprite sheet_1945
+  - first:
+      213: 3499265365146742986
+    second: Idle animation sprite sheet_1946
+  - first:
+      213: 2482803517425972133
+    second: Idle animation sprite sheet_1947
+  - first:
+      213: -1333903256524263672
+    second: Idle animation sprite sheet_1948
+  - first:
+      213: -5047849134010513243
+    second: Idle animation sprite sheet_1949
+  - first:
+      213: 5371848973427880794
+    second: Idle animation sprite sheet_1950
+  - first:
+      213: -3531727563151093532
+    second: Idle animation sprite sheet_1951
+  - first:
+      213: -6465217663843014512
+    second: Idle animation sprite sheet_1952
+  - first:
+      213: -6332105371093383542
+    second: Idle animation sprite sheet_1953
+  - first:
+      213: -7230202651075579958
+    second: Idle animation sprite sheet_1954
+  - first:
+      213: -929080065594484462
+    second: Idle animation sprite sheet_1955
+  - first:
+      213: -2364449101996302327
+    second: Idle animation sprite sheet_1956
+  - first:
+      213: 1490739753655143469
+    second: Idle animation sprite sheet_1957
+  - first:
+      213: -4744573765852622102
+    second: Idle animation sprite sheet_1958
+  - first:
+      213: -8319963047119850644
+    second: Idle animation sprite sheet_1959
+  - first:
+      213: 2267183604908334053
+    second: Idle animation sprite sheet_1960
+  - first:
+      213: 5751665484464395299
+    second: Idle animation sprite sheet_1961
+  - first:
+      213: 6880538056945244848
+    second: Idle animation sprite sheet_1962
+  - first:
+      213: -1840282099253905195
+    second: Idle animation sprite sheet_1963
+  - first:
+      213: 6552571420038114150
+    second: Idle animation sprite sheet_1964
+  - first:
+      213: 5132264896899855022
+    second: Idle animation sprite sheet_1965
+  - first:
+      213: -6654233864781986726
+    second: Idle animation sprite sheet_1966
+  - first:
+      213: -2916669810244476456
+    second: Idle animation sprite sheet_1967
+  - first:
+      213: -1611582712365046701
+    second: Idle animation sprite sheet_1968
+  - first:
+      213: 473540235113950417
+    second: Idle animation sprite sheet_1969
+  - first:
+      213: -1263724885797958891
+    second: Idle animation sprite sheet_1970
+  - first:
+      213: -6484852964609955160
+    second: Idle animation sprite sheet_1971
+  - first:
+      213: -2661742424485171294
+    second: Idle animation sprite sheet_1972
+  - first:
+      213: 198402068304223699
+    second: Idle animation sprite sheet_1973
+  - first:
+      213: -5020341383168346831
+    second: Idle animation sprite sheet_1974
+  - first:
+      213: -5164722291778619620
+    second: Idle animation sprite sheet_1975
+  - first:
+      213: -126358116124838543
+    second: Idle animation sprite sheet_1976
+  - first:
+      213: -637816977816747531
+    second: Idle animation sprite sheet_1977
+  - first:
+      213: -8689089404711061065
+    second: Idle animation sprite sheet_1978
+  - first:
+      213: 3640855699914718968
+    second: Idle animation sprite sheet_1979
+  - first:
+      213: -828465480487747478
+    second: Idle animation sprite sheet_1980
+  - first:
+      213: 1750483821853039331
+    second: Idle animation sprite sheet_1981
+  - first:
+      213: -782029639941791456
+    second: Idle animation sprite sheet_1982
+  - first:
+      213: -6382665499427283899
+    second: Idle animation sprite sheet_1983
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 864
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 4192
+        width: 776
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41b02110e4025a80800000000000000
+      internalID: -8479709787978682038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 4192
+        width: 718
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241899c2d787be4f0800000000000000
+      internalID: -798412029913628350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 4165
+        width: 704
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa2df15862e904f0800000000000000
+      internalID: -861908915984717137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 4150
+        width: 661
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ee79c343d42c300800000000000000
+      internalID: 270863814345879165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 4001
+        y: 4192
+        width: 716
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74ad3b5a07cfe2b0800000000000000
+      internalID: -5553000968230165377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3357
+        width: 735
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99415cf81b39d0b80800000000000000
+      internalID: -8426916936909777767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 3357
+        width: 730
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bf13982642e03a0800000000000000
+      internalID: -6697375590226199700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 3357
+        width: 721
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b60258311ccb6fe0800000000000000
+      internalID: -1194636901805324622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 3357
+        width: 700
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c38f65125eb264d0800000000000000
+      internalID: -3142740330194959415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4001
+        y: 3357
+        width: 723
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85be4927b04986d10800000000000000
+      internalID: 2119106401565731672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2625
+        width: 776
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f65be6fde332de0800000000000000
+      internalID: -1359173533179744482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 2625
+        width: 718
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202dc11d53e634c10800000000000000
+      internalID: 2036592633922245122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 2625
+        width: 704
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90afd98f898d5b820800000000000000
+      internalID: 2933488883819477513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 2625
+        width: 661
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe85573b7c84e990800000000000000
+      internalID: -7357601430379327749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 4001
+        y: 2625
+        width: 716
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699c9e0b462d8dd50800000000000000
+      internalID: 6762386170403473814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1909
+        width: 735
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4166695b5cc49aa20800000000000000
+      internalID: 3074072632695875092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1909
+        width: 730
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a50742a9441fc50800000000000000
+      internalID: 6697209549703633497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 1909
+        width: 721
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87baf041427b061d0800000000000000
+      internalID: -3359483956435113096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 1909
+        width: 700
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aafaef09b1bed960800000000000000
+      internalID: 7628730227206322853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4001
+        y: 1909
+        width: 723
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd3647d5ec243e00800000000000000
+      internalID: 1023492380990782909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1135
+        width: 776
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b32b3d5e99207d0800000000000000
+      internalID: -2953629193223390375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1135
+        width: 718
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cfb3c4cd8035e50800000000000000
+      internalID: 6796786004897037466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 1138
+        width: 704
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c01617e851e2fa0800000000000000
+      internalID: -5823693566611747839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 1135
+        width: 661
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2ed502a82b18140800000000000000
+      internalID: 4720250190779245244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 4001
+        y: 1135
+        width: 716
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d528c43acfdd4830800000000000000
+      internalID: 4057144898892604882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 383
+        width: 735
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39422a5d12af97a60800000000000000
+      internalID: 7672438463427388563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 383
+        width: 730
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2246574fc285316f0800000000000000
+      internalID: -715130965718637534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 383
+        width: 721
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579535850d5105d20800000000000000
+      internalID: 3265133714422847861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 383
+        width: 700
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35701957af9879cc0800000000000000
+      internalID: -3704340459681675437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle animation sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 4001
+        y: 383
+        width: 723
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ab2ca0382cd7530800000000000000
+      internalID: 3854450724176050834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

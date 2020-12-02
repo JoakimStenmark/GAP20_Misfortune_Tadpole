@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Temp : MonoBehaviour
 {
-    [SerializeField] float secondChanceTimer;
+    //[SerializeField] float secondChanceTimer;
 
     private Rigidbody2D rb2d;
     bool grounded = false;
@@ -19,7 +19,7 @@ public class Temp : MonoBehaviour
     private int waterAmount;
     public int WaterAmount { get => waterAmount; set => waterAmount = value; }
 
-    [SerializeField] float jumpForce;
+    //[SerializeField] float jumpForce;
 
 
     void Start()
@@ -41,7 +41,7 @@ public class Temp : MonoBehaviour
         if (Input.GetButtonDown("Jump") && (secondChance || grounded))
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
-            rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+            //rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
         }
 
     }
@@ -99,7 +99,7 @@ public class Temp : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             grounded = false;
-            Invoke("SecondChance", secondChanceTimer);
+            //Invoke("SecondChance", secondChanceTimer);
 
         }
 

@@ -8,11 +8,10 @@ public class MoveAlongCollider : MonoBehaviour
     public Transform[] pathPoints;
     [SerializeField] int currentPoint = 0;
     private GameObject player;
-    bool travel = false;
+    public bool travel = false;
     Rigidbody2D rb2d;
 
-    [SerializeField] float speed; 
-
+    [SerializeField] float speed = 1f; 
 
     void Start()
     {
@@ -28,7 +27,8 @@ public class MoveAlongCollider : MonoBehaviour
                 currentPoint++;
                 if (currentPoint >= pathPoints.Length)
                 {
-                    travel = false;              
+                    travel = false;
+                    rb2d.isKinematic = false;
                 }
                 currentPoint = Mathf.Clamp(currentPoint, 0, pathPoints.Length - 1);
             }
@@ -54,10 +54,12 @@ public class MoveAlongCollider : MonoBehaviour
         //currentPoint = 0;
         if (collision.gameObject.CompareTag("Player"))
         {
-            player = collision.gameObject;           
+            player = collision.gameObject;
+            rb2d = player.GetComponent<Rigidbody2D>();
             travel = true;           
-            rb2d.isKinematic = true;
             rb2d.velocity = Vector3.zero;
+            rb2d.isKinematic = true;
+            
         }
     }
 
@@ -68,9 +70,14 @@ public class MoveAlongCollider : MonoBehaviour
 
     public bool moveAlong(Transform point)
     {
+        Debug.Log("Moving");
+
         Vector2 pointPosition = new Vector2(point.position.x, point.position.y);
         Vector2 movement = Vector2.MoveTowards(rb2d.position, pointPosition, speed * Time.deltaTime);
+        Debug.Log(movement);
+
         rb2d.MovePosition(movement);
+        //player.transform.position = new Vector3(movement.x, movement.y, 0f);
         if (pointPosition == rb2d.position)
         {
             Debug.Log("point reached");

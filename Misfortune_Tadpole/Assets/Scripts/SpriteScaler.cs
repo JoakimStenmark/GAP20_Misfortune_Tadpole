@@ -38,21 +38,22 @@ public class SpriteScaler : MonoBehaviour
         if (hit.collider != null && hit.collider.CompareTag("Ground"))
         {
             hasHit = true;
-            if (hasHit)
-            {
-                ImpactSquish();
-                hasHit = false;
-            }
         }
         else
         {
+            hasHit = false;
+        }
+
+        if (hasHit)
+        {
+            ImpactSquish();
             hasHit = false;
         }
     }
 
     private void SetDefaultScale()
     {
-        transform.localScale = Vector3.Lerp(transform.localScale, Vector3.one, Time.deltaTime);
+        transform.localScale = Vector3.Lerp(transform.localScale, Vector3.one, Time.deltaTime *2);
     }
 
     private void ImpactSquish()

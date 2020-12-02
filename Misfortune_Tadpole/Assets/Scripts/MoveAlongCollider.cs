@@ -34,6 +34,11 @@ public class MoveAlongCollider : MonoBehaviour
             }
 
         }
+
+        for (int i = 0; i < pathPoints.Length; i++)
+        {
+            Debug.DrawLine(pathPoints[i % pathPoints.Length].position, pathPoints[i + 1 % pathPoints.Length].position);
+        }
     }
 
     private void OnTriggerStay2D(Collider2D other)

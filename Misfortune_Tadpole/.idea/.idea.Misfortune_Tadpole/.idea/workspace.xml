@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf0e7c8-c426-4d63-b9b7-994cbe1fbe74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/bubble_size.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/bubble_size.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpriteScaler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpriteScaler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +105,7 @@
       <workItem from="1606380106342" duration="5835000" />
       <workItem from="1606466031454" duration="2388000" />
       <workItem from="1606730188224" duration="5508000" />
-      <workItem from="1606983154203" duration="1013000" />
+      <workItem from="1606983154203" duration="7020000" />
     </task>
     <servers />
   </component>

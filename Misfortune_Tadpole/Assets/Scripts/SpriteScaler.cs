@@ -35,7 +35,7 @@ public class SpriteScaler : MonoBehaviour
     {
         RaycastHit2D hit = Physics2D.CircleCast(transform.position, circleCastRadius, Vector2.zero, 0f, mask);
 
-        if (hit.collider != null && hit.collider.CompareTag("Ground"))
+        if (hit.collider && !hit.collider.isTrigger)
         {
             hasHit = true;
         }

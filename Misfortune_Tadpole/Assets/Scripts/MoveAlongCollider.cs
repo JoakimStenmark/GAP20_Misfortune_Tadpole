@@ -7,6 +7,7 @@ using UnityEditor;
 public class MoveAlongCollider : MonoBehaviour
 {
     public bool drawLinesInEditor;
+    public bool fetchPointsAtStart;
     public Transform[] pathPoints;
     [SerializeField] int currentPoint = 0;
     
@@ -22,6 +23,11 @@ public class MoveAlongCollider : MonoBehaviour
 
     void Start()
     {
+        if (fetchPointsAtStart)
+        {
+            pathPoints = GetComponentsInChildren<Transform>();
+        }
+
         for (int i = 0; i < pathPoints.Length - 1; i++)
         {
             totalDistance += Vector3.Distance(pathPoints[i].position, pathPoints[i + 1].position);

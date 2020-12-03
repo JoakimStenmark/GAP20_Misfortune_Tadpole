@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
     
     void Start()
     {
-        anim = GetComponent<Animator>();
+        anim = GetComponentInChildren<Animator>();
         waterAmount = startWaterAmount;
         rb2d = GetComponent<Rigidbody2D>();
         startPos = transform.position;
@@ -137,12 +137,9 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
 
-            transform.up = collision.GetContact(0).normal;
-
-        }
+        transform.up = collision.GetContact(0).normal;
+        
     }
 
     public float maxMass;

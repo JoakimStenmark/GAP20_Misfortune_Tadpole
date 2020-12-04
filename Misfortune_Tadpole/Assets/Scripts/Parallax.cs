@@ -25,7 +25,7 @@ public class Parallax : MonoBehaviour
         float distX = mainCamera.transform.position.x * parallax;
         float distY = mainCamera.transform.position.y * parallax;
         float tempX = mainCamera.transform.position.x * (1 - parallax);
-        float tempY = mainCamera.transform.position.y * (1 - parallax);
+        float tempY = mainCamera.transform.position.y - startPosY;
 
         InfiniteXScrolling(tempX);
 
@@ -33,13 +33,13 @@ public class Parallax : MonoBehaviour
         previousCameraY = mainCamera.transform.position.y;
 
 
-        if (distY > startPosY + lengthY * parallax)
+        if (tempY > startPosY + lengthY * (1 - parallax))
         {
             transform.position = new Vector3(startPosX + distX,
                                             transform.position.y + heightDiff * Time.deltaTime,
                                             transform.position.z);
         }
-        else if (distY < startPosY - lengthY * parallax)
+        else if (tempY < startPosY - lengthY * (1 - parallax))
         {
             transform.position = new Vector3(startPosX + distX,
                                             transform.position.y + heightDiff * Time.deltaTime,

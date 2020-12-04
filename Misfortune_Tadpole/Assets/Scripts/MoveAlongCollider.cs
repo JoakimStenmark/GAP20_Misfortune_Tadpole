@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
-
+#endif
 
 public class MoveAlongCollider : MonoBehaviour
 {
@@ -34,7 +35,7 @@ public class MoveAlongCollider : MonoBehaviour
         }
     }
 
-
+#if UNITY_EDITOR
     void OnDrawGizmos()
     {
         if (drawLinesInEditor)
@@ -45,6 +46,7 @@ public class MoveAlongCollider : MonoBehaviour
             }
         }
     }
+#endif
 
     private void FixedUpdate()
     {

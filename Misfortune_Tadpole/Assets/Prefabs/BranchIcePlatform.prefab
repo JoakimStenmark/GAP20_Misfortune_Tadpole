@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 859095554898276924}
   - component: {fileID: 7194838410737296976}
   m_Layer: 0
-  m_Name: IceBranchPlatform
+  m_Name: BranchIcePlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

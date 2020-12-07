@@ -144,6 +144,7 @@ public class PlayerController : MonoBehaviour
 
     public float maxMass;
     public float maxDrag;
+    public float minDrag;
     void setSizeBasedOnWaterAmount()
     {
         float newSize = waterAmount / 50;
@@ -152,7 +153,7 @@ public class PlayerController : MonoBehaviour
         transform.localScale = new Vector3(newSize, newSize, newSize);
 
         rb2d.mass = Mathf.Lerp(maxMass * 0.4f, maxMass, waterAmount * 0.01f);
-        rb2d.drag = Mathf.Lerp(0, maxDrag, waterAmount * 0.01f);
+        rb2d.drag = Mathf.Lerp(maxDrag, minDrag, waterAmount * 0.01f);
     }
 
 
@@ -171,7 +172,7 @@ public class PlayerController : MonoBehaviour
             damageable = false;
             waterAmount += amount;
             Invoke(nameof(SetDamageable), damageInterval);
-            anim.SetTrigger(damageTakenHash);
+          //anim.SetTrigger(damageTakenHash);
 
             if (waterAmount < 1)
             {

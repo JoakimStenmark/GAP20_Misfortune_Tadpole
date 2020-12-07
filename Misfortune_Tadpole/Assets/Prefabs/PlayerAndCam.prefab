@@ -223,7 +223,7 @@ SpriteRenderer:
   m_SortingLayerID: 1643400201
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 90486cb564ec11843a42716cdebff72e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6fec0b3cb26482543a764e6b76b4c657, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -537,6 +537,10 @@ PrefabInstance:
       propertyPath: cinemachineBrain
       value: 
       objectReference: {fileID: 519420030}
+    - target: {fileID: 2857611868227284248, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8892172925730561569, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
       propertyPath: m_Radius
       value: 1.05

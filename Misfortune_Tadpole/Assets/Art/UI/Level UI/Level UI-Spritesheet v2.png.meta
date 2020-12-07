@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 777d5af55b3b0f6439f2aeac6fd9a0be
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 692376570322612506
+    second: Level UI-Spritesheet v2_0
+  - first:
+      213: 2222881071457786646
+    second: Level UI-Spritesheet v2_1
+  - first:
+      213: -8491430337862545789
+    second: Level UI-Spritesheet v2_2
+  - first:
+      213: -1610429982042622045
+    second: Level UI-Spritesheet v2_3
+  - first:
+      213: -960003680691927609
+    second: Level UI-Spritesheet v2_4
+  - first:
+      213: -958593667183249484
+    second: Level UI-Spritesheet v2_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +59,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +91,147 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Level UI-Spritesheet v2_0
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1712
+        width: 979
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11f1e482d0db9900800000000000000
+      internalID: 692376570322612506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI-Spritesheet v2_1
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1463
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b5e22ae8249de10800000000000000
+      internalID: 2222881071457786646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI-Spritesheet v2_2
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1463
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e4ab4e811682a80800000000000000
+      internalID: -8491430337862545789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI-Spritesheet v2_3
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 606
+        width: 1235
+        height: 1069
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7f5b8b67a96a9e0800000000000000
+      internalID: -1610429982042622045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI-Spritesheet v2_4
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1288
+        width: 140
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c54a4d1db16da2f0800000000000000
+      internalID: -960003680691927609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI-Spritesheet v2_5
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1118
+        width: 332
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b77a97732462b2f0800000000000000
+      internalID: -958593667183249484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

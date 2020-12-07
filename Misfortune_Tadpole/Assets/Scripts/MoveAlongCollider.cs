@@ -89,7 +89,7 @@ public class MoveAlongCollider : MonoBehaviour
     {
         timer += Time.deltaTime; 
         Vector2 pointPosition = new Vector2(point.position.x, point.position.y);
-        Vector2 movement = Vector2.MoveTowards(rb2d.position, pointPosition, speedOverTime.Evaluate(timer) * Time.deltaTime);     
+        Vector2 movement = Vector2.MoveTowards(rb2d.position, pointPosition, speedOverTime.Evaluate(timer) * Time.fixedDeltaTime);     
         rb2d.MovePosition(movement);
         if (pointPosition == rb2d.position)
         {

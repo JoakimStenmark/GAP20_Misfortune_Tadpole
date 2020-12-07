@@ -6,10 +6,10 @@
     <e p="C:\Users\Axel\Documents\GitHub\GAP20_Misfortune_Tadpole\Misfortune_Tadpole" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="FallThroughPlatform.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BetterJump.cs" t="Include" />
           <e p="CameraHelper.cs" t="Include" />
+          <e p="FallThroughPlatform.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="HeatPlatformScript.cs" t="Include" />
           <e p="LevelBoundary.cs" t="Include" />
@@ -23,6 +23,7 @@
           <e p="SpikeScript.cs" t="Include" />
           <e p="SpriteScaler.cs" t="Include" />
           <e p="StickToSurface.cs" t="Include" />
+          <e p="TadpoleController.cs" t="Include" />
           <e p="Temp.cs" t="Include" />
           <e p="Test.cs" t="Include" />
           <e p="WaterDrop.cs" t="Include" />

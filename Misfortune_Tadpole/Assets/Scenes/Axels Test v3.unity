@@ -4755,6 +4755,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 488221140}
+    - target: {fileID: 3115559214320830634, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6905498619383215509, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
       propertyPath: squishScale.x
       value: 1.5

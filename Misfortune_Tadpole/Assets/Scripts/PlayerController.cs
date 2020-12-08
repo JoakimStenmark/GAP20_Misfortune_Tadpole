@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,32 +14,30 @@ public class PlayerController : MonoBehaviour
     private float neutralRotationTimeCount;
     private float groundedRotationTimeCount;
     
-    Vector3 startPos;
 
     public Rigidbody2D rb2d;
     public float startWaterAmount;
     [SerializeField]
     private float waterAmount;
     public float WaterAmount { get => waterAmount;}
-    bool damageable = true;
-    float damageTimeCount = 0;
+    private bool waterRemovable = true;
+    private bool lifeRemovable = true;
     public float velocity;
 
-    public HealthBar healthBar;
+    public WaterBar waterBar;
     
     public LifeManager lifeManager;
-    public float lifeLossTimer;
-    
+    public float lifeLossTimer = 2f;
+
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
         waterAmount = startWaterAmount;
         rb2d = GetComponent<Rigidbody2D>();
-        startPos = transform.position;
-        setSizeBasedOnWaterAmount();
+        SetSizeBasedOnWaterAmount();
 
-        healthBar.SetMaxHealth(100);
-        healthBar.SetHealth(waterAmount);
+        waterBar.SetMaxWater(100);
+        waterBar.SetWater(waterAmount);
 
     }
 
@@ -55,7 +50,7 @@ public class PlayerController : MonoBehaviour
             rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
         }
 
-        setSizeBasedOnWaterAmount();
+        SetSizeBasedOnWaterAmount();
 
         velocity = rb2d.velocity.magnitude;
 
@@ -148,11 +143,9 @@ public class PlayerController : MonoBehaviour
     public float maxMass;
     public float maxDrag;
     public float minDrag;
-    void setSizeBasedOnWaterAmount()
+    private void SetSizeBasedOnWaterAmount()
     {
-        float newSize = waterAmount / 50;
-        
-        newSize = 0.49f + waterAmount * 0.005f;
+        float newSize = 0.49f + waterAmount * 0.005f;
         transform.localScale = new Vector3(newSize, newSize, newSize);
 
         rb2d.mass = Mathf.Lerp(maxMass * 0.4f, maxMass, waterAmount * 0.01f);
@@ -163,36 +156,50 @@ public class PlayerController : MonoBehaviour
     public void ChangeWaterAmount(int amount)
     {
         waterAmount += amount;
-        waterAmount = Mathf.Clamp(waterAmount, 1f, 100f);
-        healthBar.SetHealth(waterAmount);
+        waterAmount = Mathf.Clamp(waterAmount, 0f, 100f);
+        waterBar.SetWater(waterAmount);
     }
 
     public void ChangeWaterAmount(int amount, float damageInterval)
     {
-
-        if (damageable)
+        if (waterRemovable)
         {
-            float damageTimer = damageInterval;
-            damageable = false;
-            waterAmount += amount;
+            waterRemovable = false;
 
             if (waterAmount < 1)
             {
-                damageTimer = lifeLossTimer;
-                lifeManager.LooseLife();
-                anim.SetTrigger(damageTakenHash);
+                ChangeLifeAmount(false);
             }
-            
-            Invoke(nameof(SetDamageable), damageTimer);
-
+            ChangeWaterAmount(amount);
+            Invoke(nameof(SetWaterRemovable), damageInterval);
         }
-
-        healthBar.SetHealth(waterAmount);
-        
     }
 
-    private void SetDamageable()
+    public void ChangeLifeAmount(bool increase)
     {
-        damageable = true;
+        if (increase)
+        {
+            lifeManager.GainLife();
+        }
+        else
+        {
+            if (lifeRemovable)
+            {
+                lifeRemovable = false;
+                lifeManager.LooseLife();
+                anim.SetTrigger(damageTakenHash);
+                Invoke(nameof(SetLifeRemovable), lifeLossTimer);
+            }
+        }
+    }
+
+    private void SetWaterRemovable()
+    {
+        waterRemovable = true;
+    }
+
+    private void SetLifeRemovable()
+    {
+        lifeRemovable = true;
     }
 }

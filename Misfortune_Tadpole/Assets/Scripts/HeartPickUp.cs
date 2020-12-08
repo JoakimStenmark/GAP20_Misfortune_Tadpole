@@ -2,13 +2,12 @@
 
 public class HeartPickUp : MonoBehaviour
 {
-    public LifeManager lifeManager;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            other.gameObject.GetComponent<PlayerController>().ChangeLifeAmount(true);
             gameObject.SetActive(false);
-            lifeManager.GetComponent<LifeManager>().GainLife();
         }
     }
 }

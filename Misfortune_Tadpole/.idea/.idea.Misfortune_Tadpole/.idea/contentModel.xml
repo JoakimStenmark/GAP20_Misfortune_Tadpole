@@ -10,7 +10,6 @@
           <e p="BetterJump.cs" t="Include" />
           <e p="CameraHelper.cs" t="Include" />
           <e p="FallThroughPlatform.cs" t="Include" />
-          <e p="HealthBar.cs" t="Include" />
           <e p="HeartPickUp.cs" t="Include" />
           <e p="HeatPlatformScript.cs" t="Include" />
           <e p="LevelBoundary.cs" t="Include" />
@@ -28,6 +27,7 @@
           <e p="TadpoleController.cs" t="Include" />
           <e p="Temp.cs" t="Include" />
           <e p="Test.cs" t="Include" />
+          <e p="WaterBar.cs" t="Include" />
           <e p="WaterDrop.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

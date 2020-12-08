@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf0e7c8-c426-4d63-b9b7-994cbe1fbe74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +54,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelBoundary.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerBubbleTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpriteScaler.cs" />
+        <option value="$PROJECT_DIR$/Assets/LifeCounterScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeartPickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LifeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HeartPickUp.cs" />
       </list>
     </option>
   </component>
@@ -63,6 +69,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -107,7 +114,9 @@
       <workItem from="1606730188224" duration="5508000" />
       <workItem from="1606983154203" duration="9741000" />
       <workItem from="1607005487007" duration="594000" />
-      <workItem from="1607332558958" duration="7425000" />
+      <workItem from="1607332558958" duration="12972000" />
+      <workItem from="1607353388499" duration="215000" />
+      <workItem from="1607415461707" duration="4108000" />
     </task>
     <servers />
   </component>
@@ -132,10 +141,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1606396589272">
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1607348249124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1606396589272" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607348249124" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607338894368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

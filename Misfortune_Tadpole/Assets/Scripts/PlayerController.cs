@@ -30,6 +30,9 @@ public class PlayerController : MonoBehaviour
 
     public HealthBar healthBar;
     
+    public LifeManager lifeManager;
+    public float lifeLossTimer;
+    
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
@@ -83,7 +86,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             
-            CancelInvoke("SecondChance");
+            CancelInvoke(nameof(SecondChance));
             grounded = true;
             secondChance = true;
         }
@@ -169,21 +172,21 @@ public class PlayerController : MonoBehaviour
 
         if (damageable)
         {
+            float damageTimer = damageInterval;
             damageable = false;
             waterAmount += amount;
-            Invoke(nameof(SetDamageable), damageInterval);
-          //anim.SetTrigger(damageTakenHash);
 
             if (waterAmount < 1)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                damageTimer = lifeLossTimer;
+                lifeManager.LooseLife();
+                anim.SetTrigger(damageTakenHash);
             }
+            
+            Invoke(nameof(SetDamageable), damageTimer);
+
         }
-        else
-        {
-            Debug.Log("Player is Invulnerable");
-        }
-        
+
         healthBar.SetHealth(waterAmount);
         
     }

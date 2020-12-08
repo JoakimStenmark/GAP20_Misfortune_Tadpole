@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf0e7c8-c426-4d63-b9b7-994cbe1fbe74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerAndCam.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerAndCam.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WaterBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WaterBar.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HeartPickUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HeartPickUp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpikeScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpikeScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpriteScaler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpriteScaler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +48,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelBoundary.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerBubbleTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpriteScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/LifeCounterScript.cs" />
         <option value="$PROJECT_DIR$/Assets/HeartPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LifeManager.cs" />
@@ -64,6 +56,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpikeScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaterBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpriteScaler.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +114,7 @@
       <workItem from="1607005487007" duration="594000" />
       <workItem from="1607332558958" duration="12972000" />
       <workItem from="1607353388499" duration="215000" />
-      <workItem from="1607415461707" duration="15002000" />
+      <workItem from="1607415461707" duration="15749000" />
     </task>
     <servers />
   </component>

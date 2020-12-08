@@ -15,20 +15,6 @@ public class SpriteScaler : MonoBehaviour
 
     public LayerMask mask;
 
-    void Start()
-    {
-
-    }
-    
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            //transform.localScale = transform.localScale * Random.value;
-            ImpactSquish();
-        }
-    }
-
     private void FixedUpdate()
     {
         RaycastHit2D hit = Physics2D.CircleCast(transform.position, circleCastRadius, Vector2.zero, 0f, mask);

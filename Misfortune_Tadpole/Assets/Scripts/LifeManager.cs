@@ -33,11 +33,10 @@ public class LifeManager : MonoBehaviour
 
     public void GainLife()
     {
-        lives[currentLives].gameObject.SetActive(true);
-        currentLives++;
-
-        if (currentLives >= startingLives)
-            currentLives = startingLives;
-
+        if (currentLives < startingLives)
+        {
+            lives[currentLives].gameObject.SetActive(true);
+            currentLives++;            
+        }
     }
 }

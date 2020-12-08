@@ -9,7 +9,6 @@ public class StickToSurface : MonoBehaviour
 {
     Vector3 deltaPos;
     Rigidbody2D rb2d;
-    public RotatorRotation rotatorRotation;
     public bool stuck;
     float timer;
     public const float STICK_COOLDOWN = 0.001f;
@@ -75,7 +74,6 @@ public class StickToSurface : MonoBehaviour
         if (collision.CompareTag("Sticky"))
         {
             GetStuck(collision.transform);
-            rotatorRotation = collision.gameObject.GetComponent<RotatorRotation>();
         }
     }
 

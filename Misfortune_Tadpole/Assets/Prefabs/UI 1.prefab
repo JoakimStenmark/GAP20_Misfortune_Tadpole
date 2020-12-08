@@ -790,7 +790,7 @@ GameObject:
   - component: {fileID: 5001586828240225724}
   - component: {fileID: 5001586828240225715}
   m_Layer: 5
-  m_Name: Health
+  m_Name: Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -836,7 +836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.2009167, g: 0.990566, b: 0.31428942, a: 1}
+  m_Color: {r: 0.19999997, g: 0.77989197, b: 0.99215686, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -865,7 +865,7 @@ GameObject:
   - component: {fileID: 5001586828291972465}
   - component: {fileID: 5001586828291972464}
   m_Layer: 5
-  m_Name: Healthbar Background
+  m_Name: Water Bar Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -911,7 +911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9811321, g: 0.49250624, b: 0.43965825, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1206,7 +1206,7 @@ GameObject:
   - component: {fileID: 5001586830005370720}
   - component: {fileID: 5001586830005370727}
   m_Layer: 0
-  m_Name: HealthbarPH
+  m_Name: Water Bar PH
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

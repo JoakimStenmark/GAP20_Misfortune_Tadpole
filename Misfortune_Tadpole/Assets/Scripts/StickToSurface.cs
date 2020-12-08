@@ -61,7 +61,6 @@ public class StickToSurface : MonoBehaviour
         Vector3 extraDirection = Vector3.zero;
         extraDirection = transform.position - deltaPos;
         extraDirection = extraDirection.normalized;
-        Debug.Log(extraDirection);
 
 
         rb2d.AddForce(flyOffDirection * unstuckForceOut, ForceMode2D.Impulse);

@@ -71,7 +71,7 @@ public class StickToSurface : MonoBehaviour
     {
         if (timer > 0) return;
 
-        if (collision.CompareTag("Sticky"))
+        if (collision.CompareTag("Sticky") || collision.CompareTag("Rotator"))
         {
             GetStuck(collision.transform);
         }
@@ -81,7 +81,7 @@ public class StickToSurface : MonoBehaviour
     {
         if (!stuck) return;
 
-        if (collision.CompareTag("Sticky"))
+        if (collision.CompareTag("Sticky") || collision.CompareTag("Rotator"))
         {
             UnStuck();
             Debug.LogWarning("Got unstuck from other source");

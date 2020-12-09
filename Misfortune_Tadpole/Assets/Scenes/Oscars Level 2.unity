@@ -3106,6 +3106,10 @@ PrefabInstance:
       propertyPath: lifeManager
       value: 
       objectReference: {fileID: 1840839117}
+    - target: {fileID: 3115559214320830630, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
+      propertyPath: mask.m_Bits
+      value: 1591
+      objectReference: {fileID: 0}
     - target: {fileID: 3115559214320830636, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -5066,6 +5070,10 @@ PrefabInstance:
     - target: {fileID: 7381533935839519818, guid: b7c93e4572701cb4e9720c9f19db34ec, type: 3}
       propertyPath: m_Name
       value: Rotator (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7381533935839519818, guid: b7c93e4572701cb4e9720c9f19db34ec, type: 3}
+      propertyPath: m_TagString
+      value: Rotator
       objectReference: {fileID: 0}
     - target: {fileID: 7381533935839519829, guid: b7c93e4572701cb4e9720c9f19db34ec, type: 3}
       propertyPath: m_LocalPosition.x

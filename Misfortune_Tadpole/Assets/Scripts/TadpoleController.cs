@@ -24,7 +24,7 @@ public class TadpoleController : MonoBehaviour
     private void Update()
     {
         isStuck = stickToSurface.stuck;
-        if (isStuck)
+        if (isStuck && player.transform.parent.tag == "Rotator")
         {
             rotatorSpeed = player.GetComponentInParent<RotatorRotation>().rotationSpeed;
         }
@@ -32,7 +32,6 @@ public class TadpoleController : MonoBehaviour
         {
             rotatorSpeed = 0;
         }
-        Debug.Log(isStuck);
     }
 
     void LateUpdate()

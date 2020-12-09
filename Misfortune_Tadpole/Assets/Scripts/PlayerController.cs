@@ -13,6 +13,10 @@ public class PlayerController : MonoBehaviour
 
     private float neutralRotationTimeCount;
     private float groundedRotationTimeCount;
+
+    public Vector2 upwards;
+    public LayerMask mask;
+    private StickToSurface stickToSurface;
     
 
     public Rigidbody2D rb2d;
@@ -35,6 +39,7 @@ public class PlayerController : MonoBehaviour
         waterAmount = startWaterAmount;
         rb2d = GetComponent<Rigidbody2D>();
         SetSizeBasedOnWaterAmount();
+        stickToSurface = GetComponent<StickToSurface>();
 
         waterBar.SetMaxWater(100);
         waterBar.SetWater(waterAmount);
@@ -43,7 +48,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-
         if (Input.GetButtonDown("Jump") && (secondChance || grounded))
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
@@ -54,7 +58,23 @@ public class PlayerController : MonoBehaviour
 
         velocity = rb2d.velocity.magnitude;
 
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, 1.5f, mask);
+        RaycastHit2D hit2 = Physics2D.Raycast(transform.position, -transform.up, 1.5f, mask);
+
+        if (hit.collider != null && hit2.collider != null)
+        transform.up = (hit.normal + hit2.normal) / 2;
+        if (stickToSurface.stuck)
+        {
+            transform.up = transform.position - transform.parent.position;
+        }
     }
+
+#if UNITY_EDITOR
+    private void OnDrawGizmos()
+    {
+        Debug.DrawLine(transform.position, transform.position - Vector3.up * 1.5f, Color.red);
+    }
+#endif
 
     private void FixedUpdate()
     {
@@ -130,14 +150,6 @@ public class PlayerController : MonoBehaviour
         {
             grounded = false;
         }
-    }
-
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-
-        transform.up = collision.GetContact(0).normal;
-        
     }
 
     public float maxMass;

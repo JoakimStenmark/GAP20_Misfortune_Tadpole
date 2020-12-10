@@ -62,8 +62,8 @@ public class PlayerController : MonoBehaviour
 
         velocity = rb2d.velocity.magnitude;
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, 1.5f, mask);
-        RaycastHit2D hit2 = Physics2D.Raycast(transform.position, -transform.up, 1.5f, mask);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, 2f, mask);
+        RaycastHit2D hit2 = Physics2D.Raycast(transform.position, -transform.up, 2f, mask);
 
         if (hit.collider != null && hit2.collider != null)
         {
@@ -79,7 +79,7 @@ public class PlayerController : MonoBehaviour
 #if UNITY_EDITOR
     private void OnDrawGizmos()
     {
-        Debug.DrawLine(transform.position, transform.position - Vector3.up * 1.5f, Color.red);
+        Debug.DrawLine(transform.position, transform.position - Vector3.up * 2f, Color.red);
     }
 #endif
 

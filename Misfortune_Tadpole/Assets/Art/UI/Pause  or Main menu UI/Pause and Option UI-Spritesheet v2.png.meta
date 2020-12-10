@@ -1,7 +1,79 @@
 fileFormatVersion: 2
 guid: ba827020436bb2b4993c3ed94f7d4271
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3363950146779383213
+    second: Pause and Option UI-Spritesheet v2_0
+  - first:
+      213: 3098800660702571205
+    second: Pause and Option UI-Spritesheet v2_1
+  - first:
+      213: -6599387883134559418
+    second: Pause and Option UI-Spritesheet v2_2
+  - first:
+      213: -7445514487431618773
+    second: Pause and Option UI-Spritesheet v2_3
+  - first:
+      213: 7073755559612928289
+    second: Pause and Option UI-Spritesheet v2_4
+  - first:
+      213: 8982985827984355301
+    second: Pause and Option UI-Spritesheet v2_5
+  - first:
+      213: 6879648296473479948
+    second: Pause and Option UI-Spritesheet v2_6
+  - first:
+      213: -683200341556753950
+    second: Pause and Option UI-Spritesheet v2_7
+  - first:
+      213: -1434145149332849002
+    second: Pause and Option UI-Spritesheet v2_8
+  - first:
+      213: 5308772082023035993
+    second: Pause and Option UI-Spritesheet v2_9
+  - first:
+      213: 6803892577515761906
+    second: Pause and Option UI-Spritesheet v2_10
+  - first:
+      213: -6123892876259109662
+    second: Pause and Option UI-Spritesheet v2_0
+  - first:
+      213: -464884960714670753
+    second: Pause and Option UI-Spritesheet v2_1
+  - first:
+      213: -8326491830986422385
+    second: Pause and Option UI-Spritesheet v2_2
+  - first:
+      213: -1865799565386293605
+    second: Pause and Option UI-Spritesheet v2_3
+  - first:
+      213: -6565590426462611270
+    second: Pause and Option UI-Spritesheet v2_4
+  - first:
+      213: -5727357491760612777
+    second: Pause and Option UI-Spritesheet v2_5
+  - first:
+      213: -910402799915558251
+    second: Pause and Option UI-Spritesheet v2_7
+  - first:
+      213: 3467025313624458118
+    second: Pause and Option UI-Spritesheet v2_8
+  - first:
+      213: -8598034098827608432
+    second: Pause and Option UI-Spritesheet v2_9
+  - first:
+      213: 7345787619838584768
+    second: Pause and Option UI-Spritesheet v2_10
+  - first:
+      213: -1350102128257001315
+    second: Pause and Option UI-Spritesheet v2_11
+  - first:
+      213: -4428154283541108236
+    second: Pause and Option UI-Spritesheet v2_12
+  - first:
+      213: -2251152078164804115
+    second: Pause and Option UI-Spritesheet v2_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +113,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -73,9 +145,252 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_1
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 482
+        width: 1756
+        height: 1463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d3e2f57956c89f0800000000000000
+      internalID: -464884960714670753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_4
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 1627
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab89df90b4652e4a0800000000000000
+      internalID: -6565590426462611270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_5
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 1548
+        width: 509
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75abfe1c4b65480b0800000000000000
+      internalID: -5727357491760612777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_6
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1359
+        width: 171
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b4ceafcab697f50800000000000000
+      internalID: 6879648296473479948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_7
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 1305
+        width: 509
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a138c1a799d53f0800000000000000
+      internalID: -910402799915558251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_8
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1175
+        width: 260
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6838fd557295d1030800000000000000
+      internalID: 3467025313624458118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_9
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 1063
+        width: 509
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e3fac9a85ada880800000000000000
+      internalID: -8598034098827608432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_10
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 914
+        width: 101
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7e0fbabea71f560800000000000000
+      internalID: 7345787619838584768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_11
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 847
+        width: 215
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d981eba7449734de0800000000000000
+      internalID: -1350102128257001315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_12
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 821
+        width: 510
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f968e6f3290c82c0800000000000000
+      internalID: -4428154283541108236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_13
+      rect:
+        serializedVersion: 2
+        x: 2962
+        y: 596
+        width: 212
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedba9dac1d42c0e0800000000000000
+      internalID: -2251152078164804115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

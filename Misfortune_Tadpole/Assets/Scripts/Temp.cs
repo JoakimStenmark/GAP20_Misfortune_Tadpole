@@ -4,47 +4,86 @@ using UnityEngine;
 
 public class Temp : MonoBehaviour
 {
-    //[SerializeField] float secondChanceTimer;
+    [SerializeField] float secondChanceTimer;
 
-    private Rigidbody2D rb2d;
-    bool grounded = false;
-    private bool secondChance = true;
-    public LayerMask layerMask;
+    private Animator anim;
+    private int damageTakenHash = Animator.StringToHash("tookDamage");
+
+    private bool grounded = false;
+    private bool secondChance = false;
+    [SerializeField] float jumpForce;
 
     private float neutralRotationTimeCount;
     private float groundedRotationTimeCount;
-    Vector3 startPos;
 
-    public int startWaterAmount;
-    private int waterAmount;
-    public int WaterAmount { get => waterAmount; set => waterAmount = value; }
+    public Vector2 upwards;
+    public LayerMask mask;
+    private StickToSurface stickToSurface;
 
-    //[SerializeField] float jumpForce;
 
+    public Rigidbody2D rb2d;
+    public float startWaterAmount;
+    [SerializeField]
+    private float waterAmount;
+    public float WaterAmount { get => waterAmount; }
+    private bool waterRemovable = true;
+    private bool lifeRemovable = true;
+    public float velocity;
+
+    public WaterBar waterBar;
+
+    public LifeManager lifeManager;
+    public float lifeLossTimer = 2f;
+
+    private PlayerSoundControl playerSound;
 
     void Start()
     {
+        anim = GetComponentInChildren<Animator>();
         waterAmount = startWaterAmount;
         rb2d = GetComponent<Rigidbody2D>();
-        startPos = transform.position;
-        setSizeBasedOnWaterAmount();
+        SetSizeBasedOnWaterAmount();
+        stickToSurface = GetComponent<StickToSurface>();
+
+        waterBar.SetMaxWater(100);
+        waterBar.SetWater(waterAmount);
+
+        playerSound = GetComponentInChildren<PlayerSoundControl>();
     }
 
     void Update()
     {
-
-        if (Input.GetKeyDown("r"))
-        {
-            ResetToLastCheckpoint();
-        }
-
         if (Input.GetButtonDown("Jump") && (secondChance || grounded))
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
-            //rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+            rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+            playerSound.PlayJumpSound();
         }
 
+        SetSizeBasedOnWaterAmount();
+
+        velocity = rb2d.velocity.magnitude;
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, 1.5f, mask);
+        RaycastHit2D hit2 = Physics2D.Raycast(transform.position, -transform.up, 1.5f, mask);
+
+        if (hit.collider != null && hit2.collider != null)
+        {
+            transform.up = (hit.normal + hit2.normal) / 2;
+        }
+
+        if (stickToSurface.stuck)
+        {
+            transform.up = transform.position - transform.parent.position;
+        }
     }
+
+#if UNITY_EDITOR
+    private void OnDrawGizmos()
+    {
+        Debug.DrawLine(transform.position, transform.position - Vector3.up * 1.5f, Color.red);
+    }
+#endif
 
     private void FixedUpdate()
     {
@@ -61,12 +100,6 @@ public class Temp : MonoBehaviour
 
     }
 
-    public void ResetToLastCheckpoint()
-    {
-        rb2d.position = startPos;
-        rb2d.velocity = new Vector3();
-    }
-
     private void SecondChance()
     {
         secondChance = false;
@@ -76,10 +109,11 @@ public class Temp : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            CancelInvoke("SecondChance");
+
+            CancelInvoke(nameof(SecondChance));
             grounded = true;
             secondChance = true;
-            RotateBasedOnGroundNormal();
+            playerSound.PlayLandSound();
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
@@ -90,8 +124,6 @@ public class Temp : MonoBehaviour
             grounded = false;
         }
 
-        RotateBasedOnGroundNormal();
-
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -99,10 +131,9 @@ public class Temp : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             grounded = false;
-            //Invoke("SecondChance", secondChanceTimer);
+            Invoke(nameof(SecondChance), secondChanceTimer);
 
         }
-
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
             grounded = true;
@@ -118,7 +149,6 @@ public class Temp : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             grounded = true;
-            RotateBasedOnGroundNormal();
 
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
@@ -131,30 +161,68 @@ public class Temp : MonoBehaviour
         }
     }
 
-    void RotateBasedOnGroundNormal()
+    public float maxMass;
+    public float maxDrag;
+    public float minDrag;
+    private void SetSizeBasedOnWaterAmount()
     {
-        //Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.down), Color.red, 1);
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.TransformDirection(Vector2.down), 1f, layerMask);
-        if (hit)
-        {
-            //transform.rotation = new Quaternion(hit.normal.x, hit.normal.y, 0, 0);            
-            //transform.rotation = Quaternion.Slerp(transform.rotation, new Quaternion(0, 0, -hit.normal.x, hit.normal.y), groundedRotationTimeCount);
-            transform.up = Vector3.Slerp(transform.up, new Vector3(hit.normal.x, hit.normal.y, 0), groundedRotationTimeCount);
-            groundedRotationTimeCount += Time.deltaTime;
-            //Debug.Log("rotate like " + hit.collider.gameObject);
+        float newSize = 0.49f + waterAmount * 0.005f;
+        transform.localScale = new Vector3(newSize, newSize, newSize);
 
+        rb2d.mass = Mathf.Lerp(maxMass * 0.4f, maxMass, waterAmount * 0.01f);
+        rb2d.drag = Mathf.Lerp(maxDrag, minDrag, waterAmount * 0.01f);
+    }
+
+
+    public void ChangeWaterAmount(int amount)
+    {
+        waterAmount += amount;
+        waterAmount = Mathf.Clamp(waterAmount, 0f, 100f);
+        waterBar.SetWater(waterAmount);
+        playerSound.PlayWaterPickupSound();
+    }
+
+    public void ChangeWaterAmount(int amount, float damageInterval)
+    {
+        if (waterRemovable)
+        {
+            waterRemovable = false;
+
+            if (waterAmount < 1)
+            {
+                ChangeLifeAmount(false);
+            }
+            ChangeWaterAmount(amount);
+            Invoke(nameof(SetWaterRemovable), damageInterval);
+        }
+    }
+
+    public void ChangeLifeAmount(bool increase)
+    {
+        if (increase)
+        {
+            lifeManager.GainLife();
         }
         else
         {
-            groundedRotationTimeCount = 0;
-            transform.rotation = Quaternion.identity;
+            if (lifeRemovable)
+            {
+                lifeRemovable = false;
+                lifeManager.LooseLife();
+                anim.SetTrigger(damageTakenHash);
+                Invoke(nameof(SetLifeRemovable), lifeLossTimer);
+                playerSound.PlayHurtSound();
+            }
         }
-
     }
 
-    void setSizeBasedOnWaterAmount()
+    private void SetWaterRemovable()
     {
-        float newSize = waterAmount / 50;
-        transform.localScale = new Vector3(newSize, newSize, newSize);
+        waterRemovable = true;
+    }
+
+    private void SetLifeRemovable()
+    {
+        lifeRemovable = true;
     }
 }

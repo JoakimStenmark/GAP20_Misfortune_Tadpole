@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7017388809719707958}
-  - component: {fileID: 9014003235728522474}
+  - component: {fileID: 5180102490481735151}
   - component: {fileID: 3669295617004754638}
   m_Layer: 8
   m_Name: PlayerSound
@@ -33,7 +33,7 @@ Transform:
   m_Father: {fileID: 8892172925730561571}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9014003235728522474
+--- !u!114 &5180102490481735151
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,7 +42,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3788618644310163160}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 058884736c71fdd4c8a8301c1720ad05, type: 3}
+  m_Script: {fileID: 11500000, guid: ea778123b9f94ae4a849eb044f5a5b59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: cd4a96e1f5aaece43b6d6d5698ce867f, type: 2}
@@ -52,14 +52,14 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: -0.0019378662
+      time: 0
       value: 0
-      inSlope: 1.7409667
-      outSlope: 1.7409667
+      inSlope: 2
+      outSlope: 2
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.058139518
+      outWeight: 0
     - serializedVersion: 3
       time: 1
       value: 1
@@ -77,6 +77,18 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 6d628eb17b9c8f04e9a727484899721a, type: 3}
   - {fileID: 8300000, guid: 93ba1a31ed6655d4bae49b9402aa844a, type: 3}
   - {fileID: 8300000, guid: 322a66d1fc75bcd4d929734015d05a5d, type: 3}
+  landSounds:
+  - {fileID: 8300000, guid: ebd2c6e099992a7448016de301ce63fc, type: 3}
+  - {fileID: 8300000, guid: c41e08969d43b004e9fbb336b6bac620, type: 3}
+  - {fileID: 8300000, guid: 40149df819103db4b97905c3e1ee5146, type: 3}
+  hurtSounds:
+  - {fileID: 8300000, guid: 9fc314bfab3a27b49853b7e02391f04e, type: 3}
+  - {fileID: 8300000, guid: f2a0b5f2a597897449d517256a595e96, type: 3}
+  - {fileID: 8300000, guid: 701521b67480a544b9ffa73a9be1e26e, type: 3}
+  waterPickupSounds:
+  - {fileID: 8300000, guid: 75b42c02ee16bd54cbf71d18921ef21a, type: 3}
+  - {fileID: 8300000, guid: 0b81050116358354ab08d876e0c12428, type: 3}
+  - {fileID: 8300000, guid: c273cda0a02862540bd155a5ea1e00e2, type: 3}
 --- !u!82 &3669295617004754638
 AudioSource:
   m_ObjectHideFlags: 0

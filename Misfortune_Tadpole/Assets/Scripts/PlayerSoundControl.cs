@@ -5,8 +5,8 @@ using UnityEngine.Audio;
 
 public class PlayerSoundControl : MonoBehaviour
 {
-    
     public AudioMixer audioMixer;
+
     [Header("Wind Settings")]
     public AudioLowPassFilter windLowPassFilter;
     public float windVolume;
@@ -16,12 +16,17 @@ public class PlayerSoundControl : MonoBehaviour
     private float amount;
 
     private AudioSource soundPlayer;
+    [Header("RoundRobin Sounds")]
     public AudioClip[] jumpSounds;
+    public AudioClip[] landSounds;
+    public AudioClip[] hurtSounds;
+    public AudioClip[] waterPickupSounds;
+
 
     void Start()
     {
         soundPlayer = GetComponent<AudioSource>();
-        
+       
     }
 
     void Update()
@@ -45,16 +50,46 @@ public class PlayerSoundControl : MonoBehaviour
         audioMixer.SetFloat("SpeedVolume", windVolume);
     }
 
-    public void PlayJumpSound()
+    private void PlayRoundRobinSound(AudioClip[] sounds)
     {
         if (soundPlayer.isPlaying)
         {
-            soundPlayer.Stop();
+            //soundPlayer.Stop();
         }
-        soundPlayer.clip = jumpSounds[Random.Range(0, 2)];
-        soundPlayer.pitch = Random.Range(0.7f, 1.2f);
+        soundPlayer.clip = sounds[Random.Range(0, sounds.Length - 1)];
+        soundPlayer.pitch = Random.Range(0.9f, 1.2f);
+        soundPlayer.volume = 1f;
         soundPlayer.Play();
     }
+
+    public void PlayJumpSound()
+    {
+        PlayRoundRobinSound(jumpSounds);
+    }
+
+    public void PlayHurtSound()
+    {
+        PlayRoundRobinSound(hurtSounds);
+    }
+
+    public void PlayWaterPickupSound()
+    {
+        PlayRoundRobinSound(waterPickupSounds);
+    }
+
+    public void PlayLandSound()
+    {
+        if (soundPlayer.isPlaying)
+        {
+            //soundPlayer.Stop();
+        }
+        soundPlayer.clip = landSounds[Random.Range(0, landSounds.Length - 1)];
+        soundPlayer.pitch = Random.Range(0.9f, 1.2f);
+        soundPlayer.volume = Mathf.Clamp(playerRb2d.velocity.magnitude, 0f, 30f) * 0.033f;
+        soundPlayer.Play();
+    }
+
+
 
 
 

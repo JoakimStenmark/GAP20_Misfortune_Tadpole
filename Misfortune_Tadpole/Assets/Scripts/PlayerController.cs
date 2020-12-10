@@ -174,10 +174,13 @@ public class PlayerController : MonoBehaviour
 
     public void ChangeWaterAmount(int amount)
     {
+        if (amount > 0)
+        {
+            playerSound.PlayWaterPickupSound();
+        }
         waterAmount += amount;
         waterAmount = Mathf.Clamp(waterAmount, 0f, 100f);
         waterBar.SetWater(waterAmount);
-        playerSound.PlayWaterPickupSound();
     }
 
     public void ChangeWaterAmount(int amount, float damageInterval)

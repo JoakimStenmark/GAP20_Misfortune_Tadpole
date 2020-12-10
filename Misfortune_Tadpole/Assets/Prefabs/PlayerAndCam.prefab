@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
-  - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   - component: {fileID: 7550065826682603114}
   m_Layer: 0
@@ -30,7 +29,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 6723847541019232825}
   m_Father: {fileID: 8770478457559829793}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -77,14 +77,6 @@ Camera:
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &519420029
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
 --- !u!114 &519420030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -619,6 +611,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8896265715304446717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6723847541019232825}
+  - component: {fileID: 1936566364755403690}
+  m_Layer: 0
+  m_Name: AudioListener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6723847541019232825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8896265715304446717}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 519420032}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &1936566364755403690
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8896265715304446717}
+  m_Enabled: 1
 --- !u!1001 &4775958336117573514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -894,14 +925,14 @@ PrefabInstance:
     - {fileID: 1234602575907438958, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
     - {fileID: 2429322707592058553, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
---- !u!1 &3115559214320830636 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8892172925730561576, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
-  m_PrefabInstance: {fileID: 5790477592583591556}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3115559214320830631 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8892172925730561571, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
+  m_PrefabInstance: {fileID: 5790477592583591556}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3115559214320830636 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8892172925730561576, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
   m_PrefabInstance: {fileID: 5790477592583591556}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6961618076041103815

@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
     public LifeManager lifeManager;
     public float lifeLossTimer = 2f;
 
+    private PlayerSoundControl playerSound;
+
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
@@ -44,6 +46,7 @@ public class PlayerController : MonoBehaviour
         waterBar.SetMaxWater(100);
         waterBar.SetWater(waterAmount);
 
+        playerSound = GetComponentInChildren<PlayerSoundControl>();
     }
 
     void Update()
@@ -52,14 +55,15 @@ public class PlayerController : MonoBehaviour
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
             rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+            playerSound.PlayJumpSound();
         }
 
         SetSizeBasedOnWaterAmount();
 
         velocity = rb2d.velocity.magnitude;
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, 1.5f, mask);
-        RaycastHit2D hit2 = Physics2D.Raycast(transform.position, -transform.up, 1.5f, mask);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, 2f, mask);
+        RaycastHit2D hit2 = Physics2D.Raycast(transform.position, -transform.up, 2f, mask);
 
         if (hit.collider != null && hit2.collider != null)
         {
@@ -75,7 +79,7 @@ public class PlayerController : MonoBehaviour
 #if UNITY_EDITOR
     private void OnDrawGizmos()
     {
-        Debug.DrawLine(transform.position, transform.position - Vector3.up * 1.5f, Color.red);
+        Debug.DrawLine(transform.position, transform.position - Vector3.up * 2f, Color.red);
     }
 #endif
 
@@ -107,6 +111,7 @@ public class PlayerController : MonoBehaviour
             CancelInvoke(nameof(SecondChance));
             grounded = true;
             secondChance = true;
+            playerSound.PlayLandSound();
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
@@ -126,7 +131,6 @@ public class PlayerController : MonoBehaviour
             grounded = false;
             Invoke(nameof(SecondChance), secondChanceTimer);
             
-
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
@@ -170,6 +174,10 @@ public class PlayerController : MonoBehaviour
 
     public void ChangeWaterAmount(int amount)
     {
+        if (amount > 0)
+        {
+            playerSound.PlayWaterPickupSound();
+        }
         waterAmount += amount;
         waterAmount = Mathf.Clamp(waterAmount, 0f, 100f);
         waterBar.SetWater(waterAmount);
@@ -204,6 +212,7 @@ public class PlayerController : MonoBehaviour
                 lifeManager.LooseLife();
                 anim.SetTrigger(damageTakenHash);
                 Invoke(nameof(SetLifeRemovable), lifeLossTimer);
+                playerSound.PlayHurtSound();
             }
         }
     }

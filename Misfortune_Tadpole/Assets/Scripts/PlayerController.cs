@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
     public LifeManager lifeManager;
     public float lifeLossTimer = 2f;
 
+    private PlayerSoundControl playerSound;
+
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
@@ -44,6 +46,7 @@ public class PlayerController : MonoBehaviour
         waterBar.SetMaxWater(100);
         waterBar.SetWater(waterAmount);
 
+        playerSound = GetComponentInChildren<PlayerSoundControl>();
     }
 
     void Update()
@@ -52,6 +55,7 @@ public class PlayerController : MonoBehaviour
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
             rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+            playerSound.PlayJumpSound();
         }
 
         SetSizeBasedOnWaterAmount();

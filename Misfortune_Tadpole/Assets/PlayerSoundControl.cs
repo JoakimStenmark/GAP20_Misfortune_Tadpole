@@ -5,16 +5,22 @@ using UnityEngine.Audio;
 
 public class PlayerSoundControl : MonoBehaviour
 {
+    
     public AudioMixer audioMixer;
-    AudioLowPassFilter lowPassFilter;
+    [Header("Wind Settings")]
+    public AudioLowPassFilter windLowPassFilter;
     public float windVolume;
     public AnimationCurve windVolumeCurve;
     public Rigidbody2D playerRb2d;
     private float previousT;
     private float amount;
+
+    private AudioSource soundPlayer;
+    public AudioClip[] jumpSounds;
+
     void Start()
     {
-        lowPassFilter = GetComponent<AudioLowPassFilter>();
+        soundPlayer = GetComponent<AudioSource>();
         
     }
 
@@ -22,7 +28,7 @@ public class PlayerSoundControl : MonoBehaviour
     {
         amount = ConvertVelocityToAmount();
         SetWindVolume(amount);
-        lowPassFilter.cutoffFrequency = Mathf.Lerp(500f, 10000f, amount);
+        windLowPassFilter.cutoffFrequency = Mathf.Lerp(500f, 10000f, amount);
     }
 
     float ConvertVelocityToAmount()
@@ -35,9 +41,19 @@ public class PlayerSoundControl : MonoBehaviour
 
     void SetWindVolume(float volumeAmount)
     {
-        windVolume = Mathf.Lerp(-80f, 0f, volumeAmount);
+        windVolume = Mathf.Lerp(-80f, -5f, volumeAmount);
         audioMixer.SetFloat("SpeedVolume", windVolume);
-        //audioMixer.SetFloat("SpeedVolume", 0f);
+    }
+
+    public void PlayJumpSound()
+    {
+        if (soundPlayer.isPlaying)
+        {
+            soundPlayer.Stop();
+        }
+        soundPlayer.clip = jumpSounds[Random.Range(0, 2)];
+        soundPlayer.pitch = Random.Range(0.7f, 1.2f);
+        soundPlayer.Play();
     }
 
 

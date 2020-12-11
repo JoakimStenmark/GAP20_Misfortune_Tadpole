@@ -78,6 +78,19 @@ public class PauseMenuManager : MonoBehaviour
 		Time.timeScale = 1f;
 	}
 
+	public void LoadNextScene()
+	{
+		if (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCountInBuildSettings - 1)
+		{
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+			Time.timeScale = 1f;
+		}
+		else
+		{
+			GoToMainMenu();
+		}
+	}
+
 	public void PlayConfirmSound()
     {
 		audioSource.clip = confirmSound;

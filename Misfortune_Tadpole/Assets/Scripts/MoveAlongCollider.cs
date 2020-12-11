@@ -20,6 +20,8 @@ public class MoveAlongCollider : MonoBehaviour
     public float timer;
     public AnimationCurve speedOverTime;
 
+    private AudioSource audioSource;
+
     //float timeToFinish = 1f; 
 
     void Start()
@@ -33,6 +35,7 @@ public class MoveAlongCollider : MonoBehaviour
         {
             totalDistance += Vector3.Distance(pathPoints[i].position, pathPoints[i + 1].position);
         }
+        audioSource = GetComponent<AudioSource>();
     }
 
 #if UNITY_EDITOR
@@ -81,6 +84,7 @@ public class MoveAlongCollider : MonoBehaviour
             travel = true;           
             rb2d.velocity = Vector3.zero;
             rb2d.isKinematic = true;
+            audioSource.Play();
             
         }
     }

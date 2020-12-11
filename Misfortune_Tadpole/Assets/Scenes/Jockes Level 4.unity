@@ -1212,6 +1212,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
+--- !u!1 &489105683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1083282635847128065, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
+  m_PrefabInstance: {fileID: 489105682}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &489105684 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7206173621895893878, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
+  m_PrefabInstance: {fileID: 489105682}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b1cda6d8fd3ce142bd424d764439c99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &510931822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1267,6 +1283,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoalFlower
       objectReference: {fileID: 0}
+    - target: {fileID: 7770357784902608849, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
+      propertyPath: pauseMenuManager
+      value: 
+      objectReference: {fileID: 489105684}
+    - target: {fileID: 7770357784902608849, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
+      propertyPath: victoryScreen
+      value: 
+      objectReference: {fileID: 489105683}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
 --- !u!4 &523567847 stripped

@@ -24,7 +24,7 @@ public class GoalFlower : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            CallVictory();
+            Invoke("CallVictory", 1f );
         }
     }
 

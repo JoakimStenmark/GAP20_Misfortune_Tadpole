@@ -9,9 +9,14 @@ public class PauseMenuManager : MonoBehaviour
 	public bool gameIsPaused;
 
 	public GameObject PauseMenuUI;
+	private AudioSource audioSource;
+	public AudioClip confirmSound;
+	public AudioClip declineSound;
 
 	private void Start()
 	{
+		audioSource = GetComponent<AudioSource>();
+		audioSource.ignoreListenerPause = true;
 		gameIsPaused = false;
 		
 		ToggleMouseVisibility();
@@ -71,5 +76,17 @@ public class PauseMenuManager : MonoBehaviour
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		Time.timeScale = 1f;
+	}
+
+	public void PlayConfirmSound()
+    {
+		audioSource.clip = confirmSound;
+		audioSource.Play();
+    }
+
+	public void PlayDeclineSound()
+	{
+		audioSource.clip = declineSound;
+		audioSource.Play();
 	}
 }

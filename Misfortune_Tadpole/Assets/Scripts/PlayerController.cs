@@ -65,14 +65,17 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, 2f, mask);
         RaycastHit2D hit2 = Physics2D.Raycast(transform.position, -transform.up, 2f, mask);
 
-        if (hit.collider != null && hit2.collider != null)
-        {
-            transform.up = (hit.normal + hit2.normal) / 2;
-        }
-        
         if (stickToSurface.stuck)
         {
+            /*float diff = transform.position.x - transform.parent.position.x;
+
+            if(Mathf.Abs(diff) > 2f)
+                transform.up = transform.position - transform.parent.position;*/
             transform.up = transform.position - transform.parent.position;
+        }
+        else if (hit.collider != null && hit2.collider != null)
+        {
+            transform.up = (hit.normal + hit2.normal) / 2;
         }
     }
 

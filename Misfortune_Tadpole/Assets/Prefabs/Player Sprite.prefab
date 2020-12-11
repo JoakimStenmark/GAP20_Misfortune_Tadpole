@@ -82,13 +82,18 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c41e08969d43b004e9fbb336b6bac620, type: 3}
   - {fileID: 8300000, guid: 40149df819103db4b97905c3e1ee5146, type: 3}
   hurtSounds:
-  - {fileID: 8300000, guid: 9fc314bfab3a27b49853b7e02391f04e, type: 3}
-  - {fileID: 8300000, guid: f2a0b5f2a597897449d517256a595e96, type: 3}
-  - {fileID: 8300000, guid: 701521b67480a544b9ffa73a9be1e26e, type: 3}
+  - {fileID: 8300000, guid: f649de4f166908b43b189463fd31155c, type: 3}
+  - {fileID: 8300000, guid: efb38cfd490633e43a3f866ff84a6958, type: 3}
+  - {fileID: 8300000, guid: bb1760e79a8a02e4ca0ddb7d1a50cf8e, type: 3}
   waterPickupSounds:
   - {fileID: 8300000, guid: 75b42c02ee16bd54cbf71d18921ef21a, type: 3}
   - {fileID: 8300000, guid: 0b81050116358354ab08d876e0c12428, type: 3}
   - {fileID: 8300000, guid: c273cda0a02862540bd155a5ea1e00e2, type: 3}
+  stuckSounds:
+  - {fileID: 8300000, guid: 1544800702dbc9c4aab620e73d805c7c, type: 3}
+  - {fileID: 8300000, guid: a5505f136de7f73428076b23186333ce, type: 3}
+  - {fileID: 8300000, guid: 46d3a0ab7edffc44090f4c31bcefbaa2, type: 3}
+  gainLife: {fileID: 8300000, guid: fd615185538be484fb2869d7873e67d0, type: 3}
 --- !u!82 &3669295617004754638
 AudioSource:
   m_ObjectHideFlags: 0
@@ -98,7 +103,7 @@ AudioSource:
   m_GameObject: {fileID: 3788618644310163160}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 3953621774461188207, guid: cd4a96e1f5aaece43b6d6d5698ce867f, type: 2}
+  OutputAudioMixerGroup: {fileID: -2365628856613834045, guid: cd4a96e1f5aaece43b6d6d5698ce867f, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1

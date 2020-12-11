@@ -15,10 +15,12 @@ public class StickToSurface : MonoBehaviour
     public float unstuckForceOut = 100f;
     public float unstuckForceForward = 50f;
     public CinemachineBrain cinemachineBrain;
+    private PlayerSoundControl playerSound;
 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        playerSound = GetComponentInChildren<PlayerSoundControl>();
     }
 
     void Update()
@@ -29,6 +31,7 @@ public class StickToSurface : MonoBehaviour
         if (Input.GetButtonDown("Jump") && stuck)
         {
             UnStuck();
+            playerSound.PlayJumpSound();
         }
 
         if (!stuck)
@@ -95,5 +98,6 @@ public class StickToSurface : MonoBehaviour
         rb2d.isKinematic = true;
         rb2d.velocity = Vector3.zero;
         cinemachineBrain.m_UpdateMethod = CinemachineBrain.UpdateMethod.LateUpdate;
+        playerSound.PlayStuckSound();
     }
 }

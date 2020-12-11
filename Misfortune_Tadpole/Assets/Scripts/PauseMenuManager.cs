@@ -34,16 +34,18 @@ public class PauseMenuManager : MonoBehaviour
 	{
 		gameIsPaused = !gameIsPaused;
 		if (gameIsPaused)
-		{
+		{			
 			PauseMenuUI.SetActive(true);
 			Time.timeScale = 0f;
 			ToggleMouseVisibility();
+			AudioListener.pause = true;
 		}
 		else if (!gameIsPaused)
 		{
 			PauseMenuUI.SetActive(false);
 			Time.timeScale = 1f;
 			ToggleMouseVisibility();
+			AudioListener.pause = false;
 		}
 	}
 

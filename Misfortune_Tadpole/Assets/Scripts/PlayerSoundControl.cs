@@ -21,6 +21,9 @@ public class PlayerSoundControl : MonoBehaviour
     public AudioClip[] landSounds;
     public AudioClip[] hurtSounds;
     public AudioClip[] waterPickupSounds;
+    public AudioClip[] stuckSounds;
+    public AudioClip gainLife;
+
 
 
     void Start()
@@ -77,6 +80,11 @@ public class PlayerSoundControl : MonoBehaviour
         PlayRoundRobinSound(waterPickupSounds);
     }
 
+    public void PlayStuckSound()
+    {
+        PlayRoundRobinSound(stuckSounds);
+    }
+
     public void PlayLandSound()
     {
         if (soundPlayer.isPlaying)
@@ -86,6 +94,13 @@ public class PlayerSoundControl : MonoBehaviour
         soundPlayer.clip = landSounds[Random.Range(0, landSounds.Length - 1)];
         soundPlayer.pitch = Random.Range(0.9f, 1.2f);
         soundPlayer.volume = Mathf.Clamp(playerRb2d.velocity.magnitude, 0f, 30f) * 0.033f;
+        soundPlayer.Play();
+    }
+
+    public void PlayGetLifeSound()
+    {
+        soundPlayer.clip = gainLife;
+        soundPlayer.volume = 0.5f;
         soundPlayer.Play();
     }
 

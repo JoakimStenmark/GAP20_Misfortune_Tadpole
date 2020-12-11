@@ -203,6 +203,7 @@ public class PlayerController : MonoBehaviour
         if (increase)
         {
             lifeManager.GainLife();
+            playerSound.PlayGetLifeSound();
         }
         else
         {

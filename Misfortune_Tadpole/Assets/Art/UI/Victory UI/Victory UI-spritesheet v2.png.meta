@@ -1,7 +1,46 @@
 fileFormatVersion: 2
 guid: 605d42ba83e707643ae530ab4d225c56
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6460746704944666213
+    second: Victory UI-spritesheet banner
+  - first:
+      213: -6976008488341698444
+    second: Victory UI-spritesheet star_filled
+  - first:
+      213: 2816326498879791440
+    second: Victory UI-spritesheet star_empty
+  - first:
+      213: -7209699817465355125
+    second: Victory UI-spritesheet frame
+  - first:
+      213: -8213025420938227694
+    second: Victory UI-spritesheet heart1
+  - first:
+      213: 4538191376040923128
+    second: Victory UI-spritesheet heart2
+  - first:
+      213: 1396379102790365657
+    second: Victory UI-spritesheet arrow_up
+  - first:
+      213: -6064659802248597200
+    second: Victory UI-spritesheet arrow_round
+  - first:
+      213: -7122730867561168540
+    second: Victory UI-spritesheet arrow_left
+  - first:
+      213: 1984112762600046879
+    second: Victory UI-spritesheet button1
+  - first:
+      213: -5446596605151907477
+    second: Victory UI-spritesheet button2
+  - first:
+      213: 2781896579414184735
+    second: Victory UI-spritesheet button3
+  - first:
+      213: 3471238504556372793
+    second: Victory UI-spritesheet panel
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +80,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -73,9 +112,294 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Victory UI-spritesheet banner
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1475
+        width: 1017
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b996ff33a11d656a0800000000000000
+      internalID: -6460746704944666213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory UI-spritesheet star_filled
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1134
+        width: 126
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47888468d3d303f90800000000000000
+      internalID: -6976008488341698444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory UI-spritesheet star_empty
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1141
+        width: 119
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051ef39770a951720800000000000000
+      internalID: 2816326498879791440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory UI-spritesheet frame
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 660
+        width: 1008
+        height: 785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8467c2f63002fb90800000000000000
+      internalID: -7209699817465355125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory UI-spritesheet heart1
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 1085
+        width: 182
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21059b5e4e8750e80800000000000000
+      internalID: -8213025420938227694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory UI-spritesheet heart2
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 1092
+        width: 183
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff09ab1305eafe30800000000000000
+      internalID: 4538191376040923128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory UI-spritesheet arrow_up
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 938
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d13999456fe06310800000000000000
+      internalID: 1396379102790365657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory UI-spritesheet arrow_round
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 935
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031b163ba0006dba0800000000000000
+      internalID: -6064659802248597200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory UI-spritesheet arrow_left
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 942
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4618e48830af62d90800000000000000
+      internalID: -7122730867561168540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory UI-spritesheet button1
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 908
+        width: 127
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1148199b0cf88b10800000000000000
+      internalID: 1984112762600046879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory UI-spritesheet button2
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 908
+        width: 125
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b617213be3dc964b0800000000000000
+      internalID: -5446596605151907477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory UI-spritesheet button3
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 908
+        width: 127
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f135bd923384b9620800000000000000
+      internalID: 2781896579414184735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory UI-spritesheet panel
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 680
+        width: 454
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933adba47015c2030800000000000000
+      internalID: 3471238504556372793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

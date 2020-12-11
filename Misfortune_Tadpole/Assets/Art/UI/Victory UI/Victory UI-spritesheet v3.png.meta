@@ -38,6 +38,45 @@ TextureImporter:
   - first:
       213: -7962832285672146761
     second: Victory UI-spritesheet v3_11
+  - first:
+      213: -5541963305377956584
+    second: Victory UI-spritesheet v3_0
+  - first:
+      213: 3768350053226927611
+    second: Victory UI-spritesheet v3_1
+  - first:
+      213: 4324041164128342133
+    second: Victory UI-spritesheet v3_2
+  - first:
+      213: -2345263191348323343
+    second: Victory UI-spritesheet v3_3
+  - first:
+      213: -1368417804943194081
+    second: Victory UI-spritesheet v3_4
+  - first:
+      213: -8808417028329410030
+    second: Victory UI-spritesheet v3_5
+  - first:
+      213: 2686041091560186888
+    second: Victory UI-spritesheet v3_6
+  - first:
+      213: -8397859709702176193
+    second: Victory UI-spritesheet v3_7
+  - first:
+      213: -4426416720792008446
+    second: Victory UI-spritesheet v3_8
+  - first:
+      213: 8388658635572344363
+    second: Victory UI-spritesheet v3_9
+  - first:
+      213: -3878331947586621035
+    second: Victory UI-spritesheet v3_10
+  - first:
+      213: 5229603904251483335
+    second: Victory UI-spritesheet v3_11
+  - first:
+      213: -3615470292003147251
+    second: Victory UI-spritesheet v3_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f8d070b36aaf25c0800000000000000
-      internalID: -4237981379193677581
+      spriteID: 81d72b08cbdf613b0800000000000000
+      internalID: -5541963305377956584
       vertices: []
       indices: 
       edges: []
@@ -160,8 +199,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf8c36722654bb1b0800000000000000
-      internalID: -5639837820481451781
+      spriteID: bf55ae7686edb4430800000000000000
+      internalID: 3768350053226927611
       vertices: []
       indices: 
       edges: []
@@ -181,8 +220,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1187fd1800c7674a0800000000000000
-      internalID: -6595948262616762351
+      spriteID: 570590e6784120c30800000000000000
+      internalID: 4324041164128342133
       vertices: []
       indices: 
       edges: []
@@ -202,8 +241,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc269966b88da3b00800000000000000
-      internalID: 809197176299807439
+      spriteID: 1fb52ee9d83f37fd0800000000000000
+      internalID: -2345263191348323343
       vertices: []
       indices: 
       edges: []
@@ -212,9 +251,9 @@ TextureImporter:
       name: Victory UI-spritesheet v3_4
       rect:
         serializedVersion: 2
-        x: 2438
+        x: 2515
         y: 1085
-        width: 184
+        width: 182
         height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -223,8 +262,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98e02ef9a23cf47f0800000000000000
-      internalID: -626067235342774647
+      spriteID: f188a00b147620de0800000000000000
+      internalID: -1368417804943194081
       vertices: []
       indices: 
       edges: []
@@ -233,10 +272,10 @@ TextureImporter:
       name: Victory UI-spritesheet v3_5
       rect:
         serializedVersion: 2
-        x: 2643
-        y: 1090
-        width: 184
-        height: 184
+        x: 2720
+        y: 1092
+        width: 183
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,8 +283,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbb20faaa07fa5390800000000000000
-      internalID: -7828673377040585795
+      spriteID: 2127ce8b16732c580800000000000000
+      internalID: -8808417028329410030
       vertices: []
       indices: 
       edges: []
@@ -254,7 +293,7 @@ TextureImporter:
       name: Victory UI-spritesheet v3_6
       rect:
         serializedVersion: 2
-        x: 1025
+        x: 946
         y: 938
         width: 86
         height: 81
@@ -265,8 +304,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cc6658ebe5c8b7e0800000000000000
-      internalID: -1749430838227473207
+      spriteID: 8042c8a342cb64520800000000000000
+      internalID: 2686041091560186888
       vertices: []
       indices: 
       edges: []
@@ -275,9 +314,9 @@ TextureImporter:
       name: Victory UI-spritesheet v3_7
       rect:
         serializedVersion: 2
-        x: 1203
+        x: 1122
         y: 935
-        width: 77
+        width: 79
         height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -286,8 +325,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 184da3919637fb380800000000000000
-      internalID: -8953310638957210495
+      spriteID: f3203a9761fc47b80800000000000000
+      internalID: -8397859709702176193
       vertices: []
       indices: 
       edges: []
@@ -296,9 +335,9 @@ TextureImporter:
       name: Victory UI-spritesheet v3_8
       rect:
         serializedVersion: 2
-        x: 1377
+        x: 1298
         y: 942
-        width: 73
+        width: 74
         height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -307,8 +346,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32007d21bd92a6a70800000000000000
-      internalID: 8820908841049194531
+      spriteID: 209c751d1753292c0800000000000000
+      internalID: -4426416720792008446
       vertices: []
       indices: 
       edges: []
@@ -317,7 +356,7 @@ TextureImporter:
       name: Victory UI-spritesheet v3_9
       rect:
         serializedVersion: 2
-        x: 2405
+        x: 2500
         y: 908
         width: 127
         height: 128
@@ -328,8 +367,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f46e51f161e72ae00800000000000000
-      internalID: 1054543896234026575
+      spriteID: b267d4385908a6470800000000000000
+      internalID: 8388658635572344363
       vertices: []
       indices: 
       edges: []
@@ -338,28 +377,7 @@ TextureImporter:
       name: Victory UI-spritesheet v3_10
       rect:
         serializedVersion: 2
-        x: 2577
-        y: 908
-        width: 127
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc52d574655e825c0800000000000000
-      internalID: -4239886890442086964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Victory UI-spritesheet v3_11
-      rect:
-        serializedVersion: 2
-        x: 2752
+        x: 2675
         y: 908
         width: 125
         height: 128
@@ -370,8 +388,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b8ff7e99365e7190800000000000000
-      internalID: -7962832285672146761
+      spriteID: 591fc0754a56d2ac0800000000000000
+      internalID: -3878331947586621035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory UI-spritesheet v3_11
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 908
+        width: 127
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4d7e41b09439840800000000000000
+      internalID: 5229603904251483335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory UI-spritesheet v3_12
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 680
+        width: 454
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02bc2dcce443ddc0800000000000000
+      internalID: -3615470292003147251
       vertices: []
       indices: 
       edges: []

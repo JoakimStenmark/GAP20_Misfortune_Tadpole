@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: 7f8317b1a2edbdf48a63a3121aa7ecab
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6101181754354896073
+    second: Level UI Banner
+  - first:
+      213: 5917606294328463197
+    second: Level UI-Spritesheet v3_1
+  - first:
+      213: 7029696776154993573
+    second: Level UI Panel
+  - first:
+      213: -6352785434219628038
+    second: Level UI-Spritesheet v3_3
+  - first:
+      213: 3847710886208010071
+    second: Level UI Star_filled
+  - first:
+      213: -2195228383702985556
+    second: Level UI Star_unfilled
+  - first:
+      213: -7797693573689273491
+    second: Level UI Level_Button
+  - first:
+      213: 3984556870825967854
+    second: Level UI-Spritesheet v3_7
+  - first:
+      213: -5797929942910931979
+    second: Level UI Back_Button
+  - first:
+      213: 1167536555921261059
+    second: Level UI-Spritesheet v3_9
+  - first:
+      213: 712013962998246325
+    second: Level UI-Spritesheet v3_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +74,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +106,252 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Level UI Banner
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1761
+        width: 979
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733f495158f345ba0800000000000000
+      internalID: -6101181754354896073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI-Spritesheet v3_1
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 1748
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f4016629f8f1250800000000000000
+      internalID: 5917606294328463197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI Panel
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 565
+        width: 1397
+        height: 1174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a35d6519ff7e8160800000000000000
+      internalID: 7029696776154993573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI-Spritesheet v3_3
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 1508
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9301b5e4f56d7a0800000000000000
+      internalID: -6352785434219628038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI Star_filled
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1432
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757f4da3aa0d56530800000000000000
+      internalID: 3847710886208010071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI Star_unfilled
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1431
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca457847a6bf881e0800000000000000
+      internalID: -2195228383702985556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI Level_Button
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1288
+        width: 141
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6397e8320709c390800000000000000
+      internalID: -7797693573689273491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI-Spritesheet v3_7
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1043
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee08ce8ec5dfb4730800000000000000
+      internalID: 3984556870825967854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI Back_Button
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 698
+        width: 332
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb61388f6d998fa0800000000000000
+      internalID: -5797929942910931979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI-Spritesheet v3_9
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 563
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30248fdcf4ce33010800000000000000
+      internalID: 1167536555921261059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level UI-Spritesheet v3_10
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 545
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbe0ab4de491e900800000000000000
+      internalID: 712013962998246325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

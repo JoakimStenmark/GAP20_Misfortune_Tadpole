@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GoalFlower : MonoBehaviour
 {
+    public PauseMenuManager pauseMenuManager;
+    public GameObject victoryScreen;
+
     void Start()
     {
         
@@ -11,12 +14,26 @@ public class GoalFlower : MonoBehaviour
 
     void Update()
     {
-        
+        if (pauseMenuManager == null || victoryScreen == null)
+        {
+            Debug.LogWarning("GoalFlower cannot call victory since references are Missing");
+        }
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("victory!");
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            CallVictory();
+        }
     }
+
+    void CallVictory()
+    {
+        pauseMenuManager.TogglePauseState();
+        victoryScreen.SetActive(true);
+    }
+
+
 
 }

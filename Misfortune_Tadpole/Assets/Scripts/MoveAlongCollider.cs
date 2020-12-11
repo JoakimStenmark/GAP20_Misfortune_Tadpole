@@ -20,7 +20,7 @@ public class MoveAlongCollider : MonoBehaviour
     public float timer;
     public AnimationCurve speedOverTime;
 
-    float timeToFinish = 1f; 
+    //float timeToFinish = 1f; 
 
     void Start()
     {

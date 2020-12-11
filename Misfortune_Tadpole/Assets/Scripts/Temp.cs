@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Temp : MonoBehaviour
 {
-    [SerializeField] float secondChanceTimer;
+    [SerializeField] float secondChanceTimer = 0;
 
     private Animator anim;
     private int damageTakenHash = Animator.StringToHash("tookDamage");
 
     private bool grounded = false;
     private bool secondChance = false;
-    [SerializeField] float jumpForce;
+    [SerializeField] float jumpForce = 0;
 
     private float neutralRotationTimeCount;
     private float groundedRotationTimeCount;

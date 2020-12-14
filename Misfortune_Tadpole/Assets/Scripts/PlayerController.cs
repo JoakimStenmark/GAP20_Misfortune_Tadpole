@@ -18,7 +18,6 @@ public class PlayerController : MonoBehaviour
     public LayerMask mask;
     private StickToSurface stickToSurface;
     
-
     public Rigidbody2D rb2d;
     public float startWaterAmount;
     [SerializeField]
@@ -34,6 +33,8 @@ public class PlayerController : MonoBehaviour
     public float lifeLossTimer = 2f;
 
     private PlayerSoundControl playerSound;
+
+    public bool debug;
 
     void Start()
     {
@@ -51,6 +52,17 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown("p"))
+        {
+            debug = !debug; 
+        }
+
+        if (debug)
+        {
+            DebugMovement();
+            return;
+        }
+
         if (Input.GetButtonDown("Jump") && (secondChance || grounded))
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
@@ -229,5 +241,21 @@ public class PlayerController : MonoBehaviour
     private void SetLifeRemovable()
     {
         lifeRemovable = true;
+    }
+
+    private void DebugMovement()
+    {
+        rb2d.Sleep();
+        
+        float moveHorizontal = Input.GetAxis("Horizontal");
+
+        float moveVertical = Input.GetAxis("Vertical");
+
+        Vector2 movement = new Vector2(moveHorizontal, moveVertical);
+        if (movement.sqrMagnitude > 1)
+        {
+            movement.Normalize();
+        }
+        rb2d.position += movement * 0.5f;
     }
 }

@@ -14,6 +14,21 @@ TextureImporter:
   - first:
       213: -2523837634409950395
     second: game title sheet_3
+  - first:
+      213: -3730209597329501109
+    second: game title sheet_0
+  - first:
+      213: -1195947818907462248
+    second: game title sheet_1
+  - first:
+      213: 597290562921431727
+    second: game title sheet_2
+  - first:
+      213: 6369376176078673920
+    second: game title sheet_3
+  - first:
+      213: -8764081137444495521
+    second: game title sheet_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -44,7 +59,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -58,7 +73,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,10 +90,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -87,10 +102,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,10 +119,10 @@ TextureImporter:
       name: game title sheet_0
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 2912
-        width: 1867
-        height: 780
+        x: 1009
+        y: 2914
+        width: 1864
+        height: 776
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c5b876b2621576f0800000000000000
-      internalID: -687623152926673463
+      spriteID: b441c6d7222ab3cc0800000000000000
+      internalID: -3730209597329501109
       vertices: []
       indices: 
       edges: []
@@ -125,10 +140,10 @@ TextureImporter:
       name: game title sheet_1
       rect:
         serializedVersion: 2
-        x: 4727
-        y: 2886
-        width: 2036
-        height: 735
+        x: 4729
+        y: 2884
+        width: 2032
+        height: 739
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,8 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0faeb01c9f5a7870800000000000000
-      internalID: 8681356355610521357
+      spriteID: 8951e1c8bc3276fe0800000000000000
+      internalID: -1195947818907462248
       vertices: []
       indices: 
       edges: []
@@ -146,9 +161,9 @@ TextureImporter:
       name: game title sheet_2
       rect:
         serializedVersion: 2
-        x: 913
-        y: 726
-        width: 2010
+        x: 915
+        y: 724
+        width: 2006
         height: 746
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -157,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76af5c298c7b17b50800000000000000
-      internalID: 6589249801903536743
+      spriteID: fa200a63a900a4800800000000000000
+      internalID: 597290562921431727
       vertices: []
       indices: 
       edges: []
@@ -167,10 +182,10 @@ TextureImporter:
       name: game title sheet_3
       rect:
         serializedVersion: 2
-        x: 4551
-        y: 632
-        width: 2493
-        height: 877
+        x: 4553
+        y: 634
+        width: 2490
+        height: 874
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5439b3a1b0789fcd0800000000000000
-      internalID: -2523837634409950395
+      spriteID: 0085100c2e1946850800000000000000
+      internalID: 6369376176078673920
       vertices: []
       indices: 
       edges: []

@@ -617,6 +617,7 @@ MonoBehaviour:
   waterBar: {fileID: 0}
   lifeManager: {fileID: 0}
   lifeLossTimer: 2
+  debug: 0
   maxMass: 10
   maxDrag: 0.5
   minDrag: 0

@@ -1,7 +1,85 @@
 fileFormatVersion: 2
 guid: 6928672723f76794299c055139b37116
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -10601907749599277
+    second: water-wave sprite sheet_0
+  - first:
+      213: -3228159420849967939
+    second: water-wave sprite sheet_1
+  - first:
+      213: 5209960667862131378
+    second: water-wave sprite sheet_2
+  - first:
+      213: -3442448510486251930
+    second: water-wave sprite sheet_3
+  - first:
+      213: 7545600000270672798
+    second: water-wave sprite sheet_4
+  - first:
+      213: 7508593988572157247
+    second: water-wave sprite sheet_5
+  - first:
+      213: 6325876674396434332
+    second: water-wave sprite sheet_6
+  - first:
+      213: -6559203227679377267
+    second: water-wave sprite sheet_7
+  - first:
+      213: -8586122497271992141
+    second: water-wave sprite sheet_8
+  - first:
+      213: -6447988658180566495
+    second: water-wave sprite sheet_9
+  - first:
+      213: 1471399662696637877
+    second: water-wave sprite sheet_10
+  - first:
+      213: 6646733627421369554
+    second: water-wave sprite sheet_11
+  - first:
+      213: -8896420893467480756
+    second: water-wave sprite sheet_12
+  - first:
+      213: 1546281872050464173
+    second: water-wave sprite sheet_0
+  - first:
+      213: 6223689088309482077
+    second: water-wave sprite sheet_1
+  - first:
+      213: 7342094324982204903
+    second: water-wave sprite sheet_2
+  - first:
+      213: 7406799801138084901
+    second: water-wave sprite sheet_3
+  - first:
+      213: 2736241501736272738
+    second: water-wave sprite sheet_4
+  - first:
+      213: 4684345952630115974
+    second: water-wave sprite sheet_5
+  - first:
+      213: 7539341716147037303
+    second: water-wave sprite sheet_6
+  - first:
+      213: -8549108790279174295
+    second: water-wave sprite sheet_7
+  - first:
+      213: 7589528997500936190
+    second: water-wave sprite sheet_8
+  - first:
+      213: 2429276986017288337
+    second: water-wave sprite sheet_9
+  - first:
+      213: -9217677341023496050
+    second: water-wave sprite sheet_10
+  - first:
+      213: -2913949858243720409
+    second: water-wave sprite sheet_11
+  - first:
+      213: -7921781145062898120
+    second: water-wave sprite sheet_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +119,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -73,9 +151,294 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: water-wave sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 3608
+        width: 1030
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 80, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5a13a8b2f757510800000000000000
+      internalID: 1546281872050464173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-wave sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 3308
+        width: 1030
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 80, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d525925504cfe5650800000000000000
+      internalID: 6223689088309482077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-wave sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 3008
+        width: 1030
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 80, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9c9f373eb54e560800000000000000
+      internalID: 7342094324982204903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-wave sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 2708
+        width: 1030
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 80, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cf44d1d2d3ac660800000000000000
+      internalID: 7406799801138084901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-wave sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 2408
+        width: 1030
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 80, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2630caa062519f520800000000000000
+      internalID: 2736241501736272738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-wave sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 2108
+        width: 1030
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 80, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e8e8f33d3220140800000000000000
+      internalID: 4684345952630115974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-wave sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1808
+        width: 1030
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 80, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7746a3f785f11a860800000000000000
+      internalID: 7539341716147037303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-wave sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1508
+        width: 1028
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 80, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9678d31b9d67b5980800000000000000
+      internalID: -8549108790279174295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-wave sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1206
+        width: 1028
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 80, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effd194896c635960800000000000000
+      internalID: 7589528997500936190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-wave sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 906
+        width: 1030
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 80, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19097944c8686b120800000000000000
+      internalID: 2429276986017288337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-wave sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 607
+        width: 1030
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 80, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e889022bb4b341080800000000000000
+      internalID: -9217677341023496050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-wave sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 307
+        width: 1030
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 80, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b451eea029f87d0800000000000000
+      internalID: -2913949858243720409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-wave sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 8
+        width: 1030
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 80, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836832c150e201290800000000000000
+      internalID: -7921781145062898120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

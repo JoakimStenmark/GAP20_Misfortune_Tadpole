@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using DG.Tweening;
 
 public class SpriteScaler : MonoBehaviour
 {
@@ -14,6 +15,21 @@ public class SpriteScaler : MonoBehaviour
     public Vector2 squishScale = new Vector2(1.2f, 0.8f);
 
     public LayerMask mask;
+
+    Tween landWobble;
+
+    public float time, strength;
+    public int vibrato;
+    public float randomness;
+
+    private void Start()
+    {
+        landWobble = transform.DOShakeScale(time, strength, vibrato, randomness, true)
+            .SetAutoKill(false)
+            .SetRelative(true);
+            
+
+    }
 
     private void FixedUpdate()
     {
@@ -30,6 +46,8 @@ public class SpriteScaler : MonoBehaviour
             hasHit = false;
             SetDefaultScale();
         }
+
+        Debug.Log(landWobble.IsActive());
         
         
     }
@@ -40,8 +58,18 @@ public class SpriteScaler : MonoBehaviour
     }
 
     private void ImpactSquish()
-    {
+    {       
         transform.localScale = Vector3.Lerp(transform.localScale, squishScale, Time.deltaTime * 10);
+        transform.DOShakeScale(time, strength, vibrato, randomness, true);
+
+    }
+
+    public void JumpWobble()
+    {
+        transform.DOComplete();           
+        transform.localScale = Vector3.Lerp(transform.localScale, defaultScale, 1f);
+        transform.DOShakeScale(time, strength, vibrato, randomness, true);
+
     }
 
     private void OnDrawGizmos()

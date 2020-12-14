@@ -12,13 +12,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float jumpForce;
 
     private float neutralRotationTimeCount;
-    private float groundedRotationTimeCount;
 
     public Vector2 upwards;
     public LayerMask mask;
     private StickToSurface stickToSurface;
+    private SpriteScaler spriteScaler;
     
     public Rigidbody2D rb2d;
+
     public float startWaterAmount;
     [SerializeField]
     private float waterAmount;
@@ -39,6 +40,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
+        spriteScaler = GetComponentInChildren<SpriteScaler>();
         waterAmount = startWaterAmount;
         rb2d = GetComponent<Rigidbody2D>();
         SetSizeBasedOnWaterAmount();
@@ -68,6 +70,7 @@ public class PlayerController : MonoBehaviour
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
             rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
             playerSound.PlayJumpSound();
+            spriteScaler.JumpWobble();
         }
 
         SetSizeBasedOnWaterAmount();

@@ -560,7 +560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3767603820011614885, guid: b7c93e4572701cb4e9720c9f19db34ec, type: 3}
       propertyPath: rolloffMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3767603820011614885, guid: b7c93e4572701cb4e9720c9f19db34ec, type: 3}
       propertyPath: MinDistance
@@ -637,7 +637,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3767603820011614885, guid: b7c93e4572701cb4e9720c9f19db34ec, type: 3}
       propertyPath: rolloffMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3767603820011614885, guid: b7c93e4572701cb4e9720c9f19db34ec, type: 3}
       propertyPath: MinDistance
@@ -5905,7 +5905,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3767603820011614885, guid: b7c93e4572701cb4e9720c9f19db34ec, type: 3}
       propertyPath: rolloffMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3767603820011614885, guid: b7c93e4572701cb4e9720c9f19db34ec, type: 3}
       propertyPath: MinDistance

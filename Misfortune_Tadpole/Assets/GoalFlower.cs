@@ -30,7 +30,7 @@ public class GoalFlower : MonoBehaviour
 
     void CallVictory()
     {
-        pauseMenuManager.TogglePauseState();
+        pauseMenuManager.SetVictoryState();
     }
 
 

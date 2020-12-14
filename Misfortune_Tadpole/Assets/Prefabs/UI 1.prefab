@@ -2974,9 +2974,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameIsPaused: 0
+  gameIsWon: 0
   PauseMenuUI: {fileID: 3569695637886653759}
   confirmSound: {fileID: 8300000, guid: 675b9dc3d7f86614c9a0e4fa2f43c411, type: 3}
   declineSound: {fileID: 8300000, guid: d0368debf63ee064f8ab6be6dbb4f06e, type: 3}
+  VictoryMenuUI: {fileID: 5570683479695217547}
 --- !u!82 &2253215807936718022
 AudioSource:
   m_ObjectHideFlags: 0

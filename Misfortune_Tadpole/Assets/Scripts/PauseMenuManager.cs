@@ -7,11 +7,14 @@ using UnityEngine.SceneManagement;
 public class PauseMenuManager : MonoBehaviour
 {
 	public bool gameIsPaused;
+	public bool gameIsWon;
 
 	public GameObject PauseMenuUI;
 	private AudioSource audioSource;
 	public AudioClip confirmSound;
 	public AudioClip declineSound;
+
+	public GameObject VictoryMenuUI;
 
 	private void Start()
 	{
@@ -66,15 +69,27 @@ public class PauseMenuManager : MonoBehaviour
 		}
 	}
 
+	public void SetVictoryState()
+    {
+		gameIsWon = true;	
+		Time.timeScale = 0f;
+		ToggleMouseVisibility();
+		VictoryMenuUI.SetActive(true);
+		AudioListener.pause = true;
+
+	}
+
 	public void GoToMainMenu()
 	{
 		SceneManager.LoadScene("MainMenu");
+		AudioListener.pause = false;
 		Time.timeScale = 1f;
 	}
-	
+
 	public void ReloadScene()
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		AudioListener.pause = false;
 		Time.timeScale = 1f;
 	}
 
@@ -83,6 +98,7 @@ public class PauseMenuManager : MonoBehaviour
 		if (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCountInBuildSettings - 1)
 		{
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+			AudioListener.pause = false;
 			Time.timeScale = 1f;
 		}
 		else

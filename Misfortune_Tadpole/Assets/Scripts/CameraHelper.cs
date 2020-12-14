@@ -25,6 +25,13 @@ public class CameraHelper : MonoBehaviour
     {
         playerVelocity = playerController.rb2d.velocity.magnitude;
 
+        if (stickToSurface.stuck)
+        {
+            cameraToHelp.Follow = stickToSurface.transform.parent;
+        }
+        else
+            cameraToHelp.Follow = player.transform;
+
         if (playerVelocity > 10 || stickToSurface.stuck)
         {
             currentZoom = Mathf.Clamp(currentZoom + Time.deltaTime * zoomRate, 0f, 1f);

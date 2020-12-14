@@ -3166,10 +3166,6 @@ PrefabInstance:
       propertyPath: hurtSounds.Array.data[2]
       value: 
       objectReference: {fileID: 8300000, guid: 701521b67480a544b9ffa73a9be1e26e, type: 3}
-    - target: {fileID: 7206173621895893878, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
-      propertyPath: VictoryMenuUI
-      value: 
-      objectReference: {fileID: 892853103}
     - target: {fileID: 8770478456134372512, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.00000029802322

@@ -5,7 +5,7 @@ using UnityEngine;
 public class GoalFlower : MonoBehaviour
 {
     public PauseMenuManager pauseMenuManager;
-    public GameObject victoryScreen;
+
 
     void Start()
     {
@@ -14,7 +14,7 @@ public class GoalFlower : MonoBehaviour
 
     void Update()
     {
-        if (pauseMenuManager == null || victoryScreen == null)
+        if (pauseMenuManager == null)
         {
             Debug.LogWarning("GoalFlower cannot call victory since references are Missing");
         }
@@ -31,7 +31,6 @@ public class GoalFlower : MonoBehaviour
     void CallVictory()
     {
         pauseMenuManager.TogglePauseState();
-        victoryScreen.SetActive(true);
     }
 
 

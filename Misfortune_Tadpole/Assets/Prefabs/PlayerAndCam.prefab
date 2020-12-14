@@ -245,6 +245,10 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 1591
+  time: 0.5
+  strength: 0.25
+  vibrato: 20
+  randomness: 90
 --- !u!95 &3860427362890519900
 Animator:
   serializedVersion: 3

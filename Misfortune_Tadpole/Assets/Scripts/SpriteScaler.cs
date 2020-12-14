@@ -47,9 +47,7 @@ public class SpriteScaler : MonoBehaviour
             SetDefaultScale();
         }
 
-        Debug.Log(landWobble.IsActive());
-        
-        
+        //Debug.Log(landWobble.IsActive());       
     }
 
     private void SetDefaultScale()

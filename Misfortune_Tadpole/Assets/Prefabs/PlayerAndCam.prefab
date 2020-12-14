@@ -460,7 +460,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87978c9c1995b5f4baddcce3817949ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxOrthographicSize: 7
   player: {fileID: 3115559214320830636}
   playerVelocity: 0
   currentZoom: 0
@@ -470,7 +469,7 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 5
+      value: 7.000458
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -479,7 +478,7 @@ MonoBehaviour:
       outWeight: 0
     - serializedVersion: 3
       time: 1
-      value: 7
+      value: 8.0002365
       inSlope: 0
       outSlope: 0
       tangentMode: 0

@@ -6,7 +6,6 @@ using Cinemachine;
 public class CameraHelper : MonoBehaviour
 {
     private CinemachineVirtualCamera cameraToHelp;
-    public float maxOrthographicSize;
     public GameObject player;
     public float playerVelocity;
     public float currentZoom;

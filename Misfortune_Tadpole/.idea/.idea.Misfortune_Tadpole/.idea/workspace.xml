@@ -22,10 +22,8 @@
     <list default="true" id="aaf0e7c8-c426-4d63-b9b7-994cbe1fbe74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/Level UI/Level UI-Spritesheet v3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/Level UI/Level UI-Spritesheet v3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GoalFlower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoalFlower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Music.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +123,7 @@
       <workItem from="1607415461707" duration="15749000" />
       <workItem from="1607683892264" duration="1790000" />
       <workItem from="1607957104023" duration="1334000" />
-      <workItem from="1608035166471" duration="4098000" />
+      <workItem from="1608035166471" duration="6602000" />
     </task>
     <servers />
   </component>

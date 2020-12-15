@@ -8,8 +8,8 @@ public class PauseMenuManager : MonoBehaviour
 {
 	public bool gameIsPaused;
 	public bool gameIsWon;
-	public bool mouseVisible;
 
+	public GameObject OptionsMenuUI;
 	public GameObject PauseMenuUI;
 	private AudioSource audioSource;
 	public AudioClip confirmSound;
@@ -22,21 +22,15 @@ public class PauseMenuManager : MonoBehaviour
 		audioSource = GetComponent<AudioSource>();
 		audioSource.ignoreListenerPause = true;
 		gameIsPaused = false;
-		mouseVisible = Cursor.visible;
-		
+
 		ToggleMouseVisibility();
 	}
 
 	private void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.Escape))
+		if (Input.GetKeyDown(KeyCode.Escape) && !gameIsWon)
 		{
 			TogglePauseState();
-		}
-		
-		if (Input.GetKeyDown("r"))
-		{
-			ReloadScene();
 		}
 	}
 
@@ -53,6 +47,7 @@ public class PauseMenuManager : MonoBehaviour
 		else if (!gameIsPaused)
 		{
 			PauseMenuUI.SetActive(false);
+			OptionsMenuUI.SetActive(false);
 			Time.timeScale = 1f;
 			ToggleMouseVisibility();
 			AudioListener.pause = false;
@@ -61,16 +56,23 @@ public class PauseMenuManager : MonoBehaviour
 
 	private void ToggleMouseVisibility()
 	{
-		Cursor.visible = !Cursor.visible;
+		if (gameIsPaused || gameIsWon)
+		{
+			Cursor.visible = true;
+		}
+		else
+		{
+			Cursor.visible = false;
+		}
 	}
 
 	public void SetVictoryState()
-    {
+	{
+		gameIsWon = true;
 	    VictoryMenuUI.SetActive(true);
 		Time.timeScale = 0f;
 		ToggleMouseVisibility();
 		AudioListener.pause = true;
-
 	}
 
 	public void GoToMainMenu()

@@ -8,6 +8,7 @@ public class PauseMenuManager : MonoBehaviour
 {
 	public bool gameIsPaused;
 	public bool gameIsWon;
+	public bool mouseVisible;
 
 	public GameObject PauseMenuUI;
 	private AudioSource audioSource;
@@ -21,6 +22,7 @@ public class PauseMenuManager : MonoBehaviour
 		audioSource = GetComponent<AudioSource>();
 		audioSource.ignoreListenerPause = true;
 		gameIsPaused = false;
+		mouseVisible = Cursor.visible;
 		
 		ToggleMouseVisibility();
 	}
@@ -59,22 +61,14 @@ public class PauseMenuManager : MonoBehaviour
 
 	private void ToggleMouseVisibility()
 	{
-		if (!gameIsPaused)
-		{
-			Cursor.visible = false;
-		}
-		else if (gameIsPaused)
-		{
-			Cursor.visible = true;
-		}
+		Cursor.visible = !Cursor.visible;
 	}
 
 	public void SetVictoryState()
     {
-		gameIsWon = true;	
+	    VictoryMenuUI.SetActive(true);
 		Time.timeScale = 0f;
 		ToggleMouseVisibility();
-		VictoryMenuUI.SetActive(true);
 		AudioListener.pause = true;
 
 	}

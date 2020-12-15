@@ -6,11 +6,7 @@ public class GoalFlower : MonoBehaviour
 {
     public PauseMenuManager pauseMenuManager;
 
-
-    void Start()
-    {
-        
-    }
+    private bool victory;
 
     void Update()
     {
@@ -22,8 +18,9 @@ public class GoalFlower : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && !victory)
         {
+            victory = true;
             Invoke("CallVictory", 1f);
         }
     }
@@ -32,7 +29,4 @@ public class GoalFlower : MonoBehaviour
     {
         pauseMenuManager.SetVictoryState();
     }
-
-
-
 }

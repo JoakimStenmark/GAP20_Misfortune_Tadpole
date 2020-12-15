@@ -79,7 +79,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +96,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -108,7 +108,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -143,27 +143,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level UI-Spritesheet v3_1
-      rect:
-        serializedVersion: 2
-        x: 2489
-        y: 1748
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5f4016629f8f1250800000000000000
-      internalID: 5917606294328463197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Level UI Panel
       rect:
         serializedVersion: 2
@@ -180,27 +159,6 @@ TextureImporter:
       bones: []
       spriteID: 5a35d6519ff7e8160800000000000000
       internalID: 7029696776154993573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level UI-Spritesheet v3_3
-      rect:
-        serializedVersion: 2
-        x: 3125
-        y: 1508
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af9301b5e4f56d7a0800000000000000
-      internalID: -6352785434219628038
       vertices: []
       indices: 
       edges: []
@@ -269,27 +227,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level UI-Spritesheet v3_7
-      rect:
-        serializedVersion: 2
-        x: 1221
-        y: 1043
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee08ce8ec5dfb4730800000000000000
-      internalID: 3984556870825967854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Level UI Back_Button
       rect:
         serializedVersion: 2
@@ -306,48 +243,6 @@ TextureImporter:
       bones: []
       spriteID: 5fb61388f6d998fa0800000000000000
       internalID: -5797929942910931979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level UI-Spritesheet v3_9
-      rect:
-        serializedVersion: 2
-        x: 2447
-        y: 563
-        width: 10
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30248fdcf4ce33010800000000000000
-      internalID: 1167536555921261059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level UI-Spritesheet v3_10
-      rect:
-        serializedVersion: 2
-        x: 2468
-        y: 545
-        width: 13
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5bbe0ab4de491e900800000000000000
-      internalID: 712013962998246325
       vertices: []
       indices: 
       edges: []

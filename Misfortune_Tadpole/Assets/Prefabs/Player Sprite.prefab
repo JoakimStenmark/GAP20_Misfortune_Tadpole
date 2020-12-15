@@ -466,6 +466,7 @@ GameObject:
   - component: {fileID: 8892172925730561568}
   - component: {fileID: 1902552500100926724}
   - component: {fileID: 2429322707592058553}
+  - component: {fileID: 8767293199895381941}
   m_Layer: 8
   m_Name: Player Sprite
   m_TagString: Player
@@ -670,3 +671,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8767293199895381941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8892172925730561576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51714b60b58805e4ab59164093b23ada, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particlePrefab: {fileID: 344449475665498405, guid: 5dbe3ee0fa6884749a02776b9c39b002, type: 3}

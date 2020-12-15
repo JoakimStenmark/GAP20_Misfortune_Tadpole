@@ -890,6 +890,10 @@ PrefabInstance:
       propertyPath: lifeManager
       value: 
       objectReference: {fileID: 6929925354906866275}
+    - target: {fileID: 8892172925730561570, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
+      propertyPath: tadpoleAnimator
+      value: 
+      objectReference: {fileID: 3552358769590897067}
     - target: {fileID: 8892172925730561571, guid: ebd25484019636646a30bbd6b9f7a7e3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

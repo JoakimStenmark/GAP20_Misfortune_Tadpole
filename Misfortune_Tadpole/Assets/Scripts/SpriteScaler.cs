@@ -74,4 +74,9 @@ public class SpriteScaler : MonoBehaviour
     {
         Gizmos.DrawWireSphere(transform.position, circleCastRadius);
     }
+
+    private void OnDestroy()
+    {
+        transform.DOKill();
+    }
 }

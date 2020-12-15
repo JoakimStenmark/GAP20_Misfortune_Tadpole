@@ -605,23 +605,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10bf6aad14b9cf94a860d62f650e342c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondChanceTimer: 0
-  jumpForce: 50
+  debug: 0
   upwards: {x: 0, y: 0}
   mask:
     serializedVersion: 2
-    m_Bits: 1591
+    m_Bits: 1587
   rb2d: {fileID: 0}
-  startWaterAmount: 50
-  waterAmount: 0
   velocity: 0
-  waterBar: {fileID: 0}
-  lifeManager: {fileID: 0}
-  lifeLossTimer: 2
-  debug: 0
   maxMass: 10
   maxDrag: 0.5
   minDrag: 0
+  jumpForce: 50
+  secondChanceTimer: 0
+  startWaterAmount: 50
+  waterAmount: 0
+  waterBar: {fileID: 0}
+  lifeManager: {fileID: 0}
+  lifeLossTimer: 2
+  tadpoleAnimator: {fileID: 0}
 --- !u!114 &8892172925730561568
 MonoBehaviour:
   m_ObjectHideFlags: 0

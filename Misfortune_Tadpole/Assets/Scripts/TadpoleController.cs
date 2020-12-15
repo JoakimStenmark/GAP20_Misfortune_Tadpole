@@ -11,6 +11,7 @@ public class TadpoleController : MonoBehaviour
     private StickToSurface stickToSurface;
     private bool isStuck;
     private float rotatorSpeed;
+    private Animator animator;
 
     void Start()
     {
@@ -18,7 +19,7 @@ public class TadpoleController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb2d = player.GetComponent<Rigidbody2D>();
         stickToSurface = player.GetComponent<StickToSurface>();
-
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -32,6 +33,9 @@ public class TadpoleController : MonoBehaviour
         {
             rotatorSpeed = 0;
         }
+
+        animator.SetFloat("Velocity", rb2d.velocity.SqrMagnitude());
+
     }
 
     void LateUpdate()

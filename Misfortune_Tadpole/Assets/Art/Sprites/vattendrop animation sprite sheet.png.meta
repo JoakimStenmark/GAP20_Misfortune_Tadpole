@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: 9feabc1448ccb9a4baed3c2d38b0cdfe
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 84979724281987801
+    second: vattendrop animation sprite sheet_0
+  - first:
+      213: -928656736351697454
+    second: vattendrop animation sprite sheet_1
+  - first:
+      213: -2418623130018679242
+    second: vattendrop animation sprite sheet_2
+  - first:
+      213: 2289048480520779350
+    second: vattendrop animation sprite sheet_3
+  - first:
+      213: -6933514576079250513
+    second: vattendrop animation sprite sheet_4
+  - first:
+      213: 7794817096016398912
+    second: vattendrop animation sprite sheet_5
+  - first:
+      213: 4517126118966770502
+    second: vattendrop animation sprite sheet_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +62,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -73,9 +94,168 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: vattendrop animation sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1820
+        width: 1016
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d240f6eb98ed2100800000000000000
+      internalID: 84979724281987801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattendrop animation sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 1796
+        width: 911
+        height: 1019
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5cb775e9fbc13f0800000000000000
+      internalID: -928656736351697454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattendrop animation sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 1829
+        width: 1012
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63671b1e3135f6ed0800000000000000
+      internalID: -2418623130018679242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattendrop animation sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 1844
+        width: 1022
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656b613177554cf10800000000000000
+      internalID: 2289048480520779350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattendrop animation sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 260
+        width: 857
+        height: 1019
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab9dc77a3537cf90800000000000000
+      internalID: -6933514576079250513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattendrop animation sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 278
+        width: 980
+        height: 986
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a0331a9d0cc2c60800000000000000
+      internalID: 7794817096016398912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vattendrop animation sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3317
+        y: 344
+        width: 1046
+        height: 851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b37aeb54e00be30800000000000000
+      internalID: 4517126118966770502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

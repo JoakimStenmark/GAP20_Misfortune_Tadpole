@@ -1,42 +1,42 @@
 ﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
-{
-    [SerializeField] float secondChanceTimer;
-
-    private Animator anim;
-    private int damageTakenHash = Animator.StringToHash("tookDamage");
-
-    private bool grounded = false;
-    private bool secondChance = false;
-    [SerializeField] float jumpForce;
-
-    private float neutralRotationTimeCount;
-
+{   
+    [Header("Movement")]
+    public bool debug;
     public Vector2 upwards;
     public LayerMask mask;
-    private StickToSurface stickToSurface;
-    private SpriteScaler spriteScaler;
-    
-    public Rigidbody2D rb2d;
+    private bool grounded = false;
+    private bool secondChance = false;
 
+    private StickToSurface stickToSurface;
+    public Rigidbody2D rb2d;
+    
+    public float velocity;
+    public float maxMass;
+    public float maxDrag;
+    public float minDrag;
+    [SerializeField] float jumpForce;
+    [SerializeField] float secondChanceTimer;
+    private float neutralRotationTimeCount;
+
+    [Header("Water and life")]
     public float startWaterAmount;
-    [SerializeField]
-    private float waterAmount;
+    [SerializeField] private float waterAmount;
     public float WaterAmount { get => waterAmount;}
     private bool waterRemovable = true;
     private bool lifeRemovable = true;
-    public float velocity;
-
     public WaterBar waterBar;
-    
     public LifeManager lifeManager;
     public float lifeLossTimer = 2f;
 
+    [Header("Animation")]
+    public Animator tadpoleAnimator;
+    private Animator anim;
+    private int damageTakenHash = Animator.StringToHash("tookDamage");
+    private SpriteScaler spriteScaler;
     private PlayerSoundControl playerSound;
-
-    public bool debug;
-
+    
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
@@ -71,6 +71,9 @@ public class PlayerController : MonoBehaviour
             rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
             playerSound.PlayJumpSound();
             spriteScaler.JumpWobble();
+            tadpoleAnimator.ResetTrigger("Grounded");
+            tadpoleAnimator.SetTrigger("Jump");
+
         }
 
         SetSizeBasedOnWaterAmount();
@@ -130,6 +133,7 @@ public class PlayerController : MonoBehaviour
             grounded = true;
             secondChance = true;
             playerSound.PlayLandSound();
+            tadpoleAnimator.SetTrigger("Grounded");
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
@@ -165,6 +169,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             grounded = true;
+            
 
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
@@ -177,9 +182,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public float maxMass;
-    public float maxDrag;
-    public float minDrag;
+
     private void SetSizeBasedOnWaterAmount()
     {
         float newSize = 0.49f + waterAmount * 0.005f;
@@ -232,6 +235,7 @@ public class PlayerController : MonoBehaviour
                 anim.SetTrigger(damageTakenHash);
                 Invoke(nameof(SetLifeRemovable), lifeLossTimer);
                 playerSound.PlayHurtSound();
+                tadpoleAnimator.SetTrigger("Hurt");
             }
         }
     }

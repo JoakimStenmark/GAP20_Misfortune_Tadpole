@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf0e7c8-c426-4d63-b9b7-994cbe1fbe74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Music.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,36 +33,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../Project-Iprenmannen/Assets/Scripts/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJump.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteScaler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerBubbleTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaterDrop.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/BetterJump.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StickToSurface.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/PauseMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelBoundary.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerBubbleTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/LifeCounterScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/HeartPickUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LifeManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HeatPlatformScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HeartPickUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpikeScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WaterBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpriteScaler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TadpoleController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/GoalFlower.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" />
-      </list>
-    </option>
+    <setting file="file://$PROJECT_DIR$/../../Project-Iprenmannen/Assets/Scripts/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerBubbleTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJump.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1kSHy7NOQx9EjKNRu92pjJIay4B" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -85,7 +58,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -94,7 +67,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -123,7 +96,8 @@
       <workItem from="1607415461707" duration="15749000" />
       <workItem from="1607683892264" duration="1790000" />
       <workItem from="1607957104023" duration="1334000" />
-      <workItem from="1608035166471" duration="6602000" />
+      <workItem from="1608035166471" duration="8641000" />
+      <workItem from="1608048822451" duration="170000" />
     </task>
     <servers />
   </component>
@@ -148,6 +122,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1608046375624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1608046375624" />
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1607348249124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

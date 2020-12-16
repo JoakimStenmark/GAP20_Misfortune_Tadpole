@@ -6,11 +6,13 @@ public class LifeManager : MonoBehaviour
 {
     
     private GameObject[] lives;
-    
+    private Animator anim;
+    private int loseLife = Animator.StringToHash("loseLife");
+    private int gainLife = Animator.StringToHash("gainLife");
+
     public int startingLives = 3;
     public int currentLives;
 
-    // Start is called before the first frame update
     void Start()
     {
         currentLives = startingLives;
@@ -24,7 +26,8 @@ public class LifeManager : MonoBehaviour
 
     public void LooseLife()
     {
-        lives[currentLives - 1].gameObject.SetActive(false);
+        anim = lives[currentLives - 1].gameObject.GetComponent<Animator>();
+        anim.SetTrigger(loseLife);
         currentLives--;
         
         if (currentLives < 1)
@@ -35,7 +38,8 @@ public class LifeManager : MonoBehaviour
     {
         if (currentLives < startingLives)
         {
-            lives[currentLives].gameObject.SetActive(true);
+            anim = lives[currentLives].gameObject.GetComponent<Animator>();
+            anim.SetTrigger(gainLife);
             currentLives++;            
         }
     }

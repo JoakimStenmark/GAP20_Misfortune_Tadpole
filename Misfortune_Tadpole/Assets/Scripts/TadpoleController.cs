@@ -15,6 +15,7 @@ public class TadpoleController : MonoBehaviour
     private Animator animator;
 
     public float fallTime;
+    private string[] triggers;
 
     void Start()
     {
@@ -24,6 +25,7 @@ public class TadpoleController : MonoBehaviour
         rb2d = player.GetComponent<Rigidbody2D>();
         stickToSurface = player.GetComponent<StickToSurface>();
         animator = GetComponent<Animator>();
+        triggers = new string[] { "TurnRight", "TurnLeft", "Grounded" };
     }
 
     private void Update()
@@ -46,7 +48,8 @@ public class TadpoleController : MonoBehaviour
         }
 
         SetFalltime(fallTime);
-        animator.SetFloat("Velocity", rb2d.velocity.SqrMagnitude());
+        animator.SetFloat("Xvelocity", Mathf.Abs(rb2d.velocity.x));
+
 
     }
 
@@ -54,26 +57,50 @@ public class TadpoleController : MonoBehaviour
     {
         transform.position = player.transform.position;
         transform.rotation = player.transform.rotation;
-        
-        
+
         if (rb2d.velocity.x > 0.5 || rotatorSpeed < 0)
         {
+
+            if (spriteRenderer.flipX == false)
+            {
+                Debug.Log("turnRight");
+                ResetTriggers();
+                animator.SetTrigger("TurnRight");
+            }
             spriteRenderer.flipX = true;
+            //animator.SetBool("TurnAround", true
         }
         else if (rb2d.velocity.x < 0.5 || rotatorSpeed > 0)
         {
+            if (spriteRenderer.flipX == true)
+            {
+                Debug.Log("turnLeft");
+                ResetTriggers();
+                animator.SetTrigger("TurnLeft");
+            }
             spriteRenderer.flipX = false;
+            //animator.SetBool("TurnAround", false);
+        }
+
+    }
+
+    public void ResetTriggers()
+    {
+        foreach (string trigger in triggers)
+        {
+            animator.ResetTrigger(trigger);
         }
     }
 
+
     public void Jump()
     {
-        animator.ResetTrigger("Grounded");
+        ResetTriggers();
         animator.SetTrigger("Jump");
     }
     public void Hurt()
     {
-        animator.ResetTrigger("Grounded");
+        ResetTriggers();
         animator.SetTrigger("Jump");
     }
     public void SetGrounded()
@@ -85,6 +112,15 @@ public class TadpoleController : MonoBehaviour
     {
         animator.SetFloat("FallTime", time);
     }
+
+
+    public void FlipSprite()
+    {
+        
+        
+        spriteRenderer.flipX = !spriteRenderer.flipX;
+    }
+    
 
 
 }

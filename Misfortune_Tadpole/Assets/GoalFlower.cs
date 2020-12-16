@@ -4,10 +4,18 @@ using UnityEngine;
 
 public class GoalFlower : MonoBehaviour
 {
+
     public PauseMenuManager pauseMenuManager;
+    private Animator anim;
+    private int playerEnterHash = Animator.StringToHash("playerEnter");
 
     private bool victory;
 
+    void Start()
+    {
+        anim = GetComponentInChildren<Animator>();
+    }
+    
     void Update()
     {
         if (pauseMenuManager == null)
@@ -21,6 +29,7 @@ public class GoalFlower : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") && !victory)
         {
             victory = true;
+            anim.SetTrigger(playerEnterHash);
             Invoke("CallVictory", 1f);
         }
     }

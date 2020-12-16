@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: bd9f84cded68ef1489be8023799ebca2
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6816725231912078542
+    second: Goal flower back animation skeet_0
+  - first:
+      213: 405171045270078055
+    second: Goal flower back animation skeet_1
+  - first:
+      213: -6331526414071111238
+    second: Goal flower back animation skeet_2
+  - first:
+      213: -4852635632072923900
+    second: Goal flower back animation skeet_3
+  - first:
+      213: 6973691202652424651
+    second: Goal flower back animation skeet_4
+  - first:
+      213: -6873647226725746336
+    second: Goal flower back animation skeet_5
+  - first:
+      213: -5325650415771616961
+    second: Goal flower back animation skeet_6
+  - first:
+      213: 6534966446199792371
+    second: Goal flower back animation skeet_7
+  - first:
+      213: 2377760289110607862
+    second: Goal flower back animation skeet_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +68,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -73,9 +100,210 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Goal flower back animation skeet_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 3683
+        width: 1454
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2333074a4802661a0800000000000000
+      internalID: -6816725231912078542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goal flower back animation skeet_1
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 3743
+        width: 1304
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762c8924be47f9500800000000000000
+      internalID: 405171045270078055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goal flower back animation skeet_2
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 3815
+        width: 965
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1e943b546e128a0800000000000000
+      internalID: -6331526414071111238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goal flower back animation skeet_3
+      rect:
+        serializedVersion: 2
+        x: 4922
+        y: 3764
+        width: 908
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405e3ed5a99f7acb0800000000000000
+      internalID: -4852635632072923900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goal flower back animation skeet_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2222
+        width: 1010
+        height: 587
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc94d5b533787c060800000000000000
+      internalID: 6973691202652424651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goal flower back animation skeet_5
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 2195
+        width: 1082
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069b9a3f346eb90a0800000000000000
+      internalID: -6873647226725746336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goal flower back animation skeet_6
+      rect:
+        serializedVersion: 2
+        x: 3242
+        y: 2210
+        width: 1196
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f397502d92d7716b0800000000000000
+      internalID: -5325650415771616961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goal flower back animation skeet_7
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 2171
+        width: 1328
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2e5dceb5dd0ba50800000000000000
+      internalID: 6534966446199792371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goal flower back animation skeet_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 611
+        width: 1454
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7c77192608ff020800000000000000
+      internalID: 2377760289110607862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

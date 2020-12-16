@@ -25,10 +25,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360456527945276553}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1360456529160993153}
+  m_Father: {fileID: 1360456528049155545}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1360456527945276567
@@ -71,12 +71,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ae03b08b1ad677f4da22137a05171ef9, type: 3}
+  m_Sprite: {fileID: -6816725231912078542, guid: bd9f84cded68ef1489be8023799ebca2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 15.36, y: 15.36}
+  m_Size: {x: 7.27, y: 3.0549998}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1360456528049155545}
   - component: {fileID: 1360456528049155558}
+  - component: {fileID: 1047206118}
   m_Layer: 0
   m_Name: Goal flower front
   m_TagString: Untagged
@@ -107,11 +108,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360456528049155544}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1360456527945276566}
   m_Father: {fileID: 1360456529160993153}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1360456528049155558
 SpriteRenderer:
@@ -153,7 +155,7 @@ SpriteRenderer:
   m_SortingLayerID: 1643400201
   m_SortingLayer: 1
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 57469f08ec4b1fb4f988fc7c7dc76659, type: 3}
+  m_Sprite: {fileID: 6195428155653011156, guid: 495f0e98aa817314badc2a0c21cd746c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -164,6 +166,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1047206118
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360456528049155544}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 42dc51dc0e503504c93a0d71ccb97d1e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1360456529160993155
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +215,6 @@ Transform:
   m_LocalPosition: {x: 133.03, y: -98.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1360456527945276566}
   - {fileID: 1360456528049155545}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -239,6 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d7091fdf6f50344d97aec214d5d0ada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseMenuManager: {fileID: 0}
 --- !u!60 &3864093790896693234
 PolygonCollider2D:
   m_ObjectHideFlags: 0

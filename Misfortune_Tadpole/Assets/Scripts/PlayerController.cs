@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
     public bool debug;
     public Vector2 upwards;
     public LayerMask mask;
+
+    [HideInInspector] public bool Grounded { get => grounded;}
     private bool grounded = false;
     private bool secondChance = false;
 
@@ -24,6 +26,7 @@ public class PlayerController : MonoBehaviour
     public float startWaterAmount;
     [SerializeField] private float waterAmount;
     public float WaterAmount { get => waterAmount;}
+
     private bool waterRemovable = true;
     private bool lifeRemovable = true;
     public WaterBar waterBar;
@@ -31,7 +34,7 @@ public class PlayerController : MonoBehaviour
     public float lifeLossTimer = 2f;
 
     [Header("Animation")]
-    public Animator tadpoleAnimator;
+    public TadpoleController tadpole;
     private Animator anim;
     private int damageTakenHash = Animator.StringToHash("tookDamage");
     private SpriteScaler spriteScaler;
@@ -50,6 +53,7 @@ public class PlayerController : MonoBehaviour
         waterBar.SetWater(waterAmount);
 
         playerSound = GetComponentInChildren<PlayerSoundControl>();
+       
     }
 
     void Update()
@@ -71,9 +75,7 @@ public class PlayerController : MonoBehaviour
             rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
             playerSound.PlayJumpSound();
             spriteScaler.JumpWobble();
-            tadpoleAnimator.ResetTrigger("Grounded");
-            tadpoleAnimator.SetTrigger("Jump");
-
+            tadpole.Jump();
         }
 
         SetSizeBasedOnWaterAmount();
@@ -133,7 +135,7 @@ public class PlayerController : MonoBehaviour
             grounded = true;
             secondChance = true;
             playerSound.PlayLandSound();
-            tadpoleAnimator.SetTrigger("Grounded");
+            tadpole.SetGrounded();
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
@@ -235,7 +237,7 @@ public class PlayerController : MonoBehaviour
                 anim.SetTrigger(damageTakenHash);
                 Invoke(nameof(SetLifeRemovable), lifeLossTimer);
                 playerSound.PlayHurtSound();
-                tadpoleAnimator.SetTrigger("Hurt");
+                tadpole.Hurt();
             }
         }
     }

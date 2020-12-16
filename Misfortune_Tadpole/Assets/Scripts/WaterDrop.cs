@@ -6,9 +6,12 @@ public class WaterDrop : MonoBehaviour
 {
     public int waterToAdd;
 
+
     private void Start()
     {
         waterToAdd = Mathf.Abs(waterToAdd);
+        
+        GetComponent<Animator>().SetFloat("Offset", Random.Range(0.0f, 1.0f));
     }
 
     private void OnTriggerEnter2D(Collider2D other)

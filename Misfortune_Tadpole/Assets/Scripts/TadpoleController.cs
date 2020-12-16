@@ -9,14 +9,18 @@ public class TadpoleController : MonoBehaviour
     private Rigidbody2D rb2d;
     private SpriteRenderer spriteRenderer;
     private StickToSurface stickToSurface;
+    private PlayerController playerController;
     private bool isStuck;
     private float rotatorSpeed;
     private Animator animator;
+
+    public float fallTime;
 
     void Start()
     {
         player = GameObject.FindWithTag("Player");
         spriteRenderer = GetComponent<SpriteRenderer>();
+        playerController = player.GetComponent<PlayerController>();
         rb2d = player.GetComponent<Rigidbody2D>();
         stickToSurface = player.GetComponent<StickToSurface>();
         animator = GetComponent<Animator>();
@@ -34,6 +38,14 @@ public class TadpoleController : MonoBehaviour
             rotatorSpeed = 0;
         }
 
+        fallTime += Time.deltaTime;
+        
+        if (isStuck || playerController.Grounded)
+        {
+            fallTime = 0f;
+        }
+
+        SetFalltime(fallTime);
         animator.SetFloat("Velocity", rb2d.velocity.SqrMagnitude());
 
     }
@@ -53,4 +65,26 @@ public class TadpoleController : MonoBehaviour
             spriteRenderer.flipX = false;
         }
     }
+
+    public void Jump()
+    {
+        animator.ResetTrigger("Grounded");
+        animator.SetTrigger("Jump");
+    }
+    public void Hurt()
+    {
+        animator.ResetTrigger("Grounded");
+        animator.SetTrigger("Jump");
+    }
+    public void SetGrounded()
+    {
+        animator.SetTrigger("Grounded");        
+    }
+
+    public void SetFalltime(float time)
+    {
+        animator.SetFloat("FallTime", time);
+    }
+
+
 }

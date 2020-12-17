@@ -141,6 +141,7 @@ GameObject:
   - component: {fileID: 4629577971398605599}
   - component: {fileID: 864717395611708455}
   - component: {fileID: -4386085777033064967}
+  - component: {fileID: 1675727628770954100}
   m_Layer: 0
   m_Name: BranchHeatPlatform
   m_TagString: Ground
@@ -397,3 +398,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1675727628770954100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5861785231114618781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51714b60b58805e4ab59164093b23ada, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particlePrefab: {fileID: 938859013493739621, guid: d85c6e8a1e16b1d439630af82f938acf, type: 3}

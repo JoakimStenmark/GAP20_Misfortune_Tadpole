@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - Rotator
   - Sticky
+  - FallThroughPlatform
   layers:
   - Default
   - TransparentFX

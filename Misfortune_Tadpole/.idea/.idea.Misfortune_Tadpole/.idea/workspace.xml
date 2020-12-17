@@ -21,10 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="aaf0e7c8-c426-4d63-b9b7-994cbe1fbe74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Environment/Goal flower back animation skeet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Environment/Goal flower back animation skeet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Environment/Goal flower front animation skeet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Environment/Goal flower front animation skeet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Animations/GoalFlower_PlayerEnter.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animations/GoalFlower_PlayerEnter.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Animations/loseLife.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animations/loseLife.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Animators/Goal Flower.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animators/Goal Flower.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GoalFlower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoalFlower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GoalFlower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GoalFlower.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +108,8 @@
       <workItem from="1608035166471" duration="8641000" />
       <workItem from="1608048822451" duration="170000" />
       <workItem from="1608128194394" duration="468000" />
-      <workItem from="1608128713770" duration="2041000" />
+      <workItem from="1608128713770" duration="2636000" />
+      <workItem from="1608192833670" duration="1008000" />
     </task>
     <servers />
   </component>

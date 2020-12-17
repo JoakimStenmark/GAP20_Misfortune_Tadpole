@@ -30,7 +30,7 @@ public class GoalFlower : MonoBehaviour
         {
             victory = true;
             anim.SetTrigger(playerEnterHash);
-            Invoke("CallVictory", 1f);
+            Invoke("CallVictory", 1.5f);
         }
     }
 

@@ -97,7 +97,7 @@ public class TadpoleController : MonoBehaviour
     public void Jump()
     {
         ResetTriggers();
-        //animator.SetBool("Grounded", false);
+        animator.SetBool("Grounded", false);
         animator.SetBool("Jumping", true);
     }
     public void Hurt()

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {   
@@ -39,7 +40,12 @@ public class PlayerController : MonoBehaviour
     private int damageTakenHash = Animator.StringToHash("tookDamage");
     private SpriteScaler spriteScaler;
     private PlayerSoundControl playerSound;
-    
+
+    private void Awake()
+    {
+        LoadLastCheckpoint();
+    }
+
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
@@ -266,5 +272,13 @@ public class PlayerController : MonoBehaviour
             movement.Normalize();
         }
         rb2d.position += movement * 0.5f;
+    }
+    
+    public void LoadLastCheckpoint()
+    {
+        if (Checkpoint.checkpoint)
+        {
+            transform.position = Checkpoint.lastCheckPoint;
+        }
     }
 }

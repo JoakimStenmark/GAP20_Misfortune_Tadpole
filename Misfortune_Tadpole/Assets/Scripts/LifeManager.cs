@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class LifeManager : MonoBehaviour
 {
-    
+    private PauseMenuManager pauseMenuManager;
     private GameObject[] lives;
     private Animator anim;
     private int loseLife = Animator.StringToHash("loseLife");
@@ -15,6 +15,7 @@ public class LifeManager : MonoBehaviour
 
     void Start()
     {
+        pauseMenuManager = GetComponentInParent<PauseMenuManager>();
         currentLives = startingLives;
 
         lives = new GameObject[transform.childCount];
@@ -31,7 +32,7 @@ public class LifeManager : MonoBehaviour
         currentLives--;
         
         if (currentLives < 1)
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            pauseMenuManager.ReloadScene();
     }
 
     public void GainLife()

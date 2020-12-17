@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf0e7c8-c426-4d63-b9b7-994cbe1fbe74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Animations/GoalFlower_PlayerEnter.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animations/GoalFlower_PlayerEnter.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Animations/loseLife.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animations/loseLife.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Animators/Goal Flower.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animators/Goal Flower.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GoalFlower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoalFlower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LifeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LifeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +40,16 @@
     <setting file="file://$PROJECT_DIR$/../../Project-Iprenmannen/Assets/Scripts/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerBubbleTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Slider.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/GoalFlower.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LifeManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kSHy7NOQx9EjKNRu92pjJIay4B" />
@@ -109,7 +114,7 @@
       <workItem from="1608048822451" duration="170000" />
       <workItem from="1608128194394" duration="468000" />
       <workItem from="1608128713770" duration="2636000" />
-      <workItem from="1608192833670" duration="1008000" />
+      <workItem from="1608192833670" duration="6578000" />
     </task>
     <servers />
   </component>

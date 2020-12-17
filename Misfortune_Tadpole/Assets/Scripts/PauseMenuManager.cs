@@ -16,9 +16,11 @@ public class PauseMenuManager : MonoBehaviour
 	public AudioClip declineSound;
 
 	public GameObject VictoryMenuUI;
+	private Transform playerTransform;
 
 	private void Start()
 	{
+		playerTransform = FindObjectOfType<PlayerController>().transform;
 		audioSource = GetComponent<AudioSource>();
 		audioSource.ignoreListenerPause = true;
 		gameIsPaused = false;
@@ -87,6 +89,12 @@ public class PauseMenuManager : MonoBehaviour
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		AudioListener.pause = false;
 		Time.timeScale = 1f;
+	}
+
+	public void ReloadSceneFromStart()
+	{
+		Checkpoint.checkpoint = false;
+		ReloadScene();
 	}
 
 	public void LoadNextScene()

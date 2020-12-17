@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Cinemachine;
 
 public class LevelBoundary : MonoBehaviour
 {
+    public GameObject cinemachineVCamObject;
+    private CameraHelper cameraHelper;
+
     void Start()
     {
         
@@ -19,7 +23,16 @@ public class LevelBoundary : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            cameraHelper = cinemachineVCamObject.GetComponent<CameraHelper>();
+            cameraHelper.deadPlayer = true;
+
+            Invoke(nameof(ResetScene), 1f);
         }
+    }
+
+    void ResetScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        cameraHelper.deadPlayer = false;
     }
 }

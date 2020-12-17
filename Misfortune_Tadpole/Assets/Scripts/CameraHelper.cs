@@ -10,6 +10,8 @@ public class CameraHelper : MonoBehaviour
     public float playerVelocity;
     public float currentZoom;
     public float zoomRate;
+
+    public bool deadPlayer;
     public AnimationCurve zoomCurve;
     private PlayerController playerController;
     private StickToSurface stickToSurface;
@@ -29,8 +31,15 @@ public class CameraHelper : MonoBehaviour
         {
             cameraToHelp.Follow = stickToSurface.transform.parent;
         }
+        else if (deadPlayer == true)
+        {
+            cameraToHelp.Follow = null;
+        }
         else
             cameraToHelp.Follow = player.transform;
+
+
+
 
         if (playerVelocity > 10 || stickToSurface.stuck)
         {

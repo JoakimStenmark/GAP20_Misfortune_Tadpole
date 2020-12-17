@@ -188,6 +188,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
+--- !u!1 &19942265 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8770478456134372518, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
+  m_PrefabInstance: {fileID: 19942264}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &27528680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18214,6 +18219,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7957058935985981965, guid: 2880c51b5d44b784ca6405a9f853a78d, type: 3}
+      propertyPath: cinemachineVC
+      value: 
+      objectReference: {fileID: 19942265}
+    - target: {fileID: 7957058935985981965, guid: 2880c51b5d44b784ca6405a9f853a78d, type: 3}
+      propertyPath: cinemachineVCObject
+      value: 
+      objectReference: {fileID: 19942265}
+    - target: {fileID: 7957058935985981965, guid: 2880c51b5d44b784ca6405a9f853a78d, type: 3}
+      propertyPath: cinemachineVCamObject
+      value: 
+      objectReference: {fileID: 19942265}
     - target: {fileID: 7957058935985981966, guid: 2880c51b5d44b784ca6405a9f853a78d, type: 3}
       propertyPath: m_Name
       value: LevelBoundary

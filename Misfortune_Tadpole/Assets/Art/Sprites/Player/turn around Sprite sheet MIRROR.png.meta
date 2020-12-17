@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 7132a580c31560e4ebc52af2795f3110
+guid: d3f4dc20171079c4c9004943aa5f1459
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6529640804332401678
-    second: landing animation sprite sheet_0
+      213: 1961045253952428151
+    second: turn around Sprite sheet MIRROR_0
   - first:
-      213: -5256611165677433883
-    second: landing animation sprite sheet_1
+      213: -6828134303957251086
+    second: turn around Sprite sheet MIRROR_1
   - first:
-      213: 6964252049067378380
-    second: landing animation sprite sheet_2
+      213: 5457296636074300849
+    second: turn around Sprite sheet MIRROR_2
   - first:
-      213: -4487354188418527144
-    second: landing animation sprite sheet_3
+      213: -3453360595211472034
+    second: turn around Sprite sheet MIRROR_3
+  - first:
+      213: 245091863830378736
+    second: turn around Sprite sheet MIRROR_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: landing animation sprite sheet_0
+      name: turn around Sprite sheet MIRROR_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e04f02d47b1fd9a50800000000000000
-      internalID: 6529640804332401678
+      spriteID: 778dc46b448073b10800000000000000
+      internalID: 1961045253952428151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landing animation sprite sheet_1
+      name: turn around Sprite sheet MIRROR_1
       rect:
         serializedVersion: 2
         x: 1024
@@ -136,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ebc17bdef3cc07b0800000000000000
-      internalID: -5256611165677433883
+      spriteID: 2fb08fd07089d31a0800000000000000
+      internalID: -6828134303957251086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landing animation sprite sheet_2
+      name: turn around Sprite sheet MIRROR_2
       rect:
         serializedVersion: 2
         x: 2048
@@ -157,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc682f6275ef5a060800000000000000
-      internalID: 6964252049067378380
+      spriteID: 1b5942360663cbb40800000000000000
+      internalID: 5457296636074300849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landing animation sprite sheet_3
+      name: turn around Sprite sheet MIRROR_3
       rect:
         serializedVersion: 2
         x: 3072
@@ -178,8 +181,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 850d3f10427b9b1c0800000000000000
-      internalID: -4487354188418527144
+      spriteID: e53b619d5d23310d0800000000000000
+      internalID: -3453360595211472034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turn around Sprite sheet MIRROR_4
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8b2f860cdb66300800000000000000
+      internalID: 245091863830378736
       vertices: []
       indices: 
       edges: []

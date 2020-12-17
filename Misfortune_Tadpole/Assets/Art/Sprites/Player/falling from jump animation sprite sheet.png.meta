@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 7132a580c31560e4ebc52af2795f3110
+guid: 7e2f4516fa2a47a469325e7bcfdaff00
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6529640804332401678
-    second: landing animation sprite sheet_0
+      213: 4926162222966347952
+    second: falling from jump animation sprite sheet_0
   - first:
-      213: -5256611165677433883
-    second: landing animation sprite sheet_1
+      213: -1860849970458506190
+    second: falling from jump animation sprite sheet_1
   - first:
-      213: 6964252049067378380
-    second: landing animation sprite sheet_2
+      213: 5776765725598292844
+    second: falling from jump animation sprite sheet_2
   - first:
-      213: -4487354188418527144
-    second: landing animation sprite sheet_3
+      213: -7959023512034218569
+    second: falling from jump animation sprite sheet_3
+  - first:
+      213: 3156544222735429855
+    second: falling from jump animation sprite sheet_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: landing animation sprite sheet_0
+      name: falling from jump animation sprite sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e04f02d47b1fd9a50800000000000000
-      internalID: 6529640804332401678
+      spriteID: 0b89bdd117e3d5440800000000000000
+      internalID: 4926162222966347952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landing animation sprite sheet_1
+      name: falling from jump animation sprite sheet_1
       rect:
         serializedVersion: 2
         x: 1024
@@ -136,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ebc17bdef3cc07b0800000000000000
-      internalID: -5256611165677433883
+      spriteID: 23c4682afceec26e0800000000000000
+      internalID: -1860849970458506190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landing animation sprite sheet_2
+      name: falling from jump animation sprite sheet_2
       rect:
         serializedVersion: 2
         x: 2048
@@ -157,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc682f6275ef5a060800000000000000
-      internalID: 6964252049067378380
+      spriteID: c6b10f022d13b2050800000000000000
+      internalID: 5776765725598292844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landing animation sprite sheet_3
+      name: falling from jump animation sprite sheet_3
       rect:
         serializedVersion: 2
         x: 3072
@@ -178,8 +181,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 850d3f10427b9b1c0800000000000000
-      internalID: -4487354188418527144
+      spriteID: 7bde736d84edb8190800000000000000
+      internalID: -7959023512034218569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falling from jump animation sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0f4f91f3c4ecb20800000000000000
+      internalID: 3156544222735429855
       vertices: []
       indices: 
       edges: []

@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Oscars Level 4.unity
     guid: 219daf21db80925429e11aada0b61243
   - enabled: 1
+    path: Assets/Scenes/trang level.unity
+    guid: dbfda1840ca869a48b30650a6b717711
+  - enabled: 1
     path: Assets/Scenes/Oscar och jockes Level.unity
     guid: 8faed6ad426421847bae02eb1e60752f
   - enabled: 1

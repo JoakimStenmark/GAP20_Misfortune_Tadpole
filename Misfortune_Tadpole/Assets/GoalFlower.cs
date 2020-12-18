@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class GoalFlower : MonoBehaviour
 {
-
-    public PauseMenuManager pauseMenuManager;
+    private PauseMenuManager pauseMenuManager;
     private Animator anim;
     private int playerEnterHash = Animator.StringToHash("playerEnter");
 
@@ -13,6 +12,7 @@ public class GoalFlower : MonoBehaviour
 
     void Start()
     {
+        pauseMenuManager = GameObject.FindGameObjectWithTag("UI").GetComponent<PauseMenuManager>();
         anim = GetComponentInChildren<Animator>();
     }
     

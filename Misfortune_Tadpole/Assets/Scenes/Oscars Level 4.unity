@@ -2811,6 +2811,10 @@ PrefabInstance:
       propertyPath: m_LocalAABB.m_Extent.y
       value: 2.8315892
       objectReference: {fileID: 0}
+    - target: {fileID: 8903968692571165678, guid: bdc523d4bcdcf404ba80f6975c036479, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdc523d4bcdcf404ba80f6975c036479, type: 3}
 --- !u!1001 &932578168

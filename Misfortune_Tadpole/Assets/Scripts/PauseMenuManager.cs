@@ -82,6 +82,7 @@ public class PauseMenuManager : MonoBehaviour
 		SceneManager.LoadScene("MainMenu");
 		AudioListener.pause = false;
 		Time.timeScale = 1f;
+		Checkpoint.checkpoint = false;
 	}
 
 	public void ReloadScene()

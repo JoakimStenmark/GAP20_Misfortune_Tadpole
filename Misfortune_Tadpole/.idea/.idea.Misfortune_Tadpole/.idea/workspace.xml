@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf0e7c8-c426-4d63-b9b7-994cbe1fbe74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Axels Level 1 v1.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Axels Level 1 v1.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlatformHeat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlatformHeat.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +45,8 @@
       <option value="$PROJECT_DIR$/Assets/GoalFlower.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LifeManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kSHy7NOQx9EjKNRu92pjJIay4B" />
@@ -117,7 +112,7 @@
       <workItem from="1608128194394" duration="468000" />
       <workItem from="1608128713770" duration="2636000" />
       <workItem from="1608192833670" duration="11298000" />
-      <workItem from="1608279856601" duration="546000" />
+      <workItem from="1608279856601" duration="2120000" />
     </task>
     <servers />
   </component>

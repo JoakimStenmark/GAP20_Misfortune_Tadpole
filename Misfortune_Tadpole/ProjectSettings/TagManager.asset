@@ -9,6 +9,8 @@ TagManager:
   - Rotator
   - Sticky
   - FallThroughPlatform
+  - CM vcam
+  - UI
   layers:
   - Default
   - TransparentFX

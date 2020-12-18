@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 423b1624983f07a419adfa3662a72634, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawnTime: 1
 --- !u!60 &7971317418399434138
 PolygonCollider2D:
   m_ObjectHideFlags: 0

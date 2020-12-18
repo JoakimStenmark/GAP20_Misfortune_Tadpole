@@ -6,33 +6,26 @@ using Cinemachine;
 
 public class LevelBoundary : MonoBehaviour
 {
-    public GameObject cinemachineVCamObject;
+    public float respawnTime;
     private CameraHelper cameraHelper;
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
+    private PauseMenuManager pauseMenuManager;
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            cameraHelper = cinemachineVCamObject.GetComponent<CameraHelper>();
+            pauseMenuManager = GameObject.FindGameObjectWithTag("UI").GetComponent<PauseMenuManager>();
+
+            cameraHelper = GameObject.FindGameObjectWithTag("CM vcam").GetComponent<CameraHelper>();
             cameraHelper.deadPlayer = true;
 
-            Invoke(nameof(ResetScene), 1f);
+            Invoke(nameof(ResetScene), respawnTime);
         }
     }
 
     void ResetScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        pauseMenuManager.ReloadScene();
         cameraHelper.deadPlayer = false;
     }
 }

@@ -132,15 +132,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2477487573185278628, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2477487573185278628, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2883622876960455604, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8770478457559829793, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14509,11 +14509,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7381533935839519829, guid: b7c93e4572701cb4e9720c9f19db34ec, type: 3}
   m_PrefabInstance: {fileID: 540316744}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1244082267 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1083282635847128065, guid: 850b2372e1c17924787d6d65ebeadc2b, type: 3}
-  m_PrefabInstance: {fileID: 19942264}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1245149402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17743,24 +17738,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1360456529160993152, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.Array.size
-      value: 8
+      propertyPath: m_Points.Array.data[7].y
+      value: 1.8775163
       objectReference: {fileID: 0}
     - target: {fileID: 1360456529160993152, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
       propertyPath: m_Points.Array.data[7].x
-      value: -3.408249
-      objectReference: {fileID: 0}
-    - target: {fileID: 1360456529160993152, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.Array.data[7].y
-      value: 1.0532498
-      objectReference: {fileID: 0}
-    - target: {fileID: 1360456529160993152, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.Array.data[8].x
-      value: -2.340332
-      objectReference: {fileID: 0}
-    - target: {fileID: 1360456529160993152, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.Array.data[8].y
-      value: 2.0430183
+      value: -2.6698456
       objectReference: {fileID: 0}
     - target: {fileID: 1360456529160993153, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17810,66 +17793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoalFlower
       objectReference: {fileID: 0}
-    - target: {fileID: 3864093790896693234, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3864093790896693234, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].y
-      value: -0.050866723
-      objectReference: {fileID: 0}
-    - target: {fileID: 3864093790896693234, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].x
-      value: -0.5638943
-      objectReference: {fileID: 0}
-    - target: {fileID: 3864093790896693234, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].x
-      value: -0.56255126
-      objectReference: {fileID: 0}
-    - target: {fileID: 3864093790896693234, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].y
-      value: -0.6283566
-      objectReference: {fileID: 0}
-    - target: {fileID: 3864093790896693234, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
-      value: 0.7402191
-      objectReference: {fileID: 0}
-    - target: {fileID: 3864093790896693234, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
-      value: -0.25607276
-      objectReference: {fileID: 0}
-    - target: {fileID: 3864093790896693234, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].x
-      value: 0.82382774
-      objectReference: {fileID: 0}
-    - target: {fileID: 3864093790896693234, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].y
-      value: -0.012740135
-      objectReference: {fileID: 0}
-    - target: {fileID: 3864093790896693234, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].x
-      value: 0.6580749
-      objectReference: {fileID: 0}
-    - target: {fileID: 3864093790896693234, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].y
-      value: -0.62751997
-      objectReference: {fileID: 0}
-    - target: {fileID: 3864093790896693234, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
-      value: 0.6556244
-      objectReference: {fileID: 0}
-    - target: {fileID: 3864093790896693234, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
-      value: -0.050902605
-      objectReference: {fileID: 0}
     - target: {fileID: 7770357784902608849, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
       propertyPath: pauseMenuManager
       value: 
       objectReference: {fileID: 1620079833}
-    - target: {fileID: 7770357784902608849, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
-      propertyPath: victoryScreen
-      value: 
-      objectReference: {fileID: 1244082267}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5744dc23aa916564bbac6f0ff75ba6e4, type: 3}
 --- !u!1 &1570446828

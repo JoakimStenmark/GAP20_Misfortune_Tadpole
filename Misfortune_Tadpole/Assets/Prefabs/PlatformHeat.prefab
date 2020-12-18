@@ -171,3 +171,4 @@ MonoBehaviour:
   heatPlatformDamage: -5
   damageInterval: 0.2
   playerController: {fileID: 0}
+  sizzleSound: {fileID: 0}

@@ -12,6 +12,7 @@ public class LifeManager : MonoBehaviour
 
     public int startingLives = 3;
     public int currentLives;
+    public float deathTimer;
 
     void Start()
     {
@@ -25,14 +26,21 @@ public class LifeManager : MonoBehaviour
         }
     }
 
-    public void LooseLife()
+    public bool LooseLife()
     {
+        bool isLiving = true;
         anim = lives[currentLives - 1].gameObject.GetComponent<Animator>();
         anim.SetTrigger(loseLife);
         currentLives--;
-        
+
         if (currentLives < 1)
-            pauseMenuManager.ReloadScene();
+        {
+            isLiving = false;
+            Invoke(nameof(Death), 3f);           
+        }
+
+        return isLiving; 
+
     }
 
     public void GainLife()
@@ -43,5 +51,10 @@ public class LifeManager : MonoBehaviour
             anim.SetTrigger(gainLife);
             currentLives++;            
         }
+    }
+
+    public void Death()
+    {
+            pauseMenuManager.ReloadScene();
     }
 }

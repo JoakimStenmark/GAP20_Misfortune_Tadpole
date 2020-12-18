@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Animation")]
     public TadpoleController tadpole;
-    private Animator anim;
+    private Animator bubbleAnimator;
     private int damageTakenHash = Animator.StringToHash("tookDamage");
     private SpriteScaler spriteScaler;
     private PlayerSoundControl playerSound;
@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        anim = GetComponentInChildren<Animator>();
+        bubbleAnimator = GetComponentInChildren<Animator>();
         spriteScaler = GetComponentInChildren<SpriteScaler>();
         waterAmount = startWaterAmount;
         rb2d = GetComponent<Rigidbody2D>();
@@ -239,11 +239,23 @@ public class PlayerController : MonoBehaviour
             if (lifeRemovable)
             {
                 lifeRemovable = false;
-                lifeManager.LooseLife();
-                anim.SetTrigger(damageTakenHash);
-                Invoke(nameof(SetLifeRemovable), lifeLossTimer);
                 playerSound.PlayHurtSound();
-                tadpole.Hurt();
+
+                if (lifeManager.LooseLife())
+                {
+                    bubbleAnimator.SetTrigger(damageTakenHash);
+                    Invoke(nameof(SetLifeRemovable), lifeLossTimer);
+                    tadpole.Hurt();
+
+                }
+                else
+                {
+                    bubbleAnimator.SetTrigger("Destroy");                    
+                    Invoke(nameof(SetLifeRemovable), lifeLossTimer + 99f);
+                    tadpole.Die();
+                }
+                
+                
             }
         }
     }

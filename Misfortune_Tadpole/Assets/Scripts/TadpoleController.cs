@@ -125,6 +125,11 @@ public class TadpoleController : MonoBehaviour
         spriteRenderer.flipX = !spriteRenderer.flipX;
     }
     
+    public void Die()
+    {
+        animator.SetBool("Dead", true);
+        animator.SetTrigger("Death");
+    }
 
 
 }

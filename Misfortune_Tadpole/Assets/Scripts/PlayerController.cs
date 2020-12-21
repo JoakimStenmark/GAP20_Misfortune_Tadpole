@@ -253,7 +253,7 @@ public class PlayerController : MonoBehaviour
 
                     if (lifeManager.LooseLife())
                     {
-                        bubbleAnimator.SetTrigger(damageTakenHash);
+                        bubbleAnimator.SetBool("damageTaken", true);
                         Invoke(nameof(SetLifeRemovable), lifeLossTimer);
                         tadpole.Hurt();
 
@@ -280,6 +280,7 @@ public class PlayerController : MonoBehaviour
     private void SetLifeRemovable()
     {
         lifeRemovable = true;
+        bubbleAnimator.SetBool("damageTaken", false);
     }
 
     private void DebugMovement()

@@ -22,7 +22,6 @@ public class Checkpoint : MonoBehaviour
             checkpoint = true;
             lastCheckPoint = transform.position;
             animator.SetTrigger("Trigger");
-            Debug.Log("Trigger");
 
         }
     }

@@ -10,10 +10,15 @@ public class AudioOptions : MonoBehaviour
     public Slider musicSlider;
     public Slider soundSlider;
 
-
+    private float musicVolume;
+    private float soundVolume;
     void Start()
     {
-        
+        if (AudioController.instance != null)
+        {
+            musicSlider.value = AudioController.instance.musicVolume;
+            soundSlider.value = AudioController.instance.soundVolume;
+        }
     }
 
     void Update()
@@ -23,14 +28,14 @@ public class AudioOptions : MonoBehaviour
 
     public void SetMusicVolume()
     {
-        float volume = Mathf.Lerp(-80, 0, musicSlider.value * 0.01f);
-        Debug.Log(volume);
-        audioMixer.SetFloat("MusicVolume", volume);
+        musicVolume = musicSlider.value;
+        AudioController.instance.musicVolume = musicVolume;
+        audioMixer.SetFloat("MusicVolume", Mathf.Lerp(-80, 0, musicVolume * 0.01f));
     }
     public void SetSoundVolume()
     {
-        float volume = Mathf.Lerp(-80, 0, soundSlider.value * 0.01f);
-
-        audioMixer.SetFloat("SoundVolume", volume);
+        soundVolume = soundSlider.value;
+        AudioController.instance.soundVolume = soundVolume;
+        audioMixer.SetFloat("SoundVolume", Mathf.Lerp(-80, 0, soundVolume * 0.01f));
     }
 }

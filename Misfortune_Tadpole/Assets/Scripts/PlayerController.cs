@@ -265,6 +265,7 @@ public class PlayerController : MonoBehaviour
                         tadpole.Die();
                         GetComponent<ParticleSpawner>().active = false;
                         playerSound.MutePlayer();
+                        alive = false;
                     }              
                 }
             }

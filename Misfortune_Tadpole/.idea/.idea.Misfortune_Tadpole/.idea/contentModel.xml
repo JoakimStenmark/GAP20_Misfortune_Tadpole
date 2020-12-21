@@ -34,6 +34,7 @@
           <e p="HeartPickUp.cs" t="Include" />
           <e p="HeatPlatformScript.cs" t="Include" />
           <e p="LevelBoundary.cs" t="Include" />
+          <e p="LevelTracker.cs" t="Include" />
           <e p="LifeManager.cs" t="Include" />
           <e p="MainMenuManager.cs" t="Include" />
           <e p="MoveAlongCollider.cs" t="Include" />

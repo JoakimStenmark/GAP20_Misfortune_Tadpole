@@ -74,6 +74,24 @@ TextureImporter:
   - first:
       213: -2251152078164804115
     second: Pause and Option UI-Spritesheet v2_13
+  - first:
+      213: 7213308686086017029
+    second: Pause and Option UI-Spritesheet v2_6
+  - first:
+      213: 3501552217338264779
+    second: Pause and Option UI-Spritesheet v2_11
+  - first:
+      213: -838892034917691723
+    second: Pause and Option UI-Spritesheet v2_12
+  - first:
+      213: 1574480783756893018
+    second: Pause and Option UI-Spritesheet v2_13
+  - first:
+      213: -3702405835341479048
+    second: Pause and Option UI-Spritesheet v2_14
+  - first:
+      213: -3612410887177406881
+    second: Pause and Option UI-Spritesheet v2_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -224,27 +242,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pause and Option UI-Spritesheet v2_6
-      rect:
-        serializedVersion: 2
-        x: 687
-        y: 1359
-        width: 171
-        height: 181
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0b4ceafcab697f50800000000000000
-      internalID: 6879648296473479948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Pause and Option UI-Spritesheet v2_7
       rect:
         serializedVersion: 2
@@ -329,6 +326,90 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_0
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1955
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a771b1a29d051d0800000000000000
+      internalID: -3363950146779383213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_2
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1926
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b5fb27fa34a64a0800000000000000
+      internalID: -6599387883134559418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_3
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1765
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f1d9e85083ca890800000000000000
+      internalID: -7445514487431618773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_6
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1359
+        width: 171
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50095614802da1460800000000000000
+      internalID: 7213308686086017029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: Pause and Option UI-Spritesheet v2_11
       rect:
         serializedVersion: 2
@@ -343,8 +424,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d981eba7449734de0800000000000000
-      internalID: -1350102128257001315
+      spriteID: bccbdec8033089030800000000000000
+      internalID: 3501552217338264779
       vertices: []
       indices: 
       edges: []
@@ -364,8 +445,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f968e6f3290c82c0800000000000000
-      internalID: -4428154283541108236
+      spriteID: 5be83dd8328ab54f0800000000000000
+      internalID: -838892034917691723
       vertices: []
       indices: 
       edges: []
@@ -385,8 +466,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dedba9dac1d42c0e0800000000000000
-      internalID: -2251152078164804115
+      spriteID: a5b128d4eeda9d510800000000000000
+      internalID: 1574480783756893018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_14
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 281
+        width: 603
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873432a42896e9cc0800000000000000
+      internalID: -3702405835341479048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause and Option UI-Spritesheet v2_15
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 281
+        width: 603
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56790fff632eddc0800000000000000
+      internalID: -3612410887177406881
       vertices: []
       indices: 
       edges: []

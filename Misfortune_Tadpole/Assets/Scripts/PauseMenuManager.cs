@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,6 +16,8 @@ public class PauseMenuManager : MonoBehaviour
 	public AudioClip confirmSound;
 	public AudioClip declineSound;
 
+	private String level = "Level: ";
+	private TextMeshProUGUI levelText;
 	public GameObject VictoryMenuUI;
 	private Transform playerTransform;
 
@@ -22,6 +25,8 @@ public class PauseMenuManager : MonoBehaviour
 
 	private void Start()
 	{
+		levelText = GameObject.Find("LevelText").GetComponent<TextMeshProUGUI>();
+		levelText.text = level + SceneManager.GetActiveScene().buildIndex;
 		playerTransform = FindObjectOfType<PlayerController>().transform;
 		audioSource = GetComponent<AudioSource>();
 		audioSource.ignoreListenerPause = true;

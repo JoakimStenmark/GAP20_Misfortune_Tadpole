@@ -108,8 +108,12 @@ AudioMixerController:
   m_ExposedParameters:
   - guid: 5adb9b3b569edf34ebe0dc9df14bb30f
     name: HeatVolume
+  - guid: e722c29feda4b774b93d6269e562062c
+    name: MusicVolume
   - guid: 0ad1053ac340b8e4d9fc36290f2a167a
     name: PlayerVolume
+  - guid: 901576d34ba3b584a973c7c7673b1e33
+    name: SoundVolume
   - guid: 1d4575367633e8a4085930661c596efe
     name: SpeedVolume
   m_AudioMixerGroupViews:

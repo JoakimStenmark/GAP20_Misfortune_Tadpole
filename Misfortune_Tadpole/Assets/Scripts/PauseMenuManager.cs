@@ -51,7 +51,8 @@ public class PauseMenuManager : MonoBehaviour
 		{
 			tutorialImage.gameObject.SetActive(false);
 			Time.timeScale = 1f;
-			
+			tutorialScreen = false;
+
 		}
 		if (Input.GetKeyDown(KeyCode.Escape) && !gameIsWon)
 		{

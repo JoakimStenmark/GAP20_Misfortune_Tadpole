@@ -24,8 +24,6 @@ public class PlayerSoundControl : MonoBehaviour
     public AudioClip[] stuckSounds;
     public AudioClip gainLife;
 
-
-
     void Start()
     {
         soundPlayer = GetComponent<AudioSource>();
@@ -102,6 +100,12 @@ public class PlayerSoundControl : MonoBehaviour
         soundPlayer.clip = gainLife;
         soundPlayer.volume = 0.5f;
         soundPlayer.Play();
+    }
+
+    public void MutePlayer()
+    {
+        //audioMixer.SetFloat("PlayerVolume", -80f);
+        soundPlayer.mute = true;
     }
 
 

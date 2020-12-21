@@ -33,7 +33,8 @@ public class PlayerController : MonoBehaviour
     public WaterBar waterBar;
     public LifeManager lifeManager;
     public float lifeLossTimer = 2f;
-
+    private bool alive = true;
+    
     [Header("Animation")]
     public TadpoleController tadpole;
     private Animator bubbleAnimator;
@@ -71,11 +72,16 @@ public class PlayerController : MonoBehaviour
 
         if (debug)
         {
+            if (Input.GetKeyDown("k"))
+            {
+                ChangeLifeAmount(false);
+            }
+
             DebugMovement();
             return;
         }
 
-        if (Input.GetButtonDown("Jump") && (secondChance || grounded))
+        if (Input.GetButtonDown("Jump") && (secondChance || grounded) && alive)
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
             rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
@@ -177,8 +183,6 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             grounded = true;
-            
-
         }
         else if (collision.gameObject.CompareTag("Wall") && grounded)
         {
@@ -203,18 +207,22 @@ public class PlayerController : MonoBehaviour
 
     public void ChangeWaterAmount(int amount)
     {
-        if (amount > 0)
+        if (alive)
         {
-            playerSound.PlayWaterPickupSound();
+            if (amount > 0)
+            {
+                playerSound.PlayWaterPickupSound();
+            }
+            waterAmount += amount;
+            waterAmount = Mathf.Clamp(waterAmount, 0f, 100f);
+            waterBar.SetWater(waterAmount);
         }
-        waterAmount += amount;
-        waterAmount = Mathf.Clamp(waterAmount, 0f, 100f);
-        waterBar.SetWater(waterAmount);
+
     }
 
     public void ChangeWaterAmount(int amount, float damageInterval)
     {
-        if (waterRemovable)
+        if (waterRemovable && alive)
         {
             waterRemovable = false;
 
@@ -229,33 +237,36 @@ public class PlayerController : MonoBehaviour
 
     public void ChangeLifeAmount(bool increase)
     {
-        if (increase)
+        if (alive)
         {
-            lifeManager.GainLife();
-            playerSound.PlayGetLifeSound();
-        }
-        else
-        {
-            if (lifeRemovable)
+            if (increase)
             {
-                lifeRemovable = false;
-                playerSound.PlayHurtSound();
-
-                if (lifeManager.LooseLife())
+                lifeManager.GainLife();
+                playerSound.PlayGetLifeSound();
+            }
+            else
+            {
+                if (lifeRemovable)
                 {
-                    bubbleAnimator.SetTrigger(damageTakenHash);
-                    Invoke(nameof(SetLifeRemovable), lifeLossTimer);
-                    tadpole.Hurt();
+                    lifeRemovable = false;
+                    playerSound.PlayHurtSound();
 
+                    if (lifeManager.LooseLife())
+                    {
+                        bubbleAnimator.SetTrigger(damageTakenHash);
+                        Invoke(nameof(SetLifeRemovable), lifeLossTimer);
+                        tadpole.Hurt();
+
+                    }
+                    else
+                    {
+                        bubbleAnimator.SetTrigger("Destroy");                    
+                        Invoke(nameof(SetLifeRemovable), lifeLossTimer + 99f);
+                        tadpole.Die();
+                        GetComponent<ParticleSpawner>().active = false;
+                        playerSound.MutePlayer();
+                    }              
                 }
-                else
-                {
-                    bubbleAnimator.SetTrigger("Destroy");                    
-                    Invoke(nameof(SetLifeRemovable), lifeLossTimer + 99f);
-                    tadpole.Die();
-                }
-                
-                
             }
         }
     }
@@ -275,7 +286,6 @@ public class PlayerController : MonoBehaviour
         rb2d.Sleep();
         
         float moveHorizontal = Input.GetAxis("Horizontal");
-
         float moveVertical = Input.GetAxis("Vertical");
 
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);

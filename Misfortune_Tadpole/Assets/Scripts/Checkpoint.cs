@@ -7,10 +7,12 @@ public class Checkpoint : MonoBehaviour
 {
     public static Vector3 lastCheckPoint;
     public static bool checkpoint;
+    private Animator animator;
 
     private void Start()
     {
         checkpoint = false;
+        animator = GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -19,6 +21,9 @@ public class Checkpoint : MonoBehaviour
         {
             checkpoint = true;
             lastCheckPoint = transform.position;
+            animator.SetTrigger("Trigger");
+            Debug.Log("Trigger");
+
         }
     }
 }

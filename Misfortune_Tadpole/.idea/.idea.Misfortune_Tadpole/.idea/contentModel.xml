@@ -27,6 +27,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AudioController.cs" t="Include" />
+          <e p="AudioOptions.cs" t="Include" />
           <e p="BetterJump.cs" t="Include" />
           <e p="CameraHelper.cs" t="Include" />
           <e p="Checkpoint.cs" t="Include" />

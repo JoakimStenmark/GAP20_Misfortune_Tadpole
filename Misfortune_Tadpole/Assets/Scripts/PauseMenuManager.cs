@@ -18,6 +18,8 @@ public class PauseMenuManager : MonoBehaviour
 	public GameObject VictoryMenuUI;
 	private Transform playerTransform;
 
+	public float levelTimer;
+
 	private void Start()
 	{
 		playerTransform = FindObjectOfType<PlayerController>().transform;
@@ -34,6 +36,8 @@ public class PauseMenuManager : MonoBehaviour
 		{
 			TogglePauseState();
 		}
+
+		levelTimer += Time.deltaTime;
 	}
 
 	public void TogglePauseState()

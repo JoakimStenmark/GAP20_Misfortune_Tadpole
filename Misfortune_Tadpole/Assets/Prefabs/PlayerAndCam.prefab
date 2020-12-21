@@ -853,10 +853,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5001586829121481798, guid: ae77b1c0ca260a04ca6fe8fafc5bd22f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: TogglePauseState
-      objectReference: {fileID: 0}
     - target: {fileID: 6742679235234210840, guid: ae77b1c0ca260a04ca6fe8fafc5bd22f, type: 3}
       propertyPath: m_RootOrder
       value: 2

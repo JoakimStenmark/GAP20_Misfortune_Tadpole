@@ -5,7 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-	public void ExitGame()
+	public AudioClip confirmSound;
+	public AudioClip declineSound;
+	private AudioSource audioSource;
+
+    private void Start()
+    {
+		audioSource = GetComponent<AudioSource>();
+    }
+
+    public void ExitGame()
 	{
 		Application.Quit();
 	}
@@ -13,5 +22,17 @@ public class MainMenuManager : MonoBehaviour
 	public void LoadLevel(int levelNum)
 	{
 		SceneManager.LoadScene(levelNum);
+	}
+
+	public void PlayConfirmSound()
+	{
+		audioSource.clip = confirmSound;
+		audioSource.Play();
+	}
+
+	public void PlayDeclineSound()
+	{
+		audioSource.clip = declineSound;
+		audioSource.Play();
 	}
 }

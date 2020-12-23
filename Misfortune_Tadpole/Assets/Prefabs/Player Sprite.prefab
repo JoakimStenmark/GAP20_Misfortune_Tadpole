@@ -609,7 +609,7 @@ MonoBehaviour:
   upwards: {x: 0, y: 0}
   mask:
     serializedVersion: 2
-    m_Bits: 1587
+    m_Bits: 3635
   groundMask:
     serializedVersion: 2
     m_Bits: 2048

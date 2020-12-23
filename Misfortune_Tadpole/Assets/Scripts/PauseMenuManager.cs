@@ -101,6 +101,7 @@ public class PauseMenuManager : MonoBehaviour
 		Time.timeScale = 0f;
 		ToggleMouseVisibility();
 		AudioListener.pause = true;
+		LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].cleared = true;
 	}
 
 	public void GoToMainMenu()

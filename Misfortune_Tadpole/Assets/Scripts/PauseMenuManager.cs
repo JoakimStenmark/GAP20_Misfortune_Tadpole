@@ -111,7 +111,7 @@ public class PauseMenuManager : MonoBehaviour
 		Checkpoint.checkpoint = false;
 	}
 
-	public void ReloadScene()
+	public void ReloadSceneFromCheckpoint()
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		AudioListener.pause = false;
@@ -121,11 +121,12 @@ public class PauseMenuManager : MonoBehaviour
 	public void ReloadSceneFromStart()
 	{
 		Checkpoint.checkpoint = false;
-		ReloadScene();
+		ReloadSceneFromCheckpoint();
 	}
 
 	public void LoadNextScene()
 	{
+		Checkpoint.checkpoint = false;
 		if (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCountInBuildSettings - 1)
 		{
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

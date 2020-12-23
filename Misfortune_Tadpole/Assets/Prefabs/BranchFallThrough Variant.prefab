@@ -46,9 +46,25 @@ PrefabInstance:
       propertyPath: m_EdgeRadius
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 689402745312796499, guid: ea374917b3e7ffb4aaa13ee70bf4339e, type: 3}
+      propertyPath: m_Points.Array.data[0].y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 689402745312796499, guid: ea374917b3e7ffb4aaa13ee70bf4339e, type: 3}
+      propertyPath: m_Points.Array.data[1].y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 689402745312796499, guid: ea374917b3e7ffb4aaa13ee70bf4339e, type: 3}
+      propertyPath: m_Points.Array.data[2].y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1799168372979819473, guid: ea374917b3e7ffb4aaa13ee70bf4339e, type: 3}
       propertyPath: m_Name
       value: BranchFallThrough Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799168372979819473, guid: ea374917b3e7ffb4aaa13ee70bf4339e, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3120891899698121071, guid: ea374917b3e7ffb4aaa13ee70bf4339e, type: 3}
       propertyPath: m_ColliderOffset

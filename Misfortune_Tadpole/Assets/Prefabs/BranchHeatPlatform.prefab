@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 864717395611708455}
   - component: {fileID: -4386085777033064967}
   - component: {fileID: 1675727628770954100}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BranchHeatPlatform
   m_TagString: Ground
   m_Icon: {fileID: 0}

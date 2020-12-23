@@ -2,19 +2,22 @@
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
-{   
+{
     [Header("Movement")]
     public bool debug;
     public Vector2 upwards;
     public LayerMask mask;
 
-    [HideInInspector] public bool Grounded { get => grounded;}
+    [HideInInspector] public bool Grounded { get => grounded; }
     private bool grounded = false;
     private bool secondChance = false;
+    private float groundRayLength = 1.10f;
+    private float updatedGroundRayLength;
+    public LayerMask groundMask;
 
     private StickToSurface stickToSurface;
     public Rigidbody2D rb2d;
-    
+
     public float velocity;
     public float maxMass;
     public float maxDrag;
@@ -26,7 +29,7 @@ public class PlayerController : MonoBehaviour
     [Header("Water and life")]
     public float startWaterAmount;
     [SerializeField] private float waterAmount;
-    public float WaterAmount { get => waterAmount;}
+    public float WaterAmount { get => waterAmount; }
 
     private bool waterRemovable = true;
     private bool lifeRemovable = true;
@@ -34,7 +37,7 @@ public class PlayerController : MonoBehaviour
     public LifeManager lifeManager;
     public float lifeLossTimer = 2f;
     private bool alive = true;
-    
+
     [Header("Animation")]
     public TadpoleController tadpole;
     private Animator bubbleAnimator;
@@ -60,14 +63,13 @@ public class PlayerController : MonoBehaviour
         waterBar.SetWater(waterAmount);
 
         playerSound = GetComponentInChildren<PlayerSoundControl>();
-       
     }
 
     void Update()
     {
         if (Input.GetKeyDown("p"))
         {
-            debug = !debug; 
+            debug = !debug;
         }
 
         if (debug)
@@ -99,29 +101,40 @@ public class PlayerController : MonoBehaviour
 
         if (stickToSurface.stuck)
         {
-            /*float diff = transform.position.x - transform.parent.position.x;
-
-            if(Mathf.Abs(diff) > 2f)
-                transform.up = transform.position - transform.parent.position;*/
             transform.up = transform.position - transform.parent.position;
         }
         else if (hit.collider != null && hit2.collider != null)
         {
             transform.up = (hit.normal + hit2.normal) / 2;
         }
+
+        updatedGroundRayLength = groundRayLength * transform.localScale.x;
+
+        RaycastHit2D groundHit = Physics2D.Raycast(transform.position, -transform.up, updatedGroundRayLength, groundMask);
+
+        if (groundHit)
+        {
+            CancelInvoke(nameof(SecondChance));
+            grounded = true;
+            secondChance = true;
+        }
+        else
+        {
+            grounded = false;
+            Invoke(nameof(SecondChance), secondChanceTimer);
+        }
     }
 
 #if UNITY_EDITOR
     private void OnDrawGizmos()
     {
-        Debug.DrawLine(transform.position, transform.position - Vector3.up * 2f, Color.red);
+        Debug.DrawLine(transform.position, transform.position - transform.up * updatedGroundRayLength, Color.red);
     }
 #endif
 
     private void FixedUpdate()
     {
-
-        if (grounded)
+        if (grounded || stickToSurface.stuck)
         {
             neutralRotationTimeCount = 0;
         }
@@ -130,9 +143,8 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.identity, neutralRotationTimeCount);
             neutralRotationTimeCount += Time.deltaTime * 0.5f;
         }
-
     }
-    
+
     private void SecondChance()
     {
         secondChance = false;
@@ -142,58 +154,10 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            
-            CancelInvoke(nameof(SecondChance));
-            grounded = true;
-            secondChance = true;
             playerSound.PlayLandSound();
             tadpole.SetGrounded();
         }
-        else if (collision.gameObject.CompareTag("Wall") && grounded)
-        {
-            grounded = true;
-        }
-        else
-        {
-            grounded = false;
-        }
-
     }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            grounded = false;
-            Invoke(nameof(SecondChance), secondChanceTimer);
-            
-        }
-        else if (collision.gameObject.CompareTag("Wall") && grounded)
-        {
-            grounded = true;
-        }
-        else
-        {
-            grounded = false;
-        }
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            grounded = true;
-        }
-        else if (collision.gameObject.CompareTag("Wall") && grounded)
-        {
-            grounded = true;
-        }
-        else
-        {
-            grounded = false;
-        }
-    }
-
 
     private void SetSizeBasedOnWaterAmount()
     {
@@ -217,7 +181,6 @@ public class PlayerController : MonoBehaviour
             waterAmount = Mathf.Clamp(waterAmount, 0f, 100f);
             waterBar.SetWater(waterAmount);
         }
-
     }
 
     public void ChangeWaterAmount(int amount, float damageInterval)
@@ -260,13 +223,13 @@ public class PlayerController : MonoBehaviour
                     }
                     else
                     {
-                        bubbleAnimator.SetTrigger("Destroy");                    
+                        bubbleAnimator.SetTrigger("Destroy");
                         Invoke(nameof(SetLifeRemovable), lifeLossTimer + 99f);
                         tadpole.Die();
                         GetComponent<ParticleSpawner>().active = false;
                         playerSound.MutePlayer();
                         alive = false;
-                    }              
+                    }
                 }
             }
         }
@@ -286,7 +249,7 @@ public class PlayerController : MonoBehaviour
     private void DebugMovement()
     {
         rb2d.Sleep();
-        
+
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
 
@@ -297,7 +260,7 @@ public class PlayerController : MonoBehaviour
         }
         rb2d.position += movement * 0.5f;
     }
-    
+
     public void LoadLastCheckpoint()
     {
         if (Checkpoint.checkpoint)

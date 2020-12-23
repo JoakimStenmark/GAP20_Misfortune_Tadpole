@@ -610,6 +610,9 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 1587
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 2048
   rb2d: {fileID: 0}
   velocity: 0
   maxMass: 10
@@ -622,7 +625,7 @@ MonoBehaviour:
   waterBar: {fileID: 0}
   lifeManager: {fileID: 0}
   lifeLossTimer: 2
-  tadpoleAnimator: {fileID: 0}
+  tadpole: {fileID: 0}
 --- !u!114 &8892172925730561568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -684,4 +687,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51714b60b58805e4ab59164093b23ada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   particlePrefab: {fileID: 344449475665498405, guid: 5dbe3ee0fa6884749a02776b9c39b002, type: 3}

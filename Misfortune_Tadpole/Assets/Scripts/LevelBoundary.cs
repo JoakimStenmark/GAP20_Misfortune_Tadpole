@@ -25,7 +25,7 @@ public class LevelBoundary : MonoBehaviour
 
     void ResetScene()
     {
-        pauseMenuManager.ReloadScene();
+        pauseMenuManager.ReloadSceneFromCheckpoint();
         cameraHelper.deadPlayer = false;
     }
 }

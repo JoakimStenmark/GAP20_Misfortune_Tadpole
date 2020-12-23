@@ -55,6 +55,6 @@ public class LifeManager : MonoBehaviour
 
     public void Death()
     {
-            pauseMenuManager.ReloadScene();
+            pauseMenuManager.ReloadSceneFromCheckpoint();
     }
 }

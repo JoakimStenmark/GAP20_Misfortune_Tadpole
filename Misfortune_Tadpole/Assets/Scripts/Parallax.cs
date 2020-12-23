@@ -7,7 +7,7 @@ public class Parallax : MonoBehaviour
     private float startPosX, startPosY;
     private float lengthX, lengthY;
     public GameObject mainCamera;
-    [Range(0.5f, 1.0f)] public float parallax;
+    [Range(0.8f, 1.25f)] public float parallax;
 
     private float previousCameraY = 0;
     void Start()
@@ -16,48 +16,63 @@ public class Parallax : MonoBehaviour
         startPosY = transform.position.y;
 
         lengthX = GetComponent<SpriteRenderer>().bounds.size.x;
-        lengthY = GetComponent<SpriteRenderer>().bounds.size.y;
-
+        lengthY = GetComponent<SpriteRenderer>().bounds.size.y * 1.25f;
+        previousCameraY = mainCamera.transform.position.y;
     }
 
     void FixedUpdate()
     {
-        float distX = mainCamera.transform.position.x * parallax;
-        float distY = mainCamera.transform.position.y * parallax;
         float tempX = mainCamera.transform.position.x * (1 - parallax);
-        float tempY = mainCamera.transform.position.y - startPosY;
+        float tempY = startPosY - mainCamera.transform.position.y;
+        
 
-        InfiniteXScrolling(tempX);
+        float distX = (startPosX - mainCamera.transform.position.x) * parallax * -1;
+        float distY = (startPosY - mainCamera.transform.position.y) * parallax * -1;
 
-        float heightDiff = (mainCamera.transform.position.y - previousCameraY) * Time.deltaTime;
+        //Debug.Log(startPosX);
+        //Debug.Log("TempX " + tempX);
+
+
+        float heightDiff = (mainCamera.transform.position.y - previousCameraY);
         previousCameraY = mainCamera.transform.position.y;
 
+        //InfiniteXScrolling(tempX);
+        
+        if (tempY > startPosY + lengthY * parallax)
+        {
+            transform.position = new Vector3(startPosX + distX,
+                                            transform.position.y + heightDiff,
+                                            transform.position.z);
+            //Debug.Log("Too far up");
+            
+        }
+        /*
+        else if (tempY < startPosY - lengthY * parallax)
+        {
+            transform.position = new Vector3(startPosX + distX,
+                                            transform.position.y + heightDiff * Time.deltaTime,
+                                            transform.position.z);
 
-        if (tempY > startPosY + lengthY * (1 - parallax))
-        {
-            transform.position = new Vector3(startPosX + distX,
-                                            transform.position.y + heightDiff * Time.deltaTime,
-                                            transform.position.z);
+            //Debug.Log("Too far down");
         }
-        else if (tempY < startPosY - lengthY * (1 - parallax))
-        {
-            transform.position = new Vector3(startPosX + distX,
-                                            transform.position.y + heightDiff * Time.deltaTime,
-                                            transform.position.z);
-        }
+        */
         else
+        
             transform.position = new Vector3(startPosX + distX, startPosY + distY, transform.position.z);
 
     }
 
     void InfiniteXScrolling(float tempX)
     {
+        //*((1 - parallax) + 1)
         if (tempX > startPosX + lengthX)
         {
+            Debug.Log("right");
             startPosX += lengthX;
         }
         else if (tempX < startPosX - lengthX)
         {
+            Debug.Log("left");
             startPosX -= lengthX;
         }
     }

@@ -22,6 +22,7 @@ public class PlayerSoundControl : MonoBehaviour
     public AudioClip[] hurtSounds;
     public AudioClip[] waterPickupSounds;
     public AudioClip[] stuckSounds;
+    public AudioClip[] freezeSounds;
     public AudioClip gainLife;
 
     void Start()
@@ -81,6 +82,11 @@ public class PlayerSoundControl : MonoBehaviour
     public void PlayStuckSound()
     {
         PlayRoundRobinSound(stuckSounds);
+    }
+
+    public void PlayFreezeSound()
+    {
+        PlayRoundRobinSound(freezeSounds);
     }
 
     public void PlayLandSound()

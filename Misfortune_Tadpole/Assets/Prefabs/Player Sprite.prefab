@@ -93,6 +93,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1544800702dbc9c4aab620e73d805c7c, type: 3}
   - {fileID: 8300000, guid: a5505f136de7f73428076b23186333ce, type: 3}
   - {fileID: 8300000, guid: 46d3a0ab7edffc44090f4c31bcefbaa2, type: 3}
+  freezeSounds:
+  - {fileID: 8300000, guid: cd50517fa98cf2841a492f2bbfcd65f5, type: 3}
+  - {fileID: 8300000, guid: ce5b869912f0e9548b3c39fa65f0fb88, type: 3}
+  - {fileID: 8300000, guid: f11f01d9d7bc30e438935212b92f9537, type: 3}
   gainLife: {fileID: 8300000, guid: fd615185538be484fb2869d7873e67d0, type: 3}
 --- !u!82 &3669295617004754638
 AudioSource:
@@ -159,7 +163,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.47
+      value: 0.15
       inSlope: 0
       outSlope: 0
       tangentMode: 0

@@ -157,6 +157,11 @@ public class PlayerController : MonoBehaviour
             playerSound.PlayLandSound();
             tadpole.SetGrounded();
         }
+
+        if (collision.gameObject.CompareTag("Ice"))
+        {
+            playerSound.PlayFreezeSound();
+        }
     }
 
     private void SetSizeBasedOnWaterAmount()

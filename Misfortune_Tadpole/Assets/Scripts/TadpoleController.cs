@@ -25,7 +25,7 @@ public class TadpoleController : MonoBehaviour
         rb2d = player.GetComponent<Rigidbody2D>();
         stickToSurface = player.GetComponent<StickToSurface>();
         animator = GetComponent<Animator>();
-        triggers = new string[] { "TurnRight", "TurnLeft", "Grounded" };
+        triggers = new string[] { "TurnRight", "TurnLeft", "Ground" };
     }
 
     private void Update()
@@ -45,15 +45,17 @@ public class TadpoleController : MonoBehaviour
             animator.SetBool("Jumping", false);
         }
 
-        fallTime += Time.deltaTime;
+        if (!playerController.grounded)
+        {
+            fallTime += Time.deltaTime;
+        }
         
-        if (isStuck || playerController.Grounded)
+        if (isStuck)
         { 
-            fallTime = 0f;
+
             SetGrounded();
         }
-        else
-            animator.SetBool("Grounded", false);
+
 
         SetFalltime(fallTime);
         animator.SetFloat("Xvelocity", Mathf.Abs(rb2d.velocity.x));
@@ -68,16 +70,16 @@ public class TadpoleController : MonoBehaviour
         if (rb2d.velocity.x > 0.5 || rotatorSpeed < 0)
         {
 
-            if (spriteRenderer.flipX == false && rb2d.velocity.x > 1.5)
+            if (spriteRenderer.flipX == false && playerController.grounded)
             {
                 animator.SetTrigger("TurnLeft");
             }
             spriteRenderer.flipX = true;
         }
-        
+       
         if (rb2d.velocity.x < -0.5 || rotatorSpeed > 0)
         {
-            if (spriteRenderer.flipX == true && rb2d.velocity.x < -1.5)
+            if (spriteRenderer.flipX == true && playerController.grounded)
             {
                 animator.SetTrigger("TurnLeft");
             }
@@ -108,6 +110,7 @@ public class TadpoleController : MonoBehaviour
     public void SetGrounded()
     {
         ResetTriggers();
+        fallTime = 0f;
         animator.SetBool("Jumping", false);
         animator.SetBool("Grounded", true);
 

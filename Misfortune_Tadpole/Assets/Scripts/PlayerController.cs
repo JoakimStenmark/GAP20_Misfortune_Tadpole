@@ -8,7 +8,8 @@ public class PlayerController : MonoBehaviour
     public Vector2 upwards;
     public LayerMask mask;
 
-    [HideInInspector] public bool Grounded { get => grounded; }
+    [HideInInspector] 
+    public bool Grounded { get => grounded; }
     private bool grounded = false;
     private bool secondChance = false;
     private float groundRayLength = 1.05f;
@@ -84,52 +85,29 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        if (delay <= 0f)
-        {
-            if (Input.GetButtonDown("Jump") && (secondChance || grounded) && alive)
-            {
-                rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
-                rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
-                playerSound.PlayJumpSound();
-                spriteScaler.JumpWobble();
-                tadpole.Jump();
-                delay = 0.18f;
-            }
-        }
+        CheckForGroundAndSecondChance();
 
-        delay -= Time.deltaTime;
+        if (Input.GetButtonDown("Jump") && (secondChance || grounded) && alive && delay <= 0)
+        {
+            Debug.Log("jump");
+            rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
+            rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+            playerSound.PlayJumpSound();
+            spriteScaler.JumpWobble();
+            tadpole.Jump();
+            delay = 0.18f;
+            grounded = false;
+            CancelInvoke(nameof(SecondChance));
+            secondChance = false;
+        }
 
         SetSizeBasedOnWaterAmount();
 
+        RotateBasedOnSurface();
+
         velocity = rb2d.velocity.magnitude;
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, 2f, mask);
-        RaycastHit2D hit2 = Physics2D.Raycast(transform.position, -transform.up, 2f, mask);
-
-        if (stickToSurface.stuck)
-        {
-            transform.up = transform.position - transform.parent.position;
-        }
-        else if (hit.collider != null && hit2.collider != null)
-        {
-            transform.up = (hit.normal + hit2.normal) / 2;
-        }
-
-        updatedGroundRayLength = groundRayLength * transform.localScale.x;
-
-        RaycastHit2D groundHit = Physics2D.Raycast(transform.position, -transform.up, updatedGroundRayLength, groundMask);
-
-        if (groundHit)
-        {
-            CancelInvoke(nameof(SecondChance));
-            grounded = true;
-            secondChance = true;
-        }
-        else
-        {
-            grounded = false;
-            Invoke(nameof(SecondChance), secondChanceTimer);
-        }
+        delay -= Time.deltaTime;
     }
 
 #if UNITY_EDITOR
@@ -152,9 +130,41 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void SecondChance()
+    void RotateBasedOnSurface()
     {
-        secondChance = false;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, 2f, mask);
+        RaycastHit2D hit2 = Physics2D.Raycast(transform.position, -transform.up, 2f, mask);
+
+        if (stickToSurface.stuck)
+        {
+            transform.up = transform.position - transform.parent.position;
+        }
+        else if (hit.collider != null && hit2.collider != null)
+        {
+            transform.up = (hit.normal + hit2.normal) / 2;
+        }
+
+    }
+
+    void CheckForGroundAndSecondChance()
+    {
+        updatedGroundRayLength = groundRayLength * transform.localScale.x;
+
+        RaycastHit2D groundHit = Physics2D.Raycast(transform.position, -transform.up, updatedGroundRayLength, groundMask);
+
+        if (groundHit)
+        {
+            CancelInvoke(nameof(SecondChance));
+            grounded = true;
+            secondChance = true;
+            Debug.Log("grounded");
+
+        }
+        else
+        {
+            grounded = false;
+            Invoke(nameof(SecondChance), secondChanceTimer);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -170,6 +180,12 @@ public class PlayerController : MonoBehaviour
             playerSound.PlayFreezeSound();
         }
     }
+
+    private void SecondChance()
+    {
+        secondChance = false;
+    }
+
 
     private void SetSizeBasedOnWaterAmount()
     {

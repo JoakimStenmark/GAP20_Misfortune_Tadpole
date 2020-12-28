@@ -45,7 +45,7 @@ public class TadpoleController : MonoBehaviour
             animator.SetBool("Jumping", false);
         }
 
-        if (!playerController.grounded)
+        if (!playerController.Grounded)
         {
             fallTime += Time.deltaTime;
         }
@@ -70,7 +70,7 @@ public class TadpoleController : MonoBehaviour
         if (rb2d.velocity.x > 0.5 || rotatorSpeed < 0)
         {
 
-            if (spriteRenderer.flipX == false && playerController.grounded)
+            if (spriteRenderer.flipX == false && playerController.Grounded)
             {
                 animator.SetTrigger("TurnLeft");
             }
@@ -79,7 +79,7 @@ public class TadpoleController : MonoBehaviour
        
         if (rb2d.velocity.x < -0.5 || rotatorSpeed > 0)
         {
-            if (spriteRenderer.flipX == true && playerController.grounded)
+            if (spriteRenderer.flipX == true && playerController.Grounded)
             {
                 animator.SetTrigger("TurnLeft");
             }

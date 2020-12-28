@@ -88,8 +88,7 @@ public class PlayerController : MonoBehaviour
         CheckForGroundAndSecondChance();
 
         if (Input.GetButtonDown("Jump") && (secondChance || grounded) && alive && delay <= 0)
-        {
-            Debug.Log("jump");
+        {           
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
             rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
             playerSound.PlayJumpSound();
@@ -157,8 +156,6 @@ public class PlayerController : MonoBehaviour
             CancelInvoke(nameof(SecondChance));
             grounded = true;
             secondChance = true;
-            Debug.Log("grounded");
-
         }
         else
         {

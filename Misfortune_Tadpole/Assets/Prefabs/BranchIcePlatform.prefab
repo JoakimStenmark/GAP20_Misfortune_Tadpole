@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4403392896912799247}
   - component: {fileID: 859095554898276924}
   - component: {fileID: 7194838410737296976}
+  - component: {fileID: 690284495238435850}
   m_Layer: 0
   m_Name: BranchIcePlatform
   m_TagString: Ice
@@ -155,3 +156,17 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &690284495238435850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484151679940394050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51714b60b58805e4ab59164093b23ada, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  particlePrefab: {fileID: 2598137774949681583, guid: c71068831d0596d4fb6c078dd248acb9, type: 3}

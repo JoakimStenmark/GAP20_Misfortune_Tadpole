@@ -41,7 +41,6 @@ public class PauseMenuManager : MonoBehaviour
 		{
 			tutorialImage = GameObject.Find("Instructions Image");
 			tutorialScreen = true;
-			Time.timeScale = 0f;
 		}
 	}
 
@@ -50,10 +49,9 @@ public class PauseMenuManager : MonoBehaviour
 		if (tutorialScreen && Input.GetKeyDown(KeyCode.Space))
 		{
 			tutorialImage.gameObject.SetActive(false);
-			Time.timeScale = 1f;
 			tutorialScreen = false;
-
 		}
+		
 		if (Input.GetKeyDown(KeyCode.Escape) && !gameIsWon)
 		{
 			TogglePauseState();
@@ -106,7 +104,7 @@ public class PauseMenuManager : MonoBehaviour
 
 	public void GoToMainMenu()
 	{
-		SceneManager.LoadScene("MainMenu");
+		LevelTracker.instance.levelLoader.LoadLevel(0);
 		AudioListener.pause = false;
 		Time.timeScale = 1f;
 		Checkpoint.checkpoint = false;
@@ -114,7 +112,7 @@ public class PauseMenuManager : MonoBehaviour
 
 	public void ReloadSceneFromCheckpoint()
 	{
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		LevelTracker.instance.levelLoader.LoadLevel(SceneManager.GetActiveScene().buildIndex);
 		AudioListener.pause = false;
 		Time.timeScale = 1f;
 	}
@@ -130,7 +128,7 @@ public class PauseMenuManager : MonoBehaviour
 		Checkpoint.checkpoint = false;
 		if (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCountInBuildSettings - 1)
 		{
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+			LevelTracker.instance.levelLoader.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
 			AudioListener.pause = false;
 			Time.timeScale = 1f;
 		}

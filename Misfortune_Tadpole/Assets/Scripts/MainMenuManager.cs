@@ -12,12 +12,14 @@ public class MainMenuManager : MonoBehaviour
 	private AudioSource audioSource;
 	public GameObject[] buttons;
 	public bool levelUnlockToggle = true;
+	public Animator transition;
+	public float transitionTime = 1f;
 
 	private void Start()
-    {
-	    audioSource = GetComponent<AudioSource>();
-	    buttons[0].GetComponent<Button>().interactable = true;
-    }
+	{
+		audioSource = GetComponent<AudioSource>();
+		buttons[0].GetComponent<Button>().interactable = true;
+	}
 
 	private void Update()
 	{
@@ -42,14 +44,14 @@ public class MainMenuManager : MonoBehaviour
 		}
 	}
 
-    public void ExitGame()
+	public void LoadLevel(int levelIndex)
 	{
-		Application.Quit();
+		LevelTracker.instance.levelLoader.LoadLevel(levelIndex);
 	}
 
-	public void LoadLevel(int levelNum)
+	public void ExitGame()
 	{
-		SceneManager.LoadScene(levelNum);
+		Application.Quit();
 	}
 
 	public void PlayConfirmSound()

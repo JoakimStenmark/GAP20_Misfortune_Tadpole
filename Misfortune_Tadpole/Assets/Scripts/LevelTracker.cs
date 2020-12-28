@@ -29,6 +29,7 @@ public class LevelTracker : MonoBehaviour
 
     public LevelInfo[] levels;
     public int currentLevel;
+    public LevelLoader levelLoader;
 
     private void Start()
     {
@@ -42,6 +43,8 @@ public class LevelTracker : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         ResetAllLevelInfos();
+
+        levelLoader = GetComponent<LevelLoader>();
     }
 
     void ResetAllLevelInfos()

@@ -12,6 +12,7 @@ TagManager:
   - CM vcam
   - UI
   - Ice
+  - LevelLoader
   layers:
   - Default
   - TransparentFX

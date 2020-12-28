@@ -41,6 +41,7 @@
           <e p="MainMenuManager.cs" t="Include" />
           <e p="MoveAlongCollider.cs" t="Include" />
           <e p="Parallax.cs" t="Include" />
+          <e p="Parallax2.cs" t="Include" />
           <e p="PauseMenuManager.cs" t="Include" />
           <e p="PlayerBubbleTest.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />

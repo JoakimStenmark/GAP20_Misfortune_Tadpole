@@ -11,13 +11,26 @@ public class MainMenuManager : MonoBehaviour
 	public AudioClip declineSound;
 	private AudioSource audioSource;
 	public GameObject[] buttons;
+	public bool levelUnlockToggle = true;
 
 	private void Start()
     {
 	    audioSource = GetComponent<AudioSource>();
 	    buttons[0].GetComponent<Button>().interactable = true;
     }
-	
+
+	private void Update()
+	{
+		//Unlock all levels
+		if (Input.GetKeyDown(KeyCode.P) && levelUnlockToggle)
+		{
+			foreach (LevelInfo level in LevelTracker.instance.levels)
+			{
+				level.cleared = true;
+			}
+		}
+	}
+
 	public void LoadAvailableLevelButtons()
 	{
 		for (int i = 0; i < LevelTracker.instance.levels.Length; i ++)

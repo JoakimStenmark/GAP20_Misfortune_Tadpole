@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public bool Grounded { get => grounded; }
     private bool grounded = false;
     private bool secondChance = false;
-    private float groundRayLength = 1.10f;
+    private float groundRayLength = 1.05f;
     private float updatedGroundRayLength;
     public LayerMask groundMask;
 
@@ -44,6 +44,7 @@ public class PlayerController : MonoBehaviour
     private int damageTakenHash = Animator.StringToHash("tookDamage");
     private SpriteScaler spriteScaler;
     private PlayerSoundControl playerSound;
+    private float delay;
 
     private void Awake()
     {
@@ -83,14 +84,20 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        if (Input.GetButtonDown("Jump") && (secondChance || grounded) && alive)
+        if (delay <= 0f)
         {
-            rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
-            rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
-            playerSound.PlayJumpSound();
-            spriteScaler.JumpWobble();
-            tadpole.Jump();
+            if (Input.GetButtonDown("Jump") && (secondChance || grounded) && alive)
+            {
+                rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
+                rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+                playerSound.PlayJumpSound();
+                spriteScaler.JumpWobble();
+                tadpole.Jump();
+                delay = 0.18f;
+            }
         }
+
+        delay -= Time.deltaTime;
 
         SetSizeBasedOnWaterAmount();
 

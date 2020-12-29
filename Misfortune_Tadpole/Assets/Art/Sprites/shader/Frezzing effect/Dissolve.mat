@@ -26,7 +26,7 @@ Material:
     m_Floats:
     - _Cutoff: 0
     - _Distance: 6.78
-    - _Fade: 0.546
+    - _Fade: 0.535
     - _Outline: 0.08
     - _Scale: 6.44
     m_Colors:

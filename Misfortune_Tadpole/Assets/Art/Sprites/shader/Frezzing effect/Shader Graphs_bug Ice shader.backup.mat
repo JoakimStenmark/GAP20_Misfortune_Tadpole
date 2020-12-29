@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Ice shader
-  m_Shader: {fileID: -6465566751694194690, guid: 09da78a9b78a40b4984207145d355887, type: 3}
+  m_Name: Shader Graphs_bug Ice shader.backup
+  m_Shader: {fileID: -6465566751694194690, guid: c7b94b2b1d5c5c2449c0c79ad2294135, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -24,8 +24,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Cutoff: 0.43
-    - _Scale: 33.6
-    - _strength: 0.5
+    - _Cutoff: 0.45
+    - _Scale: 30
+    - _Strength: 0.5
     m_Colors: []
   m_BuildTextureStacks: []

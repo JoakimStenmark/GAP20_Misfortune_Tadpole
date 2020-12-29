@@ -24,10 +24,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Cutoff: -1.93
-    - _Edge: 1.8
-    - _Scale: 41.8
-    - _strength: 1.52
+    - _Cutoff: -3.86
+    - _Edge: 2.52
+    - _Scale: 45.67
+    - _strength: 0.25
     m_Colors:
     - _Albedo: {r: 1, g: 1, b: 1, a: 0}
     - _EdgeColor: {r: 1.319508, g: 0.8951956, b: 0.09831628, a: 1}

@@ -20,7 +20,6 @@ public class LevelInfo
         goalFlowersFound = 0;
         levelId = levelNumber;
     }
-
 }
 
 public class LevelTracker : MonoBehaviour
@@ -61,5 +60,23 @@ public class LevelTracker : MonoBehaviour
         currentLevel = SceneManager.GetActiveScene().buildIndex;
     }
 
+    public void SaveHighscore()
+    {
+        int currentLevel = SceneManager.GetActiveScene().buildIndex;
+        string levelKey = string.Empty;
+        levelKey += "Level stars";
+        levelKey += currentLevel.ToString();
 
+        PlayerPrefs.SetInt(levelKey, levels[currentLevel - 1].starsCollected);
+
+        levelKey = "Level clear";
+        levelKey += currentLevel.ToString();
+
+        PlayerPrefs.SetInt(levelKey, levels[currentLevel - 1].cleared ? 1 : 0);
+    }
+
+/*    public void test()
+    {
+        PlayerPrefs.GetInt("key", 0);
+    }*/
 }

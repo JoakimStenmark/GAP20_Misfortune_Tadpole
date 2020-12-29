@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StarTracker : MonoBehaviour
 {
@@ -26,6 +27,9 @@ public class StarTracker : MonoBehaviour
 
     public void SaveAmountOfStars()
     {
-
+        if (starsTaken > LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].starsCollected)
+        {
+            LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].starsCollected = starsTaken;
+        }
     }
 }

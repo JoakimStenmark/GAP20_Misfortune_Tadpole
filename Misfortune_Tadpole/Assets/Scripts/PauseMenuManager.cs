@@ -26,13 +26,20 @@ public class PauseMenuManager : MonoBehaviour
 	private bool tutorialScreen;
 	private GameObject tutorialImage;
 
+	private StarTracker starTracker;
+
 	private void Start()
 	{
+		starTracker = GameObject.FindWithTag(nameof(StarTracker)).GetComponent<StarTracker>();
+		
 		levelText = GameObject.Find("LevelText").GetComponent<TextMeshProUGUI>();
 		levelText.text = level + SceneManager.GetActiveScene().buildIndex;
+		
 		playerTransform = FindObjectOfType<PlayerController>().transform;
+		
 		audioSource = GetComponent<AudioSource>();
 		audioSource.ignoreListenerPause = true;
+		
 		gameIsPaused = false;
 		
 		ToggleMouseVisibility();
@@ -100,6 +107,7 @@ public class PauseMenuManager : MonoBehaviour
 		ToggleMouseVisibility();
 		AudioListener.pause = true;
 		LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].cleared = true;
+		starTracker.SaveAmountOfStars();
 	}
 
 	public void GoToMainMenu()

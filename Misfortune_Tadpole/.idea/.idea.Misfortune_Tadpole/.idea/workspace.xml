@@ -22,7 +22,12 @@
     <list default="true" id="aaf0e7c8-c426-4d63-b9b7-994cbe1fbe74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LevelLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BranchIcePlatform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BranchIcePlatform.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Axels Level 1 v1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Axels Level 1 v1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/trang easy level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/trang easy level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StarTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StarTracker.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +39,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteScaler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StarTracker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaterDrop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Project-Iprenmannen/Assets/Scripts/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerBubbleTest.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,10 +54,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/LifeManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelTracker.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" />
       <option value="$PROJECT_DIR$/Assets/LevelLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelTracker.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/StarTracker.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kSHy7NOQx9EjKNRu92pjJIay4B" />
@@ -124,7 +131,7 @@
       <workItem from="1608652119117" duration="761000" />
       <workItem from="1608717635291" duration="13638000" />
       <workItem from="1609143753088" duration="15802000" />
-      <workItem from="1609231521814" duration="632000" />
+      <workItem from="1609231521814" duration="4859000" />
     </task>
     <servers />
   </component>

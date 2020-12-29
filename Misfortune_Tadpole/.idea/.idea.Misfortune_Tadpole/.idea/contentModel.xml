@@ -7,10 +7,6 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="GoalFlower.cs" t="Include" />
-        <e p="LevelLoader.cs" t="Include" />
-        <e p="ParticleController.cs" t="Include" />
-        <e p="ParticleSpawner.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
@@ -35,15 +31,19 @@
           <e p="CameraHelper.cs" t="Include" />
           <e p="Checkpoint.cs" t="Include" />
           <e p="FallThroughPlatform.cs" t="Include" />
+          <e p="GoalFlower.cs" t="Include" />
           <e p="HeartPickUp.cs" t="Include" />
           <e p="HeatPlatformScript.cs" t="Include" />
           <e p="LevelBoundary.cs" t="Include" />
+          <e p="LevelLoader.cs" t="Include" />
           <e p="LevelTracker.cs" t="Include" />
           <e p="LifeManager.cs" t="Include" />
           <e p="MainMenuManager.cs" t="Include" />
           <e p="MoveAlongCollider.cs" t="Include" />
           <e p="Parallax.cs" t="Include" />
           <e p="Parallax2.cs" t="Include" />
+          <e p="ParticleController.cs" t="Include" />
+          <e p="ParticleSpawner.cs" t="Include" />
           <e p="PauseMenuManager.cs" t="Include" />
           <e p="PlayerBubbleTest.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
@@ -52,10 +52,14 @@
           <e p="ShowCollider.cs" t="Include" />
           <e p="SpikeScript.cs" t="Include" />
           <e p="SpriteScaler.cs" t="Include" />
+          <e p="StarPickup.cs" t="Include" />
+          <e p="StarTracker.cs" t="Include" />
+          <e p="StarUITracker.cs" t="Include" />
           <e p="StickToSurface.cs" t="Include" />
           <e p="TadpoleController.cs" t="Include" />
           <e p="Temp.cs" t="Include" />
           <e p="Test.cs" t="Include" />
+          <e p="UiSound.cs" t="Include" />
           <e p="WaterBar.cs" t="Include" />
           <e p="WaterDrop.cs" t="Include" />
         </e>
@@ -90,7 +94,6 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="UiSound.cs" t="Include" />
       </e>
       <e p="Misfortune_Tadpole.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

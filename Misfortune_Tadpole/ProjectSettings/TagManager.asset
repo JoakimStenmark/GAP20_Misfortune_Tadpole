@@ -13,6 +13,8 @@ TagManager:
   - UI
   - Ice
   - LevelLoader
+  - StarUITracker
+  - StarTracker
   layers:
   - Default
   - TransparentFX

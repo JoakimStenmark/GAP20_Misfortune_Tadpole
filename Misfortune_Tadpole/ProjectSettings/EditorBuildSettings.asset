@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Axels Level 1 v1.unity
     guid: 078891ca2fc0edc4ea32d16df6dcbd17
+  - enabled: 1
+    path: Assets/Scenes/Oscars Level.unity
+    guid: 08c4687539d1bc247b59e1295121e08f
   m_configObjects: {}

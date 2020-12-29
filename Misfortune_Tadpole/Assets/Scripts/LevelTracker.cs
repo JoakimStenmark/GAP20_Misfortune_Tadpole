@@ -10,13 +10,13 @@ public class LevelInfo
     [SerializeField]
     private int levelId;
     public int LevelId { get => levelId;}
-    public float timeHighscore;
+    public int starsCollected;
     public int goalFlowersFound;
     public bool cleared = false;
 
     public LevelInfo(int levelNumber)
     {       
-        timeHighscore = 0;
+        starsCollected = 0;
         goalFlowersFound = 0;
         levelId = levelNumber;
     }

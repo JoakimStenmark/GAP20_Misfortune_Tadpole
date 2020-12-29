@@ -156,6 +156,8 @@ public class PlayerController : MonoBehaviour
             CancelInvoke(nameof(SecondChance));
             grounded = true;
             secondChance = true;
+            bubbleAnimator.SetBool(Animator.StringToHash("Frozen"), false);
+
         }
         else
         {
@@ -175,6 +177,15 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ice"))
         {
             playerSound.PlayFreezeSound();
+            bubbleAnimator.SetBool(Animator.StringToHash("Frozen"), true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ice"))
+        {
+            bubbleAnimator.SetBool(Animator.StringToHash("Frozen"), false);
         }
     }
 

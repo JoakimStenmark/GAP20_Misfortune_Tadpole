@@ -15,6 +15,7 @@ TagManager:
   - LevelLoader
   - StarUITracker
   - StarTracker
+  - LevelButton
   layers:
   - Default
   - TransparentFX

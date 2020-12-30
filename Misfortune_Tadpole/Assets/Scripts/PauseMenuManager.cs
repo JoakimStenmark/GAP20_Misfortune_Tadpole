@@ -115,15 +115,27 @@ public class PauseMenuManager : MonoBehaviour
 	{
 		LevelTracker.instance.levelLoader.LoadLevel(0);
 		AudioListener.pause = false;
+		AudioController.instance.StopMusic(true);
 		Time.timeScale = 1f;
 		Checkpoint.checkpoint = false;
 	}
 
 	public void ReloadSceneFromCheckpoint()
 	{
-		LevelTracker.instance.levelLoader.LoadLevel(SceneManager.GetActiveScene().buildIndex);
-		AudioListener.pause = false;
-		Time.timeScale = 1f;
+        if (LevelTracker.instance != null)
+        {
+			LevelTracker.instance.levelLoader.LoadLevel(SceneManager.GetActiveScene().buildIndex);
+			AudioListener.pause = false;
+			Time.timeScale = 1f;
+
+        }
+        else
+        {
+			Debug.LogError("LevelTracker is Missing");
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+			
+		
 	}
 
 	public void ReloadSceneFromStart()

@@ -48,6 +48,7 @@ public class MainMenuManager : MonoBehaviour
 	public void LoadLevel(int levelIndex)
 	{
 		LevelTracker.instance.levelLoader.LoadLevel(levelIndex);
+		AudioController.instance.StopMusic(true);
 	}
 
 	public void ExitGame()

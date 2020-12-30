@@ -41,12 +41,30 @@ public class LevelTracker : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
 
-        ResetAllLevelInfos();
+        InitializeLevels();
+        
+        LoadHighscore();
 
         levelLoader = GetComponent<LevelLoader>();
     }
 
-    void ResetAllLevelInfos()
+    private void Update()
+    {
+        if (Input.GetKeyDown("h"))
+        {
+            DebugAllLevelInfo();
+        }
+    }
+
+    private void DebugAllLevelInfo()
+    {
+        for (int i = 0; i < levels.Length; i++)
+        {
+            Debug.Log("Level" + (i + 1) + " Stars:" + levels[i].starsCollected + " Cleared: " + (levels[i].cleared ? "true" : "false"));
+        }
+    }
+
+    void InitializeLevels()
     {
         levels = new LevelInfo[SceneManager.sceneCountInBuildSettings - 1];
         for (int i = 0; i < levels.Length; i++)
@@ -63,8 +81,8 @@ public class LevelTracker : MonoBehaviour
     public void SaveHighscore()
     {
         int currentLevel = SceneManager.GetActiveScene().buildIndex;
-        string levelKey = string.Empty;
-        levelKey += "Level stars";
+        
+        string levelKey = "Level stars";
         levelKey += currentLevel.ToString();
 
         PlayerPrefs.SetInt(levelKey, levels[currentLevel - 1].starsCollected);
@@ -75,8 +93,21 @@ public class LevelTracker : MonoBehaviour
         PlayerPrefs.SetInt(levelKey, levels[currentLevel - 1].cleared ? 1 : 0);
     }
 
-/*    public void test()
+    public void LoadHighscore()
     {
-        PlayerPrefs.GetInt("key", 0);
-    }*/
+        for (int i = 0; i < levels.Length; i++)
+        {
+            int level = i + 1;
+
+            string levelKey = "Level stars";
+            levelKey += level.ToString();
+
+            levels[i].starsCollected = PlayerPrefs.GetInt(levelKey, 0);
+
+            levelKey = "Level clear";
+            levelKey += level.ToString();
+
+            levels[i].cleared = PlayerPrefs.GetInt(levelKey, 0) == 1;               
+        }
+    }
 }

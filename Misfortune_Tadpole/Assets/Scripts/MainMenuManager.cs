@@ -18,6 +18,7 @@ public class MainMenuManager : MonoBehaviour
 	private void Start()
 	{
 		audioSource = GetComponent<AudioSource>();
+
 		buttons[0].GetComponent<Button>().interactable = true;
 	}
 

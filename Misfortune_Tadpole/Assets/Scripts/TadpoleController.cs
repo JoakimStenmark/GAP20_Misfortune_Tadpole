@@ -16,6 +16,7 @@ public class TadpoleController : MonoBehaviour
 
     public float fallTime;
     private string[] triggers;
+    private Vector3 deathOffset;
 
     void Start()
     {
@@ -26,6 +27,8 @@ public class TadpoleController : MonoBehaviour
         stickToSurface = player.GetComponent<StickToSurface>();
         animator = GetComponent<Animator>();
         triggers = new string[] { "TurnRight", "TurnLeft", "Ground" };
+        Vector3 deathOffset = Vector3.zero;
+
     }
 
     private void Update()
@@ -86,6 +89,7 @@ public class TadpoleController : MonoBehaviour
             spriteRenderer.flipX = false;
         }
 
+        transform.position += deathOffset;
     }
 
     public void ResetTriggers()
@@ -132,6 +136,7 @@ public class TadpoleController : MonoBehaviour
     {
         animator.SetBool("Dead", true);
         animator.SetTrigger("Death");
+        deathOffset = new Vector3(0, player.transform.localScale.y * 0.5f * -1);
     }
 
 

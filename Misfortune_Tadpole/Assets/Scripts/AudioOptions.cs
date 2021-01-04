@@ -12,6 +12,7 @@ public class AudioOptions : MonoBehaviour
 
     private float musicVolume;
     private float soundVolume;
+
     void Start()
     {
         if (AudioController.instance != null)
@@ -21,21 +22,21 @@ public class AudioOptions : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        
-    }
-
     public void SetMusicVolume()
     {
         musicVolume = musicSlider.value;
         AudioController.instance.musicVolume = musicVolume;
-        audioMixer.SetFloat("MusicVolume", Mathf.Lerp(-80, 0, musicVolume * 0.01f));
+        audioMixer.SetFloat("MusicVolume", Mathf.Log10(musicVolume) * 20);
     }
     public void SetSoundVolume()
     {
         soundVolume = soundSlider.value;
         AudioController.instance.soundVolume = soundVolume;
-        audioMixer.SetFloat("SoundVolume", Mathf.Lerp(-80, 0, soundVolume * 0.01f));
+        audioMixer.SetFloat("SoundVolume", Mathf.Log10(soundVolume) * 20);
+    }
+
+    private void OnDisable()
+    {
+        AudioController.instance.SaveVolumeSettings();
     }
 }

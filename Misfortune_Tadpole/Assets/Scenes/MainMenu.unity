@@ -2391,14 +2391,14 @@ MonoBehaviour:
   m_FillRect: {fileID: 863228831}
   m_HandleRect: {fileID: 673098018}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 100
+  m_MinValue: 0.0001
+  m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1019854663}
         m_TargetAssemblyTypeName: AudioOptions, Assembly-CSharp
         m_MethodName: SetSoundVolume
         m_Mode: 1
@@ -2410,8 +2410,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PauseMenuManager, Assembly-CSharp
+      - m_Target: {fileID: 926319487}
+        m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
         m_MethodName: PlayConfirmSound
         m_Mode: 1
         m_Arguments:
@@ -2527,8 +2527,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c0bfd209b24194f995e760f9d497dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicVolume: 100
-  soundVolume: 100
+  audioMixer: {fileID: 24100000, guid: cd4a96e1f5aaece43b6d6d5698ce867f, type: 2}
+  musicVolume: 1
+  soundVolume: 1
   musicFadeTime: 1
   menuMusic: {fileID: 8300000, guid: f73183d310986cc4188bfe97e539c143, type: 3}
 --- !u!4 &501432332
@@ -2557,7 +2558,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -8199557013090936697, guid: cd4a96e1f5aaece43b6d6d5698ce867f, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3444,14 +3445,14 @@ MonoBehaviour:
   m_FillRect: {fileID: 626719472}
   m_HandleRect: {fileID: 1919560064}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 100
+  m_MinValue: 0.0001
+  m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1019854663}
         m_TargetAssemblyTypeName: AudioOptions, Assembly-CSharp
         m_MethodName: SetMusicVolume
         m_Mode: 1
@@ -4148,6 +4149,7 @@ GameObject:
   - component: {fileID: 926319483}
   - component: {fileID: 926319487}
   - component: {fileID: 926319488}
+  - component: {fileID: 926319489}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -4274,9 +4276,9 @@ AudioSource:
   m_GameObject: {fileID: 926319482}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 3953621774461188207, guid: cd4a96e1f5aaece43b6d6d5698ce867f, type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -4361,6 +4363,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &926319489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926319482}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02a43bc8841be4c419d5137de5dbf75d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: cd4a96e1f5aaece43b6d6d5698ce867f, type: 2}
+  musicSlider: {fileID: 782487678}
+  soundSlider: {fileID: 456396698}
 --- !u!1 &1019854659
 GameObject:
   m_ObjectHideFlags: 0

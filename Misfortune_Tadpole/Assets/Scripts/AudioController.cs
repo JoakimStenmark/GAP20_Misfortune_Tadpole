@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
+using UnityEngine.Audio;
+
 
 public class AudioController : MonoBehaviour
 {
     public static AudioController instance;
+    public AudioMixer audioMixer;
     
     public float musicVolume = 0f;
     public float soundVolume = 0f;
@@ -16,7 +19,7 @@ public class AudioController : MonoBehaviour
     
     public float musicFadeTime;
     public AudioClip menuMusic;
-
+    private float audioSourceVolume;
 
     void Start()
     {
@@ -29,12 +32,25 @@ public class AudioController : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
 
-        musicPlayer = GetComponent<AudioSource>();
-        musicPlayer.ignoreListenerPause = true;
+        if (instance == this)
+        {
+            if (PlayerPrefs.HasKey("musicVolume"))
+            {
+                musicVolume = PlayerPrefs.GetFloat("musicVolume");
+                soundVolume = PlayerPrefs.GetFloat("soundVolume");
+            }
 
-        SceneManager.sceneLoaded += OnSceneLoaded;
+            SetMixerVolume();
 
-        PlayMusicClip(menuMusic);
+            musicPlayer = GetComponent<AudioSource>();
+            musicPlayer.ignoreListenerPause = true;
+            audioSourceVolume = musicPlayer.volume;
+
+            SceneManager.sceneLoaded += OnSceneLoaded;
+
+            PlayMusicClip(menuMusic);
+        }
+
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -52,7 +68,7 @@ public class AudioController : MonoBehaviour
             musicPlayer.Stop();
         }
         musicPlayer.clip = music;
-        musicPlayer.volume = 1f;
+        musicPlayer.volume = audioSourceVolume;
         musicPlayer.Play();
 
     }
@@ -73,9 +89,27 @@ public class AudioController : MonoBehaviour
         musicPlayer.Stop();
     }
 
+    public void SetMixerVolume()
+    {
+        audioMixer.SetFloat("MusicVolume", Mathf.Log10(musicVolume) * 20);
+        audioMixer.SetFloat("SoundVolume", Mathf.Log10(soundVolume) * 20);
+    }
+
+    public void SaveVolumeSettings()
+    {
+        PlayerPrefs.SetFloat("musicVolume", musicVolume);
+        PlayerPrefs.SetFloat("soundVolume", soundVolume);
+    }
+
     private void OnDisable()
     {
-        DOTween.Kill(musicPlayer);
+        if (instance == this)
+        {
+            SaveVolumeSettings();
+            DOTween.Kill(musicPlayer);
+        }
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+
     }
 
 

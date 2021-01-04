@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: abf3067e497e00948baae4c2b11ef395
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5015621113831156087
+    second: branches _0
+  - first:
+      213: -4127414884322737277
+    second: branches _1
+  - first:
+      213: 937233387529420282
+    second: branches _2
+  - first:
+      213: 2975811340929288617
+    second: branches _3
+  - first:
+      213: -6219887500490136389
+    second: branches _4
+  - first:
+      213: 8618486930336147119
+    second: branches _5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +59,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +91,147 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: branches _0
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3050
+        width: 1531
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779ead144d01b9540800000000000000
+      internalID: 5015621113831156087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branches _1
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 3073
+        width: 1529
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383884bd70a78b6c0800000000000000
+      internalID: -4127414884322737277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branches _2
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1341
+        width: 1531
+        height: 1033
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdb35fdcc8b10d00800000000000000
+      internalID: 937233387529420282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branches _3
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 1427
+        width: 1531
+        height: 988
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a94ba6e5a43c4920800000000000000
+      internalID: 2975811340929288617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branches _4
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 362
+        width: 1533
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4a46ec5458ea9a0800000000000000
+      internalID: -6219887500490136389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branches _5
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 388
+        width: 1527
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6680053340b9770800000000000000
+      internalID: 8618486930336147119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

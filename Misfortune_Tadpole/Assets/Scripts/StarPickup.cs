@@ -10,6 +10,7 @@ public class StarPickup : MonoBehaviour
 
     void Start()
     {
+        GetComponent<Animator>().SetFloat("Offset", Random.Range(0.0f, 1.0f));
         pauseMenuManager = GameObject.FindGameObjectWithTag("UI").GetComponent<PauseMenuManager>();
         starTracker = GetComponentInParent<StarTracker>();
     }

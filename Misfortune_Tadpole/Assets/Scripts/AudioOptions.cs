@@ -37,6 +37,9 @@ public class AudioOptions : MonoBehaviour
 
     private void OnDisable()
     {
-        AudioController.instance.SaveVolumeSettings();
+        if (AudioController.instance != null)
+        {
+            AudioController.instance.SaveVolumeSettings();
+        }
     }
 }

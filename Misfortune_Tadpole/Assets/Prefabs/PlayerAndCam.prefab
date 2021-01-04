@@ -2826,27 +2826,27 @@ PrefabInstance:
     - target: {fileID: 889419439183216109, guid: 3f75558a1e1c19b43ab4c61afb153e7d, type: 3}
       propertyPath: mainCamera
       value: 
-      objectReference: {fileID: 519420028}
+      objectReference: {fileID: 8770478456134372518}
     - target: {fileID: 889419439542893845, guid: 3f75558a1e1c19b43ab4c61afb153e7d, type: 3}
       propertyPath: mainCamera
       value: 
-      objectReference: {fileID: 519420028}
+      objectReference: {fileID: 8770478456134372518}
     - target: {fileID: 889419439574281753, guid: 3f75558a1e1c19b43ab4c61afb153e7d, type: 3}
       propertyPath: mainCamera
       value: 
-      objectReference: {fileID: 519420028}
+      objectReference: {fileID: 8770478456134372518}
     - target: {fileID: 889419439716163655, guid: 3f75558a1e1c19b43ab4c61afb153e7d, type: 3}
       propertyPath: mainCamera
       value: 
-      objectReference: {fileID: 519420028}
+      objectReference: {fileID: 8770478456134372518}
     - target: {fileID: 889419439728628137, guid: 3f75558a1e1c19b43ab4c61afb153e7d, type: 3}
       propertyPath: mainCamera
       value: 
-      objectReference: {fileID: 519420028}
+      objectReference: {fileID: 8770478456134372518}
     - target: {fileID: 889419440258913259, guid: 3f75558a1e1c19b43ab4c61afb153e7d, type: 3}
       propertyPath: mainCamera
       value: 
-      objectReference: {fileID: 519420028}
+      objectReference: {fileID: 8770478456134372518}
     - target: {fileID: 889419440258913261, guid: 3f75558a1e1c19b43ab4c61afb153e7d, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.97
@@ -2854,7 +2854,7 @@ PrefabInstance:
     - target: {fileID: 889419440324041115, guid: 3f75558a1e1c19b43ab4c61afb153e7d, type: 3}
       propertyPath: mainCamera
       value: 
-      objectReference: {fileID: 519420028}
+      objectReference: {fileID: 8770478456134372518}
     - target: {fileID: 889419440879711066, guid: 3f75558a1e1c19b43ab4c61afb153e7d, type: 3}
       propertyPath: m_Name
       value: Forest Parallax Background
@@ -2906,7 +2906,7 @@ PrefabInstance:
     - target: {fileID: 889419441147757824, guid: 3f75558a1e1c19b43ab4c61afb153e7d, type: 3}
       propertyPath: mainCamera
       value: 
-      objectReference: {fileID: 519420028}
+      objectReference: {fileID: 8770478456134372518}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f75558a1e1c19b43ab4c61afb153e7d, type: 3}
 --- !u!4 &7839492090632895132 stripped

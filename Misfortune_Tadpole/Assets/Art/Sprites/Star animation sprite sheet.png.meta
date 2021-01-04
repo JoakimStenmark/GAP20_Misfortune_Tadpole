@@ -1,7 +1,49 @@
 fileFormatVersion: 2
 guid: 8df13ba3fc5be8e41b231ffb6abaeb2e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 708741873649356708
+    second: Star animation sprite sheet_0
+  - first:
+      213: 7311579778330683669
+    second: Star animation sprite sheet_1
+  - first:
+      213: -7752242097158231622
+    second: Star animation sprite sheet_2
+  - first:
+      213: -8910203717803957447
+    second: Star animation sprite sheet_3
+  - first:
+      213: 5834923648197434875
+    second: Star animation sprite sheet_4
+  - first:
+      213: -293129695774651840
+    second: Star animation sprite sheet_5
+  - first:
+      213: -8534707769305545075
+    second: Star animation sprite sheet_6
+  - first:
+      213: 7840068585087946356
+    second: Star animation sprite sheet_7
+  - first:
+      213: -5770741485793729859
+    second: Star animation sprite sheet_8
+  - first:
+      213: 69156375652468827
+    second: Star animation sprite sheet_9
+  - first:
+      213: -5031132421046654702
+    second: Star animation sprite sheet_10
+  - first:
+      213: -7442130950405346284
+    second: Star animation sprite sheet_11
+  - first:
+      213: 8240441903492336784
+    second: Star animation sprite sheet_12
+  - first:
+      213: 6146856854680530995
+    second: Star animation sprite sheet_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +83,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 800
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -73,9 +115,315 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Star animation sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1300
+        width: 542
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af8050aaf4f5d900800000000000000
+      internalID: 708741873649356708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star animation sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1300
+        width: 503
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519645ae113f77560800000000000000
+      internalID: 7311579778330683669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star animation sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1302
+        width: 450
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9ed02c2e08a6490800000000000000
+      internalID: -7752242097158231622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star animation sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1313
+        width: 379
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9332eeb4de8985480800000000000000
+      internalID: -8910203717803957447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star animation sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 1315
+        width: 298
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd955ea420d9f050800000000000000
+      internalID: 5834923648197434875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star animation sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 3202
+        y: 1313
+        width: 198
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04acb3248189eebf0800000000000000
+      internalID: -293129695774651840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star animation sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 773
+        width: 79
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86c6cca080ae8980800000000000000
+      internalID: -8534707769305545075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star animation sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 773
+        width: 67
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ecdd4f6d48dcc60800000000000000
+      internalID: 7840068585087946356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star animation sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 773
+        width: 79
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2a7a081353aefa0800000000000000
+      internalID: -5770741485793729859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star animation sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 773
+        width: 197
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5808b47b51b5f000800000000000000
+      internalID: 69156375652468827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star animation sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 773
+        width: 299
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219209918b3dd2ab0800000000000000
+      internalID: -5031132421046654702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star animation sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3217
+        y: 772
+        width: 378
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c2629a45d38b890800000000000000
+      internalID: -7442130950405346284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star animation sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 190
+        width: 453
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c87e1604eeb5270800000000000000
+      internalID: 8240441903492336784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star animation sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 187
+        width: 502
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330786cedb50e4550800000000000000
+      internalID: 6146856854680530995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

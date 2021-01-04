@@ -18,9 +18,11 @@ public class Parallax : MonoBehaviour
         lengthX = GetComponent<SpriteRenderer>().bounds.size.x;
         lengthY = GetComponent<SpriteRenderer>().bounds.size.y * 1.25f;
         previousCameraY = mainCamera.transform.position.y;
+
+        MoveToTarget();
     }
 
-    void FixedUpdate()
+    void LateUpdate()
     {
         float tempX = mainCamera.transform.position.x * (1 - parallax);
         float tempY = startPosY - mainCamera.transform.position.y;
@@ -43,7 +45,7 @@ public class Parallax : MonoBehaviour
             transform.position = new Vector3(startPosX + distX,
                                             transform.position.y + heightDiff,
                                             transform.position.z);
-            //Debug.Log("Too far up");
+            Debug.Log("Too far down");
             
         }
         /*
@@ -57,8 +59,12 @@ public class Parallax : MonoBehaviour
         }
         */
         else
-        
-            transform.position = new Vector3(startPosX + distX, startPosY + distY, transform.position.z);
+        {
+            //transform.position = new Vector3(startPosX + distX, startPosY + distY, transform.position.z);
+            Vector3 newPosition = new Vector3(startPosX + distX, startPosY + distY, transform.position.z);
+            transform.position = Vector3.MoveTowards(transform.position, newPosition, 50f * Time.deltaTime);
+            
+        }
 
     }
 
@@ -75,5 +81,13 @@ public class Parallax : MonoBehaviour
             Debug.Log("left");
             startPosX -= lengthX;
         }
+    }
+
+    void MoveToTarget()
+    {
+        float distX = (startPosX - mainCamera.transform.position.x) * parallax * -1;
+        float distY = (startPosY - mainCamera.transform.position.y) * parallax * -1;
+        transform.position = new Vector3(startPosX + distX, startPosY + distY, transform.position.z);
+
     }
 }

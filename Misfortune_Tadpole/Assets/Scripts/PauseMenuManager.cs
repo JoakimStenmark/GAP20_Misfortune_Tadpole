@@ -23,9 +23,6 @@ public class PauseMenuManager : MonoBehaviour
 
 	public float levelTimer;
 
-	private bool tutorialScreen;
-	private GameObject tutorialImage;
-
 	private StarTracker starTracker;
 
 	private void Start()
@@ -43,22 +40,10 @@ public class PauseMenuManager : MonoBehaviour
 		gameIsPaused = false;
 		
 		ToggleMouseVisibility();
-		
-		if (SceneManager.GetActiveScene().buildIndex == 1)
-		{
-			tutorialImage = GameObject.Find("Instructions Image");
-			tutorialScreen = true;
-		}
 	}
 
 	private void Update()
 	{
-		if (tutorialScreen && Input.GetKeyDown(KeyCode.Space))
-		{
-			tutorialImage.gameObject.SetActive(false);
-			tutorialScreen = false;
-		}
-		
 		if (Input.GetKeyDown(KeyCode.Escape) && !gameIsWon)
 		{
 			TogglePauseState();

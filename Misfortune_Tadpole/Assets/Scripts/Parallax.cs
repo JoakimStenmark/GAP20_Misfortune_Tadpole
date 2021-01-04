@@ -22,7 +22,7 @@ public class Parallax : MonoBehaviour
         MoveToTarget();
     }
 
-    void LateUpdate()
+    void FixedUpdate()
     {
         float tempX = mainCamera.transform.position.x * (1 - parallax);
         float tempY = startPosY - mainCamera.transform.position.y;

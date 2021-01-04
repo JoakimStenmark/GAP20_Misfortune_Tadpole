@@ -49,6 +49,7 @@
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerSoundControl.cs" t="Include" />
           <e p="RotatorRotation.cs" t="Include" />
+          <e p="SceneMusicSetter.cs" t="Include" />
           <e p="ShowCollider.cs" t="Include" />
           <e p="SpikeScript.cs" t="Include" />
           <e p="SpriteScaler.cs" t="Include" />

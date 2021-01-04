@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 14f74426c645adb41987e2e9ea531fa3
+guid: 03649ba2da12bd24b81dc26597c3d2b1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7989568923277014314
-    second: Arrow button_0
+      213: 6653418165648207431
+    second: Arrow button LEFT_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -50,7 +50,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 200
-  spriteBorder: {x: 1747, y: 819, z: 1738, w: 815}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Arrow button_0
+      name: Arrow button LEFT_0
       rect:
         serializedVersion: 2
         x: 1767
@@ -106,8 +106,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dac29315695f1190800000000000000
-      internalID: -7989568923277014314
+      spriteID: 74ea7910290b55c50800000000000000
+      internalID: 6653418165648207431
       vertices: []
       indices: 
       edges: []

@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: a8100b312ece6d2418bd6502a88eab25
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8099425351524370790
+    second: tree stump deco_0
+  - first:
+      213: 7091633730350009146
+    second: tree stump deco_1
+  - first:
+      213: 8297126631290893629
+    second: tree stump deco_2
+  - first:
+      213: -5774839180690657489
+    second: tree stump deco_3
+  - first:
+      213: -8323845726782027966
+    second: tree stump deco_4
+  - first:
+      213: -1241605513754765433
+    second: tree stump deco_5
+  - first:
+      213: -554392910006873522
+    second: tree stump deco_6
+  - first:
+      213: -6037165686273446317
+    second: tree stump deco_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +65,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 76.8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -73,9 +97,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: tree stump deco_0
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 2362
+        width: 1029
+        height: 1531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96b89d2e8f099f80800000000000000
+      internalID: -8099425351524370790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree stump deco_1
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 2368
+        width: 1015
+        height: 1467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bc0befd4b8a6260800000000000000
+      internalID: 7091633730350009146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree stump deco_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1347
+        width: 1079
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35f68a06b0552370800000000000000
+      internalID: 8297126631290893629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree stump deco_3
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 903
+        width: 1047
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fecef8c56abdfa0800000000000000
+      internalID: -5774839180690657489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree stump deco_4
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 683
+        width: 437
+        height: 783
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2470102c962cb7c80800000000000000
+      internalID: -8323845726782027966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree stump deco_5
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 1325
+        width: 277
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7871b711d5ee4cee0800000000000000
+      internalID: -1241605513754765433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree stump deco_6
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 431
+        width: 1051
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e429b0de5966e48f0800000000000000
+      internalID: -554392910006873522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree stump deco_7
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 403
+        width: 232
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e6e7b6bcda73ca0800000000000000
+      internalID: -6037165686273446317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -9,6 +9,7 @@ public class StarTracker : MonoBehaviour
     public PauseMenuManager pauseMenuManager;
     public StarUITracker starUITracker;
     public int starsTaken = 0;
+    private AudioPlayer starSound;
 
     void Start()
     {
@@ -17,12 +18,15 @@ public class StarTracker : MonoBehaviour
         starPickups = GetComponentsInChildren<StarPickup>();
 
         starUITracker.UpdateStarUI(starsTaken, starPickups.Length);
+
+        starSound = GetComponent<AudioPlayer>();
     }
 
     public void AddStar()
     {
         starsTaken++;
         starUITracker.UpdateStarUI(starsTaken, starPickups.Length);
+        starSound.PlayRoundRobinSound();
     }
 
     public void SaveAmountOfStars()

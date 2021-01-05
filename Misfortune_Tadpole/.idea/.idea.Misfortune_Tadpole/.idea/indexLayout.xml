@@ -8,6 +8,7 @@
       <Path>../../../../AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.shadergraph@8.2.0</Path>
     </attachedFolders>
     <explicitIncludes>
+      <Path>Assets</Path>
       <Path>Library/PackageCache/com.unity.2d.animation@4.2.6</Path>
       <Path>Library/PackageCache/com.unity.2d.common@3.0.1</Path>
       <Path>Library/PackageCache/com.unity.2d.ik@3.0.2-preview.3</Path>

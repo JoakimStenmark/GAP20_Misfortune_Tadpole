@@ -60,6 +60,7 @@
           <e p="TadpoleController.cs" t="Include" />
           <e p="Temp.cs" t="Include" />
           <e p="Test.cs" t="Include" />
+          <e p="TutorialTrigger.cs" t="Include" />
           <e p="UiSound.cs" t="Include" />
           <e p="WaterBar.cs" t="Include" />
           <e p="WaterDrop.cs" t="Include" />

@@ -121,7 +121,7 @@ TextureImporter:
         width: 1029
         height: 1531
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,7 +142,7 @@ TextureImporter:
         width: 1015
         height: 1467
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: tree stump deco_2
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1347
-        width: 1079
-        height: 613
+        x: 287
+        y: 394
+        width: 1126
+        height: 1566
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,27 +171,6 @@ TextureImporter:
       bones: []
       spriteID: d35f68a06b0552370800000000000000
       internalID: 8297126631290893629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tree stump deco_3
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 903
-        width: 1047
-        height: 615
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2fecef8c56abdfa0800000000000000
-      internalID: -5774839180690657489
       vertices: []
       indices: 
       edges: []
@@ -205,7 +184,7 @@ TextureImporter:
         width: 437
         height: 783
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,7 +205,7 @@ TextureImporter:
         width: 277
         height: 342
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -234,27 +213,6 @@ TextureImporter:
       bones: []
       spriteID: 7871b711d5ee4cee0800000000000000
       internalID: -1241605513754765433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tree stump deco_6
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 431
-        width: 1051
-        height: 650
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e429b0de5966e48f0800000000000000
-      internalID: -554392910006873522
       vertices: []
       indices: 
       edges: []
@@ -268,7 +226,7 @@ TextureImporter:
         width: 232
         height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

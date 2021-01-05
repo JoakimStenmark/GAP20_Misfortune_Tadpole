@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class MainMenuManager : MonoBehaviour
 {
@@ -14,6 +15,13 @@ public class MainMenuManager : MonoBehaviour
 	public bool levelUnlockToggle = true;
 	public Animator transition;
 	public float transitionTime = 1f;
+
+	public GameObject[] stars;
+	public Sprite bronze;
+	public Sprite silver;
+	public Sprite gold;
+	public Sprite none;
+	
 
 	private void Start()
 	{
@@ -43,6 +51,32 @@ public class MainMenuManager : MonoBehaviour
 				buttons[i + 1].GetComponent<Button>().interactable = true;
 			}
 		}
+		GetLevelScore();
+	}
+
+	public void GetLevelScore()
+    {
+		for (int i = 0; i < LevelTracker.instance.levels.Length; i++)
+		{
+            switch (LevelTracker.instance.levels[i].currentMedal)
+            {
+                case Medal.none:
+					stars[i].GetComponent<Image>().sprite = none;
+					break;
+                case Medal.bronze:
+					stars[i].GetComponent<Image>().sprite = bronze;
+					break;
+                case Medal.silver:
+					stars[i].GetComponent<Image>().sprite = silver;
+					break;
+                case Medal.gold:
+					stars[i].GetComponent<Image>().sprite = gold;
+					break;
+                default:
+                    break;
+            }
+        }
+		Debug.Log("setting medals");
 	}
 
 	public void LoadLevel(int levelIndex)

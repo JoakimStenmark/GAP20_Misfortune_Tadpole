@@ -74,6 +74,14 @@ public class Score : MonoBehaviour
         }
     }
 
+    void SaveMedal()
+    {
+        //if (starsTaken > LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].starsCollected)
+        //{
+        //    LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].starsCollected = starsTaken;
+        //}
+    }
+
     void ShakeStar()
     {
         //transform.sc

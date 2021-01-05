@@ -22,7 +22,6 @@
     <list default="true" id="aaf0e7c8-c426-4d63-b9b7-994cbe1fbe74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Misfortune_Tadpole/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelBoundary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelBoundary.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +50,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" />
       <option value="$PROJECT_DIR$/Assets/LevelLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelTracker.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/StarTracker.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelBoundary.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenuManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TutorialTrigger.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kSHy7NOQx9EjKNRu92pjJIay4B" />
@@ -130,6 +130,10 @@
       <workItem from="1609231521814" duration="6799000" />
       <workItem from="1609316489948" duration="771000" />
       <workItem from="1609415465883" duration="286000" />
+      <workItem from="1609755975278" duration="804000" />
+      <workItem from="1609757463097" duration="59000" />
+      <workItem from="1609837938137" duration="1000" />
+      <workItem from="1609837986000" duration="1778000" />
     </task>
     <servers />
   </component>

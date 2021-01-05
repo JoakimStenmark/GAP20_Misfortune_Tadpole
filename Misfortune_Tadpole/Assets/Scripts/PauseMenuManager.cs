@@ -93,6 +93,7 @@ public class PauseMenuManager : MonoBehaviour
 		AudioListener.pause = true;
 		LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].cleared = true;
 		starTracker.SaveAmountOfStars();
+		starTracker.CalculateMedal();
 		LevelTracker.instance.SaveHighscore();
 	}
 

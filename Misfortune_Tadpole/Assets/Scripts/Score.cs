@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Score : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class Score : MonoBehaviour
     {
         Init();
         setScore();
+
     }
 
     void Init()
@@ -35,51 +37,49 @@ public class Score : MonoBehaviour
         
     }
 
-    void setScore()
+    private void Update()
+    {
+    }
+
+    public void setScore()
     {
         starCounter.text = starsCollected + "/" + totalStars;
-        if (totalStars > 0)
+
+        //switch check levelinfo score and set image after that
+        switch (LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].currentMedal)
         {
-            score = (starsCollected / totalStars);
-
-            if (score >= 1)
-            {
-                medalRenderer.sprite = gold;
-                winText.text = "Gold medal!";
-            }
-            else if (score > 0.5f)
-            {
-                medalRenderer.sprite = silver;
-                winText.text = "Silver medal!";
-
-            }
-            else if (score > 0)
-            {
+            case Medal.none:
+                medalRenderer.enabled = false;
+                winText.text = "Good job!";
+                break;
+            case Medal.bronze:
                 medalRenderer.sprite = bronze;
                 winText.text = "Bronze medal!";
 
-            }
-            else
-            {
-                medalRenderer.enabled = false;
-                winText.text = "Good job!";
+                break;
+            case Medal.silver:
+                medalRenderer.sprite = silver;
+                winText.text = "Silver medal!";
 
-            }
+                break;
+            case Medal.gold:
+                medalRenderer.sprite = gold;
+                winText.text = "Gold medal!";
 
+                break;
+            default:
+                break;
         }
-        else
-        {
-            medalRenderer.enabled = false;
-            winText.text = "Good job!";
-        }
+
+
     }
 
-    void SaveMedal()
+    void SaveMedal(Medal medal)
     {
-        //if (starsTaken > LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].starsCollected)
-        //{
-        //    LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].starsCollected = starsTaken;
-        //}
+        if ((int)medal > (int)LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].currentMedal)
+        {
+            LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].currentMedal = medal;
+        }
     }
 
     void ShakeStar()

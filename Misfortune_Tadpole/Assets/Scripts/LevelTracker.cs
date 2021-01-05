@@ -105,7 +105,6 @@ public class LevelTracker : MonoBehaviour
         levelKey += currentLevel.ToString();
 
         PlayerPrefs.SetInt(levelKey, (int)levels[currentLevel - 1].currentMedal);
-        Debug.Log("Saving scores");
 
 
     }
@@ -130,7 +129,7 @@ public class LevelTracker : MonoBehaviour
             levelKey += level.ToString();
 
             levels[i].currentMedal = (Medal)PlayerPrefs.GetInt(levelKey, 0);
+           
         }
-        Debug.Log("Loding scores");
     }
 }

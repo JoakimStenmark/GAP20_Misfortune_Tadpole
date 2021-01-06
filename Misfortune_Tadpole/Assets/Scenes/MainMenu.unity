@@ -6352,7 +6352,7 @@ MonoBehaviour:
   - {fileID: 1381710045}
   - {fileID: 230618673}
   - {fileID: 2037812797}
-  levelUnlockToggle: 1
+  levelUnlockToggle: 0
   transition: {fileID: 0}
   transitionTime: 1
   stars:

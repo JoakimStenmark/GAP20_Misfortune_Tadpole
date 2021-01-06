@@ -69,10 +69,10 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("p"))
-        {
-            debug = !debug;
-        }
+        //if (Input.GetKeyDown("p"))
+        //{
+        //    debug = !debug;
+        //}
 
         if (debug)
         {

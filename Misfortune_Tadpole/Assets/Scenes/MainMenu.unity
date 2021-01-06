@@ -3308,10 +3308,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: cd4a96e1f5aaece43b6d6d5698ce867f, type: 2}
-  musicVolume: 1
-  soundVolume: 1
+  musicVolume: 0.75
+  soundVolume: 0.75
   musicFadeTime: 1
-  menuMusic: {fileID: 8300000, guid: f73183d310986cc4188bfe97e539c143, type: 3}
+  menuMusic: {fileID: 8300000, guid: 2bccf2c8af85c9d4880d20d7bd97efba, type: 3}
 --- !u!4 &501432332
 Transform:
   m_ObjectHideFlags: 0

@@ -44,7 +44,7 @@ public class MainMenuManager : MonoBehaviour
 
 	public void LoadAvailableLevelButtons()
 	{
-		for (int i = 0; i < LevelTracker.instance.levels.Length; i ++)
+		for (int i = 0; i < LevelTracker.instance.levels.Length - 1; i ++)
 		{
 			if (LevelTracker.instance.levels[i].cleared)
 			{

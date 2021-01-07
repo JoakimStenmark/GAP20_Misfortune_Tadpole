@@ -45,7 +45,7 @@ public class Score : MonoBehaviour
         starCounter.text = starsCollected + "/" + totalStars;
 
         //switch check levelinfo score and set image after that
-        switch (LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].currentMedal)
+        switch (starTracker.AchievedMedal)
         {
             case Medal.none:
                 medalRenderer.enabled = false;
@@ -67,6 +67,8 @@ public class Score : MonoBehaviour
 
                 break;
             default:
+                medalRenderer.enabled = false;
+                winText.text = "Good job!";
                 break;
         }
 

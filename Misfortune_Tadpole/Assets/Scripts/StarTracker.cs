@@ -10,6 +10,9 @@ public class StarTracker : MonoBehaviour
     public StarUITracker starUITracker;
     public int starsTaken = 0;
     private AudioPlayer starSound;
+    public Medal AchievedMedal { get => achievedMedal; }
+    private Medal achievedMedal;
+
 
     void Start()
     {
@@ -73,9 +76,11 @@ public class StarTracker : MonoBehaviour
 
     void SaveMedal(Medal medal)
     {
+        achievedMedal = medal;
         if ((int)medal > (int)LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].currentMedal)
         {
             LevelTracker.instance.levels[SceneManager.GetActiveScene().buildIndex - 1].currentMedal = medal;
         }
+
     }
 }

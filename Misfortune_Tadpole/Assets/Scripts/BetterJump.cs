@@ -11,6 +11,8 @@ public class BetterJump : MonoBehaviour
 
 	private Rigidbody2D rb2d;
 
+
+
 	private void Awake()
 	{
 		rb2d = GetComponent<Rigidbody2D>();
@@ -18,10 +20,13 @@ public class BetterJump : MonoBehaviour
 
 	private void FixedUpdate()
 	{
+		bool touchJump = TouchInput.instance.TouchContinue();
+
 		if (rb2d.velocity.y < 0)
 		{
 			rb2d.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-		} else if (rb2d.velocity.y > 0 && !Input.GetButton("Jump"))
+		} 
+		else if (rb2d.velocity.y > 0 && !Input.GetButton("Jump") && !touchJump)
 		{
 			rb2d.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
 			

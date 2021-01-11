@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
-    public bool debug;
+    public bool devDebug;
     public Vector2 upwards;
     public LayerMask mask;
 
@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
         //    debug = !debug;
         //}
 
-        if (debug)
+        if (devDebug)
         {
             if (Input.GetKeyDown("k"))
             {
@@ -87,17 +87,14 @@ public class PlayerController : MonoBehaviour
 
         CheckForGroundAndSecondChance();
 
+        if (TouchInput.instance.TouchBegan() && (secondChance || grounded) && alive && delay <= 0)
+        {
+            Jump();
+        }
+
         if (Input.GetButtonDown("Jump") && (secondChance || grounded) && alive && delay <= 0)
-        {           
-            rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
-            rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
-            playerSound.PlayJumpSound();
-            spriteScaler.JumpWobble();
-            tadpole.Jump();
-            delay = 0.18f;
-            grounded = false;
-            CancelInvoke(nameof(SecondChance));
-            secondChance = false;
+        {
+            Jump();
         }
 
         SetSizeBasedOnWaterAmount();
@@ -108,6 +105,7 @@ public class PlayerController : MonoBehaviour
 
         delay -= Time.deltaTime;
     }
+
 
 #if UNITY_EDITOR
     private void OnDrawGizmos()
@@ -127,6 +125,18 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.identity, neutralRotationTimeCount);
             neutralRotationTimeCount += Time.deltaTime * 0.5f;
         }
+    }
+    private void Jump()
+    {
+        rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
+        rb2d.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+        playerSound.PlayJumpSound();
+        spriteScaler.JumpWobble();
+        tadpole.Jump();
+        delay = 0.18f;
+        grounded = false;
+        CancelInvoke(nameof(SecondChance));
+        secondChance = false;
     }
 
     void RotateBasedOnSurface()

@@ -28,7 +28,7 @@ public class StickToSurface : MonoBehaviour
         timer -= Time.deltaTime;
         timer = (timer < 0) ? 0 : timer;
 
-        if (Input.GetButtonDown("Jump") && stuck)
+        if ((Input.GetButtonDown("Jump") || TouchInput.instance.TouchBegan()) && stuck)
         {
             UnStuck();
             playerSound.PlayJumpSound();

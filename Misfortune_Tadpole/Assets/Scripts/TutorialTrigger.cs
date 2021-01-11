@@ -18,7 +18,7 @@ public class TutorialTrigger : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && tutorialFreeze)
+        if ((Input.GetKeyDown(KeyCode.Space) || TouchInput.instance.TouchBegan()) && tutorialFreeze)
         {
             Time.timeScale = 1f;
             text.gameObject.SetActive(false);

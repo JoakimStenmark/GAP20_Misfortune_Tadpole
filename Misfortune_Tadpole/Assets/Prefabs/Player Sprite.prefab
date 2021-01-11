@@ -622,6 +622,7 @@ GameObject:
   - component: {fileID: 1902552500100926724}
   - component: {fileID: 2429322707592058553}
   - component: {fileID: 8767293199895381941}
+  - component: {fileID: 854442851136454636}
   m_Layer: 8
   m_Name: Player Sprite
   m_TagString: Player
@@ -760,7 +761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10bf6aad14b9cf94a860d62f650e342c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debug: 0
+  devDebug: 0
   upwards: {x: 0, y: 0}
   mask:
     serializedVersion: 2
@@ -844,3 +845,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 0
   particlePrefab: {fileID: 344449475665498405, guid: 5dbe3ee0fa6884749a02776b9c39b002, type: 3}
+--- !u!114 &854442851136454636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8892172925730561576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ea1b42df6878140947d3ea12bcbb1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

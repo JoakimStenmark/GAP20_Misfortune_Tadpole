@@ -21,7 +21,7 @@ public class FallThroughPlatform : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButton("Jump"))
+        if (Input.GetButton("Jump") || TouchInput.instance.TouchContinue())
         {
             platformEffector.useColliderMask = true;
             spriteShapeRenderer.color = alphaColor;

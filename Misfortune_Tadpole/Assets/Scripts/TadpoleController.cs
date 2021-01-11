@@ -43,7 +43,7 @@ public class TadpoleController : MonoBehaviour
             rotatorSpeed = 0;
         }
 
-        if (Input.GetButtonUp("Jump"))
+        if (Input.GetButtonUp("Jump") || TouchInput.instance.TouchEnded())
         {
             animator.SetBool("Jumping", false);
         }
